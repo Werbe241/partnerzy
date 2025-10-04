@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KK - Panel Certyfikatów</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            padding: 30px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+        }
+        .actions {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background 0.2s;
+        }
+        .btn-primary {
+            background: #0073aa;
+            color: white;
+        }
+        .btn-primary:hover {
+            background: #005a87;
+        }
+        .btn-secondary {
+            background: #f0f0f0;
+            color: #333;
+        }
+        .btn-secondary:hover {
+            background: #e0e0e0;
+        }
+        .certs-list {
+            margin-bottom: 30px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        th {
+            background: #f9f9f9;
+            font-weight: 600;
+            color: #555;
+        }
+        .status-active {
+            color: #46b450;
+            font-weight: 500;
+        }
+        .status-expired {
+            color: #dc3232;
+        }
+        .preview-section {
+            margin-top: 30px;
+            border-top: 2px solid #e0e0e0;
+            padding-top: 30px;
+        }
+        iframe {
+            width: 100%;
+            height: 800px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .loading {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+        }
+        .error {
+            background: #ffebee;
+            color: #c62828;
+            padding: 12px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+        .success {
+            background: #e8f5e9;
+            color: #2e7d32;
+            padding: 12px;
+            border-radius: 4px;
+            margin-bottom: 20px;
+        }
+        .role-badge {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 3px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+        .role-kr { background: #e3f2fd; color: #1565c0; }
+        .role-mr { background: #f3e5f5; color: #6a1b9a; }
+        .role-rt { background: #fff3e0; color: #e65100; }
+        .btn-view {
+            background: #0073aa;
+            color: white;
+            padding: 6px 12px;
+            border-radius: 3px;
+            text-decoration: none;
+            font-size: 13px;
+            display: inline-block;
+        }
+        .btn-view:hover {
+            background: #005a87;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Panel Certyfikatów Koordynatora</h1>
+        <p class="subtitle">Zarządzaj swoimi certyfikatami i wydawaj nowe</p>
+
+        <div id="message"></div>
+
+        <div class="actions">
+            <button class="btn-primary" onclick="issueCert('KR')">Wydaj certyfikat KR</button>
+            <button class="btn-primary" onclick="issueCert('MR')">Wydaj certyfikat MR</button>
+            <button class="btn-primary" onclick="issueCert('RT')">Wydaj certyfikat RT</button>
+            <button class="btn-secondary" onclick="refreshList()">Odśwież listę</button>
+        </div>
+
+        <div class="certs-list">
+            <h2>Moje certyfikaty</h2>
+            <div id="certs-container">
+                <div class="loading">Ładowanie...</div>
+            </div>
+        </div>
+
+        <div class="preview-section" id="preview-section" style="display: none;">
+            <h2>Podgląd certyfikatu</h2>
+            <iframe id="cert-preview" src=""></iframe>
+        </div>
+    </div>
+
+    <script>
+        let currentCerts = [];
+
+        // Funkcja pomocnicza dla fetch
+        function apiCall(endpoint, options = {}) {
+            const url = window.KK.rest + endpoint;
+            const defaultOptions = {
+                credentials: 'include',
+                headers: {
+                    'Content-Type': 'application/json',
+                }
+            };
+
+            // Dodaj nonce jeśli dostępny (ale nie wymagany dzięki bypass)
+            if (window.KK.nonce) {
+                defaultOptions.headers['X-WP-Nonce'] = window.KK.nonce;
+            }
+
+            return fetch(url, { ...defaultOptions, ...options });
+        }
+
+        function showMessage(text, type = 'success') {
+            const msgDiv = document.getElementById('message');
+            msgDiv.className = type;
+            msgDiv.textContent = text;
+            msgDiv.style.display = 'block';
+            setTimeout(() => {
+                msgDiv.style.display = 'none';
+            }, 5000);
+        }
+
+        function getRoleLabel(role) {
+            const labels = {
+                'KR': 'Koordynator Relacji',
+                'MR': 'Manager Relacji',
+                'RT': 'Recruitment Team'
+            };
+            return labels[role] || role;
+        }
+
+        function formatDate(dateStr) {
+            if (!dateStr) return '-';
+            const date = new Date(dateStr);
+            return date.toLocaleDateString('pl-PL');
+        }
+
+        async function loadCertificates() {
+            try {
+                const response = await apiCall('certificate/my');
+                if (!response.ok) {
+                    throw new Error('Błąd pobierania certyfikatów');
+                }
+                currentCerts = await response.json();
+                renderCertsList();
+            } catch (error) {
+                console.error('Error loading certificates:', error);
+                document.getElementById('certs-container').innerHTML = 
+                    '<div class="error">Błąd podczas ładowania certyfikatów</div>';
+            }
+        }
+
+        function renderCertsList() {
+            const container = document.getElementById('certs-container');
+            
+            if (currentCerts.length === 0) {
+                container.innerHTML = '<p style="padding: 20px; text-align: center; color: #666;">Nie masz jeszcze żadnych certyfikatów. Wydaj swój pierwszy certyfikat za pomocą przycisków powyżej.</p>';
+                return;
+            }
+
+            let html = '<table><thead><tr>';
+            html += '<th>Rola</th><th>Numer certyfikatu</th><th>Data wydania</th><th>Ważny do</th><th>Status</th><th>Akcje</th>';
+            html += '</tr></thead><tbody>';
+
+            currentCerts.forEach(cert => {
+                const isExpired = new Date(cert.valid_until) < new Date();
+                const statusClass = isExpired ? 'status-expired' : 'status-active';
+                const statusText = isExpired ? 'Wygasł' : 'Aktywny';
+                
+                html += '<tr>';
+                html += `<td><span class="role-badge role-${cert.role.toLowerCase()}">${getRoleLabel(cert.role)}</span></td>`;
+                html += `<td><strong>${cert.cert_no}</strong></td>`;
+                html += `<td>${formatDate(cert.issued_at)}</td>`;
+                html += `<td>${formatDate(cert.valid_until)}</td>`;
+                html += `<td class="${statusClass}">${statusText}</td>`;
+                html += `<td><button class="btn-view" onclick='previewCert(${JSON.stringify(cert)})'>Podgląd</button></td>`;
+                html += '</tr>';
+            });
+
+            html += '</tbody></table>';
+            container.innerHTML = html;
+        }
+
+        async function issueCert(role) {
+            if (!confirm(`Czy na pewno chcesz wydać certyfikat ${getRoleLabel(role)}?`)) {
+                return;
+            }
+
+            try {
+                const response = await apiCall('certificate/issue', {
+                    method: 'POST',
+                    body: JSON.stringify({ role })
+                });
+
+                if (!response.ok) {
+                    const error = await response.json();
+                    throw new Error(error.message || 'Błąd wydawania certyfikatu');
+                }
+
+                const result = await response.json();
+                showMessage(`Certyfikat ${result.cert_no} został pomyślnie wydany!`, 'success');
+                await loadCertificates();
+            } catch (error) {
+                console.error('Error issuing certificate:', error);
+                showMessage('Błąd podczas wydawania certyfikatu: ' + error.message, 'error');
+            }
+        }
+
+        function previewCert(cert) {
+            const previewSection = document.getElementById('preview-section');
+            const iframe = document.getElementById('cert-preview');
+            
+            // Załaduj template certyfikatu
+            iframe.src = window.KK.rest.replace('/wp-json/kk/v1/', '') + 'wp-content/plugins/kk-lite/certificates/certificate.html';
+            
+            // Wyślij dane do iframe po załadowaniu
+            iframe.onload = function() {
+                const certData = {
+                    certNo: cert.cert_no,
+                    role: cert.role,
+                    roleLabel: getRoleLabel(cert.role),
+                    issueDate: formatDate(cert.issued_at),
+                    validUntil: formatDate(cert.valid_until),
+                    verifyUrl: window.location.origin + '/kk/weryfikacja/?cert_no=' + cert.cert_no,
+                    personName: '',
+                    userId: ''
+                };
+
+                iframe.contentWindow.postMessage({
+                    type: 'CERT_DATA',
+                    payload: certData
+                }, '*');
+            };
+
+            previewSection.style.display = 'block';
+            previewSection.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function refreshList() {
+            loadCertificates();
+            showMessage('Lista certyfikatów została odświeżona', 'success');
+        }
+
+        // Załaduj certyfikaty przy starcie
+        window.addEventListener('DOMContentLoaded', loadCertificates);
+    </script>
+</body>
+</html>

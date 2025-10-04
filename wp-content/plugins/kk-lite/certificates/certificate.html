@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certyfikat</title>
+    <link rel="stylesheet" href="./certificate.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+<body>
+    <div class="certificate-container" id="certificate">
+        <div class="certificate-header">
+            <div class="logo-placeholder">
+                <div class="logo-text">KK</div>
+            </div>
+            <h1>CERTYFIKAT</h1>
+            <div class="role-title" id="roleTitle">KOORDYNATOR RELACJI</div>
+        </div>
+
+        <div class="certificate-body">
+            <div class="cert-info">
+                <p class="label">Numer certyfikatu:</p>
+                <p class="value cert-no" id="certNo">-</p>
+            </div>
+
+            <div class="cert-info">
+                <p class="label">Imię i nazwisko:</p>
+                <p class="value person-name" id="personName">-</p>
+            </div>
+
+            <div class="cert-info">
+                <p class="label">ID użytkownika:</p>
+                <p class="value user-id" id="userId">-</p>
+            </div>
+
+            <div class="cert-dates">
+                <div class="date-item">
+                    <p class="label">Data wydania:</p>
+                    <p class="value" id="issueDate">-</p>
+                </div>
+                <div class="date-item">
+                    <p class="label">Ważny do:</p>
+                    <p class="value" id="validUntil">-</p>
+                </div>
+            </div>
+
+            <div class="cert-description">
+                <p>Niniejszy certyfikat potwierdza ukończenie szkolenia i uprawnienia do pełnienia funkcji:</p>
+                <p class="role-desc" id="roleDesc">Koordynatora Relacji w systemie Werbekoordinator.pl</p>
+            </div>
+        </div>
+
+        <div class="certificate-footer">
+            <div class="qr-section">
+                <div id="qrcode"></div>
+                <p class="qr-label">Skanuj, aby zweryfikować</p>
+            </div>
+            <div class="signature-section">
+                <div class="signature-placeholder">
+                    <div class="signature-line"></div>
+                    <p>Podpis osoby upoważnionej</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="verify-url" id="verifyUrl">Weryfikuj: https://werbekoordinator.pl/kk/weryfikacja/</div>
+    </div>
+
+    <div class="print-controls">
+        <button onclick="window.print()">🖨️ Drukuj</button>
+        <button onclick="downloadPNG()">💾 Pobierz PNG</button>
+    </div>
+
+    <script src="./certificate.js"></script>
+</body>
+</html>

@@ -1,0 +1,253 @@
+/* Certyfikat - styl dla wydruku A4 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    background: #f0f0f0;
+    padding: 20px;
+}
+
+.certificate-container {
+    width: 210mm;
+    height: 297mm;
+    margin: 0 auto;
+    background: white;
+    padding: 40mm 30mm;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Tło w zależności od roli */
+.certificate-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.05;
+    background: linear-gradient(135deg, var(--role-color, #0073aa) 0%, transparent 100%);
+    z-index: 0;
+    pointer-events: none;
+}
+
+.certificate-container.role-kr {
+    --role-color: #0073aa;
+}
+
+.certificate-container.role-mr {
+    --role-color: #6a1b9a;
+}
+
+.certificate-container.role-rt {
+    --role-color: #e65100;
+}
+
+.certificate-header {
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+    z-index: 1;
+}
+
+.logo-placeholder {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 20px;
+    border: 3px solid var(--role-color, #0073aa);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-text {
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--role-color, #0073aa);
+}
+
+.certificate-header h1 {
+    font-size: 48px;
+    color: #333;
+    margin-bottom: 15px;
+    letter-spacing: 4px;
+    font-weight: 300;
+}
+
+.role-title {
+    font-size: 24px;
+    color: var(--role-color, #0073aa);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.certificate-body {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 40px;
+}
+
+.cert-info {
+    margin-bottom: 25px;
+    padding: 15px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.cert-info .label {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.cert-info .value {
+    font-size: 20px;
+    color: #333;
+    font-weight: 600;
+}
+
+.cert-dates {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.date-item {
+    flex: 1;
+}
+
+.cert-description {
+    margin: 30px 0;
+    padding: 20px;
+    background: rgba(0,0,0,0.02);
+    border-left: 4px solid var(--role-color, #0073aa);
+    line-height: 1.8;
+}
+
+.cert-description p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+.role-desc {
+    font-weight: 600;
+    color: var(--role-color, #0073aa);
+    font-size: 18px !important;
+}
+
+.certificate-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 60px;
+    position: relative;
+    z-index: 1;
+}
+
+.qr-section {
+    text-align: center;
+}
+
+#qrcode {
+    margin-bottom: 10px;
+}
+
+#qrcode img {
+    border: 2px solid #ddd;
+    padding: 5px;
+    background: white;
+}
+
+.qr-label {
+    font-size: 11px;
+    color: #666;
+}
+
+.signature-section {
+    flex: 1;
+    padding-left: 60px;
+}
+
+.signature-placeholder {
+    text-align: center;
+}
+
+.signature-line {
+    width: 200px;
+    height: 60px;
+    border-bottom: 2px solid #333;
+    margin: 0 auto 10px;
+}
+
+.signature-placeholder p {
+    font-size: 12px;
+    color: #666;
+    font-style: italic;
+}
+
+.verify-url {
+    position: absolute;
+    bottom: 15mm;
+    left: 30mm;
+    right: 30mm;
+    text-align: center;
+    font-size: 10px;
+    color: #999;
+    z-index: 1;
+}
+
+.print-controls {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.print-controls button {
+    padding: 12px 24px;
+    margin: 0 10px;
+    background: #0073aa;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.print-controls button:hover {
+    background: #005a87;
+}
+
+@media print {
+    body {
+        background: white;
+        padding: 0;
+    }
+
+    .certificate-container {
+        width: 210mm;
+        height: 297mm;
+        margin: 0;
+        padding: 40mm 30mm;
+        box-shadow: none;
+        page-break-after: always;
+    }
+
+    .print-controls {
+        display: none;
+    }
+}
+
+@page {
+    size: A4;
+    margin: 0;
+}

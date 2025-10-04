@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weryfikacja Certyfikatu - KK</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            width: 100%;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            padding: 40px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .search-box {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 30px;
+        }
+        input[type="text"] {
+            flex: 1;
+            padding: 12px 16px;
+            border: 2px solid #e0e0e0;
+            border-radius: 6px;
+            font-size: 16px;
+            transition: border-color 0.2s;
+        }
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        button {
+            padding: 12px 24px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        button:hover {
+            background: #5568d3;
+        }
+        button:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+        .result {
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .result-found {
+            background: #e8f5e9;
+            border: 2px solid #4caf50;
+        }
+        .result-not-found {
+            background: #ffebee;
+            border: 2px solid #f44336;
+        }
+        .cert-info {
+            margin-top: 15px;
+        }
+        .cert-row {
+            display: flex;
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(0,0,0,0.1);
+        }
+        .cert-row:last-child {
+            border-bottom: none;
+        }
+        .cert-label {
+            font-weight: 600;
+            color: #555;
+            width: 140px;
+        }
+        .cert-value {
+            color: #333;
+            flex: 1;
+        }
+        .loading {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+        }
+        .status-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 13px;
+            font-weight: 600;
+        }
+        .status-active {
+            background: #4caf50;
+            color: white;
+        }
+        .status-expired {
+            background: #f44336;
+            color: white;
+        }
+        .logo {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .logo h2 {
+            color: #667eea;
+            font-size: 28px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <h2>🎓 Werbekoordinator.pl</h2>
+        </div>
+        <h1>Weryfikacja Certyfikatu</h1>
+        <p class="subtitle">Wprowadź numer certyfikatu, aby zweryfikować jego autentyczność</p>
+
+        <div class="search-box">
+            <input 
+                type="text" 
+                id="cert-input" 
+                placeholder="np. KR-20240101-0001" 
+                value=""
+            />
+            <button id="verify-btn" onclick="verifyCertificate()">Weryfikuj</button>
+        </div>
+
+        <div id="result-container"></div>
+    </div>
+
+    <script>
+        function getUrlParam(name) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(name);
+        }
+
+        function formatDate(dateStr) {
+            if (!dateStr) return '-';
+            const date = new Date(dateStr);
+            return date.toLocaleDateString('pl-PL', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            });
+        }
+
+        function getRoleLabel(role) {
+            const labels = {
+                'KR': 'Koordynator Relacji',
+                'MR': 'Manager Relacji',
+                'RT': 'Recruitment Team'
+            };
+            return labels[role] || role;
+        }
+
+        async function verifyCertificate() {
+            const certNo = document.getElementById('cert-input').value.trim();
+            const resultContainer = document.getElementById('result-container');
+            const verifyBtn = document.getElementById('verify-btn');
+
+            if (!certNo) {
+                resultContainer.innerHTML = '<div class="result result-not-found">Proszę wprowadzić numer certyfikatu</div>';
+                return;
+            }
+
+            verifyBtn.disabled = true;
+            resultContainer.innerHTML = '<div class="loading">Weryfikacja...</div>';
+
+            try {
+                const url = window.KK.rest + 'certificate/verify?cert_no=' + encodeURIComponent(certNo);
+                const response = await fetch(url, {
+                    credentials: 'include'
+                });
+
+                if (!response.ok) {
+                    throw new Error('Błąd weryfikacji');
+                }
+
+                const result = await response.json();
+
+                if (result.found) {
+                    const cert = result.data;
+                    const isExpired = new Date(cert.valid_until) < new Date();
+                    const statusClass = isExpired ? 'status-expired' : 'status-active';
+                    const statusText = isExpired ? 'Wygasł' : 'Aktywny';
+
+                    let html = '<div class="result result-found">';
+                    html += '<h3 style="color: #2e7d32; margin-bottom: 15px;">✓ Certyfikat jest autentyczny</h3>';
+                    html += '<div class="cert-info">';
+                    html += `<div class="cert-row">
+                        <div class="cert-label">Numer:</div>
+                        <div class="cert-value"><strong>${cert.cert_no}</strong></div>
+                    </div>`;
+                    html += `<div class="cert-row">
+                        <div class="cert-label">Rola:</div>
+                        <div class="cert-value">${getRoleLabel(cert.role)}</div>
+                    </div>`;
+                    html += `<div class="cert-row">
+                        <div class="cert-label">Właściciel:</div>
+                        <div class="cert-value">${cert.owner || 'Nie podano'}</div>
+                    </div>`;
+                    html += `<div class="cert-row">
+                        <div class="cert-label">Data wydania:</div>
+                        <div class="cert-value">${formatDate(cert.issued_at)}</div>
+                    </div>`;
+                    html += `<div class="cert-row">
+                        <div class="cert-label">Ważny do:</div>
+                        <div class="cert-value">${formatDate(cert.valid_until)}</div>
+                    </div>`;
+                    html += `<div class="cert-row">
+                        <div class="cert-label">Status:</div>
+                        <div class="cert-value"><span class="status-badge ${statusClass}">${statusText}</span></div>
+                    </div>`;
+                    html += '</div></div>';
+
+                    resultContainer.innerHTML = html;
+                } else {
+                    resultContainer.innerHTML = `
+                        <div class="result result-not-found">
+                            <h3 style="color: #c62828; margin-bottom: 10px;">✗ Certyfikat nie został znaleziony</h3>
+                            <p>Numer certyfikatu <strong>${certNo}</strong> nie istnieje w bazie danych.</p>
+                        </div>
+                    `;
+                }
+            } catch (error) {
+                console.error('Verification error:', error);
+                resultContainer.innerHTML = `
+                    <div class="result result-not-found">
+                        <h3 style="color: #c62828;">Błąd weryfikacji</h3>
+                        <p>Wystąpił błąd podczas weryfikacji certyfikatu. Spróbuj ponownie.</p>
+                    </div>
+                `;
+            } finally {
+                verifyBtn.disabled = false;
+            }
+        }
+
+        // Auto-weryfikacja jeśli cert_no jest w URL
+        window.addEventListener('DOMContentLoaded', function() {
+            const certNo = getUrlParam('cert_no');
+            if (certNo) {
+                document.getElementById('cert-input').value = certNo;
+                verifyCertificate();
+            }
+        });
+
+        // Enter na input
+        document.getElementById('cert-input').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                verifyCertificate();
+            }
+        });
+    </script>
+</body>
+</html>
