@@ -30,7 +30,17 @@
     }
 
     async function fetchMyCertificates(){
-      const res = await rest('/certificate/my', { method:'GET' });
+      // Check if there's an external_id in the input field
+      const externalIdInput = document.getElementById('externalIdInput');
+      const externalId = externalIdInput ? externalIdInput.value.trim() : '';
+      
+      // Build query string
+      let queryString = '';
+      if (externalId) {
+        queryString = '?external_id=' + encodeURIComponent(externalId);
+      }
+      
+      const res = await rest('/certificate/my' + queryString, { method:'GET' });
       if(!res.ok){ throw new Error('Brak dostępu – zaloguj się na stronie Moje konto.'); }
       return res.json();
     }
@@ -64,17 +74,41 @@
     }
 
     async function issueFor(role){
+      const externalIdInput = document.getElementById('issueExternalId');
+      const externalId = externalIdInput ? externalIdInput.value.trim() : '';
+      
+      const body = { role };
+      // Only include external_id for MR/RT if provided
+      if ((role === 'MR' || role === 'RT') && externalId) {
+        body.external_id = externalId;
+      }
+      
       const res = await rest('/certificate/issue', {
         method:'POST',
         headers:{'Content-Type':'application/json'},
-        body: JSON.stringify({ role })
+        body: JSON.stringify(body)
       });
       let data = {};
       try { data = await res.json(); } catch(e){}
       if(!res.ok || !data.ok){
-        alert('Nie udało się wystawić certyfikatu'); return;
+        const msg = data.message || 'Nie udało się wystawić certyfikatu';
+        alert(msg); return;
       }
+      
+      // Clear the issue input
+      if (externalIdInput) externalIdInput.value = '';
+      
       const items = await fetchMyCertificates(); renderList(items);
+    }
+    
+    async function searchCertificates(){
+      try { 
+        const items = await fetchMyCertificates(); 
+        renderList(items); 
+      }
+      catch(e) { 
+        document.getElementById('status').textContent = e.message; 
+      }
     }
 
     document.addEventListener('DOMContentLoaded', async ()=>{
@@ -88,9 +122,24 @@
   <p class="muted" id="status">Musisz być zalogowany na werbekoordinator.pl, aby widzieć swoje certyfikaty.</p>
 
   <div class="card">
-    <h2>Twoje certyfikaty</h2>
+    <h2>Wyszukaj certyfikaty</h2>
+    <p class="muted">Wpisz external_id (np. 00000011005), aby zobaczyć certyfikaty dla tego ID:</p>
+    <div style="display:flex;gap:8px;margin-bottom:12px">
+      <input type="text" id="externalIdInput" placeholder="00000011005" 
+             style="flex:1;padding:8px;border:1px solid #e5e7eb;border-radius:6px">
+      <button onclick="searchCertificates()">Szukaj</button>
+    </div>
     <div id="list" class="list"></div>
-    <div style="display:flex;gap:8px;margin-top:8px">
+  </div>
+
+  <div class="card">
+    <h2>Wystaw nowy certyfikat</h2>
+    <p class="muted">Dla MR/RT: administratorzy mogą podać external_id. Dla KR: zawsze używany jest Twój własny ID.</p>
+    <div style="margin-bottom:8px">
+      <input type="text" id="issueExternalId" placeholder="External ID dla MR/RT (opcjonalnie)" 
+             style="width:100%;padding:8px;border:1px solid #e5e7eb;border-radius:6px">
+    </div>
+    <div style="display:flex;gap:8px">
       <button onclick="issueFor('KR')">Wystaw certyfikat KR</button>
       <button class="secondary" onclick="issueFor('MR')">Wystaw certyfikat MR</button>
       <button class="secondary" onclick="issueFor('RT')">Wystaw certyfikat RT</button>

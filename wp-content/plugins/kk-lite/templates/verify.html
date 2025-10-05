@@ -20,14 +20,33 @@
         const res = await fetch(`${location.origin}/wp-json/kk/v1/certificate/verify?cert_no=${encodeURIComponent(id)}`);
         const data = await res.json();
         if(!data.found){ box.innerHTML = '<div class="fail">Nie znaleziono certyfikatu.</div>'; return; }
-        const d = data.data;
-        box.innerHTML = `<div class="ok">
-          <strong>Status:</strong> ${d.status}<br>
-          <strong>Numer:</strong> ${d.cert_no}<br>
-          <strong>Właściciel:</strong> ${d.owner}<br>
-          <strong>Rola:</strong> ${d.role}<br>
-          <strong>Wystawiono:</strong> ${d.issued_at}
-        </div><p class="muted">Dane pochodzą z bazy Werbekoordinator.</p>`;
+        
+        // Check if data is an array (multiple certificates for external_id) or single object
+        if (Array.isArray(data.data)) {
+          // Multiple certificates for this external_id
+          let html = '<div class="ok"><strong>Znaleziono certyfikaty dla external_id: ' + id + '</strong><br><br>';
+          for (const d of data.data) {
+            html += `<div style="margin-bottom:12px;padding:8px;border-left:3px solid #34d399">
+              <strong>Numer:</strong> ${d.cert_no}<br>
+              <strong>Rola:</strong> ${d.role}<br>
+              <strong>Status:</strong> ${d.status}<br>
+              <strong>Właściciel:</strong> ${d.owner}<br>
+              <strong>Wystawiono:</strong> ${d.issued_at}
+            </div>`;
+          }
+          html += '</div><p class="muted">Dane pochodzą z bazy Werbekoordinator.</p>';
+          box.innerHTML = html;
+        } else {
+          // Single certificate
+          const d = data.data;
+          box.innerHTML = `<div class="ok">
+            <strong>Status:</strong> ${d.status}<br>
+            <strong>Numer:</strong> ${d.cert_no}<br>
+            <strong>Właściciel:</strong> ${d.owner}<br>
+            <strong>Rola:</strong> ${d.role}<br>
+            <strong>Wystawiono:</strong> ${d.issued_at}
+          </div><p class="muted">Dane pochodzą z bazy Werbekoordinator.</p>`;
+        }
       }catch(e){
         box.innerHTML = '<div class="fail">Błąd połączenia z API. Spróbuj ponownie.</div>';
       }
