@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <title>Certyfikat – Fundacja Werbekoordinator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="../assets/logo_fundacji.png" rel="preload" as="image">
+  <link rel="stylesheet" href="certificate.css">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" defer></script>
+  <script src="certificate.js" defer></script>
+  <style>body{background:#f3f4f6;padding:12px}</style>
+</head>
+<body>
+  <div id="cert" class="certificate theme-kr">
+    <div class="inner">
+      <div class="header">
+        <div class="brand">
+          <img src="../assets/logo_fundacji.png" alt="Fundacja Werbekoordinator" />
+        </div>
+        <div class="meta">
+          <div>Numer: <span id="certNo">KR-2025-0001</span></div>
+          <div>Data wystawienia: <span id="issueDate">2025-10-03</span></div>
+          <div>Ważny do: <span id="validUntil">bezterminowo</span></div>
+        </div>
+      </div>
+
+      <div class="title">
+        <div class="h1" id="title">CERTYFIKAT KOORDYNATORA REKLAMY</div>
+        <div class="h2" id="subtitle">Fundacja Werbekoordinator potwierdza uzyskanie kwalifikacji</div>
+      </div>
+
+      <div class="name-line">
+        <div class="name" id="personName">Imię i Nazwisko</div>
+      </div>
+
+      <div class="statement" id="statement">
+        Niniejszym zaświadcza się, że wskazana osoba ukończyła szkolenie,
+        zdała test weryfikacyjny oraz spełniła wymagania Fundacji Werbekoordinator
+        do pełnienia roli Koordynatora Reklamy zgodnie z Kodeksem Etycznym i Planem Wynagrodzeń.
+      </div>
+
+      <div class="row">
+        <div class="box">
+          <div class="small">Status</div>
+          <div class="big" id="roleLabel">Koordynator Reklamy</div>
+        </div>
+        <div class="box">
+          <div class="small">Identyfikator uczestnika</div>
+          <div class="big" id="userId">WRB-000123</div>
+        </div>
+        <div class="box">
+          <div class="small">Weryfikacja online</div>
+          <div class="big" id="verifyUrl">werbekoordinator.pl/wp-json/kk/v1/certificate/verify?cert_no=...</div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="sign">
+          <img src="../assets/podpis_prezesa.png" alt="Podpis Prezesa" onerror="this.style.display='none'">
+          <div class="line"></div>
+          <div class="label">Prezes Zarządu Fundacja Werbekoordinator</div>
+        </div>
+        <div class="qr">
+          <div id="qr" class="code" aria-label="Kod QR do weryfikacji"></div>
+          <div class="hint">Zeskanuj, aby zweryfikować certyfikat</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="actions">
+    <button onclick="window.print()">Drukuj / PDF</button>
+    <button class="secondary" onclick="downloadPNG()">Pobierz jako PNG</button>
+  </div>
+</body>
+</html>

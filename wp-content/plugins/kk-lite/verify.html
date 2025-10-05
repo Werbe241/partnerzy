@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <title>Weryfikacja certyfikatu â€“ Werbekoordinator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial,sans-serif;margin:24px;color:#111827}
+    .ok{color:#065f46;background:#ecfdf5;border:1px solid #34d399;padding:12px;border-radius:8px;margin-bottom:12px}
+    .fail{color:#7f1d1d;background:#fef2f2;border:1px solid #fecaca;padding:12px;border-radius:8px;margin-bottom:12px}
+    .muted{color:#6b7280}
+  </style>
+  <script>
+    function getParam(n){ return new URLSearchParams(location.search).get(n) }
+    async function verify(){
+      const id = getParam("cert_no") || getParam("id");
+      const box = document.getElementById('box');
+      if(!id){ box.innerHTML = '<div class="fail">Brak numeru certyfikatu.</div>'; return; }
+      try{
+        const res = await fetch(`${location.origin}/wp-json/kk/v1/certificate/verify?cert_no=${encodeURIComponent(id)}`);
+        const data = await res.json();
+        if(!data.found){ box.innerHTML = '<div class="fail">Nie znaleziono certyfikatu.</div>'; return; }
+        const d = data.data;
+        box.innerHTML = `<div class="ok">
+          <strong>Status:</strong> ${d.status}<br>
+          <strong>Numer:</strong> ${d.cert_no}<br>
+          <strong>WĹ‚aĹ›ciciel:</strong> ${d.owner}<br>
+          <strong>Rola:</strong> ${d.role}<br>
+          <strong>Wystawiono:</strong> ${d.issued_at}
+        </div><p class="muted">Dane pochodzÄ… z bazy Werbekoordinator.</p>`;
+      }catch(e){
+        box.innerHTML = '<div class="fail">BĹ‚Ä…d poĹ‚Ä…czenia z API. SprĂłbuj ponownie.</div>';
+      }
+    }
+    document.addEventListener('DOMContentLoaded', verify);
+  </script>
+</head>
+<body>
+  <h1>Weryfikacja certyfikatu</h1>
+  <div id="box"><div class="muted">Trwa weryfikacjaâ€¦</div></div>
+</body>
+</html>

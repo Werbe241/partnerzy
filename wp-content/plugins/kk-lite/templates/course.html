@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Zostań Koordynatorem Reklamy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial,sans-serif;line-height:1.55;margin:24px;color:#1b1f24;background:#f6f7f9}
+    h1{font-size:28px;margin:0 0 12px}
+    h2{font-size:20px;margin:24px 0 8px}
+    .card{border:1px solid #e5e7eb;border-radius:8px;padding:16px;background:#fff;margin-bottom:16px}
+    .muted{color:#6b7280;font-size:14px}
+    .success{color:#065f46;background:#ecfdf5;border:1px solid #34d399;padding:12px;border-radius:8px;margin-bottom:12px}
+    .info{color:#1e40af;background:#eff6ff;border:1px solid #93c5fd;padding:12px;border-radius:8px;margin-bottom:12px}
+    button{background:#0b5cab;color:#fff;border:none;border-radius:6px;padding:10px 16px;cursor:pointer;font-size:14px}
+    button:disabled{background:#9ca3af;cursor:not-allowed}
+    .module{border:1px solid #e5e7eb;border-radius:6px;padding:12px;margin-bottom:8px;cursor:pointer;background:#fff}
+    .module:hover{background:#f9fafb}
+    .module.completed{border-color:#34d399;background:#f0fdf4}
+    iframe{width:100%;height:600px;border:1px solid #e5e7eb;border-radius:8px;background:#fff}
+    #testContainer{margin-top:16px}
+    .question{margin-bottom:20px;padding:12px;border:1px solid #e5e7eb;border-radius:6px;background:#fff}
+    .option{padding:8px 12px;margin:4px 0;border:1px solid #e5e7eb;border-radius:4px;cursor:pointer;background:#fff}
+    .option:hover{background:#f9fafb}
+    .option.selected{background:#dbeafe;border-color:#3b82f6}
+  </style>
+  <script>
+    const KK = window.KK || { rest: `${location.origin}/wp-json/kk/v1`, nonce: null };
+    
+    function rest(path, opts = {}) {
+      const base = KK.rest.replace(/\/$/,'');
+      const isGet = !opts.method || opts.method.toUpperCase() === 'GET';
+      let url = `${base}${path}`;
+      if (isGet && KK.nonce) url += (url.includes('?') ? '&' : '?') + '_wpnonce=' + encodeURIComponent(KK.nonce);
+      const headers = Object.assign({}, opts.headers || {});
+      if (KK.nonce) headers['X-WP-Nonce'] = KK.nonce;
+      return fetch(url, Object.assign({ credentials:'include' }, opts, { headers }));
+    }
+
+    const modules = [
+      { id: 1, title: 'Moduł 1: Wprowadzenie i kontekst rynku', url: '../koordynator-kurs/templates/module1.html' },
+      { id: 2, title: 'Moduł 2: Rola, statusy i obowiązki (PR, KR, MR)', url: '../koordynator-kurs/templates/module2.html' },
+      { id: 3, title: 'Moduł 3: Budowa struktury i praca z Promotorami', url: '../koordynator-kurs/templates/module3.html' },
+      { id: 4, title: 'Moduł 4: Plan wynagrodzeń, cashback i bilans', url: '../koordynator-kurs/templates/module4.html' },
+      { id: 5, title: 'Moduł 5: Kodeks Etyczny Koordynatora', url: '../koordynator-kurs/templates/module5.html' },
+      { id: 6, title: 'Moduł 6: Playbook zaufania i Pakiet Powitalny', url: '../koordynator-kurs/templates/module6.html' }
+    ];
+
+    let currentModule = null;
+    let completedModules = new Set();
+
+    async function checkKRStatus() {
+      try {
+        const res = await rest('/certificate/check-kr', { method: 'GET' });
+        if (!res.ok) return;
+        const data = await res.json();
+        if (data.has_kr) {
+          document.getElementById('courseContent').style.display = 'none';
+          document.getElementById('alreadyHasKR').style.display = 'block';
+          document.getElementById('certNumber').textContent = data.cert_no;
+          document.getElementById('certDate').textContent = data.issued_at;
+        }
+      } catch(e) {
+        console.error('Error checking KR status:', e);
+      }
+    }
+
+    function loadModule(id) {
+      currentModule = id;
+      const module = modules.find(m => m.id === id);
+      if (!module) return;
+      
+      document.getElementById('moduleFrame').src = module.url;
+      document.getElementById('moduleViewer').style.display = 'block';
+      document.getElementById('moduleTitle').textContent = module.title;
+      
+      // Mark as completed when loaded
+      completedModules.add(id);
+      renderModules();
+      
+      // Enable test button when all modules completed
+      if (completedModules.size === modules.length) {
+        document.getElementById('startTestBtn').disabled = false;
+      }
+    }
+
+    function renderModules() {
+      const list = document.getElementById('moduleList');
+      list.innerHTML = '';
+      modules.forEach(m => {
+        const div = document.createElement('div');
+        div.className = 'module' + (completedModules.has(m.id) ? ' completed' : '');
+        div.textContent = m.title + (completedModules.has(m.id) ? ' ✓' : '');
+        div.onclick = () => loadModule(m.id);
+        list.appendChild(div);
+      });
+    }
+
+    async function loadQuestions() {
+      try {
+        const res = await fetch('../kk-lite/data/questions.json');
+        return await res.json();
+      } catch(e) {
+        console.error('Error loading questions:', e);
+        return [];
+      }
+    }
+
+    let currentQuestions = [];
+    let answers = {};
+
+    async function startTest() {
+      const allQuestions = await loadQuestions();
+      // Pick 10 random questions
+      currentQuestions = allQuestions.sort(() => Math.random() - 0.5).slice(0, Math.min(10, allQuestions.length));
+      answers = {};
+      
+      document.getElementById('testContainer').style.display = 'block';
+      document.getElementById('testQuestions').innerHTML = '';
+      
+      currentQuestions.forEach((q, idx) => {
+        const qDiv = document.createElement('div');
+        qDiv.className = 'question';
+        qDiv.innerHTML = `<strong>${idx + 1}. ${q.q}</strong>`;
+        
+        const opts = Object.entries(q.options);
+        opts.forEach(([key, text]) => {
+          const opt = document.createElement('div');
+          opt.className = 'option';
+          opt.textContent = `${key}: ${text}`;
+          opt.dataset.qid = q.id;
+          opt.dataset.option = key;
+          opt.onclick = () => selectAnswer(q.id, key, opt);
+          qDiv.appendChild(opt);
+        });
+        
+        document.getElementById('testQuestions').appendChild(qDiv);
+      });
+    }
+
+    function selectAnswer(qid, option, element) {
+      // Deselect other options for this question
+      document.querySelectorAll(`.option[data-qid="${qid}"]`).forEach(el => {
+        el.classList.remove('selected');
+      });
+      element.classList.add('selected');
+      answers[qid] = option;
+    }
+
+    async function submitTest() {
+      let correct = 0;
+      currentQuestions.forEach(q => {
+        if (answers[q.id] === q.correct) {
+          correct++;
+        }
+      });
+      
+      const score = Math.round((correct / currentQuestions.length) * 100);
+      const passed = score >= 70;
+      
+      // Save result
+      await rest('/test-result', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          module_id: 999, // Final test
+          score: score,
+          passed: passed ? 1 : 0
+        })
+      });
+      
+      if (passed) {
+        // Issue KR certificate
+        const res = await rest('/certificate/issue', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ role: 'KR' })
+        });
+        
+        const data = await res.json();
+        if (data.ok) {
+          alert(`Gratulacje! Zdałeś test z wynikiem ${score}%. Otrzymałeś certyfikat: ${data.cert_no}`);
+          location.reload();
+        } else {
+          alert(`Zdałeś test (${score}%), ale wystąpił błąd przy wystawianiu certyfikatu.`);
+        }
+      } else {
+        alert(`Niestety nie zdałeś testu. Wynik: ${score}%. Wymagane minimum: 70%. Spróbuj ponownie!`);
+        document.getElementById('testContainer').style.display = 'none';
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', async () => {
+      await checkKRStatus();
+      renderModules();
+    });
+  </script>
+</head>
+<body>
+  <div id="alreadyHasKR" style="display:none">
+    <h1>Zostań Koordynatorem Reklamy</h1>
+    <div class="success">
+      <strong>Posiadasz już certyfikat Koordynatora Reklamy!</strong><br>
+      Numer certyfikatu: <span id="certNumber"></span><br>
+      Data wystawienia: <span id="certDate"></span>
+    </div>
+    <div class="info">
+      <strong>Twoje certyfikaty:</strong><br>
+      <a href="/kk/certyfikaty/" style="color:#1e40af">Zobacz wszystkie certyfikaty →</a><br>
+      <a href="/kk/weryfikacja/" style="color:#1e40af">Weryfikuj certyfikat →</a>
+    </div>
+  </div>
+
+  <div id="courseContent">
+    <h1>Zostań Koordynatorem Reklamy</h1>
+    <p class="muted">Przejrzyj wszystkie moduły i zdaj test końcowy, aby otrzymać certyfikat Koordynatora Reklamy (KR).</p>
+
+    <div class="card">
+      <h2>Moduły kursu</h2>
+      <div id="moduleList"></div>
+      <div style="margin-top:16px">
+        <button id="startTestBtn" onclick="startTest()" disabled>Rozpocznij test końcowy</button>
+        <p class="muted" style="margin-top:8px">Przejrzyj wszystkie moduły, aby odblokować test końcowy.</p>
+      </div>
+    </div>
+
+    <div id="moduleViewer" style="display:none" class="card">
+      <h2 id="moduleTitle">Moduł</h2>
+      <iframe id="moduleFrame"></iframe>
+    </div>
+
+    <div id="testContainer" style="display:none" class="card">
+      <h2>Test końcowy</h2>
+      <p class="muted">Odpowiedz na pytania i zdobądź minimum 70% punktów.</p>
+      <div id="testQuestions"></div>
+      <button onclick="submitTest()" style="margin-top:16px">Zakończ test i wyślij odpowiedzi</button>
+    </div>
+  </div>
+</body>
+</html>
