@@ -315,7 +315,7 @@ W razie problemów:
 
 ## Changelog
 
-### Wersja 1.0.3
+### Wersja 1.1.0
 - Dodano obsługę external_id dla certyfikatów
 - Nowy format numeru certyfikatu: `{ROLE}-{EXTERNAL_ID}`
 - Shortcode `[kk_course]` dla kursu KR
@@ -324,3 +324,25 @@ W razie problemów:
 - Weryfikacja obsługuje wyszukiwanie po ID bez prefiksu
 - Poprawione komunikaty błędów
 - MU plugin kk-safe-view.php
+- Strona ustawień administratora "KK Lite → Kurs"
+
+## Struktura katalogów
+
+```
+wp-content/
+├── plugins/
+│   ├── kk-lite/              # Główna wtyczka
+│   │   ├── kk-lite.php       # Plik główny
+│   │   ├── templates/        # Szablony HTML
+│   │   │   ├── app.html      # Panel certyfikatów
+│   │   │   ├── course.html   # Kurs KR
+│   │   │   └── verify.html   # Weryfikacja
+│   │   └── data/
+│   │       └── questions.json # Pytania testowe
+│   └── koordynator-kurs/     # Treści kursów
+│       └── templates/        # Moduły kursu
+└── mu-plugins/
+    └── kk-safe-view.php      # Safe View (hotfix)
+dist/
+└── README.md                  # Ta dokumentacja
+```
