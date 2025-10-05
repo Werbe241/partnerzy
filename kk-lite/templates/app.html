@@ -16,8 +16,8 @@
     button.secondary{background:#6b7280}
   </style>
   <script>
-    // Wstrzyknięte przez plugin: window.KK = { rest, nonce }
-    const KK = (window.KK && typeof window.KK.rest==='string') ? window.KK : { rest: `${location.origin}/wp-json/kk/v1`, nonce: null };
+    // Wstrzyknięte przez plugin: window.KK = { rest, nonce, isAdmin }
+    const KK = (window.KK && typeof window.KK.rest==='string') ? window.KK : { rest: `${location.origin}/wp-json/kk/v1`, nonce: null, isAdmin: false };
 
     function rest(path, opts = {}) {
       const base = KK.rest.replace(/\/$/,'');
@@ -31,7 +31,10 @@
 
     async function fetchMyCertificates(){
       const res = await rest('/certificate/my', { method:'GET' });
-      if(!res.ok){ throw new Error('Brak dostępu – zaloguj się na stronie Moje konto.'); }
+      if(!res.ok){ 
+        const text = await res.text();
+        throw new Error('Brak dostępu – zaloguj się na stronie Moje konto. (Status: ' + res.status + ', Treść: ' + text + ')');
+      }
       return res.json();
     }
 
@@ -72,14 +75,40 @@
       let data = {};
       try { data = await res.json(); } catch(e){}
       if(!res.ok || !data.ok){
-        alert('Nie udało się wystawić certyfikatu'); return;
+        const msg = data.message || 'Nie udało się wystawić certyfikatu';
+        alert(msg + ' (Status: ' + res.status + ')');
+        return;
       }
+      const items = await fetchMyCertificates(); renderList(items);
+    }
+
+    async function issueByExternalId(role){
+      const externalId = prompt('Podaj ID systemowe (external_id) dla ' + role + ':');
+      if(!externalId) return;
+      const res = await rest('/certificate/issue', {
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body: JSON.stringify({ role, external_id: externalId })
+      });
+      let data = {};
+      try { data = await res.json(); } catch(e){}
+      if(!res.ok || !data.ok){
+        const msg = data.message || 'Nie udało się wystawić certyfikatu';
+        alert(msg + ' (Status: ' + res.status + ')');
+        return;
+      }
+      alert('Certyfikat ' + data.cert_no + ' wystawiony!');
       const items = await fetchMyCertificates(); renderList(items);
     }
 
     document.addEventListener('DOMContentLoaded', async ()=>{
       try { const items = await fetchMyCertificates(); renderList(items); }
       catch(e) { document.getElementById('status').textContent = e.message; }
+      
+      // Show admin buttons if user is admin
+      if(KK.isAdmin){
+        document.getElementById('adminButtons').style.display = 'block';
+      }
     });
   </script>
 </head>
@@ -94,6 +123,13 @@
       <button onclick="issueFor('KR')">Wystaw certyfikat KR</button>
       <button class="secondary" onclick="issueFor('MR')">Wystaw certyfikat MR</button>
       <button class="secondary" onclick="issueFor('RT')">Wystaw certyfikat RT</button>
+    </div>
+    <div id="adminButtons" style="display:none;margin-top:12px;padding-top:12px;border-top:1px solid #e5e7eb">
+      <h3 style="font-size:16px;margin:0 0 8px">Panel administratora</h3>
+      <div style="display:flex;gap:8px">
+        <button class="secondary" onclick="issueByExternalId('MR')">Wydaj MR po ID</button>
+        <button class="secondary" onclick="issueByExternalId('RT')">Wydaj RT po ID</button>
+      </div>
     </div>
   </div>
 

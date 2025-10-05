@@ -2,7 +2,7 @@
 /**
  * Plugin Name: KK Lite - Kurs Koordynatora (Werbekoordinator)
  * Description: Minimalna wtyczka: kurs/certyfikaty z własnymi trasami (/kk/*), bez shortcodów i bez WPML. REST API + szablony w wtyczce.
- * Version: 1.0.3
+ * Version: 1.1.0
  * Author: Fundacja Werbekoordinator
  */
 if (!defined('ABSPATH')) { exit; }
@@ -10,6 +10,27 @@ if (!defined('ABSPATH')) { exit; }
 /* ===== Helpers ===== */
 function kklt_base_dir()  { return plugin_dir_path(__FILE__); }
 function kklt_base_url()  { return plugin_dir_url(__FILE__); }
+
+/**
+ * Get external system ID for a user.
+ * Priority: kk_system_id > promoter_id > werbeko_id
+ * Filterable via 'kk_get_user_system_id'.
+ */
+function kk_get_user_system_id($user_id) {
+  $user_id = intval($user_id);
+  if (!$user_id) return null;
+  
+  $system_id = get_user_meta($user_id, 'kk_system_id', true);
+  if (empty($system_id)) {
+    $system_id = get_user_meta($user_id, 'promoter_id', true);
+  }
+  if (empty($system_id)) {
+    $system_id = get_user_meta($user_id, 'werbeko_id', true);
+  }
+  
+  // Filter hook to allow custom integration
+  return apply_filters('kk_get_user_system_id', $system_id, $user_id);
+}
 
 /**
  * Render pliku HTML z wtyczki:
@@ -41,6 +62,17 @@ function kklt_render_file($relPath) {
 
   return $html;
 }
+
+/* ===== Shortcodes ===== */
+add_shortcode('kk_course', function() {
+  // Inject REST URL and nonce
+  $rest_url = esc_url_raw( rest_url('kk/v1') );
+  $nonce    = wp_create_nonce('wp_rest');
+  
+  $script = '<script>window.KK = { rest: "'.esc_js($rest_url).'", nonce: "'.esc_js($nonce).'" };</script>';
+  
+  return $script . kklt_render_file('templates/course.html');
+});
 
 /* ===== Trasy /kk/certyfikaty/ i /kk/weryfikacja/ (omijają WPML) ===== */
 function kklt_register_routes() {
@@ -80,10 +112,11 @@ add_action('template_redirect', function(){
     // REST URL i nonce (nonce opcjonalny, mamy też bypass)
     $rest_url = esc_url_raw( rest_url('kk/v1') );
     $nonce    = wp_create_nonce('wp_rest');
+    $is_admin = current_user_can('manage_options') ? 'true' : 'false';
 
     echo '<!doctype html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">';
     echo '<title>Moje certyfikaty – Werbekoordinator</title>';
-    echo '<script>window.KK = { rest: "'.esc_js($rest_url).'", nonce: "'.esc_js($nonce).'" };</script>';
+    echo '<script>window.KK = { rest: "'.esc_js($rest_url).'", nonce: "'.esc_js($nonce).'", isAdmin: '.$is_admin.' };</script>';
     echo '</head><body style="margin:0">';
     echo kklt_render_file('templates/app.html');
     echo '</body></html>';
@@ -127,6 +160,7 @@ function kklt_activate() {
     id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
     cert_no VARCHAR(64) NOT NULL UNIQUE,
     user_id BIGINT UNSIGNED NOT NULL,
+    external_id VARCHAR(64) NULL,
     role VARCHAR(8) NOT NULL,
     issued_at DATETIME NOT NULL,
     valid_until DATETIME NULL,
@@ -134,6 +168,7 @@ function kklt_activate() {
     meta LONGTEXT NULL,
     PRIMARY KEY (id),
     KEY user_idx (user_id),
+    KEY external_id_idx (external_id),
     KEY role_idx (role)
   ) $charset_collate;";
 
@@ -167,10 +202,20 @@ add_action('rest_api_init', function() {
     'permission_callback' => '__return_true',
     'callback' => 'kklt_rest_verify_certificate'
   ));
+  register_rest_route('kk/v1', '/certificate/check-kr', array(
+    'methods'  => 'GET',
+    'permission_callback' => function(){ return is_user_logged_in(); },
+    'callback' => 'kklt_rest_check_kr_certificate'
+  ));
 });
 
-function kklt_generate_cert_no($role) {
+function kklt_generate_cert_no($role, $external_id = null) {
   $role = strtoupper(preg_replace('/[^A-Z]/', '', $role));
+  if ($external_id) {
+    // Format: ROLE-EXTERNALID (e.g., KR-00000011005)
+    return "{$role}-{$external_id}";
+  }
+  // Fallback to old format if no external_id
   $d = current_time('mysql');
   $ymd = date_i18n('Ymd', strtotime($d));
   $rand = wp_rand(1000, 9999);
@@ -201,31 +246,60 @@ function kklt_rest_issue_certificate(WP_REST_Request $req) {
   $current = get_current_user_id();
   $user_id = intval($req->get_param('user_id'));
   $role    = strtoupper(sanitize_text_field($req->get_param('role'))); // KR|MR|RT
+  $external_id_param = sanitize_text_field($req->get_param('external_id'));
+  
   if (!$user_id) $user_id = $current;
   if (!in_array($role, array('KR','MR','RT'), true)) return new WP_Error('kklt_bad_role', 'Niepoprawna rola', array('status'=>400));
-  if ($current !== $user_id && !current_user_can('manage_options')) {
+  
+  // Admin can issue for any user or by external_id only
+  $is_admin = current_user_can('manage_options');
+  if ($external_id_param && !$is_admin) {
+    return new WP_Error('kklt_forbidden', 'Tylko admin może wydawać certyfikaty po external_id', array('status'=>403));
+  }
+  if ($current !== $user_id && !$is_admin) {
     return new WP_Error('kklt_forbidden', 'Brak uprawnień', array('status'=>403));
   }
-  $cert_no = kklt_generate_cert_no($role);
+  
+  // Get or use provided external_id
+  $external_id = $external_id_param;
+  if (!$external_id && $user_id) {
+    $external_id = kk_get_user_system_id($user_id);
+  }
+  
+  // Check if certificate already exists for this external_id and role
   $tbl = $wpdb->prefix . 'kk_certificates';
-
+  if ($external_id) {
+    $existing = $wpdb->get_var($wpdb->prepare(
+      "SELECT cert_no FROM $tbl WHERE external_id=%s AND role=%s AND status='valid'",
+      $external_id, $role
+    ));
+    if ($existing) {
+      return new WP_Error('kklt_duplicate', 'Certyfikat już istnieje dla tego ID: ' . $existing, array('status'=>400));
+    }
+  }
+  
+  $cert_no = kklt_generate_cert_no($role, $external_id);
+  
   // Unikalność numeru (do 5 prób)
   $tries = 0;
   do {
     $exists = $wpdb->get_var($wpdb->prepare("SELECT id FROM $tbl WHERE cert_no=%s", $cert_no));
-    if ($exists) { $cert_no = kklt_generate_cert_no($role); }
+    if ($exists) { 
+      $cert_no = kklt_generate_cert_no($role, $external_id ? $external_id . '-' . wp_rand(100,999) : null);
+    }
     $tries++;
   } while (!empty($exists) && $tries < 5);
 
   $ok = $wpdb->insert($tbl, array(
     'cert_no'   => $cert_no,
     'user_id'   => $user_id,
+    'external_id' => $external_id,
     'role'      => $role,
     'issued_at' => current_time('mysql'),
     'valid_until'=> null,
     'status'    => 'valid',
     'meta'      => null
-  ), array('%s','%d','%s','%s','%s','%s','%s'));
+  ), array('%s','%d','%s','%s','%s','%s','%s','%s'));
   if (!$ok) return new WP_Error('kklt_db', 'Błąd wystawienia certyfikatu', array('status'=>500));
   return new WP_REST_Response(array('ok' => true, 'cert_no' => $cert_no), 200);
 }
@@ -234,7 +308,7 @@ function kklt_rest_my_certificates(WP_REST_Request $req) {
   global $wpdb;
   $user_id = get_current_user_id();
   $tbl = $wpdb->prefix . 'kk_certificates';
-  $rows = $wpdb->get_results($wpdb->prepare("SELECT cert_no, role, issued_at, valid_until, status FROM $tbl WHERE user_id=%d ORDER BY issued_at DESC", $user_id), ARRAY_A);
+  $rows = $wpdb->get_results($wpdb->prepare("SELECT cert_no, role, external_id, issued_at, valid_until, status FROM $tbl WHERE user_id=%d ORDER BY issued_at DESC", $user_id), ARRAY_A);
   return new WP_REST_Response(array('items' => $rows), 200);
 }
 
@@ -243,11 +317,219 @@ function kklt_rest_verify_certificate(WP_REST_Request $req) {
   $cert_no = sanitize_text_field($req->get_param('cert_no'));
   if (!$cert_no) return new WP_Error('kklt_bad_request', 'Brak cert_no', array('status'=>400));
   $tbl = $wpdb->prefix . 'kk_certificates';
+  
+  // First try exact match
   $row = $wpdb->get_row($wpdb->prepare(
-    "SELECT c.cert_no, c.role, c.issued_at, c.valid_until, c.status, u.display_name as owner
+    "SELECT c.cert_no, c.role, c.external_id, c.issued_at, c.valid_until, c.status, u.display_name as owner
      FROM $tbl c JOIN {$wpdb->users} u ON u.ID = c.user_id WHERE c.cert_no=%s",
     $cert_no
   ), ARRAY_A);
-  if (!$row) return new WP_REST_Response(array('found' => false), 200);
+  
+  // If not found, try matching by external_id (raw ID without prefix)
+  if (!$row) {
+    $rows = $wpdb->get_results($wpdb->prepare(
+      "SELECT c.cert_no, c.role, c.external_id, c.issued_at, c.valid_until, c.status, u.display_name as owner
+       FROM $tbl c JOIN {$wpdb->users} u ON u.ID = c.user_id WHERE c.external_id=%s",
+      $cert_no
+    ), ARRAY_A);
+    
+    if (!empty($rows)) {
+      // Return all certificates for this external_id
+      return new WP_REST_Response(array('found' => true, 'multiple' => true, 'data' => $rows), 200);
+    }
+    
+    return new WP_REST_Response(array('found' => false), 200);
+  }
+  
   return new WP_REST_Response(array('found' => true, 'data' => $row), 200);
+}
+
+function kklt_rest_check_kr_certificate(WP_REST_Request $req) {
+  global $wpdb;
+  $user_id = get_current_user_id();
+  $external_id = kk_get_user_system_id($user_id);
+  
+  if (!$external_id) {
+    return new WP_REST_Response(array('has_kr' => false), 200);
+  }
+  
+  $tbl = $wpdb->prefix . 'kk_certificates';
+  $cert = $wpdb->get_row($wpdb->prepare(
+    "SELECT cert_no, issued_at FROM $tbl WHERE external_id=%s AND role='KR' AND status='valid' LIMIT 1",
+    $external_id
+  ), ARRAY_A);
+  
+  if ($cert) {
+    return new WP_REST_Response(array('has_kr' => true, 'cert_no' => $cert['cert_no'], 'issued_at' => $cert['issued_at']), 200);
+  }
+  
+  return new WP_REST_Response(array('has_kr' => false), 200);
+}
+
+/* ===== WooCommerce Integration ===== */
+function kklt_wc_is_active() {
+  include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
+  return function_exists('is_plugin_active') && is_plugin_active('woocommerce/woocommerce.php') && class_exists('WooCommerce');
+}
+
+add_action('plugins_loaded', function() {
+  if (!kklt_wc_is_active()) return;
+  
+  // Add "Zostań Koordynatorem Reklamy" tab to My Account
+  add_filter('woocommerce_account_menu_items', function($items) {
+    $new = array();
+    foreach ($items as $key => $label) {
+      if ($key === 'customer-logout') {
+        $new['kk-course'] = 'Zostań Koordynatorem Reklamy';
+      }
+      $new[$key] = $label;
+    }
+    if (!isset($new['kk-course'])) {
+      $new['kk-course'] = 'Zostań Koordynatorem Reklamy';
+    }
+    return $new;
+  }, 99, 1);
+  
+  // Register endpoint
+  add_action('init', function() {
+    add_rewrite_endpoint('kk-course', EP_ROOT | EP_PAGES);
+  });
+  
+  // Add content to the endpoint
+  add_action('woocommerce_account_kk-course_endpoint', function() {
+    echo do_shortcode('[kk_course]');
+  });
+});
+
+/* ===== Admin Settings Page ===== */
+add_action('admin_menu', function() {
+  add_menu_page(
+    'KK Lite – Kurs',
+    'KK Lite',
+    'manage_options',
+    'kk-lite-settings',
+    'kklt_settings_page',
+    'dashicons-welcome-learn-more',
+    30
+  );
+});
+
+function kklt_settings_page() {
+  if (!current_user_can('manage_options')) {
+    return;
+  }
+  
+  // Save settings
+  if (isset($_POST['kklt_settings_submit'])) {
+    check_admin_referer('kklt_settings');
+    
+    update_option('kklt_course_page_id', intval($_POST['kklt_course_page_id']));
+    update_option('kklt_welcome_text', wp_kses_post($_POST['kklt_welcome_text']));
+    update_option('kklt_completion_text', wp_kses_post($_POST['kklt_completion_text']));
+    
+    echo '<div class="notice notice-success"><p>Ustawienia zapisane!</p></div>';
+  }
+  
+  $course_page_id = get_option('kklt_course_page_id', 0);
+  $welcome_text = get_option('kklt_welcome_text', '');
+  $completion_text = get_option('kklt_completion_text', '');
+  
+  $pages = get_pages();
+  
+  ?>
+  <div class="wrap">
+    <h1>KK Lite – Ustawienia kursu</h1>
+    <p>Konfiguracja kursu Koordynatora Reklamy i certyfikatów.</p>
+    
+    <form method="post" action="">
+      <?php wp_nonce_field('kklt_settings'); ?>
+      
+      <table class="form-table">
+        <tr>
+          <th scope="row">
+            <label for="kklt_course_page_id">Strona kursu</label>
+          </th>
+          <td>
+            <select name="kklt_course_page_id" id="kklt_course_page_id" class="regular-text">
+              <option value="0">-- Wybierz stronę --</option>
+              <?php foreach ($pages as $page): ?>
+                <option value="<?php echo esc_attr($page->ID); ?>" <?php selected($course_page_id, $page->ID); ?>>
+                  <?php echo esc_html($page->post_title); ?>
+                </option>
+              <?php endforeach; ?>
+            </select>
+            <p class="description">
+              Wybierz stronę, na której użyto shortcode [kk_course].<br>
+              Jeśli nie masz takiej strony, utwórz nową i dodaj shortcode <code>[kk_course]</code> w treści.
+            </p>
+          </td>
+        </tr>
+        
+        <tr>
+          <th scope="row">
+            <label for="kklt_welcome_text">Tekst powitalny</label>
+          </th>
+          <td>
+            <textarea name="kklt_welcome_text" id="kklt_welcome_text" rows="4" class="large-text"><?php echo esc_textarea($welcome_text); ?></textarea>
+            <p class="description">Opcjonalny tekst wyświetlany na początku kursu (HTML dozwolony).</p>
+          </td>
+        </tr>
+        
+        <tr>
+          <th scope="row">
+            <label for="kklt_completion_text">Tekst po ukończeniu</label>
+          </th>
+          <td>
+            <textarea name="kklt_completion_text" id="kklt_completion_text" rows="4" class="large-text"><?php echo esc_textarea($completion_text); ?></textarea>
+            <p class="description">Opcjonalny tekst wyświetlany po otrzymaniu certyfikatu (HTML dozwolony).</p>
+          </td>
+        </tr>
+      </table>
+      
+      <h2>Informacje</h2>
+      <table class="form-table">
+        <tr>
+          <th>Shortcody:</th>
+          <td>
+            <code>[kk_course]</code> - Panel kursu z modułami i testem końcowym
+          </td>
+        </tr>
+        <tr>
+          <th>Adresy URL:</th>
+          <td>
+            <a href="<?php echo home_url('/kk/certyfikaty/'); ?>" target="_blank">/kk/certyfikaty/</a> - Panel certyfikatów<br>
+            <a href="<?php echo home_url('/kk/weryfikacja/'); ?>" target="_blank">/kk/weryfikacja/</a> - Weryfikacja certyfikatów<br>
+            <a href="<?php echo home_url('/kk-safe/'); ?>" target="_blank">/kk-safe/</a> - Safe View (MU plugin)
+          </td>
+        </tr>
+        <tr>
+          <th>WooCommerce:</th>
+          <td>
+            <?php if (kklt_wc_is_active()): ?>
+              <span style="color:#059669">✓ Aktywny</span> - Zakładka "Zostań Koordynatorem Reklamy" dostępna w Moje konto
+            <?php else: ?>
+              <span style="color:#dc2626">✗ Nieaktywny</span>
+            <?php endif; ?>
+          </td>
+        </tr>
+      </table>
+      
+      <?php submit_button('Zapisz ustawienia', 'primary', 'kklt_settings_submit'); ?>
+    </form>
+    
+    <hr>
+    
+    <h2>Dokumentacja</h2>
+    <p>Pełna dokumentacja dostępna w pliku: <code>dist/README.md</code></p>
+    
+    <h3>Szybki start:</h3>
+    <ol>
+      <li>Dodaj pole "ID systemowe" do profili użytkowników (patrz README.md)</li>
+      <li>Utwórz stronę z shortcode <code>[kk_course]</code></li>
+      <li>Wybierz tę stronę w ustawieniach powyżej</li>
+      <li>Użytkownicy mogą teraz przejść kurs i otrzymać certyfikat KR</li>
+      <li>Administratorzy mogą wystawiać certyfikaty MR/RT w panelu <a href="<?php echo home_url('/kk/certyfikaty/'); ?>">/kk/certyfikaty/</a></li>
+    </ol>
+  </div>
+  <?php
 }

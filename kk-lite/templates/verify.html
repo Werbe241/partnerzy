@@ -18,18 +18,39 @@
       if(!id){ box.innerHTML = '<div class="fail">Brak numeru certyfikatu.</div>'; return; }
       try{
         const res = await fetch(`${location.origin}/wp-json/kk/v1/certificate/verify?cert_no=${encodeURIComponent(id)}`);
+        if(!res.ok){
+          box.innerHTML = '<div class="fail">Błąd API: ' + res.status + ' ' + res.statusText + '</div>';
+          return;
+        }
         const data = await res.json();
         if(!data.found){ box.innerHTML = '<div class="fail">Nie znaleziono certyfikatu.</div>'; return; }
-        const d = data.data;
-        box.innerHTML = `<div class="ok">
-          <strong>Status:</strong> ${d.status}<br>
-          <strong>Numer:</strong> ${d.cert_no}<br>
-          <strong>Właściciel:</strong> ${d.owner}<br>
-          <strong>Rola:</strong> ${d.role}<br>
-          <strong>Wystawiono:</strong> ${d.issued_at}
-        </div><p class="muted">Dane pochodzą z bazy Werbekoordinator.</p>`;
+        
+        if(data.multiple && Array.isArray(data.data)){
+          // Multiple certificates found for this external_id
+          let html = '<div class="ok"><strong>Znaleziono certyfikaty dla ID: ' + id + '</strong></div>';
+          for(const d of data.data){
+            html += `<div class="ok" style="margin-top:8px">
+              <strong>Numer:</strong> ${d.cert_no}<br>
+              <strong>Rola:</strong> ${d.role}<br>
+              <strong>Status:</strong> ${d.status}<br>
+              <strong>Właściciel:</strong> ${d.owner}<br>
+              <strong>Wystawiono:</strong> ${d.issued_at}
+            </div>`;
+          }
+          box.innerHTML = html + '<p class="muted">Dane pochodzą z bazy Werbekoordinator.</p>';
+        } else {
+          const d = data.data;
+          box.innerHTML = `<div class="ok">
+            <strong>Status:</strong> ${d.status}<br>
+            <strong>Numer:</strong> ${d.cert_no}<br>
+            <strong>Właściciel:</strong> ${d.owner}<br>
+            <strong>Rola:</strong> ${d.role}<br>
+            ${d.external_id ? '<strong>ID systemowe:</strong> ' + d.external_id + '<br>' : ''}
+            <strong>Wystawiono:</strong> ${d.issued_at}
+          </div><p class="muted">Dane pochodzą z bazy Werbekoordinator.</p>`;
+        }
       }catch(e){
-        box.innerHTML = '<div class="fail">Błąd połączenia z API. Spróbuj ponownie.</div>';
+        box.innerHTML = '<div class="fail">Błąd połączenia z API: ' + e.message + '</div>';
       }
     }
     document.addEventListener('DOMContentLoaded', verify);
