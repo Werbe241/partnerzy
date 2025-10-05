@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Moje certyfikaty – Werbekoordinator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="../certificates/certificate.css" rel="stylesheet">
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial,sans-serif;margin:24px;color:#1b1f24;background:#f6f7f9}
+    .card{border:1px solid #e5e7eb;border-radius:10px;padding:16px;background:#fff;margin-bottom:16px}
+    .muted{color:#6b7280}
+    iframe{width:100%; height:1120px; border:0; background:#f3f4f6}
+    .list{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0}
+    .pill{border:1px solid #e5e7eb;border-radius:18px;padding:6px 10px;background:#f8fafc;font-size:14px;cursor:pointer}
+    button{background:#0b5cab;color:#fff;border:none;border-radius:6px;padding:8px 12px;cursor:pointer}
+    button.secondary{background:#6b7280}
+  </style>
+  <script>
+    // Wstrzyknięte przez plugin: window.KK = { rest, nonce }
+    const KK = (window.KK && typeof window.KK.rest==='string') ? window.KK : { rest: `${location.origin}/wp-json/kk/v1`, nonce: null };
+
+    function rest(path, opts = {}) {
+      const base = KK.rest.replace(/\/$/,'');
+      const isGet = !opts.method || opts.method.toUpperCase() === 'GET';
+      let url = `${base}${path}`;
+      if (isGet && KK.nonce) url += (url.includes('?') ? '&' : '?') + '_wpnonce=' + encodeURIComponent(KK.nonce);
+      const headers = Object.assign({}, opts.headers || {});
+      if (KK.nonce) headers['X-WP-Nonce'] = KK.nonce;
+      return fetch(url, Object.assign({ credentials:'include' }, opts, { headers }));
+    }
+
+    async function fetchMyCertificates(){
+      const res = await rest('/certificate/my', { method:'GET' });
+      if(!res.ok){ throw new Error('Brak dostępu – zaloguj się na stronie Moje konto.'); }
+      return res.json();
+    }
+
+    function renderList(items){
+      const list = document.getElementById('list'); list.innerHTML = '';
+      if(!items || !items.items || items.items.length===0){
+        list.innerHTML = '<div class="muted">Nie masz jeszcze certyfikatów.</div>'; return;
+      }
+      for(const it of items.items){
+        const el = document.createElement('div');
+        el.className = 'pill';
+        el.textContent = `${it.role} • ${it.cert_no} • ${it.status}`;
+        el.onclick = () => loadCert(it);
+        list.appendChild(el);
+      }
+      loadCert(items.items[0]);
+    }
+
+    function loadCert(rec){
+      const frame = document.getElementById("certFrame");
+      const data = {
+        role: rec.role, personName: '', userId: '',
+        issuedAt: rec.issued_at ? rec.issued_at.slice(0,10) : '',
+        validUntil: rec.valid_until || 'bezterminowo',
+        certNo: rec.cert_no,
+        verifyBase: `${location.origin}/wp-json/kk/v1/certificate/verify?cert_no=`
+      };
+      frame.onload = () => frame.contentWindow.postMessage({ type:"CERT_DATA", payload:data }, "*");
+      frame.src = "../certificates/certificate.html";
+    }
+
+    async function issueFor(role){
+      const res = await rest('/certificate/issue', {
+        method:'POST',
+        headers:{'Content-Type':'application/json'},
+        body: JSON.stringify({ role })
+      });
+      let data = {};
+      try { data = await res.json(); } catch(e){}
+      if(!res.ok || !data.ok){
+        alert('Nie udało się wystawić certyfikatu'); return;
+      }
+      const items = await fetchMyCertificates(); renderList(items);
+    }
+
+    document.addEventListener('DOMContentLoaded', async ()=>{
+      try { const items = await fetchMyCertificates(); renderList(items); }
+      catch(e) { document.getElementById('status').textContent = e.message; }
+    });
+  </script>
+</head>
+<body>
+  <h1>Moje certyfikaty</h1>
+  <p class="muted" id="status">Musisz być zalogowany na werbekoordinator.pl, aby widzieć swoje certyfikaty.</p>
+
+  <div class="card">
+    <h2>Twoje certyfikaty</h2>
+    <div id="list" class="list"></div>
+    <div style="display:flex;gap:8px;margin-top:8px">
+      <button onclick="issueFor('KR')">Wystaw certyfikat KR</button>
+      <button class="secondary" onclick="issueFor('MR')">Wystaw certyfikat MR</button>
+      <button class="secondary" onclick="issueFor('RT')">Wystaw certyfikat RT</button>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Podgląd certyfikatu</h2>
+    <iframe id="certFrame" title="Certyfikat"></iframe>
+  </div>
+</body>
+</html>

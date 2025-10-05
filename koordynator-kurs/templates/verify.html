@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <title>Weryfikacja certyfikatu – Werbekoordinator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Arial,sans-serif;margin:24px;color:#1b1f24}
+    .ok{color:#065f46;background:#ecfdf5;border:1px solid #34d399;padding:12px;border-radius:8px}
+    .fail{color:#7f1d1d;background:#fef2f2;border:1px solid #fecaca;padding:12px;border-radius:8px}
+    .muted{color:#6b7280}
+  </style>
+  <script>
+    // Placeholder: w produkcji tu wywołujesz API po status certyfikatu
+    function getParam(n){ return new URLSearchParams(location.search).get(n) }
+    document.addEventListener("DOMContentLoaded", ()=>{
+      const id = getParam("id") || "brak";
+      // Symulacja: wszystko „ważne” – do podmiany po spięciu z backendem
+      document.getElementById("id").textContent = id;
+      document.getElementById("status").textContent = "Ważny";
+      document.getElementById("owner").textContent = "Jan Kowalski";
+      document.getElementById("role").textContent = id.split("-")[0] || "KR";
+      document.getElementById("date").textContent = new Date().toISOString().slice(0,10);
+    });
+    // Odbiór danych z my-account -> certificate (opcjonalnie)
+    window.addEventListener("message",(e)=>{
+      if(e.data && e.data.type==="CERT_DATA"){ window.CERT_DATA = e.data.payload; }
+    });
+  </script>
+</head>
+<body>
+  <h1>Weryfikacja certyfikatu</h1>
+  <div class="ok">
+    <strong>Status:</strong> <span id="status">–</span><br>
+    <strong>Numer:</strong> <span id="id">–</span><br>
+    <strong>Właściciel:</strong> <span id="owner">–</span><br>
+    <strong>Rola:</strong> <span id="role">–</span><br>
+    <strong>Data weryfikacji:</strong> <span id="date">–</span>
+  </div>
+  <p class="muted">Uwaga: to strona poglądowa. W wersji produkcyjnej wynik pochodzi z API Fundacji Werbekoordinator.</p>
+</body>
+</html>
