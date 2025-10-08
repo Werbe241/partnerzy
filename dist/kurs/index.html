@@ -1,118 +1,91 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kurs Werbekoordinator</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Kurs Werbekoordinator</title>
+  <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
-    <div class="container">
-        <!-- Sidebar Navigation -->
-        <nav id="sidebar" class="sidebar">
-            <div class="sidebar-header">
-                <h1>Kurs Werbekoordinator</h1>
-                <button id="toggle-sidebar" class="toggle-btn" aria-label="Przełącz menu">☰</button>
-            </div>
-            
-            <div class="progress-summary">
-                <div class="progress-bar-container">
-                    <div id="overall-progress" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-                <p id="progress-text">Postęp: 0%</p>
-            </div>
+  <!-- Logo w lewym górnym rogu -->
+  <header class="brand">
+    <img src="./assets/logo.png" alt="Werbekoordinator — logo" />
+  </header>
 
-            <div class="modules-list">
-                <div class="module-group">
-                    <h2>Moduł 1: Sens Werbekoordinatora</h2>
-                    <ul id="module-01-pages">
-                        <li><a href="#" data-module="01" data-page="01">1. Wprowadzenie</a></li>
-                        <li><a href="#" data-module="01" data-page="02">2. Misja i sens działania</a></li>
-                        <li><a href="#" data-module="01" data-page="03">3. Odpowiedzialność i etyka</a></li>
-                        <li><a href="#" data-module="01" data-page="04">4. Granice roli</a></li>
-                        <li><a href="#" data-module="01" data-page="05">5. Kompetencje miękkie</a></li>
-                        <li><a href="#" data-module="01" data-page="06">6. Przykładowy dzień pracy</a></li>
-                        <li><a href="#" data-module="01" data-page="07">7. Najczęstsze błędy</a></li>
-                        <li><a href="#" data-module="01" data-page="08">8. Checklista jakości</a></li>
-                        <li><a href="#" data-module="01" data-page="09">9. Mini-case</a></li>
-                        <li><a href="#" data-module="01" data-page="10">10. Podsumowanie</a></li>
-                        <li><a href="#" data-module="01" data-page="end">✓ Zakończenie modułu</a></li>
-                    </ul>
-                </div>
-
-                <div class="module-group">
-                    <h2>Moduł 2: Werbekoordinator w praktyce</h2>
-                    <ul id="module-02-pages">
-                        <li><a href="#" data-module="02" data-page="01">1. Oferta i korzyści</a></li>
-                        <li><a href="#" data-module="02" data-page="02">2. Rola koordynatora</a></li>
-                        <li><a href="#" data-module="02" data-page="03">3. Proces wdrożenia</a></li>
-                        <li><a href="#" data-module="02" data-page="04">4. Narzędzia i materiały</a></li>
-                        <li><a href="#" data-module="02" data-page="05">5. Komunikacja i RODO</a></li>
-                        <li><a href="#" data-module="02" data-page="end">✓ Zakończenie modułu</a></li>
-                    </ul>
-                </div>
-
-                <div class="module-group">
-                    <h2>Test końcowy</h2>
-                    <ul id="module-test-pages">
-                        <li><a href="#" data-module="TEST" data-page="index">📝 Test wiedzy</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-        <!-- Main Content Area -->
-        <main id="main-content" class="main-content">
-            <!-- Audio Controls -->
-            <div class="audio-controls">
-                <button id="play-btn" class="control-btn" aria-label="Odtwórz">▶ Odtwórz</button>
-                <button id="pause-btn" class="control-btn" aria-label="Pauza" style="display:none;">⏸ Pauza</button>
-                <button id="stop-btn" class="control-btn" aria-label="Stop">⏹ Stop</button>
-                <button id="replay-btn" class="control-btn" aria-label="Odsłuchaj ponownie">🔄 Odsłuchaj ponownie</button>
-                
-                <div class="audio-settings">
-                    <label for="speed-select">Prędkość:</label>
-                    <select id="speed-select" aria-label="Wybierz prędkość">
-                        <option value="0.75">0.75x</option>
-                        <option value="1" selected>1x</option>
-                        <option value="1.25">1.25x</option>
-                        <option value="1.5">1.5x</option>
-                    </select>
-                    
-                    <label for="voice-select">Głos:</label>
-                    <select id="voice-select" aria-label="Wybierz głos"></select>
-                </div>
-            </div>
-
-            <!-- Content Frame -->
-            <div id="content-frame" class="content-frame" role="main" aria-live="polite">
-                <div class="welcome-screen">
-                    <h1>Witaj w Kursie Werbekoordinator</h1>
-                    <p>Wybierz moduł z menu po lewej stronie, aby rozpocząć naukę.</p>
-                    <div class="info-box">
-                        <h3>💡 Wskazówka</h3>
-                        <p>Użyj przycisków nawigacji, aby poruszać się po kursie. Twój postęp będzie automatycznie zapisywany.</p>
-                    </div>
-                    <div class="keyboard-shortcuts">
-                        <h3>⌨️ Skróty klawiszowe</h3>
-                        <ul>
-                            <li><kbd>Space</kbd> - Odtwórz/Pauza</li>
-                            <li><kbd>N</kbd> - Następna strona</li>
-                            <li><kbd>P</kbd> - Poprzednia strona</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Navigation Buttons -->
-            <div class="navigation-buttons">
-                <button id="prev-btn" class="nav-btn" aria-label="Poprzednia strona">⬅ Wstecz</button>
-                <div class="page-indicator" id="page-indicator"></div>
-                <button id="next-btn" class="nav-btn" aria-label="Następna strona">Dalej ➡</button>
-            </div>
-        </main>
+  <div class="container">
+    <!-- Pasek postępu (całości) -->
+    <div class="progress-summary">
+      <div class="progress-bar-container" aria-hidden="true">
+        <div id="overall-progress" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+      </div>
+      <p id="progress-text">Postęp: 0%</p>
     </div>
 
-    <script src="app.js"></script>
+    <!-- Lewy panel (karta) -->
+    <nav id="sidebar" class="sidebar" aria-label="Nawigacja kursu">
+      <div class="sidebar-header">
+        <h1>Kurs Werbekoordinator</h1>
+        <button id="toggle-sidebar" class="toggle-btn" aria-label="Przełącz menu">≡</button>
+      </div>
+
+      <div class="modules-list">
+        <div class="module-group">
+          <h2>Moduł 1: Sens werbekoordynatora</h2>
+          <ul id="module-01-pages">
+            <li><a href="#" data-module="01" data-page="01">01. Wprowadzenie</a></li>
+            <li><a href="#" data-module="01" data-page="02">02. Misja i sens działania</a></li>
+            <li><a href="#" data-module="01" data-page="03">03. Odpowiedzialność i etyka</a></li>
+            <li><a href="#" data-module="01" data-page="04">04. Granice roli</a></li>
+            <li><a href="#" data-module="01" data-page="05">05. Kompetencje miękkie</a></li>
+            <li><a href="#" data-module="01" data-page="06">06. Przykładowy dzień pracy</a></li>
+            <li><a href="#" data-module="01" data-page="07">07. Najczęstsze błędy</a></li>
+            <li><a href="#" data-module="01" data-page="08">08. Checklista jakości</a></li>
+            <li><a href="#" data-module="01" data-page="09">09. Mini‑case</a></li>
+            <li><a href="#" data-module="01" data-page="10">10. Podsumowanie</a></li>
+            <li><a href="#" data-module="01" data-page="end">✔ Zakończenie modułu</a></li>
+          </ul>
+        </div>
+
+        <div class="module-group">
+          <h2>Moduł 2: Werbekoordynator w praktyce</h2>
+          <ul id="module-02-pages">
+            <li><a href="#" data-module="02" data-page="01">01. Oferta i korzyści</a></li>
+            <li><a href="#" data-module="02" data-page="02">02. Zadania i standardy</a></li>
+            <li><a href="#" data-module="02" data-page="03">03. Proces wdrożenia</a></li>
+            <li><a href="#" data-module="02" data-page="04">04. Narzędzia i materiały</a></li>
+            <li><a href="#" data-module="02" data-page="05">05. Komunikacja i RODO</a></li>
+            <li><a href="#" data-module="02" data-page="end">✔ Zakończenie modułu</a></li>
+          </ul>
+        </div>
+
+        <div class="module-group">
+          <h2>Test końcowy</h2>
+          <ul id="module-test-pages">
+            <li><a href="#" data-module="TEST" data-page="index">▶ Test wiedzy</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Główna karta treści -->
+    <main id="content" aria-live="polite" class="card">
+      <article class="intro">
+        <h2>Witaj w kursie</h2>
+        <p>Wybierz moduł z lewej, aby rozpocząć. Każdy ekran możesz odsłuchać, przewijać „Dalej/Wstecz”, a postęp zapisze się automatycznie.</p>
+        <div class="controls">
+          <button class="btn primary" data-action="play">Odsłuchaj</button>
+          <button class="btn" data-action="pause">Pauza</button>
+          <button class="btn" data-action="stop">Stop</button>
+        </div>
+      </article>
+    </main>
+
+    <!-- Stopka mini -->
+    <footer class="footer">
+      <small>© Werbekoordinator</small>
+    </footer>
+  </div>
+
+  <script src="./app.js"></script>
 </body>
 </html>
