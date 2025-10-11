@@ -1,0 +1,328 @@
+<article aria-labelledby="test-title">
+  <h2 id="test-title">Test końcowy — sprawdź swoją wiedzę</h2>
+  <p>Masz określony czas na rozwiązanie testu. Jeśli zaznaczysz, że jesteś osobą z niepełnosprawnością, czas zostanie wydłużony do 90 minut. W każdej próbie możesz jednorazowo użyć pauzy (10 minut). Przycisk Stop kończy próbę.</p>
+
+  <!-- Pasek informacji testu: czas + próby + tryb dostępności -->
+  <div class="card" id="testBar" style="display:flex;align-items:center;gap:14px;flex-wrap:wrap" role="group" aria-label="Panel testu">
+    <div style="display:flex;align-items:center;gap:10px">
+      <svg width="56" height="56" viewBox="0 0 36 36" aria-hidden="true">
+        <circle cx="18" cy="18" r="16" fill="none" stroke="#e6e6f5" stroke-width="4"></circle>
+        <circle id="ring" cx="18" cy="18" r="16" fill="none" stroke="#667eea" stroke-width="4" stroke-linecap="round" stroke-dasharray="100 100" transform="rotate(-90 18 18)"></circle>
+      </svg>
+      <div>
+        <div style="font-weight:700">Pozostały czas: <span id="time" role="timer" aria-live="polite">--:--</span></div>
+        <div id="pauseInfo" style="color:#666;font-size:13px;display:none">Pauza: <span id="pauseLeft">10:00</span></div>
+      </div>
+    </div>
+    <div style="margin-left:auto;display:flex;gap:12px;align-items:center">
+      <label style="display:flex;gap:6px;align-items:center"><input type="checkbox" id="a11yMode"> Jestem osobą z niepełnosprawnością (90 minut)</label>
+      <strong>Pozostałe próby: <span id="attemptsLeft" aria-live="polite">3</span>/3</strong>
+    </div>
+  </div>
+
+  <div id="startPanel" class="card" style="margin-top:10px">
+    <div class="info">Próg zaliczenia: 80% (co najmniej 16 poprawnych odpowiedzi). Lektor odczyta treść pytań po kliknięciu „Odsłuchaj pytanie”. Możesz także włączyć odpowiedzi głosem (mów: „odpowiedź A/B/C/D”).</div>
+    <div class="controls">
+      <button class="btn primary" id="startTest">Rozpocznij test</button>
+      <button class="btn" id="toggleVoice" aria-pressed="false">Włącz odpowiedzi głosem</button>
+    </div>
+    <div id="voiceHelp" class="callout" style="display:none; margin-top:10px">Powiedz „odpowiedź A”, „odpowiedź B”, „odpowiedź C” lub „odpowiedź D”. Wymaga mikrofonu i obsługi rozpoznawania mowy w przeglądarce.</div>
+    <div id="lockMsg" class="callout" style="display:none;margin-top:10px"></div>
+  </div>
+
+  <div id="quizWrap" style="display:none">
+    <form id="test-form" aria-describedby="test-desc">
+      <p id="test-desc" class="visually-hidden">Odpowiedz na 20 pytań jednokrotnego wyboru. Użyj klawisza Tab, aby przechodzić między odpowiedziami.</p>
+
+      <!-- Zachowujemy Twoje istniejące pytania i odpowiedzi, dodajemy tylko a11y semantykę -->
+      <!-- Pytanie 1 -->
+      <fieldset class="question" aria-labelledby="q1-label">
+        <legend id="q1-label">1. Jaka jest główna misja Koordynatora Reklamy (KR)?</legend>
+        <div class="answers" role="radiogroup" aria-labelledby="q1-label">
+          <label><input type="radio" name="q1" value="wrong"> <span>A) Maksymalizacja zysków Fundacji Werbekoordinator</span></label>
+          <label><input type="radio" name="q1" value="correct"> <span>B) Budowanie i utrzymywanie relacji z Partnerami (PP) oraz wspieranie mądrych decyzji</span></label>
+          <label><input type="radio" name="q1" value="wrong"> <span>C) Zarządzanie finansami fundacji</span></label>
+          <label><input type="radio" name="q1" value="wrong"> <span>D) Prowadzenie kampanii marketingowych bez wsparcia zespołu</span></label>
+        </div>
+      </fieldset>
+
+      <!-- Pytanie 2 -->
+      <fieldset class="question" aria-labelledby="q2-label">
+        <legend id="q2-label">2. Zgodnie z RODO, kiedy potrzebna jest zgoda na przetwarzanie danych w celach marketingowych?</legend>
+        <div class="answers" role="radiogroup" aria-labelledby="q2-label">
+          <label><input type="radio" name="q2" value="wrong"> <span>A) Zawsze, przed każdym kontaktem</span></label>
+          <label><input type="radio" name="q2" value="wrong"> <span>B) Nigdy — dane służbowe nie podlegają RODO</span></label>
+          <label><input type="radio" name="q2" value="correct"> <span>C) Przy dodaniu do newslettera lub bazy mailingowej</span></label>
+          <label><input type="radio" name="q2" value="wrong"> <span>D) Tylko przy sprzedaży danych innym firmom</span></label>
+        </div>
+      </fieldset>
+
+      <!-- ... POZOSTAŁE PYTANIA (3–20) zostają, jak w obecnym pliku; wartości correct/wrong bez zmian ... -->
+
+      <div class="test-buttons" style="display:flex;gap:1rem;justify-content:center;margin:1rem 0;flex-wrap:wrap">
+        <button type="button" id="play-question" class="btn" aria-label="Odsłuchaj aktualne pytanie">🔊 Odsłuchaj pytanie</button>
+        <button type="button" id="submit-test" class="btn primary">Sprawdź wynik</button>
+        <button type="button" id="retry-test" class="btn" style="display:none;">Powtórz test</button>
+      </div>
+    </form>
+
+    <div id="test-result" class="card" aria-live="polite"></div>
+  </div>
+</article>
+
+<style>
+.visually-hidden { position:absolute !important; height:1px; width:1px; overflow:hidden; clip:rect(1px, 1px, 1px, 1px); white-space:nowrap; }
+.question { background:#fff; padding:1rem; border-radius:10px; margin:1rem 0; box-shadow: 0 4px 16px rgba(0,0,0,.06); }
+.answers label { display:block; padding:.6rem .8rem; border-radius:8px; border:2px solid transparent; background:#f7f8ff; margin:.4rem 0; cursor:pointer }
+.answers label:focus-within { outline:none; border-color:#667eea; background:#fff; }
+</style>
+
+<script>
+(function(){
+  // Parametry czasu
+  const DURATION_DEFAULT = 60*60; // 60 min
+  const DURATION_A11Y = 90*60;    // 90 min dla osób z niepełnosprawnością
+  const PAUSE_SEC = 10*60;        // 10 min jednorazowo
+  const ATTEMPTS_MAX = 3;
+  const WINDOW_MS = 365*24*3600*1000; // 12 mies. (365 dni)
+
+  // Elementy UI
+  const timeEl = document.getElementById('time');
+  const ringEl = document.getElementById('ring');
+  const pauseInfo = document.getElementById('pauseInfo');
+  const pauseLeftEl = document.getElementById('pauseLeft');
+  const attemptsLeftEl = document.getElementById('attemptsLeft');
+  const a11yModeEl = document.getElementById('a11yMode');
+  const startPanel = document.getElementById('startPanel');
+  const startBtn = document.getElementById('startTest');
+  const lockMsg = document.getElementById('lockMsg');
+  const quizWrap = document.getElementById('quizWrap');
+  const form = document.getElementById('test-form');
+  const resultBox = document.getElementById('test-result');
+  const btnPlayQ = document.getElementById('play-question');
+  const btnSubmit = document.getElementById('submit-test');
+  const btnRetry = document.getElementById('retry-test');
+  const btnVoice = document.getElementById('toggleVoice');
+  const voiceHelp = document.getElementById('voiceHelp');
+
+  // Stan
+  let duration = DURATION_DEFAULT;
+  let endAt = null;
+  let pausedUntil = null;
+  let pauseUsed = false;
+  let interval = null;
+  let pauseInterval = null;
+  let running = false;
+  let currentQuestion = 1; // do odsłuchu i odpowiedzi głosem
+  let recognition = null;
+  let voiceOn = false;
+
+  // Próby w 12 mies.
+  const LS_ATTEMPTS = 'kk_test_attempts';
+  const LS_STATE = 'kk_test_state';
+  function loadAttempts(){ try{return JSON.parse(localStorage.getItem(LS_ATTEMPTS)||'[]')}catch{return[]} }
+  function saveAttempts(arr){ localStorage.setItem(LS_ATTEMPTS, JSON.stringify(arr)); }
+  function withinWindow(ts){ return (Date.now()-ts) <= WINDOW_MS; }
+  function recentAttempts(){ return loadAttempts().filter(a=> withinWindow(new Date(a.start).getTime())); }
+  function attemptsLeft(){ return Math.max(0, ATTEMPTS_MAX - recentAttempts().length); }
+  function updateAttemptsUI(){ attemptsLeftEl.textContent = attemptsLeft(); }
+  function lockInfo(){
+    const r = recentAttempts();
+    if(r.length < ATTEMPTS_MAX) return null;
+    const first = new Date(r[0].start).getTime();
+    const unlock = new Date(first + WINDOW_MS);
+    return unlock;
+  }
+
+  function fmt(sec){ const m=Math.floor(sec/60), s=sec%60; return `${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`; }
+  function updateRing(){
+    if(!endAt) return;
+    const total = duration;
+    const remain = Math.max(0, Math.floor(((pausedUntil? pausedUntil: Date.now()) - Date.now())/1000 + (endAt - (pausedUntil? pausedUntil: Date.now()))/1000));
+    const pct = Math.max(0, Math.min(100, Math.round((remain/total)*100)));
+    ringEl.setAttribute('stroke-dasharray', `${pct} 100`);
+  }
+
+  function tick(){
+    if(!running) return;
+    const now = Date.now();
+    if(pausedUntil && now < pausedUntil){
+      const left = Math.max(0, Math.floor((pausedUntil-now)/1000));
+      pauseInfo.style.display = 'block';
+      pauseLeftEl.textContent = fmt(left);
+      // w pauzie pokazujemy zamrożony pozostały czas roboczy
+      const remainFrozen = Math.max(0, Math.floor((endAt - pausedUntil)/1000));
+      timeEl.textContent = fmt(remainFrozen);
+      updateRing();
+      return;
+    } else {
+      pauseInfo.style.display = 'none';
+      pausedUntil = null;
+    }
+    const remain = Math.max(0, Math.floor((endAt - now)/1000));
+    timeEl.textContent = fmt(remain);
+    updateRing();
+    if(remain<=0){ stopTimer(); finalize(false, 'Czas minął. Próba zakończona.'); }
+  }
+
+  function startTimer(){
+    running = true;
+    endAt = Date.now() + duration*1000;
+    saveState();
+    clearInterval(interval);
+    interval = setInterval(tick, 1000);
+    tick();
+  }
+  function stopTimer(){ running=false; clearInterval(interval); interval=null; clearInterval(pauseInterval); pauseInterval=null; saveState(); }
+
+  function saveState(){ localStorage.setItem(LS_STATE, JSON.stringify({ running, endAt, pausedUntil, pauseUsed, duration })); }
+  function loadState(){ try{return JSON.parse(localStorage.getItem(LS_STATE)||'{}')}catch{return{}} }
+
+  function restore(){
+    updateAttemptsUI();
+    const unlock = lockInfo();
+    if(unlock){
+      const d = unlock.toISOString().slice(0,10);
+      lockMsg.style.display='block'; lockMsg.innerHTML = `Limit 3 prób w 12 miesięcy został wyczerpany. Nowa pula dostępna od: <strong>${d}</strong>.`;
+      startBtn.disabled = true;
+    }
+  }
+
+  // Start próby
+  startBtn.addEventListener('click', ()=>{
+    if(startBtn.disabled) return;
+    if(attemptsLeft()<=0){ restore(); return; }
+    duration = a11yModeEl.checked ? DURATION_A11Y : DURATION_DEFAULT;
+    // zarejestruj próbę
+    const all = loadAttempts();
+    all.push({ id: 'A-'+Date.now(), start: new Date().toISOString(), status: 'ongoing' });
+    saveAttempts(all);
+    // pokaż quiz i licznik
+    startPanel.style.display='none';
+    quizWrap.style.display='block';
+    startTimer();
+  });
+
+  // Globalne API dla przycisków kursu (Pauza/Stop)
+  window.TEST_TIMER_API = {
+    pause10: function(){
+      if(!running){ alert('Najpierw rozpocznij test.'); return; }
+      if(pauseUsed){ alert('Pauza została już wykorzystana.'); return; }
+      pauseUsed = true;
+      pausedUntil = Date.now() + PAUSE_SEC*1000;
+      saveState();
+      pauseInfo.style.display='block';
+      clearInterval(pauseInterval);
+      pauseInterval = setInterval(()=>{
+        const left = Math.max(0, Math.floor((pausedUntil-Date.now())/1000));
+        pauseLeftEl.textContent = fmt(left);
+        if(left<=0){ clearInterval(pauseInterval); pauseInterval=null; pauseInfo.style.display='none'; }
+      },1000);
+    },
+    stopAttempt: function(){
+      if(!running){ alert('Test nie jest uruchomiony.'); return; }
+      if(confirm('Zatrzymanie testu oznacza rezygnację z tej próby i utratę możliwości uzyskania certyfikatu w tej próbie. Kontynuować?')){
+        stopTimer(); finalize(false, 'Próbę przerwano przyciskiem Stop.');
+      }
+    }
+  };
+
+  // Odsłuchaj aktualne pytanie (TTS)
+  btnPlayQ.addEventListener('click', ()=>{
+    const q = getCurrentQuestionElement();
+    if(!q){ alert('Brak aktywnego pytania.'); return; }
+    const legend = q.querySelector('legend')?.textContent || '';
+    const answers = Array.from(q.querySelectorAll('label span')).map((s,i)=>`${String.fromCharCode(65+i)}. ${s.textContent}`);
+    const text = `${legend}. Odpowiedzi: ${answers.join('. ')}.`;
+    if('speechSynthesis' in window){ const u = new SpeechSynthesisUtterance(text); u.lang='pl-PL'; u.rate=1.0; u.pitch=1.0; window.speechSynthesis.cancel(); window.speechSynthesis.speak(u);} else { alert('Lektor niedostępny w tej przeglądarce.'); }
+  });
+
+  // Sprawdź wynik
+  btnSubmit.addEventListener('click', ()=>{
+    if(!running){ alert('Najpierw rozpocznij test.'); return; }
+    const correct = Array.from(form.querySelectorAll('input[type="radio"][value="correct"]')).filter(i=> i.checked).length;
+    const total = form.querySelectorAll('fieldset.question').length;
+    const pct = Math.round((correct/total)*100);
+    const pass = pct >= 80;
+    stopTimer();
+    // zaktualizuj status próby
+    const all = loadAttempts();
+    for(let i=all.length-1;i>=0;i--){ if(all[i].status==='ongoing'){ all[i].status = pass? 'passed':'failed'; break; } }
+    saveAttempts(all);
+    updateAttemptsUI();
+    resultBox.innerHTML = `<h3>Wynik: ${correct}/${total} (${pct}%) — ${pass? 'Zaliczone' : 'Niezaliczone'}</h3>${pass? '<div class="controls"><a class="btn primary" href="../../certificate.html" target="_blank" rel="noopener">Przejdź do certyfikatu</a></div>':''}`;
+    btnRetry.style.display = 'inline-flex';
+    // zapis dla certyfikatu
+    localStorage.setItem('kk_course_test', JSON.stringify({correct,total,pct,pass,date:new Date().toISOString()}));
+  });
+
+  // Powtórz (reset UI, nie cofa zużycia próby)
+  btnRetry.addEventListener('click', ()=>{
+    resultBox.innerHTML='';
+    quizWrap.style.display='none';
+    startPanel.style.display='block';
+    running=false; endAt=null; pausedUntil=null; pauseUsed=false; clearInterval(interval); clearInterval(pauseInterval); interval=null; pauseInterval=null;
+    timeEl.textContent='--:--';
+    updateAttemptsUI();
+  });
+
+  // Włącz/wyłącz odpowiedzi głosem (ASR)
+  btnVoice.addEventListener('click', ()=>{
+    if(voiceOn){ stopASR(); } else { startASR(); }
+  });
+
+  function startASR(){
+    const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+    if(!SR){ alert('Rozpoznawanie mowy nie jest wspierane w tej przeglądarce.'); return; }
+    recognition = new SR();
+    recognition.lang = 'pl-PL';
+    recognition.interimResults = false;
+    recognition.continuous = true;
+    recognition.onresult = (e)=>{
+      const t = e.results[e.results.length-1][0].transcript.trim().toLowerCase();
+      handleVoiceCommand(t);
+    };
+    recognition.onend = ()=>{ if(voiceOn){ recognition.start(); } };
+    recognition.start();
+    voiceOn = true; btnVoice.setAttribute('aria-pressed','true'); btnVoice.textContent='Wyłącz odpowiedzi głosem'; voiceHelp.style.display='block';
+  }
+  function stopASR(){ if(recognition){ try{ recognition.stop(); }catch{} } voiceOn=false; btnVoice.setAttribute('aria-pressed','false'); btnVoice.textContent='Włącz odpowiedzi głosem'; voiceHelp.style.display='none'; }
+
+  function handleVoiceCommand(t){
+    // Akceptujemy: "odpowiedź A/B/C/D", "A", "B", "C", "D", a także wymowy liter: be, ce, de
+    const map = { 'a':['a','aa','litera a','odpowiedz a','odpowiedź a'], 'b':['b','be','odpowiedz b','odpowiedź b'], 'c':['c','ce','odpowiedz c','odpowiedź c'], 'd':['d','de','odpowiedz d','odpowiedź d'] };
+    let pick = null;
+    for(const key of Object.keys(map)){
+      if(t===key || map[key].some(ph=> t.includes(ph))){ pick = key; break; }
+    }
+    if(!pick) return;
+    const qEl = getCurrentQuestionElement();
+    if(!qEl) return;
+    const idx = {a:0,b:1,c:2,d:3}[pick];
+    const radios = qEl.querySelectorAll('input[type="radio"]');
+    if(radios[idx]){ radios[idx].checked = true; radios[idx].focus(); announce(`Zaznaczono odpowiedź ${pick.toUpperCase()}`); }
+  }
+
+  function getCurrentQuestionElement(){
+    // priorytet: ostatnia skupiona odpowiedź; w innym wypadku pierwsze nieodpowiedziane pytanie
+    const active = document.activeElement?.closest('fieldset.question');
+    if(active) return active;
+    const fields = Array.from(form.querySelectorAll('fieldset.question'));
+    const notAnswered = fields.find(fs=> !fs.querySelector('input[type="radio"]:checked'));
+    return notAnswered || fields[0] || null;
+  }
+
+  function announce(msg){
+    // prosta aria-live ogłoszenia
+    let live = document.getElementById('aria-live');
+    if(!live){ live = document.createElement('div'); live.id='aria-live'; live.className='visually-hidden'; live.setAttribute('aria-live','polite'); document.body.appendChild(live); }
+    live.textContent = msg;
+  }
+
+  // Aktualizuj bieżący indeks pytania przy interakcji
+  form.addEventListener('focusin', (e)=>{ const f = e.target.closest('fieldset.question'); if(!f) return; const all = Array.from(form.querySelectorAll('fieldset.question')); currentQuestion = all.indexOf(f)+1; });
+
+  // Inicjalizacja
+  restore();
+})();
+</script>
