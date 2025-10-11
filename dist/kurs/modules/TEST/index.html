@@ -1,554 +1,244 @@
-<div class="test-container">
-    <h1>Test Końcowy - Kurs Werbekoordinator</h1>
-    
-    <div class="info-box">
-        <h3>📋 Informacje o teście</h3>
-        <ul>
-            <li><strong>Liczba pytań:</strong> 20</li>
-            <li><strong>Próg zaliczenia:</strong> 80% (16 poprawnych odpowiedzi)</li>
-            <li><strong>Typ:</strong> Pytania jednokrotnego wyboru</li>
-            <li><strong>Czas:</strong> Bez limitu</li>
-        </ul>
-        <p>Przeczytaj uważnie każde pytanie i wybierz najlepszą odpowiedź. Powodzenia!</p>
+<article aria-labelledby="testTitle">
+  <h2 id="testTitle">Test końcowy — sprawdź swoją wiedzę</h2>
+  <p>Masz maksymalnie 60 minut na rozwiązanie testu. Jeśli zaznaczysz poniżej, że jesteś osobą z niepełnosprawnością, czas wydłuży się do 90 minut. Możesz jednorazowo wstrzymać licznik na 10 minut przyciskiem „Pauza” w pasku kursu. Przycisk „Stop” kończy próbę i liczy się jako zużyta.</p>
+
+  <div class="card" id="a11yPanel" style="display:flex;gap:12px;align-items:center;flex-wrap:wrap" role="region" aria-label="Ustawienia dostępności">
+    <label style="display:flex;align-items:center;gap:8px"><input type="checkbox" id="a11yMode"> Jestem osobą z niepełnosprawnością (czas testu 90 minut)</label>
+    <button class="btn" id="voiceToggle" aria-pressed="false" aria-label="Włącz odpowiedzi głosem">Włącz odpowiedzi głosem</button>
+    <span id="voiceStatus" aria-live="polite" style="color:#666"></span>
+  </div>
+
+  <!-- Pasek: czas + próby -->
+  <div class="card" id="testBar" style="display:flex;align-items:center;gap:14px;flex-wrap:wrap" role="region" aria-label="Pasek stanu testu">
+    <div style="display:flex;align-items:center;gap:10px">
+      <svg width="56" height="56" viewBox="0 0 36 36" aria-hidden="true">
+        <circle cx="18" cy="18" r="16" fill="none" stroke="#e6e6f5" stroke-width="4"></circle>
+        <circle id="ring" cx="18" cy="18" r="16" fill="none" stroke="#667eea" stroke-width="4" stroke-linecap="round" stroke-dasharray="100 100" transform="rotate(-90 18 18)"></circle>
+      </svg>
+      <div>
+        <div style="font-weight:700">Pozostały czas: <span id="time" aria-live="polite">60:00</span></div>
+        <div id="pauseInfo" style="color:#666;font-size:13px;display:none">Wstrzymano: <span id="pauseLeft">10:00</span></div>
+      </div>
+    </div>
+    <div style="margin-left:auto">
+      <strong>Pozostałe próby: <span id="attemptsLeft">3</span>/3</strong>
+    </div>
+  </div>
+
+  <div id="startPanel" class="card" style="margin-top:10px" role="region" aria-label="Start testu">
+    <p>Aby rozpocząć odliczanie, kliknij przycisk poniżej. Licznik prób uruchamia się w momencie startu.</p>
+    <div class="controls">
+      <button class="btn primary" id="startTest" aria-label="Rozpocznij test">Rozpocznij test</button>
+    </div>
+    <div id="lockMsg" class="callout" style="display:none;margin-top:10px" aria-live="polite"></div>
+  </div>
+
+  <div id="quizWrap" style="display:none">
+    <form id="quiz" aria-label="Pytania testowe"></form>
+
+    <div class="controls" style="margin-top:12px">
+      <button class="btn" id="playCurrent" aria-label="Odsłuchaj aktualne pytanie">Odsłuchaj pytanie</button>
+      <button class="btn primary" id="check" aria-label="Sprawdź wynik">Sprawdź wynik</button>
+      <button class="btn" id="retry" aria-label="Powtórz test">Powtórz test</button>
     </div>
 
-    <form id="test-form">
-        <!-- Pytanie 1 -->
-        <div class="question">
-            <h3>1. Jaka jest główna misja Werbekoordinatora?</h3>
-            <div class="answers">
-                <label>
-                    <input type="radio" name="q1" value="wrong">
-                    <span>A) Maksymalizacja zysków fundacji</span>
-                </label>
-                <label>
-                    <input type="radio" name="q1" value="correct">
-                    <span>B) Budowanie i utrzymywanie relacji z partnerami biznesowymi fundacji</span>
-                </label>
-                <label>
-                    <input type="radio" name="q1" value="wrong">
-                    <span>C) Zarządzanie finansami fundacji</span>
-                </label>
-                <label>
-                    <input type="radio" name="q1" value="wrong">
-                    <span>D) Prowadzenie kampanii marketingowych dla partnerów</span>
-                </label>
-            </div>
-        </div>
+    <div id="result" class="card" style="margin-top:14px; display:none" aria-live="polite"></div>
+  </div>
+</article>
 
-        <!-- Pytanie 2 -->
-        <div class="question">
-            <h3>2. Zgodnie z RODO, kiedy potrzebujesz zgody osoby na przetwarzanie jej danych służbowych?</h3>
-            <div class="answers">
-                <label>
-                    <input type="radio" name="q2" value="wrong">
-                    <span>A) Zawsze, przed każdym kontaktem</span>
-                </label>
-                <label>
-                    <input type="radio" name="q2" value="wrong">
-                    <span>B) Nigdy, dane służbowe nie podlegają RODO</span>
-                </label>
-                <label>
-                    <input type="radio" name="q2" value="correct">
-                    <span>C) Przy dodaniu do newslettera lub bazy mailingowej marketingowej</span>
-                </label>
-                <label>
-                    <input type="radio" name="q2" value="wrong">
-                    <span>D) Tylko przy sprzedaży danych innym firmom</span>
-                </label>
-            </div>
-        </div>
+<script>
+// Parametry testu i dostępności
+const BASE_DURATION = 60*60;     // 60 min
+const A11Y_DURATION  = 90*60;     // 90 min (tryb dostępności)
+const PAUSE_DURATION = 10*60;     // 10 min (jednorazowa pauza)
+const ATTEMPTS_MAX   = 3;         // 3 próby
+const WINDOW_DAYS    = 365;       // okno 12 miesięcy
 
-        <!-- Pytanie 3 -->
-        <div class="question">
-            <h3>3. Czego NIE należy do zakresu obowiązków Werbekoordinatora?</h3>
-            <div class="answers">
-                <label>
-                    <input type="radio" name="q3" value="wrong">
-                    <span>A) Prezentacja oferty fundacji potencjalnym partnerom</span>
-                </label>
-                <label>
-                    <input type="radio" name="q3" value="correct">
-                    <span>B) Zarządzanie kampaniami marketingowymi partnera i tworzenie jego strategii CSR</span>
-                </label>
-                <label>
-                    <input type="radio" name="q3" value="wrong">
-                    <span>C) Follow-up z partnerami po spotkaniach</span>
-                </label>
-                <label>
-                    <input type="radio" name="q3" value="wrong">
-                    <span>D) Wdrażanie nowych partnerów do współpracy</span>
-                </label>
-            </div>
-        </div>
+// Elementy UI
+const elTime = document.getElementById('time');
+const elRing = document.getElementById('ring');
+const elPauseInfo = document.getElementById('pauseInfo');
+const elPauseLeft = document.getElementById('pauseLeft');
+const elAttemptsLeft = document.getElementById('attemptsLeft');
+const startPanel = document.getElementById('startPanel');
+const startBtn = document.getElementById('startTest');
+const lockMsg = document.getElementById('lockMsg');
+const quizWrap = document.getElementById('quizWrap');
+const quizEl = document.getElementById('quiz');
+const resultEl = document.getElementById('result');
+const playCurrentBtn = document.getElementById('playCurrent');
+const checkBtn = document.getElementById('check');
+const retryBtn = document.getElementById('retry');
+const a11yModeEl = document.getElementById('a11yMode');
+const voiceToggle = document.getElementById('voiceToggle');
+const voiceStatus = document.getElementById('voiceStatus');
 
-        <!-- Pytanie 4 -->
-        <div class="question">
-            <h3>4. Jaka jest złota zasada proporcji mówienia do słuchania podczas spotkania z partnerem?</h3>
-            <div class="answers">
-                <label>
-                    <input type="radio" name="q4" value="wrong">
-                    <span>A) 90/10 - partner mówi 90%, ty 10%</span>
-                </label>
-                <label>
-                    <input type="radio" name="q4" value="correct">
-                    <span>B) 70/30 - partner mówi 70%, ty 30%</span>
-                </label>
-                <label>
-                    <input type="radio" name="q4" value="wrong">
-                    <span>C) 50/50 - równy podział czasu</span>
-                </label>
-                <label>
-                    <input type="radio" name="q4" value="wrong">
-                    <span>D) 30/70 - ty mówisz 70%, partner 30%</span>
-                </label>
-            </div>
-        </div>
+// Pytania (po polsku, z jasnym językiem)
+const QUESTIONS = [
+  {q: "Misją Koordynatora Reklamy (KR) jest przede wszystkim:", a:["Sprzedaż za wszelką cenę","Umożliwianie mądrych decyzji rozmówcy","Zbieranie jak największej ilości danych","Tylko obsługa dużych firm"], c:1},
+  {q: "Transparentność oznacza, że:", a:["Ubarwiamy korzyści","Przemilczamy ryzyka","Mówimy prawdę o warunkach i ograniczeniach","Obiecujemy gwarantowane efekty"], c:2},
+  {q: "W kontekście RODO zbieramy:", a:["Tylko dane niezbędne do celu","Wszystkie możliwe dane na zapas","Dane wyłącznie wrażliwe","Dane innych firm bez zgody"], c:0},
+  {q: "Granice roli oznaczają m.in:", a:["Obietnice bez pokrycia","Brak notatek po rozmowie","Presję na natychmiastową decyzję","Unikanie gwarancji i jasne warunki"], c:3},
+  {q: "Po każdej rozmowie warto:", a:["Wysłać krótkie podsumowanie: decyzja/termin/krok","Nie robić nic","Zadzwonić jeszcze raz tego samego dnia bez ustaleń","Usunąć wszystkie notatki"], c:0},
+  {q: "Przykładowy rytm dnia koordynatora zakłada:", a:["Notowanie ustaleń i follow‑up","Brak planu","Wyłącznie rozmowy bez dokumentacji","Zostawianie wszystkiego na jutro"], c:0},
+  {q: "Checklista jakości pomaga:", a:["Unikać typowych błędów","Zwiększyć chaos","Ukrywać nieścisłości","Skracać rozmowy do 30 sekund"], c:0},
+  {q: "Pakiet powitalny służy przede wszystkim:", a:["Budowaniu zaufania i startowi działań","Natychmiastowym wynikom gwarantowanym","Zastąpieniu wszystkich działań płatnych","Zbieraniu danych bez zgód"], c:0},
+  {q: "Premia za sukces to:", a:["Stała opłata niezależna od efektów","Prowizja od obrotu firmy","Wynagrodzenie zależne od uzgodnionej metryki i wyników","Darmowy bonus bez warunków"], c:2},
+  {q: "Górny limit naliczenia w premii za sukces oznacza:", a:["Minimalny wynik","Górny limit naliczenia","Karę umowną","Liczbę rozmów"], c:1},
+  {q: "Model AIDA to kolejność:", a:["Uwaga – Zainteresowanie – Pragnienie – Działanie","Analiza – Interpretacja – Decyzja – Akcja","Aktywność – Informacja – Działanie – Analiza","Ustalanie – Identyfikacja – Doprecyzowanie – Akceptacja"], c:0},
+  {q: "Dobre praktyki RODO obejmują:", a:["Utrwalanie zgód i możliwość ich wycofania","Zgody domyślne (zaznaczone od razu)","Brak informacji o celu przetwarzania","Nieinformowanie o retencji"], c:0},
+  {q: "Model SPIN (Sytuacja–Problem–Implikacje–Potrzeba korzyści). Element ‘S’ oznacza:", a:["Sprzedaż","Sytuacja","Sukces","Suma"], c:1},
+  {q: "Po wstępnej rozmowie warto przesłać:", a:["Podsumowanie ustaleń + materiały","Wyłącznie ofertę cenową","Komunikat bez kontekstu","Mem w mediach społecznościowych"], c:0},
+  {q: "Rezygnacja z usługi powinna być:", a:["Prosta (1–2 kroki), jasno opisana","Ukryta w 10 krokach","Wymuszająca telefon na infolinię","Niemożliwa"], c:0},
+  {q: "Kiedy użyć lektora (głos syntetyczny) lub nagrania MP3 w kursie:", a:["Gdy użytkownik kliknie Odsłuchaj","Tylko w weekendy","Zawsze automatycznie bez zgody","Nigdy"], c:0},
+  {q: "W module o wynagrodzeniach podkreślamy:", a:["Rozliczanie uzgodnionych i mierzalnych efektów","Brak dokumentowania metryk","Gwarancję wyników","Dowolność interpretacji"], c:0},
+  {q: "Pakiet Standard w przykładzie obejmuje m.in:", a:["Trzymiesięczne wsparcie koordynatora i zakres promocji","Brak wsparcia koordynatora","Wyłącznie hosting bez SSL","Tylko jeden post w mediach społecznościowych"], c:0},
+  {q: "Poziom komunikacji powinien być:", a:["Prosty, zrozumiały, konkretny","Żargonowy i zawiły","Agresywny i presyjny","Sugerujący ‘złote góry’"], c:0},
+  {q: "Dokumentowanie ustaleń jest ważne, bo:", a:["Tworzy ślad audytowy i porządek","Wydłuża czas pracy","Jest zbędne przy krótkich rozmowach","Zastępuje etykę"], c:0}
+];
 
-        <!-- Pytanie 5 -->
-        <div class="question">
-            <h3>5. Ile razy powinieneś spróbować skontaktować się z potencjalnym partnerem zanim uznasz lead za nieaktualny?</h3>
-            <div class="answers">
-                <label>
-                    <input type="radio" name="q5" value="wrong">
-                    <span>A) 1 raz - jeśli nie odpowiedział, to nie jest zainteresowany</span>
-                </label>
-                <label>
-                    <input type="radio" name="q5" value="wrong">
-                    <span>B) 2 razy - jeden telefon i jeden email</span>
-                </label>
-                <label>
-                    <input type="radio" name="q5" value="correct">
-                    <span>C) Minimum 3 próby kontaktu w różnych terminach</span>
-                </label>
-                <label>
-                    <input type="radio" name="q5" value="wrong">
-                    <span>D) Kontaktuj się codziennie aż odpowie</span>
-                </label>
-            </div>
-        </div>
+// Dostępność: render pytań jako fieldset/legend i radiogroup
+function renderQuiz(){
+  quizEl.innerHTML = '';
+  QUESTIONS.forEach((it, idx)=>{ 
+    const fs = document.createElement('fieldset');
+    fs.className = 'card';
+    fs.style.marginTop = '10px';
+    const qId = `q${idx}`;
+    fs.setAttribute('role','radiogroup');
+    fs.setAttribute('aria-labelledby', `${qId}-legend`);
+    fs.innerHTML = `
+      <legend id="${qId}-legend" style="font-weight:700">Pytanie ${idx+1} z ${QUESTIONS.length}</legend>
+      <p>${it.q}</p>
+      <div class="controls" style="flex-wrap:wrap; gap:6px">
+        ${it.a.map((ans,i)=>`
+          <label style="display:flex;align-items:center;gap:6px">
+            <input type="radio" name="${qId}" value="${i}" aria-label="Odpowiedź ${String.fromCharCode(65+i)}. ${ans}">
+            <span>${String.fromCharCode(65+i)}. ${ans}</span>
+          </label>
+        `).join('')}
+      </div>
+      <div class="controls" style="margin-top:6px">
+        <button class="btn" data-tts="${idx}" aria-label="Odsłuchaj to pytanie">Odsłuchaj to pytanie</button>
+      </div>
+    `;
+    quizEl.appendChild(fs);
+  });
+}
+renderQuiz();
 
-        <!-- Pytanie 6 -->
-        <div class="question">
-            <h3>6. Co powinno znaleźć się w pakiecie powitalnym dla nowego partnera?</h3>
-            <div class="answers">
-                <label>
-                    <input type="radio" name="q6" value="wrong">
-                    <span>A) Tylko umowa podpisana przez obie strony</span>
-                </label>
-                <label>
-                    <input type="radio" name="q6" value="correct">
-                    <span>B) Logo fundacji, wytyczne komunikacyjne, certyfikat partnera, harmonogram działań</span>
-                </label>
-                <label>
-                    <input type="radio" name="q6" value="wrong">
-                    <span>C) Prezentacja oferty i case studies</span>
-                </label>
-                <label>
-                    <input type="radio" name="q6" value="wrong">
-                    <span>D) Lista wszystkich partnerów fundacji</span>
-                </label>
-            </div>
-        </div>
+// TTS
+function speak(text){
+  if(!('speechSynthesis' in window)){ alert('Lektor niedostępny w tej przeglądarce.'); return; }
+  const u = new SpeechSynthesisUtterance(text); u.lang='pl-PL'; u.rate=1.0; u.pitch=1.0; window.speechSynthesis.cancel(); window.speechSynthesis.speak(u);
+}
+quizEl.addEventListener('click', (e)=>{
+  const b = e.target.closest('button[data-tts]'); if(!b) return; const i = +b.getAttribute('data-tts'); const s=QUESTIONS[i];
+  const text = `Pytanie ${i+1}. ${s.q}. Odpowiedzi: ${s.a.map((x,j)=>`${String.fromCharCode(65+j)}. ${x}`).join('. ')}`; speak(text);
+});
+playCurrentBtn.addEventListener('click', (e)=>{
+  e.preventDefault();
+  // znajdź pierwsze niewypełnione pytanie lub pierwsze w widoku
+  let idx = 0;
+  for(let i=0;i<QUESTIONS.length;i++){ if(!document.querySelector(`input[name="q${i}"]:checked`)){ idx=i; break; } }
+  const s=QUESTIONS[idx]; const text = `Pytanie ${idx+1}. ${s.q}. Odpowiedzi: ${s.a.map((x,j)=>`${String.fromCharCode(65+j)}. ${x}`).join('. ')}`; speak(text);
+});
 
-        <!-- Pytanie 7 -->
-        <div class="question">
-            <h3>7. W jakiej fazie procesu sprzedaży powinieneś wysłać szczegółową ofertę?</h3>
-            <div class="answers">
-                <label>
-                    <input type="radio" name="q7" value="wrong">
-                    <span>A) Przed pierwszym spotkaniem jako cold email</span>
-                </label>
-                <label>
-                    <input type="radio" name="q7" value="correct">
-                    <span>B) Po spotkaniu discovery, gdy rozumiesz potrzeby partnera</span>
-                </label>
-                <label>
-                    <input type="radio" name="q7" value="wrong">
-                    <span>C) Dopiero po tym jak partner sam o nią poprosi</span>
-                </label>
-                <label>
-                    <input type="radio" name="q7" value="wrong">
-                    <span>D) W dniu podpisania umowy</span>
-                </label>
-            </div>
-        </div>
-
-        <!-- Pytanie 8 -->
-        <div class="question">
-            <h3>8. Partner mówi "To za drogie". Jaka jest najlepsza pierwsza reakcja?</h3>
-            <div class="answers">
-                <label>
-                    <input type="radio" name="q8" value="wrong">
-                    <span>A) Od razu zaproponować 20% rabat</span>
-                </label>
-                <label>
-                    <input type="radio" name="q8" value="wrong">
-                    <span>B) Powiedzieć "To standardowa cena, nie możemy jej zmienić"</span>
-                </label>
-                <label>
-                    <input type="radio" name="q8" value="correct">
-                    <span>C) Rozłożyć wartość (np. "To 50 zł dziennie...") i/lub zaproponować niższy pakiet</span>
-                </label>
-                <label>
-                    <input type="radio" name="q8" value="wrong">
-                    <span>D) Zakończyć rozmowę, jeśli partner nie ma budżetu</span>
-                </label>
-            </div>
-        </div>
-
-        <!-- Pytanie 9 -->
-        <div class="question">
-            <h3>9. Jak często powinieneś kontaktować się z nowym partnerem w pierwszych 3 miesiącach współpracy?</h3>
-            <div class="answers">
-                <label>
-                    <input type="radio" name="q9" value="wrong">
-                    <span>A) Tylko gdy partner sam się zgłosi z problemem</span>
-                </label>
-                <label>
-                    <input type="radio" name="q9" value="correct">
-                    <span>B) Co 2 tygodnie (check-in)</span>
-                </label>
-                <label>
-                    <input type="radio" name="q9" value="wrong">
-                    <span>C) Raz w miesiącu</span>
-                </label>
-                <label>
-                    <input type="radio" name="q9" value="wrong">
-                    <span>D) Codziennie przez pierwszy tydzień, potem wcale</span>
-                </label>
-            </div>
-        </div>
-
-        <!-- Pytanie 10 -->
-        <div class="question">
-            <h3>10. Która kompetencja miękka jest NAJWAŻNIEJSZA dla Werbekoordinatora?</h3>
-            <div class="answers">
-                <label>
-                    <input type="radio" name="q10" value="wrong">
-                    <span>A) Umiejętności graficzne</span>
-                </label>
-                <label>
-                    <input type="radio" name="q10" value="wrong">
-                    <span>B) Znajomość programowania</span>
-                </label>
-                <label>
-                    <input type="radio" name="q10" value="correct">
-                    <span>C) Aktywne słuchanie i empatia</span>
-                </label>
-                <label>
-                    <input type="radio" name="q10" value="wrong">
-                    <span>D) Agresywna sprzedaż</span>
-                </label>
-            </div>
-        </div>
-
-        <!-- Pytanie 11 -->
-        <div class="question">
-            <h3>11. Co oznacza akronim BANT w kwalifikacji leadów?</h3>
-            <div class="answers">
-                <label>
-                    <input type="radio" name="q11" value="correct">
-                    <span>A) Budget, Authority, Need, Timing</span>
-                </label>
-                <label>
-                    <input type="radio" name="q11" value="wrong">
-                    <span>B) Business, Analysis, Negotiation, Trust</span>
-                </label>
-                <label>
-                    <input type="radio" name="q11" value="wrong">
-                    <span>C) Brand, Attention, Network, Target</span>
-                </label>
-                <label>
-                    <input type="radio" name="q11" value="wrong">
-                    <span>D) Balance, Agreement, Needs, Terms</span>
-                </label>
-            </div>
-        </div>
-
-        <!-- Pytanie 12 -->
-        <div class="question">
-            <h3>12. W ciągu jakiego czasu powinieneś wysłać pakiet powitalny po podpisaniu umowy?</h3>
-            <div class="answers">
-                <label>
-                    <input type="radio" name="q12" value="wrong">
-                    <span>A) W ciągu 7 dni</span>
-                </label>
-                <label>
-                    <input type="radio" name="q12" value="correct">
-                    <span>B) W ciągu 48 godzin</span>
-                </label>
-                <label>
-                    <input type="radio" name="q12" value="wrong">
-                    <span>C) W ciągu miesiąca</span>
-                </label>
-                <label>
-                    <input type="radio" name="q12" value="wrong">
-                    <span>D) Tylko gdy partner o to poprosi</span>
-                </label>
-            </div>
-        </div>
-
-        <!-- Pytanie 13 -->
-        <div class="question">
-            <h3>13. Partner ma wątpliwości dotyczące odliczeń podatkowych. Co powinieneś zrobić?</h3>
-            <div class="answers">
-                <label>
-                    <input type="radio" name="q13" value="wrong">
-                    <span>A) Dokładnie wyjaśnić wszystkie przepisy podatkowe</span>
-                </label>
-                <label>
-                    <input type="radio" name="q13" value="correct">
-                    <span>B) Przekazać podstawowe info i skierować do konsultacji z księgowym partnera</span>
-                </label>
-                <label>
-                    <input type="radio" name="q13" value="wrong">
-                    <span>C) Powiedzieć że nie możesz pomóc i zakończyć rozmowę</span>
-                </label>
-                <label>
-                    <input type="radio" name="q13" value="wrong">
-                    <span>D) Zagwarantować konkretne kwoty odliczeń</span>
-                </label>
-            </div>
-        </div>
-
-        <!-- Pytanie 14 -->
-        <div class="question">
-            <h3>14. Co to jest CRM i dlaczego jest ważny dla Werbekoordinatora?</h3>
-            <div class="answers">
-                <label>
-                    <input type="radio" name="q14" value="wrong">
-                    <span>A) Customer Relation Manager - osoba zarządzająca klientami</span>
-                </label>
-                <label>
-                    <input type="radio" name="q14" value="correct">
-                    <span>B) Customer Relationship Management - system do śledzenia kontaktów i procesu sprzedaży</span>
-                </label>
-                <label>
-                    <input type="radio" name="q14" value="wrong">
-                    <span>C) Corporate Resource Management - zarządzanie zasobami firmy</span>
-                </label>
-                <label>
-                    <input type="radio" name="q14" value="wrong">
-                    <span>D) Certified Relationship Methodology - metodyka budowania relacji</span>
-                </label>
-            </div>
-        </div>
-
-        <!-- Pytanie 15 -->
-        <div class="question">
-            <h3>15. Która podstawa prawna RODO pozwala na kontakt biznesowy bez wcześniejszej zgody?</h3>
-            <div class="answers">
-                <label>
-                    <input type="radio" name="q15" value="wrong">
-                    <span>A) Art. 6 ust. 1 lit. a - zgoda</span>
-                </label>
-                <label>
-                    <input type="radio" name="q15" value="correct">
-                    <span>B) Art. 6 ust. 1 lit. f - uzasadniony interes</span>
-                </label>
-                <label>
-                    <input type="radio" name="q15" value="wrong">
-                    <span>C) Art. 6 ust. 1 lit. b - umowa</span>
-                </label>
-                <label>
-                    <input type="radio" name="q15" value="wrong">
-                    <span>D) Żadna - zawsze potrzebna jest zgoda</span>
-                </label>
-            </div>
-        </div>
-
-        <!-- Pytanie 16 -->
-        <div class="question">
-            <h3>16. Jaki jest standardowy czas reakcji na mail od partnera?</h3>
-            <div class="answers">
-                <label>
-                    <input type="radio" name="q16" value="wrong">
-                    <span>A) 1 godzina</span>
-                </label>
-                <label>
-                    <input type="radio" name="q16" value="correct">
-                    <span>B) Maksymalnie 24 godziny w dni robocze</span>
-                </label>
-                <label>
-                    <input type="radio" name="q16" value="wrong">
-                    <span>C) 3 dni robocze</span>
-                </label>
-                <label>
-                    <input type="radio" name="q16" value="wrong">
-                    <span>D) Tydzień</span>
-                </label>
-            </div>
-        </div>
-
-        <!-- Pytanie 17 -->
-        <div class="question">
-            <h3>17. Co powinna zawierać oferta przygotowana dla potencjalnego partnera?</h3>
-            <div class="answers">
-                <label>
-                    <input type="radio" name="q17" value="wrong">
-                    <span>A) Tylko cennik pakietów</span>
-                </label>
-                <label>
-                    <input type="radio" name="q17" value="wrong">
-                    <span>B) Uniwersalną prezentację taką samą dla wszystkich</span>
-                </label>
-                <label>
-                    <input type="radio" name="q17" value="correct">
-                    <span>C) Zrozumienie potrzeb partnera, dopasowane rozwiązanie, case study, harmonogram i korzyści</span>
-                </label>
-                <label>
-                    <input type="radio" name="q17" value="wrong">
-                    <span>D) Tylko informacje o fundacji i jej historii</span>
-                </label>
-            </div>
-        </div>
-
-        <!-- Pytanie 18 -->
-        <div class="question">
-            <h3>18. Partner przestaje odpowiadać na maile. Co powinieneś zrobić?</h3>
-            <div class="answers">
-                <label>
-                    <input type="radio" name="q18" value="wrong">
-                    <span>A) Wysyłać maile codziennie aż odpowie</span>
-                </label>
-                <label>
-                    <input type="radio" name="q18" value="correct">
-                    <span>B) Zadzwonić i zapytać wprost czy wszystko w porządku</span>
-                </label>
-                <label>
-                    <input type="radio" name="q18" value="wrong">
-                    <span>C) Od razu uznać że partner zrezygnował</span>
-                </label>
-                <label>
-                    <input type="radio" name="q18" value="wrong">
-                    <span>D) Poczekać kilka miesięcy</span>
-                </label>
-            </div>
-        </div>
-
-        <!-- Pytanie 19 -->
-        <div class="question">
-            <h3>19. Która z tych czynności NIE jest częścią onboardingu nowego partnera?</h3>
-            <div class="answers">
-                <label>
-                    <input type="radio" name="q19" value="wrong">
-                    <span>A) Wysłanie pakietu powitalnego</span>
-                </label>
-                <label>
-                    <input type="radio" name="q19" value="wrong">
-                    <span>B) Spotkanie kickoff</span>
-                </label>
-                <label>
-                    <input type="radio" name="q19" value="correct">
-                    <span>C) Przeszkolenie partnera z zarządzania finansami fundacji</span>
-                </label>
-                <label>
-                    <input type="radio" name="q19" value="wrong">
-                    <span>D) Przedstawienie zespołu fundacji</span>
-                </label>
-            </div>
-        </div>
-
-        <!-- Pytanie 20 -->
-        <div class="question">
-            <h3>20. Najważniejsza zasada budowania długoterminowych relacji z partnerami to:</h3>
-            <div class="answers">
-                <label>
-                    <input type="radio" name="q20" value="wrong">
-                    <span>A) Oferowanie maksymalnych rabatów</span>
-                </label>
-                <label>
-                    <input type="radio" name="q20" value="correct">
-                    <span>B) Konsekwencja w dotrzymywaniu obietnic i regularna komunikacja</span>
-                </label>
-                <label>
-                    <input type="radio" name="q20" value="wrong">
-                    <span>C) Kontakt tylko wtedy, gdy partner sam się odezwie</span>
-                </label>
-                <label>
-                    <input type="radio" name="q20" value="wrong">
-                    <span>D) Częste zmiany warunków współpracy</span>
-                </label>
-            </div>
-        </div>
-
-        <div class="test-buttons">
-            <button type="button" id="play-question" class="control-btn">🔊 Odtwórz pytanie</button>
-            <button type="button" id="submit-test" class="nav-btn">Sprawdź wynik</button>
-            <button type="button" id="retry-test" class="nav-btn" style="display:none;">Powtórz test</button>
-        </div>
-    </form>
-
-    <div id="test-result"></div>
-</div>
-
-<style>
-.test-container {
-    max-width: 900px;
-    margin: 0 auto;
+// Voice input (rozpoznawanie mowy) — jeśli dostępne
+let recognition=null, voiceOn=false;
+(function initVoice(){
+  const SR = window.SpeechRecognition || window.webkitSpeechRecognition; if(!SR){ voiceToggle.disabled=true; voiceStatus.textContent='Wejście głosem niedostępne w tej przeglądarce.'; return; }
+  recognition = new SR(); recognition.lang='pl-PL'; recognition.interimResults=false; recognition.continuous=true;
+  recognition.onresult = (ev)=>{
+    for(const res of ev.results){ if(res.isFinal){ const t = res[0].transcript.trim().toLowerCase(); handleVoice(t); } }
+  };
+  recognition.onend = ()=>{ if(voiceOn) recognition.start(); };
+})();
+voiceToggle.addEventListener('click', ()=>{
+  if(!recognition) return;
+  voiceOn = !voiceOn; voiceToggle.setAttribute('aria-pressed', String(voiceOn));
+  if(voiceOn){ try{ recognition.start(); voiceStatus.textContent='Odpowiedzi głosem włączone. Mów: odpowiedź A/B/C/D.'; }catch(e){} }
+  else { try{ recognition.stop(); voiceStatus.textContent='Odpowiedzi głosem wyłączone.'; }catch(e){} }
+});
+function handleVoice(t){
+  // akceptuj: "odpowiedź a", "a", "be", "ce", "de"
+  let letter=null;
+  if(/\b(odpowiedz|odpowiedź)\s*a\b|^a$/.test(t)) letter='A';
+  else if(/\b(odpowiedz|odpowiedź)\s*b\b|^b$|\bbe\b/.test(t)) letter='B';
+  else if(/\b(odpowiedz|odpowiedź)\s*c\b|^c$|\bce\b/.test(t)) letter='C';
+  else if(/\b(odpowiedz|odpowiedź)\s*d\b|^d$|\bde\b/.test(t)) letter='D';
+  if(!letter) return;
+  // Zaznacz w pierwszym niewypełnionym pytaniu
+  for(let i=0;i<QUESTIONS.length;i++){
+    const radios = [...document.querySelectorAll(`input[name="q${i}"]`)];
+    if(!radios.some(r=>r.checked)){
+      const idx = letter.charCodeAt(0)-65; if(radios[idx]){ radios[idx].checked = true; radios[idx].focus(); }
+      break;
+    }
+  }
 }
 
-.question {
-    background-color: var(--bg-tertiary);
-    padding: 1.5rem;
-    border-radius: 8px;
-    margin-bottom: 2rem;
+// Próby i okno 12 miesięcy
+const LS_ATTEMPTS='kk_test_attempts'; const LS_STATE='kk_test_state';
+function loadAttempts(){ try{return JSON.parse(localStorage.getItem(LS_ATTEMPTS)||'[]');}catch{return[]} }
+function saveAttempts(a){ localStorage.setItem(LS_ATTEMPTS, JSON.stringify(a)); }
+function withinWindow(ts){ return (Date.now()-ts) <= WINDOW_DAYS*24*3600*1000; }
+function attemptsWindow(){ const all=loadAttempts(); const recent=all.filter(a=>withinWindow(new Date(a.start).getTime())); recent.sort((a,b)=>new Date(a.start)-new Date(b.start)); return recent; }
+function attemptsLeft(){ const recent=attemptsWindow(); return Math.max(0, ATTEMPTS_MAX - recent.length); }
+function lockInfo(){ const r=attemptsWindow(); if(r.length<ATTEMPTS_MAX) return null; const first=new Date(r[0].start).getTime(); const unlock = new Date(first + WINDOW_DAYS*24*3600*1000); return {unlock}; }
+function refreshLockUI(){ const left=attemptsLeft(); elAttemptsLeft.textContent = left; const info=lockInfo(); if(info){ const d=info.unlock.toISOString().slice(0,10); lockMsg.style.display='block'; lockMsg.innerHTML=`Limit 3 prób w 12 miesięcy został wyczerpany. Kolejna pula będzie dostępna od: <strong>${d}</strong>.`; startBtn.disabled=true; } else { lockMsg.style.display='none'; startBtn.disabled=false; }}
+refreshLockUI();
+
+// Timer z pauzą
+let interval=null, pauseInterval=null; let running=false, pauseUsed=false; let endAt=null, pausedUntil=null; let duration=BASE_DURATION;
+function fmt(sec){ const m=Math.floor(sec/60), s=sec%60; return `${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`; }
+function updateRing(){ const total=duration; const remain = Math.max(0, Math.floor((endAt-Date.now())/1000)); const pct = Math.max(0, Math.min(100, Math.round((remain/total)*100))); elRing.setAttribute('stroke-dasharray', `${pct} 100`); }
+function tick(){ if(!running) return; const now=Date.now(); if(pausedUntil && now<pausedUntil){ const left=Math.max(0, Math.floor((pausedUntil-now)/1000)); elPauseInfo.style.display='block'; elPauseLeft.textContent=fmt(left); elTime.textContent=fmt(Math.max(0, Math.floor((endAt - pausedUntil)/1000))); updateRing(); return; } else { elPauseInfo.style.display='none'; pausedUntil=null; }
+  const remain=Math.max(0, Math.floor((endAt-now)/1000)); elTime.textContent=fmt(remain); updateRing(); if(remain<=0){ stopTimer(); finalize(false, 'Czas minął. Próba zakończona.'); } }
+function startTimer(){ running=true; const now=Date.now(); endAt = now + duration*1000; saveState(); if(interval) clearInterval(interval); interval=setInterval(tick,1000); tick(); }
+function stopTimer(){ running=false; if(interval) clearInterval(interval); if(pauseInterval) clearInterval(pauseInterval); saveState(); }
+
+// Globalny interfejs dla app.js (Pauza/Stop)
+window.TEST_TIMER_API = {
+  pause10(){ if(!running){ alert('Najpierw rozpocznij test.'); return; } if(pauseUsed){ alert('Pauza została już wykorzystana.'); return; } pauseUsed=true; const now=Date.now(); pausedUntil = now + PAUSE_DURATION*1000; saveState(); elPauseInfo.style.display='block';
+    if(pauseInterval) clearInterval(pauseInterval); pauseInterval = setInterval(()=>{ if(Date.now()>=pausedUntil){ clearInterval(pauseInterval); pauseInterval=null; elPauseInfo.style.display='none'; } else { const left=Math.max(0, Math.floor((pausedUntil-Date.now())/1000)); elPauseLeft.textContent=fmt(left); } }, 1000);
+  },
+  stopAttempt(){ if(!running){ alert('Test nie jest uruchomiony.'); return; } if(confirm('Zatrzymanie testu oznacza rezygnację z tej próby i utratę możliwości uzyskania certyfikatu w tej próbie. Kontynuować?')){ stopTimer(); finalize(false, 'Próbę przerwano przyciskiem Stop.'); }
+  }
+};
+
+// Start
+startBtn.addEventListener('click', ()=>{
+  if(startBtn.disabled) return; if(attemptsLeft()<=0){ refreshLockUI(); return; }
+  duration = a11yModeEl.checked ? A11Y_DURATION : BASE_DURATION;
+  elTime.textContent = fmt(duration);
+  const all=loadAttempts(); all.push({id:'A-'+Date.now(), start: new Date().toISOString(), status:'ongoing'}); saveAttempts(all);
+  quizWrap.style.display='block'; startPanel.style.display='none'; renderQuiz(); startTimer();
+});
+
+// Sprawdź wynik
+checkBtn.addEventListener('click', (e)=>{
+  e.preventDefault(); if(!running){ alert('Najpierw rozpocznij test.'); return; }
+  let correct=0; QUESTIONS.forEach((it,idx)=>{ const checked=document.querySelector(`input[name="q${idx}"]:checked`); const val=checked? +checked.value : -1; if(val===it.c) correct++; });
+  const total=QUESTIONS.length; const pct=Math.round((correct/total)*100); const pass = pct>=80; stopTimer(); finalize(pass, pass? 'Gratulacje! Test zaliczony.' : 'Niestety, wynik poniżej progu.'); localStorage.setItem('kk_course_test', JSON.stringify({correct,total,pct,pass,date:new Date().toISOString()}));
+});
+
+// Powtórz – reset sesji
+retryBtn.addEventListener('click', (e)=>{
+  e.preventDefault(); resultEl.style.display='none'; quizEl.innerHTML=''; renderQuiz(); startPanel.style.display='block'; quizWrap.style.display='none'; refreshLockUI(); running=false; pauseUsed=false; endAt=null; pausedUntil=null; saveState();
+});
+
+// Finalizacja
+function finalize(pass, message){ running=false; saveState(); const all=loadAttempts(); for(let i=all.length-1;i>=0;i--){ if(all[i].status==='ongoing'){ all[i].status = pass? 'passed' : 'failed'; break; } } saveAttempts(all); const attemptsRemaining = attemptsLeft(); elAttemptsLeft.textContent = attemptsRemaining; resultEl.style.display = 'block'; resultEl.innerHTML = `
+  <h3>${message}</h3>
+  <p>Pozostałe próby: ${attemptsRemaining} / ${ATTEMPTS_MAX} (w oknie 12 miesięcy).</p>
+  ${pass ? '<div class="controls"><a class="btn primary" href="../../certificate.html" target="_blank" rel="noopener">Przejdź do certyfikatu</a></div>' : ''}
+`;
+  refreshLockUI();
 }
 
-.question h3 {
-    color: var(--accent-primary);
-    margin-bottom: 1rem;
-}
-
-.answers {
-    list-style: none;
-    margin-left: 0;
-}
-
-.answers label {
-    display: block;
-    padding: 1rem;
-    margin-bottom: 0.5rem;
-    background-color: var(--bg-secondary);
-    border-radius: 8px;
-    cursor: pointer;
-    transition: all 0.2s ease;
-    border: 2px solid transparent;
-}
-
-.answers label:hover {
-    background-color: var(--bg-primary);
-    border-color: var(--accent-primary);
-}
-
-.answers input[type="radio"] {
-    margin-right: 0.75rem;
-    cursor: pointer;
-}
-
-.test-result {
-    margin-top: 2rem;
-    padding: 2rem;
-    border-radius: 8px;
-    text-align: center;
-}
-
-.test-result.passed {
-    background-color: rgba(46, 204, 113, 0.2);
-    border: 3px solid var(--success);
-}
-
-.test-result.failed {
-    background-color: rgba(243, 156, 18, 0.2);
-    border: 3px solid var(--warning);
-}
-
-.test-buttons {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    margin: 2rem 0;
-    flex-wrap: wrap;
-}
-</style>
+// Restore (po odświeżeniu karty)
+function loadState(){ try{return JSON.parse(localStorage.getItem(LS_STATE)||'{}');}catch{return{}} }
+function saveState(){ const st={running,endAt,pausedUntil,pauseUsed,duration}; localStorage.setItem(LS_STATE, JSON.stringify(st)); }
+(function restore(){ refreshLockUI(); const st=loadState(); if(!st||!st.endAt) return; running=!!st.running; pauseUsed=!!st.pauseUsed; endAt=st.endAt; pausedUntil=st.pausedUntil||null; duration=st.duration||BASE_DURATION; if(running){ startPanel.style.display='none'; quizWrap.style.display='block'; renderQuiz(); tick(); if(interval) clearInterval(interval); interval=setInterval(tick,1000); if(pausedUntil){ elPauseInfo.style.display='block'; if(pauseInterval) clearInterval(pauseInterval); pauseInterval=setInterval(()=>{ if(Date.now()>=pausedUntil){ clearInterval(pauseInterval); pauseInterval=null; elPauseInfo.style.display='none'; } else { const left=Math.max(0, Math.floor((pausedUntil-Date.now())/1000)); elPauseLeft.textContent=fmt(left); } }, 1000); } } })();
+</script>
