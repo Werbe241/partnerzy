@@ -1,244 +1,59 @@
-<article aria-labelledby="testTitle">
+<article class="test-compact" aria-labelledby="testTitle">
   <h2 id="testTitle">Test końcowy — sprawdź swoją wiedzę</h2>
   <p>Masz maksymalnie 60 minut na rozwiązanie testu. Jeśli zaznaczysz poniżej, że jesteś osobą z niepełnosprawnością, czas wydłuży się do 90 minut. Możesz jednorazowo wstrzymać licznik na 10 minut przyciskiem „Pauza” w pasku kursu. Przycisk „Stop” kończy próbę i liczy się jako zużyta.</p>
 
-  <div class="card" id="a11yPanel" style="display:flex;gap:12px;align-items:center;flex-wrap:wrap" role="region" aria-label="Ustawienia dostępności">
+  <div class="card" id="a11yPanel" style="display:flex;gap:8px;align-items:center;flex-wrap:wrap" role="region" aria-label="Ustawienia dostępności">
     <label style="display:flex;align-items:center;gap:8px"><input type="checkbox" id="a11yMode"> Jestem osobą z niepełnosprawnością (czas testu 90 minut)</label>
     <button class="btn" id="voiceToggle" aria-pressed="false" aria-label="Włącz odpowiedzi głosem">Włącz odpowiedzi głosem</button>
     <span id="voiceStatus" aria-live="polite" style="color:#666"></span>
   </div>
 
   <!-- Pasek: czas + próby -->
-  <div class="card" id="testBar" style="display:flex;align-items:center;gap:14px;flex-wrap:wrap" role="region" aria-label="Pasek stanu testu">
-    <div style="display:flex;align-items:center;gap:10px">
-      <svg width="56" height="56" viewBox="0 0 36 36" aria-hidden="true">
+  <div class="card" id="testBar" style="display:flex;align-items:center;gap:10px;flex-wrap:wrap" role="region" aria-label="Pasek stanu testu">
+    <div style="display:flex;align-items:center;gap:8px">
+      <svg width="44" height="44" viewBox="0 0 36 36" aria-hidden="true">
         <circle cx="18" cy="18" r="16" fill="none" stroke="#e6e6f5" stroke-width="4"></circle>
         <circle id="ring" cx="18" cy="18" r="16" fill="none" stroke="#667eea" stroke-width="4" stroke-linecap="round" stroke-dasharray="100 100" transform="rotate(-90 18 18)"></circle>
       </svg>
       <div>
         <div style="font-weight:700">Pozostały czas: <span id="time" aria-live="polite">60:00</span></div>
-        <div id="pauseInfo" style="color:#666;font-size:13px;display:none">Wstrzymano: <span id="pauseLeft">10:00</span></div>
+        <div id="pauseInfo" style="color:#666;font-size:12px;display:none">Wstrzymano: <span id="pauseLeft">10:00</span></div>
       </div>
     </div>
-    <div style="margin-left:auto">
+    <div style="margin-left:auto;font-size:14px">
       <strong>Pozostałe próby: <span id="attemptsLeft">3</span>/3</strong>
     </div>
   </div>
 
-  <div id="startPanel" class="card" style="margin-top:10px" role="region" aria-label="Start testu">
-    <p>Aby rozpocząć odliczanie, kliknij przycisk poniżej. Licznik prób uruchamia się w momencie startu.</p>
+  <div id="startPanel" class="card" style="margin-top:8px" role="region" aria-label="Start testu">
+    <p style="margin:0 0 6px">Aby rozpocząć odliczanie, kliknij przycisk poniżej. Licznik prób uruchamia się w momencie startu.</p>
     <div class="controls">
       <button class="btn primary" id="startTest" aria-label="Rozpocznij test">Rozpocznij test</button>
     </div>
-    <div id="lockMsg" class="callout" style="display:none;margin-top:10px" aria-live="polite"></div>
+    <div id="lockMsg" class="callout" style="display:none;margin-top:6px" aria-live="polite"></div>
   </div>
 
   <div id="quizWrap" style="display:none">
     <form id="quiz" aria-label="Pytania testowe"></form>
 
-    <div class="controls" style="margin-top:12px">
+    <div class="controls" style="margin-top:8px;gap:6px">
       <button class="btn" id="playCurrent" aria-label="Odsłuchaj aktualne pytanie">Odsłuchaj pytanie</button>
       <button class="btn primary" id="check" aria-label="Sprawdź wynik">Sprawdź wynik</button>
       <button class="btn" id="retry" aria-label="Powtórz test">Powtórz test</button>
     </div>
 
-    <div id="result" class="card" style="margin-top:14px; display:none" aria-live="polite"></div>
+    <div id="result" class="card" style="margin-top:10px; display:none" aria-live="polite"></div>
   </div>
+
+  <style>
+    /* Kompaktowy układ testu */
+    .test-compact .card{ padding:10px 12px; border-radius:10px; }
+    .test-compact fieldset.card{ padding:10px 12px; }
+    .test-compact .controls{ gap:6px; }
+    .test-compact [role="radiogroup"] label{ padding:8px 10px; margin:6px 0; border:1px solid #e6e6f0; border-radius:8px; background:#fff; }
+    .test-compact [role="radiogroup"] label:hover{ background:#f8f9ff; }
+    .test-compact #quiz .card{ margin-top:8px; }
+  </style>
 </article>
 
-<script>
-// Parametry testu i dostępności
-const BASE_DURATION = 60*60;     // 60 min
-const A11Y_DURATION  = 90*60;     // 90 min (tryb dostępności)
-const PAUSE_DURATION = 10*60;     // 10 min (jednorazowa pauza)
-const ATTEMPTS_MAX   = 3;         // 3 próby
-const WINDOW_DAYS    = 365;       // okno 12 miesięcy
-
-// Elementy UI
-const elTime = document.getElementById('time');
-const elRing = document.getElementById('ring');
-const elPauseInfo = document.getElementById('pauseInfo');
-const elPauseLeft = document.getElementById('pauseLeft');
-const elAttemptsLeft = document.getElementById('attemptsLeft');
-const startPanel = document.getElementById('startPanel');
-const startBtn = document.getElementById('startTest');
-const lockMsg = document.getElementById('lockMsg');
-const quizWrap = document.getElementById('quizWrap');
-const quizEl = document.getElementById('quiz');
-const resultEl = document.getElementById('result');
-const playCurrentBtn = document.getElementById('playCurrent');
-const checkBtn = document.getElementById('check');
-const retryBtn = document.getElementById('retry');
-const a11yModeEl = document.getElementById('a11yMode');
-const voiceToggle = document.getElementById('voiceToggle');
-const voiceStatus = document.getElementById('voiceStatus');
-
-// Pytania (po polsku, z jasnym językiem)
-const QUESTIONS = [
-  {q: "Misją Koordynatora Reklamy (KR) jest przede wszystkim:", a:["Sprzedaż za wszelką cenę","Umożliwianie mądrych decyzji rozmówcy","Zbieranie jak największej ilości danych","Tylko obsługa dużych firm"], c:1},
-  {q: "Transparentność oznacza, że:", a:["Ubarwiamy korzyści","Przemilczamy ryzyka","Mówimy prawdę o warunkach i ograniczeniach","Obiecujemy gwarantowane efekty"], c:2},
-  {q: "W kontekście RODO zbieramy:", a:["Tylko dane niezbędne do celu","Wszystkie możliwe dane na zapas","Dane wyłącznie wrażliwe","Dane innych firm bez zgody"], c:0},
-  {q: "Granice roli oznaczają m.in:", a:["Obietnice bez pokrycia","Brak notatek po rozmowie","Presję na natychmiastową decyzję","Unikanie gwarancji i jasne warunki"], c:3},
-  {q: "Po każdej rozmowie warto:", a:["Wysłać krótkie podsumowanie: decyzja/termin/krok","Nie robić nic","Zadzwonić jeszcze raz tego samego dnia bez ustaleń","Usunąć wszystkie notatki"], c:0},
-  {q: "Przykładowy rytm dnia koordynatora zakłada:", a:["Notowanie ustaleń i follow‑up","Brak planu","Wyłącznie rozmowy bez dokumentacji","Zostawianie wszystkiego na jutro"], c:0},
-  {q: "Checklista jakości pomaga:", a:["Unikać typowych błędów","Zwiększyć chaos","Ukrywać nieścisłości","Skracać rozmowy do 30 sekund"], c:0},
-  {q: "Pakiet powitalny służy przede wszystkim:", a:["Budowaniu zaufania i startowi działań","Natychmiastowym wynikom gwarantowanym","Zastąpieniu wszystkich działań płatnych","Zbieraniu danych bez zgód"], c:0},
-  {q: "Premia za sukces to:", a:["Stała opłata niezależna od efektów","Prowizja od obrotu firmy","Wynagrodzenie zależne od uzgodnionej metryki i wyników","Darmowy bonus bez warunków"], c:2},
-  {q: "Górny limit naliczenia w premii za sukces oznacza:", a:["Minimalny wynik","Górny limit naliczenia","Karę umowną","Liczbę rozmów"], c:1},
-  {q: "Model AIDA to kolejność:", a:["Uwaga – Zainteresowanie – Pragnienie – Działanie","Analiza – Interpretacja – Decyzja – Akcja","Aktywność – Informacja – Działanie – Analiza","Ustalanie – Identyfikacja – Doprecyzowanie – Akceptacja"], c:0},
-  {q: "Dobre praktyki RODO obejmują:", a:["Utrwalanie zgód i możliwość ich wycofania","Zgody domyślne (zaznaczone od razu)","Brak informacji o celu przetwarzania","Nieinformowanie o retencji"], c:0},
-  {q: "Model SPIN (Sytuacja–Problem–Implikacje–Potrzeba korzyści). Element ‘S’ oznacza:", a:["Sprzedaż","Sytuacja","Sukces","Suma"], c:1},
-  {q: "Po wstępnej rozmowie warto przesłać:", a:["Podsumowanie ustaleń + materiały","Wyłącznie ofertę cenową","Komunikat bez kontekstu","Mem w mediach społecznościowych"], c:0},
-  {q: "Rezygnacja z usługi powinna być:", a:["Prosta (1–2 kroki), jasno opisana","Ukryta w 10 krokach","Wymuszająca telefon na infolinię","Niemożliwa"], c:0},
-  {q: "Kiedy użyć lektora (głos syntetyczny) lub nagrania MP3 w kursie:", a:["Gdy użytkownik kliknie Odsłuchaj","Tylko w weekendy","Zawsze automatycznie bez zgody","Nigdy"], c:0},
-  {q: "W module o wynagrodzeniach podkreślamy:", a:["Rozliczanie uzgodnionych i mierzalnych efektów","Brak dokumentowania metryk","Gwarancję wyników","Dowolność interpretacji"], c:0},
-  {q: "Pakiet Standard w przykładzie obejmuje m.in:", a:["Trzymiesięczne wsparcie koordynatora i zakres promocji","Brak wsparcia koordynatora","Wyłącznie hosting bez SSL","Tylko jeden post w mediach społecznościowych"], c:0},
-  {q: "Poziom komunikacji powinien być:", a:["Prosty, zrozumiały, konkretny","Żargonowy i zawiły","Agresywny i presyjny","Sugerujący ‘złote góry’"], c:0},
-  {q: "Dokumentowanie ustaleń jest ważne, bo:", a:["Tworzy ślad audytowy i porządek","Wydłuża czas pracy","Jest zbędne przy krótkich rozmowach","Zastępuje etykę"], c:0}
-];
-
-// Dostępność: render pytań jako fieldset/legend i radiogroup
-function renderQuiz(){
-  quizEl.innerHTML = '';
-  QUESTIONS.forEach((it, idx)=>{ 
-    const fs = document.createElement('fieldset');
-    fs.className = 'card';
-    fs.style.marginTop = '10px';
-    const qId = `q${idx}`;
-    fs.setAttribute('role','radiogroup');
-    fs.setAttribute('aria-labelledby', `${qId}-legend`);
-    fs.innerHTML = `
-      <legend id="${qId}-legend" style="font-weight:700">Pytanie ${idx+1} z ${QUESTIONS.length}</legend>
-      <p>${it.q}</p>
-      <div class="controls" style="flex-wrap:wrap; gap:6px">
-        ${it.a.map((ans,i)=>`
-          <label style="display:flex;align-items:center;gap:6px">
-            <input type="radio" name="${qId}" value="${i}" aria-label="Odpowiedź ${String.fromCharCode(65+i)}. ${ans}">
-            <span>${String.fromCharCode(65+i)}. ${ans}</span>
-          </label>
-        `).join('')}
-      </div>
-      <div class="controls" style="margin-top:6px">
-        <button class="btn" data-tts="${idx}" aria-label="Odsłuchaj to pytanie">Odsłuchaj to pytanie</button>
-      </div>
-    `;
-    quizEl.appendChild(fs);
-  });
-}
-renderQuiz();
-
-// TTS
-function speak(text){
-  if(!('speechSynthesis' in window)){ alert('Lektor niedostępny w tej przeglądarce.'); return; }
-  const u = new SpeechSynthesisUtterance(text); u.lang='pl-PL'; u.rate=1.0; u.pitch=1.0; window.speechSynthesis.cancel(); window.speechSynthesis.speak(u);
-}
-quizEl.addEventListener('click', (e)=>{
-  const b = e.target.closest('button[data-tts]'); if(!b) return; const i = +b.getAttribute('data-tts'); const s=QUESTIONS[i];
-  const text = `Pytanie ${i+1}. ${s.q}. Odpowiedzi: ${s.a.map((x,j)=>`${String.fromCharCode(65+j)}. ${x}`).join('. ')}`; speak(text);
-});
-playCurrentBtn.addEventListener('click', (e)=>{
-  e.preventDefault();
-  // znajdź pierwsze niewypełnione pytanie lub pierwsze w widoku
-  let idx = 0;
-  for(let i=0;i<QUESTIONS.length;i++){ if(!document.querySelector(`input[name="q${i}"]:checked`)){ idx=i; break; } }
-  const s=QUESTIONS[idx]; const text = `Pytanie ${idx+1}. ${s.q}. Odpowiedzi: ${s.a.map((x,j)=>`${String.fromCharCode(65+j)}. ${x}`).join('. ')}`; speak(text);
-});
-
-// Voice input (rozpoznawanie mowy) — jeśli dostępne
-let recognition=null, voiceOn=false;
-(function initVoice(){
-  const SR = window.SpeechRecognition || window.webkitSpeechRecognition; if(!SR){ voiceToggle.disabled=true; voiceStatus.textContent='Wejście głosem niedostępne w tej przeglądarce.'; return; }
-  recognition = new SR(); recognition.lang='pl-PL'; recognition.interimResults=false; recognition.continuous=true;
-  recognition.onresult = (ev)=>{
-    for(const res of ev.results){ if(res.isFinal){ const t = res[0].transcript.trim().toLowerCase(); handleVoice(t); } }
-  };
-  recognition.onend = ()=>{ if(voiceOn) recognition.start(); };
-})();
-voiceToggle.addEventListener('click', ()=>{
-  if(!recognition) return;
-  voiceOn = !voiceOn; voiceToggle.setAttribute('aria-pressed', String(voiceOn));
-  if(voiceOn){ try{ recognition.start(); voiceStatus.textContent='Odpowiedzi głosem włączone. Mów: odpowiedź A/B/C/D.'; }catch(e){} }
-  else { try{ recognition.stop(); voiceStatus.textContent='Odpowiedzi głosem wyłączone.'; }catch(e){} }
-});
-function handleVoice(t){
-  // akceptuj: "odpowiedź a", "a", "be", "ce", "de"
-  let letter=null;
-  if(/\b(odpowiedz|odpowiedź)\s*a\b|^a$/.test(t)) letter='A';
-  else if(/\b(odpowiedz|odpowiedź)\s*b\b|^b$|\bbe\b/.test(t)) letter='B';
-  else if(/\b(odpowiedz|odpowiedź)\s*c\b|^c$|\bce\b/.test(t)) letter='C';
-  else if(/\b(odpowiedz|odpowiedź)\s*d\b|^d$|\bde\b/.test(t)) letter='D';
-  if(!letter) return;
-  // Zaznacz w pierwszym niewypełnionym pytaniu
-  for(let i=0;i<QUESTIONS.length;i++){
-    const radios = [...document.querySelectorAll(`input[name="q${i}"]`)];
-    if(!radios.some(r=>r.checked)){
-      const idx = letter.charCodeAt(0)-65; if(radios[idx]){ radios[idx].checked = true; radios[idx].focus(); }
-      break;
-    }
-  }
-}
-
-// Próby i okno 12 miesięcy
-const LS_ATTEMPTS='kk_test_attempts'; const LS_STATE='kk_test_state';
-function loadAttempts(){ try{return JSON.parse(localStorage.getItem(LS_ATTEMPTS)||'[]');}catch{return[]} }
-function saveAttempts(a){ localStorage.setItem(LS_ATTEMPTS, JSON.stringify(a)); }
-function withinWindow(ts){ return (Date.now()-ts) <= WINDOW_DAYS*24*3600*1000; }
-function attemptsWindow(){ const all=loadAttempts(); const recent=all.filter(a=>withinWindow(new Date(a.start).getTime())); recent.sort((a,b)=>new Date(a.start)-new Date(b.start)); return recent; }
-function attemptsLeft(){ const recent=attemptsWindow(); return Math.max(0, ATTEMPTS_MAX - recent.length); }
-function lockInfo(){ const r=attemptsWindow(); if(r.length<ATTEMPTS_MAX) return null; const first=new Date(r[0].start).getTime(); const unlock = new Date(first + WINDOW_DAYS*24*3600*1000); return {unlock}; }
-function refreshLockUI(){ const left=attemptsLeft(); elAttemptsLeft.textContent = left; const info=lockInfo(); if(info){ const d=info.unlock.toISOString().slice(0,10); lockMsg.style.display='block'; lockMsg.innerHTML=`Limit 3 prób w 12 miesięcy został wyczerpany. Kolejna pula będzie dostępna od: <strong>${d}</strong>.`; startBtn.disabled=true; } else { lockMsg.style.display='none'; startBtn.disabled=false; }}
-refreshLockUI();
-
-// Timer z pauzą
-let interval=null, pauseInterval=null; let running=false, pauseUsed=false; let endAt=null, pausedUntil=null; let duration=BASE_DURATION;
-function fmt(sec){ const m=Math.floor(sec/60), s=sec%60; return `${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`; }
-function updateRing(){ const total=duration; const remain = Math.max(0, Math.floor((endAt-Date.now())/1000)); const pct = Math.max(0, Math.min(100, Math.round((remain/total)*100))); elRing.setAttribute('stroke-dasharray', `${pct} 100`); }
-function tick(){ if(!running) return; const now=Date.now(); if(pausedUntil && now<pausedUntil){ const left=Math.max(0, Math.floor((pausedUntil-now)/1000)); elPauseInfo.style.display='block'; elPauseLeft.textContent=fmt(left); elTime.textContent=fmt(Math.max(0, Math.floor((endAt - pausedUntil)/1000))); updateRing(); return; } else { elPauseInfo.style.display='none'; pausedUntil=null; }
-  const remain=Math.max(0, Math.floor((endAt-now)/1000)); elTime.textContent=fmt(remain); updateRing(); if(remain<=0){ stopTimer(); finalize(false, 'Czas minął. Próba zakończona.'); } }
-function startTimer(){ running=true; const now=Date.now(); endAt = now + duration*1000; saveState(); if(interval) clearInterval(interval); interval=setInterval(tick,1000); tick(); }
-function stopTimer(){ running=false; if(interval) clearInterval(interval); if(pauseInterval) clearInterval(pauseInterval); saveState(); }
-
-// Globalny interfejs dla app.js (Pauza/Stop)
-window.TEST_TIMER_API = {
-  pause10(){ if(!running){ alert('Najpierw rozpocznij test.'); return; } if(pauseUsed){ alert('Pauza została już wykorzystana.'); return; } pauseUsed=true; const now=Date.now(); pausedUntil = now + PAUSE_DURATION*1000; saveState(); elPauseInfo.style.display='block';
-    if(pauseInterval) clearInterval(pauseInterval); pauseInterval = setInterval(()=>{ if(Date.now()>=pausedUntil){ clearInterval(pauseInterval); pauseInterval=null; elPauseInfo.style.display='none'; } else { const left=Math.max(0, Math.floor((pausedUntil-Date.now())/1000)); elPauseLeft.textContent=fmt(left); } }, 1000);
-  },
-  stopAttempt(){ if(!running){ alert('Test nie jest uruchomiony.'); return; } if(confirm('Zatrzymanie testu oznacza rezygnację z tej próby i utratę możliwości uzyskania certyfikatu w tej próbie. Kontynuować?')){ stopTimer(); finalize(false, 'Próbę przerwano przyciskiem Stop.'); }
-  }
-};
-
-// Start
-startBtn.addEventListener('click', ()=>{
-  if(startBtn.disabled) return; if(attemptsLeft()<=0){ refreshLockUI(); return; }
-  duration = a11yModeEl.checked ? A11Y_DURATION : BASE_DURATION;
-  elTime.textContent = fmt(duration);
-  const all=loadAttempts(); all.push({id:'A-'+Date.now(), start: new Date().toISOString(), status:'ongoing'}); saveAttempts(all);
-  quizWrap.style.display='block'; startPanel.style.display='none'; renderQuiz(); startTimer();
-});
-
-// Sprawdź wynik
-checkBtn.addEventListener('click', (e)=>{
-  e.preventDefault(); if(!running){ alert('Najpierw rozpocznij test.'); return; }
-  let correct=0; QUESTIONS.forEach((it,idx)=>{ const checked=document.querySelector(`input[name="q${idx}"]:checked`); const val=checked? +checked.value : -1; if(val===it.c) correct++; });
-  const total=QUESTIONS.length; const pct=Math.round((correct/total)*100); const pass = pct>=80; stopTimer(); finalize(pass, pass? 'Gratulacje! Test zaliczony.' : 'Niestety, wynik poniżej progu.'); localStorage.setItem('kk_course_test', JSON.stringify({correct,total,pct,pass,date:new Date().toISOString()}));
-});
-
-// Powtórz – reset sesji
-retryBtn.addEventListener('click', (e)=>{
-  e.preventDefault(); resultEl.style.display='none'; quizEl.innerHTML=''; renderQuiz(); startPanel.style.display='block'; quizWrap.style.display='none'; refreshLockUI(); running=false; pauseUsed=false; endAt=null; pausedUntil=null; saveState();
-});
-
-// Finalizacja
-function finalize(pass, message){ running=false; saveState(); const all=loadAttempts(); for(let i=all.length-1;i>=0;i--){ if(all[i].status==='ongoing'){ all[i].status = pass? 'passed' : 'failed'; break; } } saveAttempts(all); const attemptsRemaining = attemptsLeft(); elAttemptsLeft.textContent = attemptsRemaining; resultEl.style.display = 'block'; resultEl.innerHTML = `
-  <h3>${message}</h3>
-  <p>Pozostałe próby: ${attemptsRemaining} / ${ATTEMPTS_MAX} (w oknie 12 miesięcy).</p>
-  ${pass ? '<div class="controls"><a class="btn primary" href="../../certificate.html" target="_blank" rel="noopener">Przejdź do certyfikatu</a></div>' : ''}
-`;
-  refreshLockUI();
-}
-
-// Restore (po odświeżeniu karty)
-function loadState(){ try{return JSON.parse(localStorage.getItem(LS_STATE)||'{}');}catch{return{}} }
-function saveState(){ const st={running,endAt,pausedUntil,pauseUsed,duration}; localStorage.setItem(LS_STATE, JSON.stringify(st)); }
-(function restore(){ refreshLockUI(); const st=loadState(); if(!st||!st.endAt) return; running=!!st.running; pauseUsed=!!st.pauseUsed; endAt=st.endAt; pausedUntil=st.pausedUntil||null; duration=st.duration||BASE_DURATION; if(running){ startPanel.style.display='none'; quizWrap.style.display='block'; renderQuiz(); tick(); if(interval) clearInterval(interval); interval=setInterval(tick,1000); if(pausedUntil){ elPauseInfo.style.display='block'; if(pauseInterval) clearInterval(pauseInterval); pauseInterval=setInterval(()=>{ if(Date.now()>=pausedUntil){ clearInterval(pauseInterval); pauseInterval=null; elPauseInfo.style.display='none'; } else { const left=Math.max(0, Math.floor((pausedUntil-Date.now())/1000)); elPauseLeft.textContent=fmt(left); } }, 1000); } } })();
-</script>
+<!-- Logika testu ładowana dynamicznie przez app.js (modules/TEST/test.js) -->
