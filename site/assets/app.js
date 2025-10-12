@@ -44,9 +44,20 @@
   function buildToc(container) {
     elToc.innerHTML = '';
     const heads = container.querySelectorAll('h2, h3, h4');
+    const usedIds = new Set();
     heads.forEach(h => {
       if (!h.id) {
-        h.id = h.textContent.trim().toLowerCase().replace(/\s+/g, '-').replace(/[^\w\-ąćęłńóśżź]/gi, '');
+        let baseId = h.textContent.trim().toLowerCase().replace(/\s+/g, '-').replace(/[^\w\-ąćęłńóśżź]/gi, '');
+        let id = baseId;
+        let counter = 1;
+        while (usedIds.has(id)) {
+          id = `${baseId}-${counter}`;
+          counter++;
+        }
+        h.id = id;
+        usedIds.add(id);
+      } else {
+        usedIds.add(h.id);
       }
       const a = document.createElement('a');
       a.href = `#${h.id}`;
@@ -72,7 +83,11 @@
     const mod = cfg.modules.find(m => m.id === id) || cfg.modules[0];
     if (!mod) return;
     highlightActive(mod.id);
-    elContent.innerHTML = `<div class="loading">Ładowanie: ${mod.title}…</div>`;
+    const loadingDiv = document.createElement('div');
+    loadingDiv.className = 'loading';
+    loadingDiv.textContent = `Ładowanie: ${mod.title}…`;
+    elContent.innerHTML = '';
+    elContent.appendChild(loadingDiv);
     elToc.innerHTML = '';
     try {
       const md = await fetchMarkdown(mod);
@@ -81,13 +96,21 @@
       document.title = `${mod.title} — ${cfg.title}`;
     } catch (e) {
       console.error(e);
-      elContent.innerHTML = `<div class="loading">⚠️ Nie udało się wczytać modułu z pliku lokalnego. Sprawdź ścieżkę: <code>${mod.localPath}</code></div>`;
+      const errorDiv = document.createElement('div');
+      errorDiv.className = 'loading';
+      errorDiv.textContent = '⚠️ Nie udało się wczytać modułu z pliku lokalnego. Sprawdź ścieżkę: ';
+      const code = document.createElement('code');
+      code.textContent = mod.localPath;
+      errorDiv.appendChild(code);
+      elContent.innerHTML = '';
+      elContent.appendChild(errorDiv);
     }
   }
 
   btnPrint.addEventListener('click', () => window.print());
 
   renderModuleList();
-  const startId = location.hash?.slice(1) || cfg.defaultModuleId || cfg.modules[0]?.id;
+  const hash = location.hash?.slice(1);
+  const startId = (hash && cfg.modules.find(m => m.id === hash)) ? hash : (cfg.defaultModuleId || cfg.modules[0]?.id);
   selectModule(startId);
 })();
