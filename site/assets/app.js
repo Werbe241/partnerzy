@@ -61,6 +61,10 @@
   }
 
   function renderMarkdown(mdText) {
+    if (typeof marked === 'undefined') {
+      elContent.innerHTML = '<div class="loading">⚠️ Biblioteka Marked.js nie załadowała się z CDN. Sprawdź połączenie internetowe.</div>';
+      return;
+    }
     marked.setOptions({ breaks: false, gfm: true });
     const html = marked.parse(mdText);
     elContent.innerHTML = html;
