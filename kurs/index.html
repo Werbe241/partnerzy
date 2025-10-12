@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Kurs Koordynatora Reklamy</title>
-  <meta name="description" content="Kurs Koordynatora Reklamy – Fundacja Werbekoordynator" />
+  <meta name="description" content="Kurs Koordynatora Reklamy — Fundacja Werbekoordinator" />
   <link rel="stylesheet" href="assets/styles.css" />
   <!-- Parser Markdown (CDN) -->
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
@@ -12,13 +12,25 @@
 <body>
   <header class="app-header">
     <div class="brand">
-      <div class="logo">📘</div>
+      <div class="logo">
+        <img src="/modul_partnerzy_gotowy/uploads/logo_fundacji.png" alt="Fundacja Werbekoordinator — logo" />
+      </div>
       <div class="title">
         <h1>Kurs Koordynatora Reklamy</h1>
-        <div class="subtitle">Fundacja Werbekoordynator</div>
+        <div class="subtitle">Fundacja Werbekoordinator</div>
       </div>
     </div>
     <nav class="actions">
+      <div class="tts">
+        <label for="voiceSelect" class="sr-only">Lektor</label>
+        <select id="voiceSelect" title="Wybór lektora"></select>
+        <label for="rate" class="rate-label">Prędkość</label>
+        <input id="rate" type="range" min="0.8" max="1.4" step="0.1" value="1.0" />
+        <button id="btnPlayAll" title="Odtwórz cały moduł">▶</button>
+        <button id="btnPause" title="Pauza">⏸</button>
+        <button id="btnResume" title="Wznów">⏵</button>
+        <button id="btnStop" title="Stop">⏹</button>
+      </div>
       <button id="btnPrint" title="Zapisz/drukuj PDF">🖨️ PDF</button>
       <button id="btnTheme" title="Tryb jasny/ciemny">🌓</button>
     </nav>
@@ -44,7 +56,7 @@
   </main>
 
   <footer class="app-footer">
-    <div>© Fundacja Werbekoordynator • Kurs edukacyjny</div>
+    <div>© Fundacja Werbekoordinator • Kurs edukacyjny</div>
     <div class="hint">Źródło treści: pliki Markdown (.md) z folderu kurs/ na Twoim serwerze.</div>
   </footer>
 
