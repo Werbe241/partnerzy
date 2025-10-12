@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kurs Koordynatora Reklamy</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+  <header class="app-header">
+    <div class="brand">
+      <div class="logo">🎓</div>
+      <div class="title">
+        <h1>Kurs Koordynatora Reklamy</h1>
+        <div class="subtitle">Fundacja Werbekoordynator</div>
+      </div>
+    </div>
+    <div class="actions">
+      <button id="btnTheme" title="Zmień motyw" aria-label="Przełącz między trybem jasnym i ciemnym">🌗</button>
+      <button id="btnPrint" title="Drukuj / zapisz PDF" aria-label="Drukuj lub zapisz jako PDF">🖨️ PDF</button>
+    </div>
+  </header>
+
+  <main class="app-main">
+    <aside class="sidebar">
+      <div class="sidebar-section">
+        <div class="sidebar-heading">Moduły</div>
+        <ul id="moduleList" class="nav-list"></ul>
+      </div>
+      <div class="sidebar-section">
+        <div class="sidebar-heading">Spis treści</div>
+        <nav id="toc" class="toc"></nav>
+      </div>
+    </aside>
+
+    <section class="content">
+      <article id="content" class="markdown-body">
+        <div class="loading">Ładowanie kursu…</div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="app-footer">
+    <div>© Fundacja Werbekoordynator • Kurs edukacyjny</div>
+    <div class="hint">Źródło treści: pliki Markdown (.md) z folderu site/kurs/ na Twoim serwerze.</div>
+  </footer>
+
+  <script src="assets/config.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>
