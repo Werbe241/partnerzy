@@ -6,58 +6,54 @@
   <title>Kurs Koordynatora Reklamy</title>
   <meta name="description" content="Kurs Koordynatora Reklamy — Fundacja Werbekoordinator" />
   <link rel="stylesheet" href="assets/styles.css" />
-  <!-- Parser Markdown (CDN) -->
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
-<body>
-  <header class="app-header">
+<body class="app-bg">
+  <header class="topbar">
     <div class="brand">
-      <div class="logo">
-        <img src="/modul_partnerzy_gotowy/uploads/logo_fundacji.png" alt="Fundacja Werbekoordinator — logo" />
-      </div>
-      <div class="title">
-        <h1>Kurs Koordynatora Reklamy</h1>
-        <div class="subtitle">Fundacja Werbekoordinator</div>
-      </div>
+      <img class="brand-logo" src="/modul_partnerzy_gotowy/uploads/logo_fundacji.png" alt="Fundacja Werbekoordinator — logo" />
+      <div class="brand-title">Kurs Werbekoordinator</div>
     </div>
-    <nav class="actions">
-      <div class="tts">
-        <label for="voiceSelect" class="sr-only">Lektor</label>
-        <select id="voiceSelect" title="Wybór lektora"></select>
-        <label for="rate" class="rate-label">Prędkość</label>
-        <input id="rate" type="range" min="0.8" max="1.4" step="0.1" value="1.0" />
-        <button id="btnPlayAll" title="Odtwórz cały moduł">▶</button>
-        <button id="btnPause" title="Pauza">⏸</button>
-        <button id="btnResume" title="Wznów">⏵</button>
-        <button id="btnStop" title="Stop">⏹</button>
-      </div>
-      <button id="btnPrint" title="Zapisz/drukuj PDF">🖨️ PDF</button>
-      <button id="btnTheme" title="Tryb jasny/ciemny">🌓</button>
-    </nav>
+    <div class="progress-wrap">
+      <div class="progress-bar"><div class="progress-fill" id="progressFill" style="width:0%"></div></div>
+      <div class="progress-label">Postęp: <span id="progressPct">0%</span></div>
+    </div>
+    <div class="top-actions">
+      <button id="btnPrint" class="btn ghost">PDF</button>
+      <button id="btnTheme" class="btn ghost">Jasny/Ciemny</button>
+    </div>
   </header>
 
-  <main class="app-main">
-    <aside class="sidebar">
-      <div class="sidebar-section">
-        <div class="sidebar-heading">Moduły</div>
-        <ul id="moduleList" class="nav-list"></ul>
-      </div>
-      <div class="sidebar-section">
-        <div class="sidebar-heading">Spis treści</div>
-        <nav id="toc" class="toc"></nav>
-      </div>
+  <main class="layout">
+    <aside class="sidebar card">
+      <div class="sidebar-head">Kurs Werbekoordinator</div>
+      <nav class="modules" id="modulesNav"></nav>
+      <div class="sidebar-divider"></div>
+      <div class="sidebar-head small">Spis treści modułu</div>
+      <nav class="toc" id="toc"></nav>
     </aside>
 
-    <section class="content">
-      <article id="content" class="markdown-body">
-        <div class="loading">Ładowanie kursu…</div>
-      </article>
+    <section class="content card">
+      <header class="content-head">
+        <div class="content-title" id="sectionTitle">Ładowanie…</div>
+        <div class="controls">
+          <button id="ttsPlay" class="btn primary">Odsłuchaj</button>
+          <button id="ttsPause" class="btn">Pauza</button>
+          <button id="ttsStop" class="btn">Stop</button>
+        </div>
+      </header>
+
+      <article id="contentBody" class="md"></article>
+
+      <footer class="pager">
+        <button id="btnPrev" class="btn">Wstecz</button>
+        <button id="btnNext" class="btn primary">Dalej</button>
+      </footer>
     </section>
   </main>
 
-  <footer class="app-footer">
-    <div>© Fundacja Werbekoordinator • Kurs edukacyjny</div>
-    <div class="hint">Źródło treści: pliki Markdown (.md) z folderu kurs/ na Twoim serwerze.</div>
+  <footer class="foot">
+    © Fundacja Werbekoordinator • Statyczny kurs (MD). Jeśli treść się nie wczyta, sprawdź plik .md i .htaccess.
   </footer>
 
   <script src="assets/config.js"></script>
