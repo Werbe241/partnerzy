@@ -1,170 +1,87 @@
 (function () {
   const cfg = window.KURS_CONFIG;
-  const elList = document.getElementById('moduleList');
-  const elContent = document.getElementById('content');
+  const elModulesNav = document.getElementById('modulesNav');
   const elToc = document.getElementById('toc');
+  const elContent = document.getElementById('contentBody');
+  const elTitle = document.getElementById('sectionTitle');
+  const btnPrev = document.getElementById('btnPrev');
+  const btnNext = document.getElementById('btnNext');
   const btnPrint = document.getElementById('btnPrint');
   const btnTheme = document.getElementById('btnTheme');
+  const elPct = document.getElementById('progressPct');
+  const elFill = document.getElementById('progressFill');
 
-  // TTS global
-  const voiceSelect = document.getElementById('voiceSelect');
-  const rateInput = document.getElementById('rate');
-  const btnPlayAll = document.getElementById('btnPlayAll');
-  const btnPause = document.getElementById('btnPause');
-  const btnResume = document.getElementById('btnResume');
-  const btnStop = document.getElementById('btnStop');
+  const ttsPlay = document.getElementById('ttsPlay');
+  const ttsPause = document.getElementById('ttsPause');
+  const ttsStop = document.getElementById('ttsStop');
 
-  let voices = [];
-  let currentUtterance = null;
-
-  function loadVoices() {
-    voices = window.speechSynthesis.getVoices() || [];
-    voiceSelect.innerHTML = '';
-    const preferred = voices.filter(v => /Polish|pl-PL/i.test(v.lang));
-    const list = preferred.length ? preferred : voices;
-    list.forEach(v => {
-      const opt = document.createElement('option');
-      opt.value = v.name;
-      opt.textContent = `${v.name} (${v.lang})`;
-      voiceSelect.appendChild(opt);
-    });
-  }
-  loadVoices();
-  if (typeof window.speechSynthesis !== 'undefined') {
-    window.speechSynthesis.onvoiceschanged = loadVoices;
-  }
-
-  function ttsStop() {
-    if (window.speechSynthesis.speaking || window.speechSynthesis.pending) {
-      window.speechSynthesis.cancel();
-    }
-    currentUtterance = null;
-  }
-  function ttsPause() {
-    if (window.speechSynthesis.speaking && !window.speechSynthesis.paused) {
-      window.speechSynthesis.pause();
-    }
-  }
-  function ttsResume() {
-    if (window.speechSynthesis.paused) {
-      window.speechSynthesis.resume();
-    }
-  }
-  function ttsSpeak(text) {
-    ttsStop();
-    if (!text || !text.trim()) return;
-    const u = new SpeechSynthesisUtterance(text);
-    const chosen = voices.find(v => v.name === voiceSelect.value);
-    if (chosen) u.voice = chosen;
-    const rate = parseFloat(rateInput.value || '1.0');
-    u.rate = Math.max(0.1, Math.min(2.0, rate));
-    currentUtterance = u;
-    window.speechSynthesis.speak(u);
-  }
-
-  // Motyw: domyślnie jasny
-  const savedTheme = localStorage.getItem('kurs_theme');
-  if (savedTheme === 'dark') document.documentElement.classList.add('dark');
+  // Theme (default light)
+  const saved = localStorage.getItem('kurs_theme');
+  if (saved === 'dark') document.documentElement.classList.add('dark');
   btnTheme.addEventListener('click', () => {
     const isDark = document.documentElement.classList.toggle('dark');
     localStorage.setItem('kurs_theme', isDark ? 'dark' : 'light');
   });
 
-  // Moduły
-  function renderModuleList() {
-    elList.innerHTML = '';
+  // State
+  let currentModule = cfg.modules.find(m => m.id === (location.hash.split('?')[0].slice(1) || cfg.defaultModuleId)) || cfg.modules[0];
+  let sections = []; // [{title, html}]
+  let step = 0;
+
+  // TTS
+  function speak(text) {
+    try {
+      window.speechSynthesis.cancel();
+      if (!text) return;
+      const u = new SpeechSynthesisUtterance(text);
+      const voices = window.speechSynthesis.getVoices() || [];
+      const pl = voices.find(v => /pl-PL|Polish/i.test(v.lang));
+      if (pl) u.voice = pl;
+      u.rate = 1.0;
+      window.speechSynthesis.speak(u);
+    } catch {}
+  }
+  function pause() {
+    try { if (speechSynthesis.speaking && !speechSynthesis.paused) speechSynthesis.pause(); } catch {}
+  }
+  function stop() {
+    try { speechSynthesis.cancel(); } catch {}
+  }
+
+  // Render modules list (active module + its sections)
+  function renderModulesNav() {
+    elModulesNav.innerHTML = '';
     cfg.modules.forEach(m => {
-      const li = document.createElement('li');
-      const a = document.createElement('a');
-      a.href = `#${m.id}`;
-      a.textContent = m.title;
-      a.addEventListener('click', (e) => {
-        e.preventDefault();
-        selectModule(m.id);
-      });
-      li.appendChild(a);
-      elList.appendChild(li);
-    });
-  }
-  function highlightActive(id) {
-    const links = elList.querySelectorAll('a');
-    links.forEach(a => a.classList.toggle('active', a.getAttribute('href') === `#${id}`));
-  }
+      const title = document.createElement('div');
+      title.className = 'module-title';
+      title.textContent = m.title;
+      title.style.cursor = 'pointer';
+      title.addEventListener('click', () => selectModule(m.id));
+      elModulesNav.appendChild(title);
 
-  // Pobieranie Markdown
-  async function fetchMarkdown(mod) {
-    const url = mod.localPath;
-    const res = await fetch(url, { cache: 'no-cache' });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    return await res.text();
-  }
-
-  // Podział treści: każdy H2 => osobna karta
-  function groupIntoSectionCards(container) {
-    const nodes = Array.from(container.childNodes);
-    const grouped = document.createDocumentFragment();
-
-    let currentCard = null;
-    function makeCard() {
-      const card = document.createElement('section');
-      card.className = 'section-card markdown-body';
-      return card;
-    }
-
-    nodes.forEach(node => {
-      if (node.nodeType === Node.ELEMENT_NODE && node.tagName === 'H2') {
-        currentCard = makeCard();
-        grouped.appendChild(currentCard);
-        currentCard.appendChild(node);
-
-        // Akcje sekcji (odtwarzanie tej sekcji)
-        const actions = document.createElement('div');
-        actions.className = 'section-actions';
-        const bPlay = document.createElement('button');
-        bPlay.textContent = '▶ Odtwórz sekcję';
-        bPlay.addEventListener('click', () => {
-          const text = currentCard.innerText || '';
-          ttsSpeak(text);
+      if (m.id === currentModule.id) {
+        sections.forEach((s, idx) => {
+          const a = document.createElement('a');
+          a.href = `#${m.id}?step=${idx}`;
+          a.className = 'section' + (idx === step ? ' active' : '');
+          a.textContent = s.title || `Sekcja ${idx + 1}`;
+          a.addEventListener('click', (e) => { e.preventDefault(); goTo(idx); });
+          elModulesNav.appendChild(a);
         });
-        const bPause = document.createElement('button');
-        bPause.textContent = '⏸ Pauza';
-        bPause.addEventListener('click', ttsPause);
-        const bResume = document.createElement('button');
-        bResume.textContent = '⏵ Wznów';
-        bResume.addEventListener('click', ttsResume);
-        const bStop = document.createElement('button');
-        bStop.textContent = '⏹ Stop';
-        bStop.addEventListener('click', ttsStop);
-
-        actions.appendChild(bPlay);
-        actions.appendChild(bPause);
-        actions.appendChild(bResume);
-        actions.appendChild(bStop);
-        currentCard.appendChild(actions);
-
-      } else {
-        if (!currentCard) {
-          currentCard = makeCard();
-          grouped.appendChild(currentCard);
-        }
-        currentCard.appendChild(node);
       }
     });
-
-    container.innerHTML = '';
-    container.appendChild(grouped);
   }
 
-  // Spis treści
-  function buildToc(container) {
+  // Build TOC from current content
+  function buildToc() {
     elToc.innerHTML = '';
-    const heads = container.querySelectorAll('h2, h3, h4');
+    const heads = elContent.querySelectorAll('h2, h3, h4');
     heads.forEach(h => {
       if (!h.id) {
         h.id = h.textContent.trim().toLowerCase()
           .replace(/\s+/g, '-')
           .replace(/[^
-\w\-ąćęłńóśżź]/gi, '');
+w\-ąćęłńóśżź]/gi, '');
       }
       const a = document.createElement('a');
       a.href = `#${h.id}`;
@@ -178,53 +95,98 @@
     });
   }
 
-  function renderMarkdown(mdText, modTitle) {
-    if (typeof marked === 'undefined') {
-      elContent.innerHTML = '<div class="loading">⚠️ Błąd: parser Markdown nie został załadowany.</div>';
-      return;
-    }
-    marked.setOptions({ breaks: false, gfm: true });
-    const html = marked.parse(mdText);
-    elContent.innerHTML = `<section class="section-card markdown-body"><h2>${modTitle}</h2>${html}</section>`;
-    // Podziel po wstawieniu — tak, by pierwszy H2 modułu też tworzył kartę
+  // Split Markdown HTML into H2 sections
+  function splitIntoSections(html) {
     const tmp = document.createElement('div');
-    tmp.innerHTML = elContent.querySelector('.section-card').innerHTML;
-    elContent.innerHTML = tmp.innerHTML;
+    tmp.innerHTML = html;
+    const out = [];
+    let buf = document.createElement('div');
+    let currentTitle = 'Wprowadzenie';
 
-    groupIntoSectionCards(elContent);
-    buildToc(elContent);
-    elContent.querySelectorAll('a[href^="http"]').forEach(a => { a.target = '_blank'; a.rel = 'noopener'; });
+    Array.from(tmp.childNodes).forEach(node => {
+      if (node.nodeType === 1 && node.tagName === 'H2') {
+        if (buf.childNodes.length) out.push({ title: currentTitle, html: buf.innerHTML });
+        currentTitle = node.textContent.trim();
+        buf = document.createElement('div');
+      } else {
+        buf.appendChild(node.cloneNode(true));
+      }
+    });
+    if (buf.childNodes.length) out.push({ title: currentTitle, html: buf.innerHTML });
+    return out.length ? out : [{ title: currentTitle, html }];
+  }
+
+  async function loadModule(mod) {
+    const res = await fetch(mod.localPath, { cache: 'no-cache' });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const md = await res.text();
+    if (typeof marked === 'undefined') throw new Error('Parser Markdown nie wczytany');
+    const html = marked.parse(md);
+    sections = splitIntoSections(html);
+  }
+
+  function updateProgress() {
+    const pct = sections.length ? Math.round(((step + 1) / sections.length) * 100) : 0;
+    elPct.textContent = `${pct}%`;
+    elFill.style.width = `${pct}%`;
+  }
+
+  function renderStep() {
+    const s = sections[step] || { title: 'Sekcja', html: '<p>Brak treści</p>' };
+    elTitle.textContent = s.title;
+    elContent.innerHTML = s.html;
+    buildToc();
+    updateProgress();
+    renderModulesNav();
+    history.replaceState(null, '', `#${currentModule.id}?step=${step}`);
+    document.title = `${s.title} — ${cfg.siteTitle}`;
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function goTo(i) {
+    if (i < 0 || i >= sections.length) return;
+    step = i;
+    renderStep();
   }
 
   async function selectModule(id) {
+    stop();
     const mod = cfg.modules.find(m => m.id === id) || cfg.modules[0];
     if (!mod) return;
-    highlightActive(mod.id);
-    elContent.innerHTML = `<div class="loading">Ładowanie: ${mod.title}…</div>`;
+    currentModule = mod;
+    step = 0;
+    elContent.innerHTML = '<p>Ładowanie modułu…</p>';
     elToc.innerHTML = '';
-    try {
-      const md = await fetchMarkdown(mod);
-      renderMarkdown(md, mod.title);
-      history.replaceState(null, '', `#${mod.id}`);
-      document.title = `${mod.title} — ${cfg.title}`;
-    } catch (e) {
-      console.error(e);
-      elContent.innerHTML = `<div class="loading">⚠️ Nie udało się wczytać modułu. Sprawdź plik: <code>${mod.localPath}</code></div>`;
-    }
+    await loadModule(mod);
+    renderStep();
   }
 
-  // Akcje globalne TTS
-  btnPlayAll.addEventListener('click', () => {
-    const text = (elContent.innerText || '').trim();
-    ttsSpeak(text);
-  });
-  btnPause.addEventListener('click', ttsPause);
-  btnResume.addEventListener('click', ttsResume);
-  btnStop.addEventListener('click', ttsStop);
-
+  // Controls
+  btnPrev.addEventListener('click', () => goTo(step - 1));
+  btnNext.addEventListener('click', () => goTo(step + 1));
   btnPrint.addEventListener('click', () => window.print());
+  ttsPlay.addEventListener('click', () => speak(elContent.innerText || '')); 
+  ttsPause.addEventListener('click', pause);
+  ttsStop.addEventListener('click', stop);
 
-  renderModuleList();
-  const startId = location.hash?.slice(1) || cfg.defaultModuleId || cfg.modules[0]?.id;
-  selectModule(startId);
+  // Init
+  (async () => {
+    const hash = location.hash.slice(1);
+    const [id, qs] = hash.split('?');
+    const wanted = cfg.modules.find(m => m.id === id);
+    if (wanted) currentModule = wanted;
+    try {
+      await loadModule(currentModule);
+    } catch (e) {
+      elTitle.textContent = 'Błąd ładowania';
+      elContent.innerHTML = `<p>Nie udało się wczytać treści modułu: <code>${currentModule.localPath}</code></p>`;
+      console.error(e);
+      return;
+    }
+    const params = new URLSearchParams(qs || '');
+    const s = parseInt(params.get('step') || '0', 10);
+    step = Number.isFinite(s) && s >= 0 ? Math.min(s, sections.length - 1) : 0;
+    renderModulesNav();
+    renderStep();
+  })();
 })();
