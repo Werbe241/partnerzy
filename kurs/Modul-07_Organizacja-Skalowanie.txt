@@ -1,0 +1,192 @@
+# Moduł 7: Organizacja i skalowanie
+
+## 01. Od 1 do 10 Partnerów – jak zacząć?
+Na początku wszystko robisz sam:
+- Prospecting (szukasz Partnerów).
+- Kwalifikacja i prezentacja.
+- Wdrożenie (kody, szkolenie, materiały).
+- Follow-up.
+- Raportowanie.
+
+**Typowy rozkład czasu (40h/tydzień, 1 KR):**
+- Prospecting: 10h (20 kontaktów/tydzień).
+- Rozmowy i kwalifikacja: 8h (10 rozmów).
+- Wdrożenia: 12h (3 wdrożenia/tydzień).
+- Follow-up: 6h (10 aktywnych Partnerów).
+- Administracja: 4h (raporty, faktury, CRM).
+
+**Efekt:** 3 nowych Partnerów/tydzień = ~12/miesiąc. Po 3 miesiącach masz ~30 aktywnych (przy 20% churn).
+
+## 02. Bottleneck – co Cię blokuje przy skali?
+Kiedy masz >20 Partnerów, zaczynają się problemy:
+- **Brak czasu na prospecting** – cały czas idzie na obsługę istniejących.
+- **Follow-up się rozmywa** – zapominasz o kontaktach, Partnerzy odchodzą.
+- **Wdrożenia trwają za długo** – brak standardyzacji, każde wdrożenie „od nowa".
+- **Chaos w CRM** – nie wiesz, kto gdzie jest w pipeline.
+
+**Rozwiązanie:** Systematyzacja + delegacja.
+
+## 03. Systematyzacja procesów
+Każdy proces musi mieć checklist i szablon.
+
+**Proces 1: Prospecting**
+- Checklist: źródło → lista 20 firm → research (LinkedIn, strona) → first message → tracking odpowiedzi.
+- Szablon wiadomości (3 warianty: e-mail, LinkedIn, WhatsApp).
+- Cel: 20 kontaktów/tydzień = 1h dziennie.
+
+**Proces 2: Kwalifikacja**
+- Checklist: 5 pytań kwalifikacyjnych → notatka (5 pól) → decyzja (TAK/NIE/MOŻE) → follow-up.
+- Szablon notatki (Google Doc).
+- Cel: 10 rozmów/tydzień = 30 min/rozmowa.
+
+**Proces 3: Wdrożenie**
+- Checklist: konfiguracja kont → generacja kodów → materiały (QR, naklejki, instrukcje) → szkolenie personelu → test.
+- Pakiet startowy (PDF + pliki do druku).
+- Cel: 1 wdrożenie = 3h (zamiast 6h ad hoc).
+
+**Proces 4: Follow-up**
+- Checklist: D+2, D+5, D+7, D+14 → mikro-raporty → reakcja na spadki.
+- Szablon mikro-raportu (3 linijki).
+- Automatyzacja: przypomnienia w CRM.
+
+**Efekt systematyzacji:** Czas wdrożenia spada z 6h do 3h. Follow-up z 30 min do 10 min/Partner.
+
+## 04. Delegacja – kiedy zatrudnić wsparcie?
+Kiedy masz >30 aktywnych Partnerów, potrzebujesz pomocy.
+
+**Opcja 1: Junior KR (asystent)**
+- Zadania: prospecting, first contact, scheduling rozmów, przygotowanie materiałów.
+- Ty robisz: kwalifikacja, wdrożenie, negocjacje.
+- Koszt: 3 000–5 000 zł/miesiąc (pół etatu lub B2B).
+- Efekt: Ty obsługujesz 50+ Partnerów zamiast 30.
+
+**Opcja 2: Freelancer do administracji**
+- Zadania: CRM, raporty, faktury, dashboardy.
+- Ty robisz: praca z Partnerami.
+- Koszt: 1 500–3 000 zł/miesiąc (10–20h).
+- Efekt: Odzyskujesz 4h/tydzień.
+
+**Opcja 3: Specjalista od wdrożeń**
+- Zadania: konfiguracja techniczna, szkolenia personelu.
+- Ty robisz: prospecting, kwalifikacja, relacje.
+- Koszt: 4 000–6 000 zł/miesiąc (pełen etat).
+- Efekt: Skalujesz do 100+ Partnerów.
+
+**Kiedy delegować?**
+- Prospecting: gdy masz >20 Partnerów.
+- Administracja: gdy masz >30 Partnerów.
+- Wdrożenia: gdy masz >50 Partnerów.
+
+## 05. Model zespołowy (2+ KR)
+Gdy firma rośnie, potrzebujesz kilku KR w terenie.
+
+**Struktura:**
+- **Lead KR (Ty):** Zarządzanie zespołem, negocjacje kluczowe, rozwój produktu.
+- **KR Senior:** Obsługa top Partnerów, skomplikowane wdrożenia.
+- **KR Junior:** Prospecting, wdrożenia standardowe, follow-up.
+- **Admin/Ops:** CRM, raporty, faktury.
+
+**Podział terytorialny:**
+- KR A: Warszawa + okolice (50 Partnerów).
+- KR B: Kraków + okolice (50 Partnerów).
+- KR C: Wrocław + okolice (50 Partnerów).
+
+**Podział branżowy (alternatywa):**
+- KR A: Gastronomia.
+- KR B: Handel detaliczny.
+- KR C: Usługi (beauty, fitness, zdrowie).
+
+**Komunikacja w zespole:**
+- Daily standup (15 min, online): co zrobiłeś wczoraj, co robisz dziś, co Cię blokuje.
+- Tygodniowy review (1h): liczby, problemy, plany.
+- Miesięczny all-hands (2h): strategia, nowe pomysły, feedback.
+
+## 06. Narzędzia do współpracy zespołowej
+- **CRM:** Jeden wspólny (HubSpot, Pipedrive) – każdy KR widzi swoich Partnerów + pipeline całego zespołu.
+- **Komunikacja:** Slack/Discord – kanały: #prospecting, #wdrożenia, #problemy, #sukcesy.
+- **Dokumentacja:** Google Drive/Notion – wszystkie szablony, materiały, procedury.
+- **Tracking:** Arkusz „KPIs zespołu" – liczba rozmów, wdrożeń, prowizji per KR.
+
+**Dashboard zespołowy (Google Sheets):**
+| KR    | Partnerzy aktywni | Nowe wdrożenia (m-c) | Prowizje (m-c) | Churn (m-c) |
+|-------|-------------------|----------------------|----------------|-------------|
+| Anna  | 45                | 8                    | 12 000 zł      | 2           |
+| Bartek| 38                | 6                    | 9 500 zł       | 1           |
+| Celina| 52                | 10                   | 15 000 zł      | 3           |
+| SUMA  | 135               | 24                   | 36 500 zł      | 6           |
+
+## 07. KPI dla KR (co mierzyć?)
+**KPI operacyjne (tydzień/miesiąc):**
+- Liczba nowych kontaktów (prospecting).
+- Liczba rozmów kwalifikacyjnych.
+- Liczba wdrożeń.
+- Liczba aktywnych Partnerów.
+- Churn (liczba Partnerów, którzy odeszli).
+
+**KPI biznesowe (miesiąc/kwartał):**
+- Prowizje wygenerowane.
+- Średnia prowizja na Partnera.
+- Czas od pierwszego kontaktu do wdrożenia (im krócej, tym lepiej).
+- Net Promoter Score (NPS) od Partnerów (czy poleciliby KR innym?).
+
+**Target dla 1 KR (miesiąc):**
+- Nowe wdrożenia: 8–12.
+- Partnerzy aktywni: 30–50.
+- Prowizje: 10 000–20 000 zł (zależnie od modelu i branży).
+- Churn: <10%.
+
+## 08. Skalowanie geograficzne
+Jak wejść w nowy region?
+
+**Krok 1: Research**
+- Ile firm w regionie (potencjalnych Partnerów)?
+- Czy są konkurencyjne programy lojalnościowe?
+- Jakie są lokalne sieci (izby, grupy)?
+
+**Krok 2: Lokalny KR**
+- Zatrudnij KR z tego regionu (zna rynek, ma kontakty).
+- Albo: Ty robisz 1–2 wdrożenia pilotażowe (sprawdzasz, czy model działa).
+
+**Krok 3: Adaptacja**
+- Dostosuj komunikaty do lokalnej specyfiki (inne miasto = inne branże dominują).
+- Przykład: Warszawa = dużo usług B2B, małe miasta = handel detaliczny, gastronomia.
+
+**Krok 4: Budowanie sieci**
+- Pierwsi Partnerzy w regionie polecają kolejnych (efekt kuli śnieżnej).
+
+**Przykład:** Wejście do Krakowa.
+- Miesiąc 1: 5 wdrożeń (kawiarnie, sklepy).
+- Miesiąc 2: 2 z 5 polecają kolejnych → +3 wdrożenia.
+- Miesiąc 3: 8 aktywnych Partnerów → zatrudnienie local KR.
+- Miesiąc 6: 25 aktywnych Partnerów w Krakowie.
+
+## 09. Mini-case: Skalowanie z 10 do 100 Partnerów
+**Punkt start (Miesiąc 0):** 1 KR, 10 Partnerów, 5 000 zł prowizji/miesiąc.
+
+**Miesiąc 1–3 (systematyzacja):**
+- Stworzenie checklistów i szablonów.
+- Automatyzacja follow-up (CRM).
+- Efekt: Czas wdrożenia spada o 50%, obsługujesz 20 Partnerów.
+
+**Miesiąc 4–6 (delegacja):**
+- Zatrudnienie Junior KR (prospecting + administracja).
+- Ty skupiasz się na wdrożeniach i relacjach.
+- Efekt: 35 Partnerów, 12 000 zł prowizji/miesiąc.
+
+**Miesiąc 7–12 (ekspansja zespołowa):**
+- Zatrudnienie 2 Senior KR (każdy obsługuje 30–50 Partnerów).
+- Ty zarządzasz zespołem + key accounts.
+- Efekt: 100 Partnerów, 35 000 zł prowizji/miesiąc (zespół 3 KR).
+
+**Koszt zespołu:** 3 KR (Ty + 2 Senior) = ~25 000 zł/miesiąc (wynagrodzenia + narzędzia).  
+**Prowizje:** 35 000 zł/miesiąc.  
+**Zysk netto:** 10 000 zł/miesiąc (Ty jako właściciel) + rozwój bazy Partnerów.
+
+## 10. Zadania 7 dni
+- D1: Stwórz checklist dla prospectingu, kwalifikacji, wdrożenia, follow-up.
+- D2: Przygotuj pakiet startowy dla nowego Partnera (PDF, materiały do druku).
+- D3: Zmierz czas trwania wdrożenia u 3 ostatnich Partnerów → zidentyfikuj, co zabiera najwięcej czasu.
+- D4: Zrób listę zadań, które możesz delegować (jakie, komu, ile kosztuje).
+- D5: Przygotuj dashboard KPI dla siebie (liczba rozmów, wdrożeń, prowizji).
+- D6: Jeśli masz zespół – zorganizuj tygodniowy review (1h).
+- D7: Zaplanuj skalowanie: ile Partnerów chcesz mieć za 6 miesięcy? Ile KR potrzebujesz? Jaki budżet?

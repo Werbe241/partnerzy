@@ -1,0 +1,182 @@
+# Moduł 8: Trudne sytuacje
+
+## 01. Partner nie odpowiada na wiadomości
+**Sytuacja:** Wysłałeś e-mail, SMS, WhatsApp – cisza.
+
+**Możliwe przyczyny:**
+- Jest zajęty (sezon, problem w firmie).
+- Stracił zainteresowanie (nie widzi wartości).
+- Zapomniał (zbyt dużo bodźców, twoja wiadomość zaginęła).
+
+**Co robić:**
+- **Dzień 0:** Wiadomość (e-mail lub WhatsApp).
+- **Dzień 3:** Follow-up (telefon): „Hej, sprawdzam, czy dostałeś wiadomość?"
+- **Dzień 7:** Alternatywny kanał (jeśli pisałeś e-mail → zadzwoń; jeśli dzwoniłeś → napisz SMS).
+- **Dzień 14:** Ostatnia wiadomość: „Rozumiem, że jesteś zajęty. Jeśli chcesz kontynuować – daj znać. Jeśli nie – bez problemu, wracam za [X miesięcy]."
+- **Dzień 30:** Wizyta w punkcie (krótka, bez presji): „Wpadłem w okolicy, sprawdzam, co u Was."
+
+**Czego NIE robić:**
+- Nie bombarduj wiadomościami co 2 dni (irytacja).
+- Nie pytaj „Czemu nie odpisujesz?" (defensywa).
+- Nie rób wyrzutów („Umówiliśmy się, a Ty…").
+
+## 02. Partner kwestionuje liczby (prowizje)
+**Sytuacja:** „To za dużo. Nie zgadzam się z liczbą rejestracji/transakcji."
+
+**Możliwe przyczyny:**
+- Błąd w systemie (duplikaty, błędne przypisanie).
+- Partner nie rozumie, jak liczysz (brak transparentności).
+- Partner próbuje wynegocjować niższą prowizję.
+
+**Co robić:**
+- **Krok 1:** Wysłuchaj. „Okej, sprawdźmy razem. Które liczby Ci nie pasują?"
+- **Krok 2:** Pokaż szczegóły (dashboard, lista rejestracji/transakcji: data, klient, wartość).
+- **Krok 3:** Weryfikuj razem (Partner ma dostęp do danych → sprawdza, czy klienci faktycznie się rejestrowali).
+- **Krok 4:** Korekta, jeśli błąd po Twojej stronie. „Racja, tutaj był duplikat. Poprawiam fakturę."
+- **Krok 5:** Jeśli liczby są OK, ale Partner uważa, że to za dużo → zaproponuj zmianę modelu. „Może przetestujemy niższą stawkę przez następny miesiąc?"
+
+**Czego NIE robić:**
+- Nie atakuj („Umowa jest umowa, płać").
+- Nie ukrywaj danych (Partner musi mieć dostęp do dashboardu).
+- Nie ignoruj („Liczby są OK, koniec tematu").
+
+## 03. Personel Partnera sabotuje program
+**Sytuacja:** Pracownicy Partnera nie polecają programu klientom (zapominają, ignorują, nie widzą sensu).
+
+**Możliwe przyczyny:**
+- Brak zrozumienia (nie wiedzą, po co to).
+- Brak motywacji (nic z tego nie mają).
+- Zbyt skomplikowane (za dużo kroków).
+
+**Co robić:**
+- **Krok 1:** Porozmawiaj z Partnerem: „Zauważyłem spadek rejestracji. Jak personel reaguje na program?"
+- **Krok 2:** Wizyta w punkcie (obserwuj, jak personel obsługuje klientów – czy w ogóle wspomina o programie?).
+- **Krok 3:** Krótkie szkolenie odświeżające (15 min): „Po co ten program? Co mówić klientowi? Jak działa?"
+- **Krok 4:** Zaproponuj mikro-motywację dla personelu (np. Partner daje 5 zł premii za każdą rejestrację).
+- **Krok 5:** Uproszczenie (może komunikat jest za długi? Może QR jest w złym miejscu?).
+
+**Przykład dialogu z personelem:**
+> „Hej, widzę, że macie naklejki z QR. Czy klienci pytają o to?"  
+> Pracownik: „Nie, nikt nie pyta."  
+> „A wspominacie przy kasie?"  
+> Pracownik: „Czasami zapominam."  
+> „Okej, mam pomysł. Co, jeśli przy kasie będzie karteczka: 'Zapytaj klienta o kartę stałego klienta'? Będzie łatwiej pamiętać."
+
+**Czego NIE robić:**
+- Nie obwiniaj personelu („Wy nie chcecie tego robić").
+- Nie komplikuj (np. dodatkowe formularze dla pracowników).
+
+## 04. Spadek efektów mimo prawidłowego wdrożenia
+**Sytuacja:** Wszystko wdrożone OK, personel działa, a rejestracje/transakcje spadają.
+
+**Możliwe przyczyny:**
+- **Sezonowość** (np. lato w gastronomii, styczeń w fitnes).
+- **Konkurencja** (nowy gracz w okolicy z lepszą ofertą).
+- **Zmęczenie klientów** (program działa 6+ miesięcy, nowość minęła).
+- **Zmiana w biznesie Partnera** (podniesienie cen, pogorszenie jakości, remont).
+
+**Co robić:**
+- **Krok 1:** Analiza danych (kiedy spadek się zaczął? Czy dotyczy wszystkich Partnerów, czy tylko tego jednego?).
+- **Krok 2:** Rozmowa z Partnerem: „Co się zmieniło w ostatnim miesiącu?"
+- **Krok 3:** Świeżość (zmiana komunikatu, nowa akcja, dodatkowy bonus dla klientów).
+- **Krok 4:** Test (np. promocja 2× punkty przez 2 tygodnie → czy to odwraca trend?).
+- **Krok 5:** Jeśli nic nie pomaga → być może to koniec cyklu życia programu u tego Partnera. Zaproponuj przerwę lub zmianę modelu.
+
+**Przykład akcji ratunkowej:**
+- Partner: Kawiarnia, spadek rejestracji z 40 do 15/miesiąc.
+- Analiza: Konkurencja otworzyła nową kawiarnię 100 m dalej.
+- Akcja: Dodatkowy bonus – klient polecający dostaje darmową kawę. Promocja 2 tygodnie.
+- Wynik: Rejestracje wracają do 28/miesiąc (nie 40, ale lepiej niż 15).
+
+## 05. Partner chce zmiany warunków umowy w trakcie
+**Sytuacja:** „Chcę niższą prowizję / chcę zmienić model / chcę wycofać się z programu."
+
+**Co robić:**
+- **Krok 1:** Zapytaj, czemu. „Co się zmieniło? Czemu obecny model nie pasuje?"
+- **Krok 2:** Sprawdź liczby (czy Partner faktycznie płaci za dużo? Czy efekty spadają?).
+- **Krok 3:** Zaproponuj kompromis:
+  - Niższa prowizja na 3 miesiące (pilot).
+  - Zmiana modelu (np. z prowizji za rejestrację na prowizję za transakcję).
+  - „Zamrożenie" współpracy (pauza 3 miesiące, wrócicie później).
+- **Krok 4:** Jeśli brak zgody → zaakceptuj. „Okej, rozumiem. Jeśli zmienisz zdanie – jestem dostępny."
+
+**Czego NIE robić:**
+- Nie negocjuj pod presją („Muszę to przemyśleć" → zyskujesz czas).
+- Nie zgadzaj się na wszystko (jeśli Partner chce obniżyć prowizję o 70% → nie ma sensu).
+
+## 06. Konflikt z Partnerem (ostry ton, pretensje)
+**Sytuacja:** Partner jest zdenerwowany, podnosi głos, obwinia Cię.
+
+**Możliwe przyczyny:**
+- Problem w jego firmie (stresy, presja finansowa).
+- Faktyczny błąd po Twojej stronie.
+- Nieporozumienie (myślał, że dostanie inne efekty).
+
+**Co robić:**
+- **Krok 1:** Zachowaj spokój. Nie podnoś głosu. „Rozumiem, że jesteś zdenerwowany. Opowiedz mi, co się stało."
+- **Krok 2:** Wysłuchaj (nie przerywaj, nie tłumacz się od razu).
+- **Krok 3:** Potwierdź emocje. „Widzę, że to frustrujące. Sprawdźmy razem, co poszło nie tak."
+- **Krok 4:** Zaproponuj rozwiązanie (nie obietnice – konkretne kroki). „Jutro wpadnę, sprawdzimy dane, naprawimy, co się da."
+- **Krok 5:** Follow-up (po naprawie): „Hej, sprawdzam, czy teraz wszystko gra?"
+
+**Czego NIE robić:**
+- Nie odpowiadaj agresją („Sam nie wiesz, czego chcesz").
+- Nie obwiniaj Partnera („To Twój personel nie działa").
+- Nie unikaj konfliktu (nie ignoruj, nie zrywaj kontaktu).
+
+## 07. Klient Partnera reklamuje system (RODO, błędy)
+**Sytuacja:** Klient mówi: „Nie zgadzałem się na te wiadomości / Usuńcie moje dane / To nie działa."
+
+**Co robić:**
+- **Krok 1:** Przeprosiny (nawet jeśli nie Twoja wina). „Przepraszam za problem. Sprawdzę, co się stało."
+- **Krok 2:** Weryfikacja zgód (czy klient faktycznie się zarejestrował? Czy zaznaczył zgodę RODO?).
+- **Krok 3:** Natychmiastowa reakcja:
+  - Usunięcie danych (jeśli klient prosi).
+  - Wypisanie z newslettera.
+  - Korekta błędu (jeśli np. punkty się nie naliczają).
+- **Krok 4:** Informacja do Partnera („Klient X zgłosił problem, już naprawione").
+- **Krok 5:** Prewencja (sprawdź, czy to przypadek izolowany, czy systemowy błąd).
+
+**Czego NIE robić:**
+- Nie ignoruj reklamacji (RODO = prawny obowiązek reakcji w 30 dni).
+- Nie obwiniaj klienta („Pan się pomylił").
+
+## 08. Brak efektów mimo pełnego zaangażowania
+**Sytuacja:** Robisz wszystko „po książce", a wyniki są zerowe.
+
+**Możliwe przyczyny:**
+- Źle dobrany Partner (profil nie pasuje).
+- Zły timing (np. Partner ma remont, lockdown, kryzys).
+- Model nie pasuje do branży.
+
+**Co robić:**
+- **Krok 1:** Brutalna szczerość. „To nie działa. Sprawdźmy, czemu."
+- **Krok 2:** Analiza danych (co działa u innych Partnerów, a czego tu brakuje?).
+- **Krok 3:** Decyzja: kontynuować (zmiana strategii) lub zakończyć (bez wyrzutów).
+- **Krok 4:** Feedback (poproś Partnera o szczerą opinię – co byś zmienił?).
+
+**Przykład:**
+- Partner: Sklep meblowy (transakcje raz na kilka lat, klient nie wraca).
+- Efekt: 0 rejestracji po 2 miesiącach (nikt nie chce karty lojalnościowej do mebli).
+- Decyzja: Zakończenie współpracy. „Model nie pasuje do branży. Dziękuję za czas."
+
+## 09. Mini-case: Ratowanie tonącego Partnera
+Partner: Restauracja. Po 3 miesiącach spada liczba rejestracji z 50 do 12/miesiąc. Partner chce zerwać umowę.
+
+**Akcja:**
+- **Dzień 1:** Telefon: „Co się dzieje?" → Partner: „Pracownicy nie polecają, klienci nie pytają."
+- **Dzień 2:** Wizyta w punkcie. Obserwuję: personel zapomina wspominać, QR jest za kasą (niewidoczne).
+- **Dzień 3:** Szkolenie personelu (15 min) + nowe miejsce na QR (na stole, przy wejściu).
+- **Dzień 10:** Partner testuje bonus: klient polecający dostaje darmowy deser.
+- **Dzień 30:** Rejestracje wracają do 35/miesiąc. Partner kontynuuje.
+
+Klucz: Szybka reakcja + konkretne zmiany (nie tylko „spróbujmy jeszcze raz").
+
+## 10. Zadania 7 dni
+- D1: Zidentyfikuj 1 Partnera z problemem (spadek wyników, brak odpowiedzi, reklamacja).
+- D2: Przygotuj plan akcji ratunkowej (3 kroki: diagnoza, korekta, test).
+- D3: Przeprowadź rozmowę z Partnerem (wysłuchaj, zaproponuj rozwiązanie).
+- D4: Zrób mini-audyt u 3 Partnerów (czy personel poleca program? Czy QR jest widoczne?).
+- D5: Przygotuj szablon odpowiedzi na reklamacje klientów (RODO, błędy techniczne).
+- D6: Zaplanuj follow-up do wszystkich Partnerów w „strefie ryzyka" (brak kontaktu >21 dni).
+- D7: Podsumuj: Ilu Partnerów udało się uratować? Ilu odeszło? Co było kluczem w ratowaniu?

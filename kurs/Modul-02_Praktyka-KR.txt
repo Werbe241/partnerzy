@@ -1,0 +1,86 @@
+# Moduł 2: Praktyka KR
+
+## 01. Zakres praktyczny roli
+Rola KR jest operacyjna: doprowadzasz Partnera od rozmowy do wdrożenia i pierwszych wyników. Twoją miarą jest liczba wdrożeń i ich aktywność, nie liczba „fajnych rozmów". Masz strukturę, dzięki której każdy tydzień dowozi postęp.
+
+- Pozyskanie i kwalifikacja: czy warto inwestować czas.
+- Diagnoza: co Partner już robi, czego brakuje, co można uruchomić w 7–14 dni.
+- Rekomendacja: jedna prosta ścieżka, a nie katalog wszystkiego.
+- Wdrożenie: oznaczenia, narzędzia, instrukcje.
+- Follow‑up: utrzymanie nawyków i korekty.
+
+## 02. Mapa procesu
+1) Prospecting → 2) Kontakt i kwalifikacja → 3) Diagnoza → 4) Rekomendacja → 5) Wdrożenie → 6) Follow‑up/retencja.
+
+Efekt każdego etapu:
+- Kontakt: decyzja, czy idziemy dalej.
+- Diagnoza: notatka 5 pól (cel, działania, luka, quick win, następny krok).
+- Rekomendacja: 5 zdań (sytuacja, luka, co wdrażamy, oczekiwany kierunek, termin).
+- Wdrożenie: kody/oznaczenia/konfiguracja + test.
+- Follow‑up: mini‑raport 3 linijki co 2–7 dni.
+
+## 03. Diagnoza potrzeb
+Celem diagnozy jest wskazanie najkrótszej drogi do pierwszego mierzalnego efektu.
+
+Pytania:
+- Jak dziś pozyskujecie klientów i co działa najlepiej?
+- Jak utrzymujecie powroty klientów?
+- Jak mierzycie skuteczność (czy w ogóle)?
+- Co Was blokuje? Kto decyduje o wdrożeniach?
+
+Notatka 5 pól:
+1. Cel biznesowy, 2. Obecne działania, 3. Luka, 4. Quick win, 5. Następny krok z datą.
+
+## 04. Rekomendacja (format 5 zdań)
+- Obecna sytuacja: …
+- Luka/problem: …
+- Proponujemy wdrożyć: X, Y (1–3 elementy)
+- Oczekiwany kierunek zmiany: … (bez gwarancji)
+- Następny krok i termin: … (osoba odpowiedzialna)
+
+Zasady:
+- Jedna ścieżka wdrożenia na 7–14 dni. 
+- Język prosty, mierzalne kroki.
+
+## 05. Wdrożenie kroków
+Checklist „core":
+- Rejestracja/konta (partner, promotor), generacja i test kodów/QR.
+- Oznaczenia w punkcie (naklejki, certyfikat).
+- Instrukcje dla personelu: co mówić klientowi.
+- Testowa transakcja i weryfikacja zapisu.
+
+„Zegar" 10 dni: D0 start → D0–D2 konfiguracja → D2–D5 oznaczenia → D5–D7 pierwsze transakcje → D8–D10 korekta.
+
+## 06. Follow‑up i retencja
+Trzy rytmy:
+- Tydz. 1–2: kontakt co 2–3 dni.
+- Mies. 1–2: 1× tydzień.
+- Dalej: co 2 tygodnie lub wg wskaźników.
+
+Mini‑raport 3 linijki:
+- Status: X rejestracji / Y transakcji.
+- Działa: … / Blokuje: …
+- Następny krok do (data): …
+
+## 07. Dokumentacja (minimum)
+- Data kontaktu, status etapu, decyzja/przeszkoda, następny krok + data, odpowiedzialny.
+Zasada: jeśli nie ma notatki – rozmowa „nie istnieje" dla zespołu.
+
+## 08. RODO w praktyce
+- Minimalizacja: zbieramy tylko dane operacyjne.
+- Celowość: zapisany powód.
+- Bezpieczeństwo: brak otwartych publicznych arkuszy z danymi.
+- Retencja: okres przechowywania zgodny z polityką.
+- Wycofanie: łatwy proces usunięcia danych.
+
+## 09. Mini‑case
+Sklep detaliczny bez retencji. Plan 10 dni: diagnoza → rekomendacja (QR + oznaczenia + instrukcja) → konfiguracja → oznaczenia → pierwsze transakcje → korekta. 
+Efekt 14 dni: 37 rejestracji, 8 powrotów. Klucz: konsekwencja follow‑up i szkolenie personelu.
+
+## 10. Zadania 7 dni
+- D1: 5 diagnoz (notatka 5 pól).
+- D2: 5 rekomendacji (5 zdań).
+- D3–D4: min. 3 wdrożenia.
+- D5: follow‑up + mini‑raport do wszystkich.
+- D6: korekty quick win.
+- D7: podsumowanie liczb i plan.

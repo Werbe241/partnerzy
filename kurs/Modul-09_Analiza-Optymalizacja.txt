@@ -1,0 +1,194 @@
+# Moduł 9: Analiza i optymalizacja
+
+## 01. Czemu analiza jest kluczowa?
+Bez danych działasz na ślepo. Analiza pozwala:
+- Wiedzieć, co działa (skaluj to).
+- Wiedzieć, co nie działa (napraw lub wytnij).
+- Przewidywać problemy (spadki, churn).
+- Uzasadniać decyzje (Partner pyta „czemu?" → pokazujesz liczby).
+
+**Zasada:** Jeśli nie mierzysz – nie zarządzasz.
+
+## 02. Kluczowe metryki KR (top 10)
+**Metryki pozyskania:**
+1. **Liczba kontaktów/tydzień** – ile firm kontaktujesz (prospecting).
+2. **Conversion rate kontakt → rozmowa** – ile % odpowiada i umawia się (cel: 30–50%).
+3. **Conversion rate rozmowa → wdrożenie** – ile % kwalifikacji kończy się wdrożeniem (cel: 40–60%).
+
+**Metryki wdrożenia:**
+4. **Czas od kontaktu do wdrożenia** – im krócej, tym lepiej (cel: 7–14 dni).
+5. **Liczba wdrożeń/miesiąc** – ile nowych Partnerów startujesz.
+
+**Metryki retencji:**
+6. **Liczba aktywnych Partnerów** – ilu działa w danym miesiącu.
+7. **Churn rate** – ile % Partnerów odchodzi miesięcznie (cel: <10%).
+8. **Średnia długość współpracy** – ile miesięcy Partner zostaje (cel: 12+).
+
+**Metryki finansowe:**
+9. **Prowizje wygenerowane/miesiąc** – Twój przychód.
+10. **Średnia prowizja na Partnera** – ile zarabiasz z jednego Partnera (cel: optymalizuj w górę).
+
+**Bonus metryki:**
+- **NPS (Net Promoter Score)** – czy Partnerzy poleciliby Cię innym? (skala 0–10).
+- **Średnia liczba rejestracji na Partnera** – efektywność programu.
+
+## 03. Dashboard analityczny (minimum)
+Co powinieneś widzieć na jednym ekranie?
+
+**Sekcja 1: Pipeline**
+- Kontakty (liczba firm w bazie).
+- Rozmowy umówione (liczba).
+- Wdrożenia w toku (liczba).
+- Aktywni Partnerzy (liczba).
+
+**Sekcja 2: Wyniki miesięczne**
+- Nowe wdrożenia.
+- Churn (odeszli).
+- Prowizje (suma).
+
+**Sekcja 3: Trendy**
+- Wykres: liczba aktywnych Partnerów w czasie (6 miesięcy).
+- Wykres: prowizje w czasie (trend wzrostowy?).
+
+**Sekcja 4: Alerty**
+- Partnerzy bez kontaktu >14 dni (lista).
+- Partnerzy z spadkiem rejestracji >30% (lista).
+
+**Narzędzia:**
+- Google Sheets + wykresy (darmowe, proste).
+- Google Data Studio / Looker Studio (darmowe, ładniejsze).
+- Power BI / Tableau (płatne, zaawansowane).
+
+## 04. Analiza funnel (od kontaktu do wdrożenia)
+**Przykład funnel:**
+- 100 kontaktów → 40 rozmów umówionych (40%) → 20 kwalifikacji OK (50%) → 10 wdrożeń (50%).
+
+**Analiza:**
+- Conversion 1 (kontakt → rozmowa): 40% (dobry).
+- Conversion 2 (rozmowa → kwalifikacja): 50% (OK, ale można poprawić – lepsze pytania kwalifikacyjne?).
+- Conversion 3 (kwalifikacja → wdrożenie): 50% (dobry).
+
+**Optymalizacja:**
+- Jeśli conversion 1 jest niski (<30%) → popraw first message (testuj warianty).
+- Jeśli conversion 2 jest niski (<40%) → lepiej kwalifikuj (nie marnuj czasu na złe leady).
+- Jeśli conversion 3 jest niski (<40%) → sprawdź, czemu Partnerzy rezygnują po kwalifikacji (za droga prowizja? Za długi proces?).
+
+## 05. Analiza churn (dlaczego Partnerzy odchodzą?)
+**Krok 1: Zbierz dane**
+- Lista Partnerów, którzy odeszli (ostatnie 6 miesięcy).
+- Powód odejścia (jeśli znasz).
+
+**Krok 2: Kategoryzuj**
+- Brak efektów (ile %)?
+- Za droga prowizja (ile %)?
+- Brak czasu (ile %)?
+- Zmiana w biznesie (ile %)?
+- Brak follow-up (ile %)?
+
+**Krok 3: Znajdź wzorce**
+- Czy churn jest wyższy w konkretnej branży? (może model nie pasuje).
+- Czy churn jest wyższy po X miesiącach? (może trzeba odświeżać program).
+- Czy churn jest wyższy u Partnerów z niskim zaangażowaniem personelu?
+
+**Krok 4: Akcja**
+- Jeśli główny powód = „brak efektów" → poprawa follow-up, szkolenia personelu.
+- Jeśli główny powód = „za drogo" → elastyczniejszy model prowizji.
+
+**Przykład:**
+- Churn 15% miesięcznie.
+- Analiza: 60% odchodzi po 3 miesiącach („nie widzę efektów").
+- Akcja: Wprowadzenie obowiązkowego review po 60 dniach (sprawdzenie, co działa, co nie → korekty).
+- Wynik: Churn spada do 8%.
+
+## 06. A/B testing (co testować?)
+**Test 1: Warianty first message**
+- Wersja A: „Pomagamy w budowaniu lojalności klientów."
+- Wersja B: „Chcesz zwiększyć liczbę powracających klientów o 30%?"
+- Wysyłasz 20 wiadomości A, 20 wiadomości B.
+- Mierzysz: ile odpowiedzi, ile umówionych rozmów.
+- Wybierasz lepszy wariant.
+
+**Test 2: Model prowizji**
+- Partner A: 10 zł/rejestracja.
+- Partner B: 3% od transakcji.
+- Po 3 miesiącach: który model daje wyższe prowizje? Który Partner jest bardziej zadowolony?
+
+**Test 3: Miejsce na QR**
+- Partner A: QR przy kasie.
+- Partner B: QR na stoliku.
+- Mierzysz: liczba rejestracji.
+
+**Test 4: Komunikat personelu**
+- Wersja A: „Mamy program lojalnościowy, chcesz dołączyć?"
+- Wersja B: „Zeskanuj kod, dostaniesz 10% zniżki na następne zakupy."
+- Szkolisz personel na 2 warianty (różni Partnerzy), mierzysz skuteczność.
+
+## 07. Segmentacja Partnerów (kto zarabia najwięcej?)
+Nie wszyscy Partnerzy są równi. Zidentyfikuj segmenty:
+
+**Segment A (top 20%):**
+- Generują 80% prowizji.
+- Aktywni, wysoka retencja klientów, zaangażowany personel.
+- **Akcja:** Maksymalne wsparcie (priority follow-up, dedykowane usprawnienia).
+
+**Segment B (średni 50%):**
+- Generują 15% prowizji.
+- Działa OK, ale można poprawić.
+- **Akcja:** Standardowy follow-up, testowanie usprawnień (może przejdą do A?).
+
+**Segment C (dolny 30%):**
+- Generują 5% prowizji.
+- Niskie efekty, często problemy.
+- **Akcja:** Decyzja: naprawić (intensywny follow-up) lub zakończyć (focus na A i B).
+
+**Przykład:**
+- 50 Partnerów.
+- Top 10 (20%) generuje 80% prowizji (średnio 400 zł/Partner).
+- Średni 25 (50%) generuje 15% prowizji (średnio 30 zł/Partner).
+- Dolny 15 (30%) generuje 5% prowizji (średnio 17 zł/Partner).
+- **Decyzja:** Zakończ współpracę z dolnymi 15, skoncentruj czas na top 10 + średnich 25.
+
+## 08. Benchmarking (porównaj się z rynkiem)
+**Pytania:**
+- Jaki jest średni churn w branży programów lojalnościowych? (cel: być poniżej średniej).
+- Jaka jest średnia prowizja KR w Twoim regionie/branży?
+- Jaki jest średni czas wdrożenia u konkurencji?
+
+**Źródła danych:**
+- Raporty branżowe (Google: „loyalty program churn rate").
+- Rozmowy z innymi KR (jeśli znasz).
+- Case study konkurencji.
+
+**Użycie:**
+- Jeśli Twój churn 15%, a branża 10% → masz problem (zoptymalizuj follow-up).
+- Jeśli Twój czas wdrożenia 14 dni, a konkurencja 30 dni → masz przewagę (podkreślaj to w prezentacji).
+
+## 09. Mini-case: Optymalizacja na podstawie danych
+**Sytuacja:** KR obsługuje 40 Partnerów, prowizje ~8 000 zł/miesiąc. Chce zwiększyć do 15 000 zł.
+
+**Analiza:**
+- Top 10 Partnerów generuje 6 400 zł (80%).
+- Średni 20 Partnerów generuje 1 200 zł (15%).
+- Dolny 10 Partnerów generuje 400 zł (5%).
+- Churn: 12% miesięcznie (głównie dolny segment).
+
+**Akcje:**
+1. **Zakończenie współpracy z dolnymi 10** (oszczędność 4h/tydzień follow-up).
+2. **Intensywny follow-up do top 10** (co tydzień, dedykowane usprawnienia).
+3. **Próba podniesienia średnich 20 do top segmentu** (szkolenia personelu, testy A/B).
+4. **Nowe wdrożenia:** 5/miesiąc (focus na profil zbliżony do top segmentu).
+
+**Wynik po 3 miesiącach:**
+- Aktywni Partnerzy: 45 (40 – 10 + 15 nowych).
+- Top segment: 15 Partnerów (średnio 500 zł/Partner = 7 500 zł).
+- Średni segment: 30 Partnerów (średnio 200 zł/Partner = 6 000 zł).
+- **Suma:** 13 500 zł/miesiąc (+69%).
+
+## 10. Zadania 7 dni
+- D1: Zdefiniuj swoje top 10 metryk (wybierz z listy w punkcie 02).
+- D2: Stwórz dashboard (Google Sheets: pipeline, wyniki miesięczne, trendy, alerty).
+- D3: Przeanalizuj funnel (ile kontaktów → rozmów → wdrożeń w ostatnim miesiącu?). Gdzie jest bottleneck?
+- D4: Przeanalizuj churn (lista Partnerów, którzy odeszli + powody). Jaki jest główny wzorzec?
+- D5: Podziel Partnerów na segmenty A/B/C (top 20%, średni 50%, dolny 30%). Oblicz prowizje per segment.
+- D6: Zaplanuj 1 test A/B (np. warianty first message lub miejsce na QR).
+- D7: Podsumuj: Jakie 3 akcje optymalizacyjne wprowadzisz w przyszłym tygodniu? (np. zakończenie współpracy z dolnym segmentem, intensywny follow-up do top, nowy szablon wiadomości).

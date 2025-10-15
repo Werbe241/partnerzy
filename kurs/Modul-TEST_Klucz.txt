@@ -1,0 +1,180 @@
+# Klucz odpowiedzi: Test końcowy
+
+## CZĘŚĆ A: Pytania zamknięte (20 punktów)
+
+### Poprawne odpowiedzi:
+
+1. **b)** Doprowadzenie Partnera od rozmowy do wdrożenia i pierwszych wyników
+   - *Wyjaśnienie:* Rola KR jest operacyjna, skupiona na efektach (Moduł 1, 2).
+
+2. **b)** Prowizja od każdego efektu (rejestracja, transakcja powrotna, polecenie)
+   - *Wyjaśnienie:* Success fee = płatność tylko za mierzalny efekt, zero kosztów stałych (Moduł 4).
+
+3. **b)** 5 pól
+   - *Wyjaśnienie:* Cel biznesowy, obecne działania, luka, quick win, następny krok (Moduł 2).
+
+4. **b)** 7–14 dni
+   - *Wyjaśnienie:* Optymalna ścieżka: szybko, ale nie na siłę (Moduł 2, 3).
+
+5. **b)** Krótki follow-up: status, co działa/blokuje, następny krok
+   - *Wyjaśnienie:* Format: 3 linijki, wysyłane co 2–7 dni (Moduł 2).
+
+6. **c)** Polecenia (referrals)
+   - *Wyjaśnienie:* Konwersja 50–70%, zaufanie już zbudowane (Moduł 3).
+
+7. **b)** Cel biznesowy, obecne działania, decyzyjność, mierzalność, otwartość na success fee
+   - *Wyjaśnienie:* 5 pytań kwalifikacyjnych (Moduł 3).
+
+8. **c)** Mix: np. 10 zł/rejestracja + 3% od transakcji powrotnych
+   - *Wyjaśnienie:* Model hybrydowy najczęściej stosowany (Moduł 4).
+
+9. **b)** Łączna wartość, jaką klient przynosi firmie w całym okresie współpracy
+   - *Wyjaśnienie:* LTV = Lifetime Value (Moduł 4).
+
+10. **b)** Co 2–3 dni
+    - *Wyjaśnienie:* Intensywny follow-up w pierwszych 2 tygodniach (Moduł 2, 6).
+
+11. **b)** Google Sheets (darmowe)
+    - *Wyjaśnienie:* Wystarczy na start, zero kosztów (Moduł 5).
+
+12. **b)** Procent Partnerów, którzy odchodzą w danym okresie
+    - *Wyjaśnienie:* Churn rate = wskaźnik utraty Partnerów (Moduł 9).
+
+13. **b)** Transparentne pokazanie liczby rejestracji, transakcji, prowizji
+    - *Wyjaśnienie:* Dashboard = przejrzystość, zaufanie (Moduł 5).
+
+14. **c)** Spróbować alternatywnego kanału (telefon zamiast e-mail) i wizyta w punkcie
+    - *Wyjaśnienie:* Eskalacja komunikacji, nie naciskanie (Moduł 8).
+
+15. **c)** Spadek >20–30%
+    - *Wyjaśnienie:* Alarm: wymaga natychmiastowej reakcji (Moduł 6, 9).
+
+16. **b)** Wskaźnik: czy Partnerzy poleciliby KR innym (skala 0–10)
+    - *Wyjaśnienie:* NPS = Net Promoter Score (Moduł 9).
+
+17. **b)** Gdy masz >20 aktywnych Partnerów
+    - *Wyjaśnienie:* Bottleneck: brak czasu na prospecting (Moduł 7).
+
+18. **b)** <10%
+    - *Wyjaśnienie:* Docelowy churn <10% miesięcznie (Moduł 6, 9).
+
+19. **a)** Testowanie dwóch wariantów (np. wiadomości, modelu prowizji) i wybór lepszego
+    - *Wyjaśnienie:* A/B testing = optymalizacja (Moduł 9).
+
+20. **b)** Brak widocznych efektów + brak follow-up
+    - *Wyjaśnienie:* Najczęstsza przyczyna churn (Moduł 6).
+
+---
+
+## CZĘŚĆ B: Pytania otwarte (10 punktów)
+
+### 21. Opisz proces wdrożenia Partnera w 5 krokach (od diagnozy do follow-up). (2 pkt)
+
+**Przykładowa poprawna odpowiedź (2 pkt):**
+1. **Diagnoza:** Rozmowa z Partnerem, notatka 5 pól (cel, działania, luka, quick win, następny krok).
+2. **Rekomendacja:** Format 5 zdań (sytuacja, luka, co wdrażamy, kierunek, termin).
+3. **Wdrożenie:** Konfiguracja (konta, kody, QR), materiały (naklejki, instrukcje), szkolenie personelu, test.
+4. **Pierwsze transakcje:** Monitorowanie (D+2, D+5, D+7), korekty.
+5. **Follow-up:** Regularne raporty (co 2–7 dni), reakcja na spadki, optymalizacja.
+
+**Punktacja:**
+- 2 pkt: Wszystkie 5 kroków poprawnie nazwane i opisane.
+- 1 pkt: 3–4 kroki poprawne.
+- 0 pkt: <3 kroki lub brak logiki.
+
+---
+
+### 22. Partner mówi: „To za drogie, nie chcę płacić prowizji." Jak odpowiesz? (3–5 zdań) (2 pkt)
+
+**Przykładowa poprawna odpowiedź (2 pkt):**
+„Rozumiem. Sprawdźmy razem liczby: ile dziś wydajesz na pozyskanie jednego klienta (reklama, promocje)? Success fee płacisz tylko wtedy, gdy klient faktycznie wraca lub poleca – zero ryzyka finansowego. Jeśli chcesz, możemy zacząć od pilota z niższą stawką (np. 50% standardowej) przez 60 dni. Patrzymy na wyniki i decydujemy, czy kontynuować. Co o tym sądzisz?"
+
+**Alternatywna odpowiedź (2 pkt):**
+„Rozumiem obawy. Success fee oznacza, że płacisz tylko za efekt. Jeśli nie ma nowych klientów lub powrotów – nie płacisz nic. Porównaj to z tradycyjną reklamą, gdzie płacisz z góry bez gwarancji wyniku. Możemy przetestować na małą skalę (30 dni, jeden punkt) – zobaczysz liczby i zdecydujesz."
+
+**Punktacja:**
+- 2 pkt: Spokojne podejście, odniesienie do wartości (brak ryzyka, porównanie CAC), propozycja pilota.
+- 1 pkt: Częściowo poprawne (np. tylko „płacisz za efekt"), ale brak propozycji rozwiązania.
+- 0 pkt: Defensywne („umowa jest umowa") lub brak odpowiedzi.
+
+---
+
+### 23. Jakie 3 metryki (KPI) są najważniejsze dla KR i dlaczego? (2 pkt)
+
+**Przykładowa poprawna odpowiedź (2 pkt):**
+1. **Liczba wdrożeń/miesiąc** – pokazuje, ile nowych Partnerów startujesz (wzrost bazy).
+2. **Churn rate** – ile % Partnerów odchodzi (jeśli >10%, tracisz więcej niż zyskujesz).
+3. **Prowizje wygenerowane/miesiąc** – bezpośrednia miara zarobków i efektywności programu.
+
+**Alternatywne metryki (również 2 pkt):**
+- Liczba aktywnych Partnerów (stabilność bazy).
+- Średnia prowizja na Partnera (jakość, nie tylko ilość).
+- Conversion rate kontakt → wdrożenie (efektywność prospectingu).
+
+**Punktacja:**
+- 2 pkt: 3 metryki poprawnie nazwane i uzasadnione.
+- 1 pkt: 2 metryki poprawne.
+- 0 pkt: <2 metryki lub brak uzasadnienia.
+
+---
+
+### 24. Opisz różnicę między segmentem A (top 20%) a segmentem C (dolny 30%) Partnerów i co zrobić z każdym. (2 pkt)
+
+**Przykładowa poprawna odpowiedź (2 pkt):**
+- **Segment A (top 20%):** Generują 80% prowizji, wysoka retencja, zaangażowany personel. **Akcja:** Maksymalne wsparcie (priority follow-up, dedykowane usprawnienia, mentoring).
+- **Segment C (dolny 30%):** Generują 5% prowizji, niskie efekty, często problemy. **Akcja:** Decyzja: albo intensywny follow-up (próba naprawy), albo zakończenie współpracy (focus na A i B).
+
+**Punktacja:**
+- 2 pkt: Jasna różnica (prowizje, efekty) + konkretne akcje dla każdego segmentu.
+- 1 pkt: Różnica poprawna, ale brak akcji lub akcje nieprecyzyjne.
+- 0 pkt: Brak zrozumienia segmentacji.
+
+---
+
+### 25. Jakie 3 akcje podejmiesz, jeśli zauważysz, że liczba rejestracji u Partnera spadła o 40% w ciągu 2 tygodni? (2 pkt)
+
+**Przykładowa poprawna odpowiedź (2 pkt):**
+1. **Rozmowa z Partnerem:** „Co się zmieniło w ostatnich 2 tygodniach?" (diagnoza przyczyny: sezonowość, konkurencja, personel).
+2. **Wizyta w punkcie:** Obserwacja (czy personel wspomina o programie? Czy QR jest widoczne? Czy coś się zmieniło w lokalu?).
+3. **Szybka korekta:** Szkolenie personelu (przypomnienie), zmiana miejsca QR, test nowego komunikatu lub akcja promocyjna (np. 2× punkty przez 2 tygodnie).
+
+**Alternatywne akcje (również 2 pkt):**
+- Analiza danych (czy spadek dotyczy tylko tego Partnera, czy wszystkich w regionie/branży?).
+- Mini-raport do Partnera (pokazanie liczb + propozycja akcji ratunkowej).
+- Follow-up D+7 (czy akcja zadziałała, czy trend się odwrócił).
+
+**Punktacja:**
+- 2 pkt: 3 konkretne akcje (diagnoza + korekta + test/follow-up).
+- 1 pkt: 2 akcje poprawne.
+- 0 pkt: <2 akcje lub ogólniki („zrobię coś").
+
+---
+
+## Podsumowanie punktacji
+
+**Maksymalna liczba punktów: 30**
+- Część A: 20 punktów (pytania 1–20)
+- Część B: 10 punktów (pytania 21–25, po 2 pkt każde)
+
+**Próg zaliczenia: 22/30 punktów (73%)**
+
+---
+
+## Feedback po teście
+
+### Jeśli zaliczyłeś (≥22 pkt):
+- **Gratulacje!** Masz solidne podstawy do pracy jako KR.
+- **Następny krok:** Prospecting – pierwsze 5 rozmów z potencjalnymi Partnerami w ciągu 7 dni.
+- **Plan 30 dni:** Zdobądź pierwsze 3 wdrożenia (diagnoza → rekomendacja → wdrożenie → follow-up).
+
+### Jeśli nie zaliczyłeś (<22 pkt):
+- **Nie martw się!** Materiał jest intensywny.
+- **Zrób to:**
+  1. Sprawdź, które moduły wymagają powtórzenia (patrz: pytania, w których straciłeś punkty).
+  2. Przejrzyj te moduły ponownie (skup się na praktycznych przykładach i mini-case).
+  3. Powtórz test za 7 dni.
+- **Mentoring:** Jeśli dostępny w Fundacji – umów się na konsultację.
+
+---
+
+**Powodzenia w dalszej pracy jako Koordynator Reklamy!**

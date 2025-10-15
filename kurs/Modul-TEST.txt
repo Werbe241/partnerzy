@@ -1,0 +1,204 @@
+# Test końcowy: Kurs Koordynatora Reklamy
+
+## Instrukcja
+Test składa się z dwóch części:
+- **Część A (20 pytań):** Pytania zamknięte (jednokrotny wybór). Każda poprawna odpowiedź = 1 punkt.
+- **Część B (5 pytań):** Pytania otwarte. Każda odpowiedź oceniana 0–2 punkty.
+
+**Próg zaliczenia:** 22/30 punktów (73%).
+
+**Czas:** 90 minut.
+
+---
+
+## CZĘŚĆ A: Pytania zamknięte (20 punktów)
+
+### 1. Jaka jest główna rola Koordynatora Reklamy?
+a) Prowadzenie kampanii reklamowych w mediach społecznościowych  
+b) Doprowadzenie Partnera od rozmowy do wdrożenia i pierwszych wyników  
+c) Sprzedaż produktów Fundacji Werbekoordynator  
+d) Zarządzanie działem marketingu Partnera  
+
+### 2. Co to jest success fee?
+a) Opłata stała za wdrożenie programu  
+b) Prowizja od każdego efektu (rejestracja, transakcja powrotna, polecenie)  
+c) Miesięczny abonament za dostęp do systemu  
+d) Jednorazowa opłata za szkolenie  
+
+### 3. Ile pól powinna zawierać notatka z diagnozy potrzeb Partnera?
+a) 3 pola  
+b) 5 pól  
+c) 7 pól  
+d) 10 pól  
+
+### 4. Jaki jest optymalny czas wdrożenia od pierwszego kontaktu?
+a) 1–3 dni  
+b) 7–14 dni  
+c) 30–45 dni  
+d) 60–90 dni  
+
+### 5. Co to jest „mini-raport 3 linijki"?
+a) Szczegółowy raport miesięczny dla Partnera  
+b) Krótki follow-up: status, co działa/blokuje, następny krok  
+c) Podsumowanie finansowe kwartału  
+d) Instrukcja dla personelu Partnera  
+
+### 6. Które źródło pozyskania Partnerów ma najwyższą konwersję?
+a) Cold e-mail  
+b) Reklama Facebook  
+c) Polecenia (referrals)  
+d) Zimne telefony  
+
+### 7. Jakie 5 pytań należy zadać podczas kwalifikacji Partnera?
+a) Wielkość firmy, przychody, liczba pracowników, lokalizacja, konkurencja  
+b) Cel biznesowy, obecne działania, decyzyjność, mierzalność, otwartość na success fee  
+c) Budżet marketingowy, doświadczenie, technologia, strategia, plan rozwoju  
+d) Historia firmy, wartości, misja, wizja, kultura organizacyjna  
+
+### 8. Jaki jest typowy rozkład prowizji w modelu success fee?
+a) 100% z rejestracji  
+b) 100% z transakcji  
+c) Mix: np. 10 zł/rejestracja + 3% od transakcji powrotnych  
+d) Tylko % od poleceń  
+
+### 9. Co to jest LTV (Lifetime Value)?
+a) Koszt pozyskania klienta  
+b) Łączna wartość, jaką klient przynosi firmie w całym okresie współpracy  
+c) Liczba transakcji w miesiącu  
+d) Średnia wartość koszyka  
+
+### 10. Jaki jest optymalny rytm follow-up w tygodniu 1–2 po wdrożeniu?
+a) Raz dziennie  
+b) Co 2–3 dni  
+c) Raz w tygodniu  
+d) Co 2 tygodnie  
+
+### 11. Jakie narzędzie jest minimum dla KR na start?
+a) Dedykowane CRM za 500 zł/miesiąc  
+b) Google Sheets (darmowe)  
+c) Własny system IT  
+d) Zespół programistów  
+
+### 12. Co to jest churn rate?
+a) Liczba nowych Partnerów miesięcznie  
+b) Procent Partnerów, którzy odchodzą w danym okresie  
+c) Średnia prowizja na Partnera  
+d) Liczba rejestracji na Partnera  
+
+### 13. Jaki jest cel dashboardu dla Partnera?
+a) Pokazanie skomplikowanych analiz marketingowych  
+b) Transparentne pokazanie liczby rejestracji, transakcji, prowizji  
+c) Zarządzanie finansami firmy  
+d) Planowanie kampanii reklamowych  
+
+### 14. Co zrobić, gdy Partner nie odpowiada na wiadomości przez 7 dni?
+a) Zrezygnować z kontaktu  
+b) Wysłać 10 wiadomości dziennie  
+c) Spróbować alternatywnego kanału (telefon zamiast e-mail) i wizyta w punkcie  
+d) Zgłosić do przełożonego  
+
+### 15. Jaki jest próg alarmowy spadku rejestracji?
+a) Spadek >5%  
+b) Spadek >10%  
+c) Spadek >20–30%  
+d) Spadek >50%  
+
+### 16. Co to jest NPS (Net Promoter Score)?
+a) Liczba nowych Partnerów  
+b) Wskaźnik: czy Partnerzy poleciliby KR innym (skala 0–10)  
+c) Średnia prowizja  
+d) Liczba transakcji  
+
+### 17. Kiedy warto delegować prospecting do Junior KR?
+a) Od razu, od pierwszego dnia  
+b) Gdy masz >20 aktywnych Partnerów  
+c) Nigdy  
+d) Gdy zarobisz 1 mln zł  
+
+### 18. Jaki jest typowy churn rate (docelowy)?
+a) <5%  
+b) <10%  
+c) <20%  
+d) <30%  
+
+### 19. Co to jest A/B testing w kontekście pracy KR?
+a) Testowanie dwóch wariantów (np. wiadomości, modelu prowizji) i wybór lepszego  
+b) Testowanie produktu  
+c) Analiza konkurencji  
+d) Badanie rynku  
+
+### 20. Jaka jest najczęstsza przyczyna odejścia Partnera?
+a) Za wysoka prowizja  
+b) Brak widocznych efektów + brak follow-up  
+c) Zmiana branży  
+d) Problemy techniczne  
+
+---
+
+## CZĘŚĆ B: Pytania otwarte (10 punktów, 2 pkt za każde)
+
+### 21. Opisz proces wdrożenia Partnera w 5 krokach (od diagnozy do follow-up).
+
+**Twoja odpowiedź:**
+[Wpisz tutaj]
+
+---
+
+### 22. Partner mówi: „To za drogie, nie chcę płacić prowizji." Jak odpowiesz? (3–5 zdań)
+
+**Twoja odpowiedź:**
+[Wpisz tutaj]
+
+---
+
+### 23. Jakie 3 metryki (KPI) są najważniejsze dla KR i dlaczego?
+
+**Twoja odpowiedź:**
+[Wpisz tutaj]
+
+---
+
+### 24. Opisz różnicę między segmentem A (top 20%) a segmentem C (dolny 30%) Partnerów i co zrobić z każdym.
+
+**Twoja odpowiedź:**
+[Wpisz tutaj]
+
+---
+
+### 25. Jakie 3 akcje podejmiesz, jeśli zauważysz, że liczba rejestracji u Partnera spadła o 40% w ciągu 2 tygodni?
+
+**Twoja odpowiedź:**
+[Wpisz tutaj]
+
+---
+
+## Koniec testu
+
+**Podsumowanie punktacji:**
+- Część A: ____ / 20 punktów
+- Część B: ____ / 10 punktów
+- **Razem: ____ / 30 punktów**
+
+**Wynik:**
+- 27–30 punktów: Celujący (90–100%)
+- 24–26 punktów: Bardzo dobry (80–89%)
+- 22–23 punktów: Dobry – zaliczenie (73–79%)
+- <22 punktów: Niezaliczony – powtórz materiał i spróbuj ponownie
+
+---
+
+## Feedback i dalsze kroki
+
+Jeśli zaliczyłeś test:
+- **Gratulacje!** Masz podstawy do pracy jako Koordynator Reklamy.
+- Następny krok: Pierwsze 5 rozmów z potencjalnymi Partnerami (prospecting).
+- Plan 30 dni: Zdobądź pierwsze 3 wdrożenia.
+
+Jeśli nie zaliczyłeś:
+- Przejrzyj moduły, w których masz luki (sprawdź klucz odpowiedzi).
+- Powtórz test za 7 dni.
+- Skorzystaj z mentoringu (jeśli dostępny w Fundacji).
+
+---
+
+**Powodzenia!**
