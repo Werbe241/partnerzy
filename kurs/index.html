@@ -7,6 +7,12 @@
   <meta name="description" content="Kurs Koordynatora Reklamy — Fundacja Werbekoordinator" />
   <link rel="stylesheet" href="assets/styles.css" />
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script>
+    // Fallback to local marked.js if CDN fails
+    if (typeof marked === 'undefined') {
+      document.write('<script src="assets/marked.min.js"><\/script>');
+    }
+  </script>
 </head>
 <body class="app-bg">
   <header class="topbar">

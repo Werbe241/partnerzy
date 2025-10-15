@@ -1,0 +1,530 @@
+# Moduł 5: Narzędzia operacyjne
+QR, linki, identyfikacja obrotu. Proste i skuteczne.
+
+Spis treści:
+01. Przegląd narzędzi – co masz do dyspozycji  
+02. Kody QR – jak generować i używać  
+03. Linki rejestracyjne i polecające – alternatywa dla QR  
+04. Identyfikacja obrotu – jak system wie, za co płacić  
+05. Oznaczenia punktu partnera – certyfikaty, naklejki, materiały  
+06. Materiały edukacyjne dla klientów – ulotki, instrukcje  
+07. Mini-automatyzacje – jak oszczędzić czas  
+08. Typowe błędy techniczne – i jak je naprawić  
+09. Case wdrożeniowy – od zera do pełnej konfiguracji  
+10. Checklista wdrożenia technicznego
+
+
+## 01. Przegląd narzędzi – co masz do dyspozycji
+
+Jako KR masz dostęp do prostych narzędzi, które ułatwiają pracę. Nie musisz być programistą.
+
+Narzędzie 1: Kody QR
+- Co to: kwadratowy kod do skanowania telefonem.
+- Do czego: rejestracja nowego promotora, identyfikacja zakupu przy kasie.
+- Kto używa: partner (pokazuje klientom), klient (skanuje).
+
+Narzędzie 2: Linki rejestracyjne
+- Co to: URL, który prowadzi do formularza rejestracji.
+- Do czego: alternatywa dla QR (jeśli ktoś nie ma skanera).
+- Kto używa: Ty (wysyłasz e-mailem/SMS-em), partner (umieszcza na stronie www).
+
+Narzędzie 3: System identyfikacji obrotu
+- Co to: mechanizm, który automatycznie wykrywa, które transakcje zostały wygenerowane przez promotorów.
+- Warianty: API kasy fiskalnej, plugin do oprogramowania sprzedaży, prosty QR przy kasie.
+- Kto używa: system (automatycznie), partner (konfiguracja).
+
+Narzędzie 4: Panel partnera
+- Co to: strona www, gdzie partner widzi raport obrotu, promotorów, prowizje.
+- Do czego: monitoring, transparentność.
+- Kto używa: partner (sprawdza wyniki), Ty (pomagasz interpretować).
+
+Narzędzie 5: Oznaczenia punktu
+- Co to: certyfikat, naklejki, plakaty z logo Fundacji.
+- Do czego: pokazać klientom, że punkt jest partnerem (buduje zaufanie).
+- Kto używa: partner (wiesza w punkcie).
+
+Narzędzie 6: Materiały edukacyjne
+- Co to: ulotki, instrukcje (pdf), filmiki (YouTube).
+- Do czego: wyjaśnić klientom, jak działa cashback i rejestracja.
+- Kto używa: partner (rozdaje klientom), klient (czyta/ogląda).
+
+Gdzie znajdziesz narzędzia?
+- Panel KR: sekcja „Narzędzia" (generowanie QR, linki, szablony).
+- Fundacja: materiały do pobrania (certyfikaty, instrukcje).
+- Support: helpdesk (jeśli coś nie działa).
+
+Pamiętaj: narzędzia są proste, ale muszą być dobrze skonfigurowane. Przeczytaj instrukcje, przetestuj przed przekazaniem partnerowi.
+
+
+## 02. Kody QR – jak generować i używać
+
+QR to najprostsze narzędzie. Każdy może zeskanować telefonem.
+
+Jak wygenerować QR?
+
+Krok 1: Zaloguj się do panelu KR.
+
+Krok 2: Wybierz „Generuj QR" (sekcja Narzędzia).
+
+Krok 3: Wybierz typ QR:
+- Rejestracja promotora: link prowadzi do formularza rejestracji (dla nowych klientów).
+- Identyfikacja zakupu: używany przy kasie (klient skanuje po zakupie, system nalicza cashback).
+
+Krok 4: Pobierz QR (plik PNG lub PDF).
+
+Krok 5: Wydrukuj lub wyślij partnerowi.
+
+Jak używać QR?
+
+Scenariusz 1: Rejestracja nowego promotora
+- Partner pokazuje QR klientowi: „Zeskanuj kod, zarejestrujesz się i dostaniesz cashback."
+- Klient skanuje → formularz rejestracji → wpisuje dane → gotowe.
+- Partner: „Przy następnym zakupie zeskanuj kod przy kasie."
+
+Scenariusz 2: Identyfikacja zakupu
+- Klient (już zarejestrowany promotor) robi zakupy.
+- Przy kasie partner mówi: „Zeskanuj kod, żeby dostać cashback."
+- Klient skanuje QR → system identyfikuje ID promotora i kwotę zakupu → cashback naliczony.
+
+Gdzie umieścić QR?
+- Przy kasie (naklejka, stojak).
+- Na drzwiach wejściowych (naklejka „Jesteśmy partnerem Fundacji Werbekoordynator – zeskanuj QR").
+- Na paragonie (jeśli kasa pozwala dodać QR do wydruku).
+
+Typowe problemy i rozwiązania:
+
+Problem: Klient skanuje, ale nic się nie dzieje.
+- Rozwiązanie: Sprawdź, czy QR jest dobrej jakości (nie rozmazany, nie za mały). Wygeneruj nowy, wydrukuj w wyższej rozdzielczości.
+
+Problem: Klient skanuje niewłaściwy QR (rejestracyjny zamiast zakupowego).
+- Rozwiązanie: Opisz QR jasno („QR do rejestracji" / „QR do cashbacku przy kasie"). Użyj różnych kolorów lub ramek.
+
+Pamiętaj: QR to narzędzie dla klienta, nie dla partnera. Musi być widoczny, czytelny, łatwy w użyciu.
+
+
+## 03. Linki rejestracyjne i polecające – alternatywa dla QR
+
+Nie każdy lubi skanować kody. Linki działają wszędzie (SMS, e-mail, social media).
+
+Jak wygenerować link?
+
+Krok 1: Panel KR → Narzędzia → Generuj link.
+
+Krok 2: Wybierz typ:
+- Link rejestracyjny: dla nowych promotorów (tworzysz indywidualny link ze swoim ID).
+- Link polecający: dla partnera (tworzy link dla swoich klientów).
+
+Krok 3: Skopiuj link (przykład: `https://fundacja.pl/register?ref=KR12345`).
+
+Krok 4: Wyślij lub udostępnij.
+
+Jak używać linków?
+
+Scenariusz 1: Cold call / follow-up
+- Ty (KR): „Wysyłam link SMS-em. Klikniesz, wypełnisz formularz i jesteś w systemie."
+- Partner klika → rejestracja → gotowe.
+
+Scenariusz 2: Partner promuje na social media
+- Partner: „Moi klienci mogą dostać cashback! Link w bio: [link]."
+- Klienci klikają → rejestracja → wracają do punktu z kodem QR.
+
+Scenariusz 3: E-mail marketing
+- Partner wysyła newsletter: „Nowość – cashback przy zakupach! Zarejestruj się: [link]."
+
+Plusy linków vs QR:
+- Łatwiejsze do udostępnienia (copy-paste).
+- Działają bez skanera (niektóre telefony nie mają).
+- Można śledzić kliki (panel pokazuje, ile osób kliknęło).
+
+Minusy:
+- Mniej wizualne (QR widać od razu, link trzeba kliknąć).
+- Potrzebny internet (QR też, ale link wymaga wpisania/kliknięcia).
+
+Kiedy używać linków zamiast QR?
+- Kontakt online (e-mail, SMS, social media).
+- Partner nie ma możliwości wydruku QR.
+- Klient nie ma aparatu w telefonie (rzadkie, ale zdarza się).
+
+Pamiętaj: Link i QR prowadzą do tego samego miejsca. Wybierz narzędzie, które pasuje do sytuacji.
+
+
+## 04. Identyfikacja obrotu – jak system wie, za co płacić
+
+Identyfikacja obrotu to kluczowy mechanizm. Bez niego nie ma prowizji.
+
+Jak działa identyfikacja?
+
+Scenariusz 1: QR przy kasie (najprostszy)
+- Klient robi zakupy, płaci.
+- Partner mówi: „Zeskanuj kod, żeby dostać cashback."
+- Klient skanuje QR → system otwiera formularz: „Podaj kwotę zakupu."
+- Klient wpisuje kwotę → system zapisuje transakcję (ID promotora + kwota).
+
+Scenariusz 2: API kasy fiskalnej (automatyczny)
+- Kasa partnera jest połączona z systemem Fundacji (API).
+- Klient płaci kartą z ID promotora (karta lojalnościowa, kod w aplikacji).
+- Kasa wysyła dane do systemu (kwota, data, ID promotora).
+- System nalicza cashback automatycznie (partner nic nie robi).
+
+Scenariusz 3: Plugin do oprogramowania sprzedaży
+- Partner używa oprogramowania (np. Subiekt, FakturaXL).
+- Instaluje plugin Fundacji.
+- Przy sprzedaży wpisuje ID promotora (lub klient pokazuje kod).
+- Plugin wysyła dane do systemu.
+
+Który wariant wybrać?
+
+Dla małych punktów (sklep, warsztat, salon):
+- QR przy kasie (najprostszy, brak integracji technicznej).
+
+Dla średnich punktów (restauracja, apteka):
+- Plugin do oprogramowania (automatyzacja, mniej błędów).
+
+Dla dużych sieci (sieć sklepów, franczyza):
+- API kasy fiskalnej (pełna automatyzacja, skalowalność).
+
+Typowe problemy i rozwiązania:
+
+Problem: System nie widzi transakcji.
+- Rozwiązanie: Sprawdź, czy klient zeskanował QR lub podał ID. Jeśli tak – zgłoś do supportu (logi pokażą, co poszło nie tak).
+
+Problem: Kwota transakcji nieprawidłowa.
+- Rozwiązanie: Partner lub klient pomylił kwotę (QR wymaga ręcznego wpisania). Korekta w panelu partnera.
+
+Problem: Partner nie wie, jak skonfigurować API/plugin.
+- Rozwiązanie: Helpdesk Fundacji (instrukcje krok po kroku, wsparcie techniczne).
+
+Pamiętaj: identyfikacja to most między zakupem a prowizją. Jeśli nie działa – nie ma obrotu w raporcie.
+
+
+## 05. Oznaczenia punktu partnera – certyfikaty, naklejki, materiały
+
+Oznaczenia to wizytówka partnera. Pokazują klientom: „Tu możesz dostać cashback."
+
+Co wchodzi w skład oznaczeń?
+
+Element 1: Certyfikat partnera
+- Co to: ramka A4 z logo Fundacji i danymi partnera („Jesteśmy Oficjalnym Partnerem Fundacji Werbekoordynator").
+- Gdzie: ściana przy kasie, witryna, poczekalnia.
+- Jak zdobyć: generowanie w panelu KR (pdf do wydruku) lub wysyłka fizyczna (jeśli Fundacja oferuje).
+
+Element 2: Naklejki QR
+- Co to: naklejka z QR i napisem „Zeskanuj i zarejestruj się – dostaniesz cashback".
+- Gdzie: drzwi wejściowe, lada, kasa, witryna.
+- Jak zdobyć: druk własny (pdf z panelu) lub zamówienie u Fundacji.
+
+Element 3: Ulotki dla klientów
+- Co to: jednostronicowa ulotka (A6 lub DL) z instrukcją „Jak dostać cashback?".
+- Gdzie: przy kasie (klient bierze), w torebce z zakupami.
+- Jak zdobyć: szablon pdf (panel KR), druk lokalny.
+
+Element 4: Plakat promocyjny
+- Co to: większy format (A3) z hasłem „Robiąc zakupy tutaj – dostajesz cashback!".
+- Gdzie: witryna, ściana wewnątrz punktu.
+- Jak zdobyć: szablon pdf, druk własny.
+
+Element 5: Materiały cyfrowe
+- Co to: grafiki do mediów społecznościowych, baner na stronę www.
+- Gdzie: Facebook, Instagram, strona partnera.
+- Jak zdobyć: pakiet grafik (panel KR, sekcja Materiały).
+
+Jak pomóc partnerowi w oznakowaniu?
+
+Krok 1: Pokaż wzory (podczas wdrożenia).
+- „Tu powieś certyfikat – klienci zobaczą od razu."
+- „Naklejka QR na drzwiach – każdy, kto wchodzi, może zeskanować."
+
+Krok 2: Pomóż wydrukować (jeśli partner nie wie jak).
+- „Mogę Ci to wydrukować i przywieźć. Koszt druku: X zł (możesz pokryć lub partner)."
+
+Krok 3: Test wizualny.
+- Zrób zdjęcie oznakowanego punktu → wyślij do Fundacji (feedback, czy wszystko OK).
+
+Pamiętaj: oznaczenia to nie biurokracja. To narzędzie marketingowe – więcej oznaczeń = więcej klientów wie o cashbacku.
+
+
+## 06. Materiały edukacyjne dla klientów – ulotki, instrukcje
+
+Klienci często nie wiedzą, jak działa cashback. Edukacja to Twoja rola (i partnera).
+
+Materiał 1: Ulotka „Jak dostać cashback?"
+
+Treść (przykład):
+```
+CASHBACK przy zakupach – Jak to działa?
+
+1. Zeskanuj QR kod (znajdziesz przy kasie lub na drzwiach).
+2. Zarejestruj się (imię, e-mail, telefon) – zajmie 1 minutę.
+3. Przy następnych zakupach skanuj QR przy kasie – dostaniesz zwrot części pieniędzy!
+
+Ile dostaję?
+- Zależy od punktu. Zwykle 0,5–2% wartości zakupu.
+
+Kiedy dostaję cashback?
+- Na Twoje konto w systemie (możesz wypłacić lub użyć do kolejnych zakupów).
+
+Pytania? Zadzwoń: [telefon KR] lub napisz: [e-mail KR].
+```
+
+Gdzie używać:
+- Partner rozdaje przy kasie.
+- Klient zabiera do domu (przypomnienie, żeby wrócić).
+
+Materiał 2: Filmik instruktażowy (2 minuty)
+
+Treść:
+- Jak zeskanować QR.
+- Jak wypełnić formularz rejestracji.
+- Jak zobaczyć swój cashback w panelu.
+
+Gdzie umieścić:
+- YouTube (publiczny lub unlisted).
+- Strona partnera (embed).
+- Social media partnera (post lub story).
+
+Materiał 3: FAQ (najczęstsze pytania)
+
+Przykłady pytań:
+- Czy rejestracja kosztuje?
+  - Nie, jest bezpłatna.
+- Jak długo czekam na cashback?
+  - Cashback nalicza się od razu po skanowaniu QR.
+- Czy mogę polecać innym?
+  - Tak! Zapraszaj znajomych – dostaniesz dodatkową prowizję.
+
+Gdzie umieścić:
+- Panel partnera (zakładka „FAQ dla klientów").
+- Ulotka (odwrotna strona).
+
+Jak edukowować partnera, żeby on edukował klientów?
+
+Krok 1: Pokaz podczas wdrożenia.
+- „Pokaż klientowi QR i powiedz: »Możesz dostać cashback – zeskanuj kod.«"
+
+Krok 2: Daj materiały.
+- „Masz ulotki. Przy kasie możesz powiedzieć: »Weź ulotkę, zobacz, jak działa cashback.«"
+
+Krok 3: Trening personelu (jeśli partner ma pracowników).
+- 15-minutowe spotkanie: jak mówić o cashbacku, jak pokazywać QR.
+
+Pamiętaj: edukacja to inwestycja. Im więcej klientów wie, jak działa cashback – tym więcej obrotu.
+
+
+## 07. Mini-automatyzacje – jak oszczędzić czas
+
+Nie rób ręcznie tego, co można zautomatyzować.
+
+Automatyzacja 1: Przypomnienia kalendarzowe
+- Narzędzie: Google Calendar, Outlook.
+- Jak: Ustaw cykliczne przypomnienia (follow-up z partnerem co tydzień, sprawdzenie raportów co miesiąc).
+- Oszczędność: nie zapominasz o kontaktach.
+
+Automatyzacja 2: Szablony wiadomości
+- Narzędzie: snippety w Gmailu, szablon SMS w telefonie.
+- Przykład: „Cześć [Imię], przypominam o spotkaniu wdrożeniowym [Data] o [Godzina]. Pytania? Dzwoń. Pozdrawiam, [Twoje imię]."
+- Oszczędność: nie piszesz tego samego 10 razy dziennie.
+
+Automatyzacja 3: Masowe generowanie QR
+- Narzędzie: panel KR (jeśli masz wielu partnerów).
+- Jak: Wygeneruj 10 QR naraz (dla różnych partnerów), pobierz jako ZIP.
+- Oszczędność: jedno kliknięcie zamiast 10.
+
+Automatyzacja 4: Automatyczne e-maile po rejestracji
+- Narzędzie: system Fundacji (jeśli oferuje).
+- Jak: Partner rejestruje się → automatyczny e-mail powitalny („Witaj w Fundacji! Następne kroki…").
+- Oszczędność: nie musisz wysyłać ręcznie.
+
+Automatyzacja 5: Eksport raportów
+- Narzędzie: panel partnera (eksport do Excel).
+- Jak: Nauczysz partnera, jak eksportować raport → wysyła Ci co miesiąc → analizujesz.
+- Oszczędność: nie musisz logować się do każdego panelu partnera osobno.
+
+Jak zacząć automatyzować?
+
+Krok 1: Zidentyfikuj powtarzalne zadania (co robisz 5+ razy w tygodniu?).
+
+Krok 2: Sprawdź, czy jest narzędzie (panel KR, kalendarz, snippety).
+
+Krok 3: Skonfiguruj raz, używaj wielokrotnie.
+
+Pamiętaj: automatyzacja to nie lenistwo. To efektywność – więcej czasu na rozmowy z partnerami, mniej na administrację.
+
+
+## 08. Typowe błędy techniczne – i jak je naprawić
+
+Technologia czasem zawodzi. Przygotuj się na najczęstsze problemy.
+
+Błąd 1: QR nie skanuje się
+Objawy: Klient skanuje, telefon nie reaguje.
+Przyczyny:
+- QR rozmazany (zły druk).
+- QR za mały (telefon nie widzi).
+- Klient nie ma aplikacji do skanowania (stare telefony).
+Rozwiązanie:
+- Wygeneruj nowy QR, wydrukuj w wyższej jakości (min. 300 dpi).
+- Zwiększ rozmiar QR (min. 5×5 cm).
+- Zaproponuj link zamiast QR (klient wpisuje w przeglądarce).
+
+Błąd 2: Transakcja nie pojawia się w raporcie
+Objawy: Klient zeskanował QR, wpisał kwotę, ale w panelu partnera nic nie ma.
+Przyczyny:
+- Klient nie zatwierdził formularza (wyszedł przed końcem).
+- Problem z internetem (dane nie poszły do systemu).
+- Błąd systemu (rzadkie, ale zdarza się).
+Rozwiązanie:
+- Poproś klienta, żeby spróbował ponownie.
+- Sprawdź logi w panelu KR (czy próba rejestracji była).
+- Zgłoś do supportu (jeśli problem się powtarza).
+
+Błąd 3: Partner nie może zalogować się do panelu
+Objawy: „Nieprawidłowe hasło" lub „Konto zablokowane".
+Przyczyny:
+- Partner zapomniał hasła.
+- Partner wpisał zły e-mail.
+- Konto nie zostało aktywowane (nie kliknął w link aktywacyjny w e-mailu).
+Rozwiązanie:
+- Reset hasła (link „Zapomniałem hasła" na stronie logowania).
+- Sprawdź, czy e-mail jest poprawny (panel KR pokazuje e-mail partnera).
+- Wyślij ponownie e-mail aktywacyjny (panel KR, sekcja Partnerzy).
+
+Błąd 4: Cashback nie nalicza się klientowi
+Objawy: Klient skanuje QR, wpisuje kwotę, ale nie widzi cashbacku na koncie.
+Przyczyny:
+- Klient nie jest zarejestrowany (skanował QR rejestracyjny, ale nie ukończył rejestracji).
+- Transakcja czeka na weryfikację (partner musi zatwierdzić ręcznie – jeśli taka opcja włączona).
+Rozwiązanie:
+- Sprawdź status klienta w panelu (czy jest zarejestrowany).
+- Sprawdź status transakcji (czy jest „oczekująca" czy „zatwierdzona").
+- Jeśli „oczekująca" – pomóż partnerowi zatwierdzić.
+
+Błąd 5: System pokazuje niewłaściwą kwotę prowizji
+Objawy: Partner widzi prowizję 50 zł, ale oczekiwał 100 zł.
+Przyczyny:
+- Partner nie rozumie, jak liczymy (myśli, że 2% od całego obrotu, a nie tylko od obrotu promotorów).
+- System pomylił transakcję (rzadkie).
+Rozwiązanie:
+- Wyjaśnij: „Prowizja to 2% tylko od obrotu wygenerowanego przez promotorów (3000 zł), nie od całego obrotu (10 000 zł)."
+- Porównaj raport z księgowością partnera (weryfikacja).
+- Jeśli błąd systemu – zgłoś do supportu (korekta).
+
+Jak minimalizować błędy?
+
+- Test zakupu przed uruchomieniem (sprawdzasz, czy wszystko działa).
+- Instrukcje dla partnera (pokazujesz krok po kroku).
+- Dostępność na pytania (partner dzwoni, jeśli coś nie działa).
+
+Pamiętaj: błędy to nie koniec świata. Większość da się naprawić w 5 minut.
+
+
+## 09. Case wdrożeniowy – od zera do pełnej konfiguracji
+
+Sytuacja:
+Apteka „Zdrowie", właścicielka (Pani Magda, 42 lata), nigdy nie korzystała z QR ani systemów online. Źródło: polecenie od partnera.
+
+Dzień 0: Ustalenia
+- Magda: „Nie znam się na technice. Czy to skomplikowane?"
+- Ja: „Nie. Pokażę Ci krok po kroku. Zajmie 30 minut."
+
+Dzień 1: Rejestracja i dane techniczne
+- Magda wypełnia formularz (promotor → partner) na swoim telefonie (pomagam).
+- Zbieramy dane: VAT czynny, kasa Novitus, e-mail apteka@zdrowie.pl.
+- Magda: „Co dalej?"
+- Ja: „Teraz wygeneruję QR i certyfikat. Spotkamy się w aptece za 3 dni."
+
+Dzień 4: Spotkanie wdrożeniowe w aptece
+
+Krok 1: Oznaczenia
+- Przekazuję certyfikat (wydrukowany w ramce A4).
+- Magda: „Gdzie to powiesić?"
+- Ja: „Najlepiej przy kasie – klienci zobaczą od razu." (wieszamy razem).
+
+Krok 2: QR przy kasie
+- Przekazuję naklejkę QR (10×10 cm, napis „Zeskanuj i dostań cashback").
+- Ja: „Naklejka na ladę, przy kasie. Klient płaci – mówisz: »Możesz zeskanować kod, dostaniesz cashback.«"
+- Magda: „A jeśli ktoś zapyta, jak to działa?"
+- Ja: „Masz ulotki. Dasz klientowi – przeczyta w domu."
+
+Krok 3: Test zakupu
+- Ja: „Teraz przetestujemy. Kupuję coś za 20 zł, skanuję QR."
+- Ja (jako klient): Skanuję QR → formularz „Podaj kwotę zakupu" → wpisuję 20 zł → cashback naliczony.
+- Ja: „Teraz sprawdź w panelu." (loguję Magdę).
+- Magda: „O! Widzę 20 zł w raporcie!"
+
+Krok 4: Edukacja
+- Ja: „Jeśli klient pyta, jak się zarejestrować – pokaż mu QR na drzwiach (rejestracyjny). Przy kasie QR do cashbacku."
+- Magda: „Rozumiem. A jeśli coś nie zadziała?"
+- Ja: „Dzwoń – pomogę. Zostawiam instrukcję (pdf) i film (2 minuty) – zobacz wieczorem."
+
+Dzień 5–7: Follow-up
+- Dzwonię co 2 dni: „Jak idzie? Są pytania?"
+- Magda: „3 klientów zeskanowało, jeden się zarejestrował!"
+- Ja: „Świetnie! Pamiętaj mówić przy kasie: »Możesz dostać cashback – zeskanuj kod.«"
+
+Tydzień 2: Pierwsze wyniki
+- Obrót: 800 zł (5 klientów z QR).
+- Magda: „To działa! Jeden klient wrócił już drugi raz."
+
+Miesiąc 1: Stabilizacja
+- Obrót: 3500 zł (20 klientów).
+- Magda: „Klienci pytają, czy mogą polecać znajomym. Jak to działa?"
+- Ja: „Daj im link rejestracyjny (wysyłam SMS). Znajomy się zarejestruje – dostaną prowizję."
+
+Wnioski z case'u:
+- Partner „nietechniczny" potrzebuje więcej wsparcia – pokazuj, nie mów.
+- Test zakupu buduje zaufanie („O! To naprawdę działa!").
+- Follow-up w pierwszych tygodniach kluczowy (pytania, korekty).
+
+
+## 10. Checklista wdrożenia technicznego
+
+Przed wdrożeniem:
+- [ ] Partner zarejestrowany (promotor → partner).
+- [ ] Dane techniczne zebrane (VAT, kasa, e-mail).
+- [ ] QR wygenerowany (rejestracyjny + zakupowy).
+- [ ] Certyfikat i naklejki przygotowane (wydruk lub zamówienie).
+
+Podczas wdrożenia:
+- [ ] Certyfikat powieszony (widoczne miejsce: kasa, witryna).
+- [ ] Naklejki QR umieszczone (drzwi, lada, kasa).
+- [ ] Panel partnera pokazany (jak logować, jak czytać raport).
+- [ ] Test zakupu przeprowadzony (weryfikacja w systemie).
+
+Po wdrożeniu:
+- [ ] Instrukcje przekazane partnerowi (ulotka, film).
+- [ ] Edukacja personelu (jeśli partner ma pracowników).
+- [ ] Follow-up zaplanowany (tydzień 1: co 2 dni, potem co tydzień).
+
+Co tydzień (monitoring):
+- [ ] Sprawdź raport obrotu (czy są transakcje?).
+- [ ] Jeśli 0 transakcji przez 2 tygodnie – telefon do partnera (diagnoza: czy mówi klientom o cashbacku?).
+
+Co miesiąc:
+- [ ] Przejrzyj panel partnera (czy wszystko OK?).
+- [ ] Zapytaj o feedback („Co można poprawić?").
+
+Sygnały ostrzegawcze (czerwone flagi):
+- Partner nie wie, jak logować się do panelu (brak edukacji – napraw).
+- QR nie działa (test pokazuje błąd – wygeneruj nowy).
+- Klienci nie skanują (partner nie mówi o cashbacku – trening).
+
+Pamiętaj: wdrożenie techniczne to fundament. Jeśli nie działa – nie ma obrotu. Testuj, edukuj, monitoruj.
+
+
+---
+
+## Podsumowanie Modułu 5
+
+Narzędzia operacyjne to prosty zestaw, który działa, jeśli dobrze skonfigurujesz. Kluczowe punkty:
+
+- Przegląd narzędzi: QR, linki, identyfikacja obrotu, panel, oznaczenia, edukacja.
+- QR: generuj (panel KR), drukuj, umieść przy kasie, testuj.
+- Linki: alternatywa dla QR (SMS, e-mail, social media).
+- Identyfikacja obrotu: QR przy kasie (prosty), API/plugin (automatyczny).
+- Oznaczenia: certyfikat, naklejki, ulotki, plakaty, materiały cyfrowe.
+- Edukacja: ulotki, filmy, FAQ – klient musi wiedzieć, jak działa cashback.
+- Automatyzacje: przypomnienia, szablony, masowe QR, eksport raportów.
+- Błędy: QR nie skanuje (nowy QR), transakcja nie widoczna (logi), cashback nie nalicza (status klienta).
+- Case: apteka od zera do 3500 zł obrotu (miesiąc).
+- Checklista: przed, podczas, po, co tydzień, co miesiąc.
+
+Następny krok: Moduł 6 (Relacje i retencja – jak utrzymać partnerów aktywnych).

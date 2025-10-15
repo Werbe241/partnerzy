@@ -1,0 +1,420 @@
+# Moduł 4: Success Fee – model prowizji od sukcesu
+Przejrzyste, uczciwe, opłacalne. Dla partnera i dla Ciebie.
+
+Spis treści:
+01. Idea Success Fee – dlaczego płacisz po efekcie  
+02. Struktura prowizji – jak dzieli się Success Fee  
+03. Przykłady naliczania – konkretne liczby  
+04. Transparentność i zaufanie – jak pokazać, że jesteś uczciwy  
+05. Warianty stawek – stała, okresowa, promocyjna  
+06. Raportowanie obrotu – jak partner widzi, za co płaci  
+07. Rozmowa o pieniądzach – jak mówić o prowizji bez stresu  
+08. Ryzyka i ochrona – co gdy partner nie płaci lub kwestionuje  
+09. Case: ustalenia prowizji i pierwsze rozliczenie  
+10. Checklista finansowa – co sprawdzić przed startem
+
+
+## 01. Idea Success Fee – dlaczego płacisz po efekcie
+
+Success Fee (prowizja od sukcesu) to model, w którym płacisz tylko wtedy, gdy jest wynik. Odwrotnie niż w tradycyjnej reklamie.
+
+Tradycyjna reklama:
+- Płacisz z góry (ulotki, Google Ads, billboard).
+- Nie wiesz, czy przyniesie efekt.
+- Ryzyko: wydajesz pieniądze, a klienci nie przychodzą.
+
+Success Fee:
+- Płacisz po efekcie (gdy pojawi się obrót wygenerowany przez promotorów).
+- Wiesz dokładnie, za co płacisz.
+- Ryzyko: minimalne (płacisz tylko za to, co zadziałało).
+
+Dlaczego partnerzy to akceptują?
+- Nie muszą wydawać z góry.
+- Prowizja to procent od dodatkowego obrotu (którego wcześniej nie mieli).
+- Transparentność: system automatycznie identyfikuje i raportuje obrót.
+
+Dlaczego ty (KR) to akceptujesz?
+- Jesteś zmotywowany do pomocy partnerowi (im więcej obrotu, tym więcej Twojej prowizji).
+- Długoterminowa współpraca (partner zadowolony = stały dochód).
+- Fair: zarabiasz na wartości, którą dostarczasz.
+
+Idea w jednym zdaniu:
+„Najpierw pomagam, potem zarabiam."
+
+
+## 02. Struktura prowizji – jak dzieli się Success Fee
+
+Success Fee nie trafia w całości do jednej osoby. Jest dzielony na 3 warstwy:
+
+Warstwa 1: Cashback dla klienta (promotora)
+- Klient, który dokonał zakupu, dostaje zwrot części kwoty (np. 0,5–1% wartości zakupu).
+- Cel: motywacja do powrotu i polecania.
+
+Warstwa 2: Prowizja dla Koordynatora Reklamy (Ty)
+- Ty dostajesz procent od obrotu wygenerowanego przez promotorów w Twojej strukturze.
+- Wysokość zależy od Twojej pozycji w systemie (patrz Plan Wynagrodzeń Fundacji).
+
+Warstwa 3: Prowizja dla Fundacji i systemu
+- Fundacja pokrywa koszty technologii, wsparcia, edukacji.
+- Reszta trafia do innych poziomów struktury (mentorzy, menadżerowie regionalni).
+
+Przykład podziału (przy prowizji 2% od partnera):
+- Partner: sklep, obrót wygenerowany przez promotorów = 10 000 zł/miesiąc.
+- Prowizja partnera: 2% × 10 000 zł = 200 zł.
+- Podział 200 zł:
+  - Cashback dla klientów: 50 zł (0,5%).
+  - KR (Ty): 80 zł (0,8%).
+  - Fundacja i struktura: 70 zł (0,7%).
+
+Uwaga: konkretne stawki zależą od Planu Wynagrodzeń Fundacji. Powyższy przykład to ilustracja, nie obietnica.
+
+Dlaczego taki podział?
+- Motywuje wszystkich (klient, KR, Fundacja).
+- Jest przejrzysty (każdy wie, ile dostaje).
+- Pozwala systemowi się rozwijać (Fundacja inwestuje w narzędzia, edukację).
+
+
+## 03. Przykłady naliczania – konkretne liczby
+
+Przykład 1: Sklep spożywczy
+- Partner: sklep „U Janka", prowizja 2%.
+- Obrót wygenerowany przez promotorów: 5000 zł/miesiąc.
+- Prowizja partnera: 2% × 5000 zł = 100 zł.
+- Podział (uproszczony):
+  - Cashback dla klientów: 25 zł.
+  - KR: 40 zł.
+  - Fundacja i struktura: 35 zł.
+
+Przykład 2: Warsztat samochodowy
+- Partner: „AutoSerwis Kowalski", prowizja 3%.
+- Obrót: 20 000 zł/miesiąc.
+- Prowizja partnera: 3% × 20 000 zł = 600 zł.
+- Podział:
+  - Cashback: 100 zł.
+  - KR: 240 zł.
+  - Fundacja: 260 zł.
+
+Przykład 3: Salon fryzjerski (promocja)
+- Partner: „Salon Piękności Anna", prowizja podstawowa 2%, promocja 5% (na pierwszy miesiąc).
+- Obrót: 8000 zł (pierwszy miesiąc).
+- Prowizja partnera: 5% × 8000 zł = 400 zł.
+- Podział:
+  - Cashback: 80 zł.
+  - KR: 160 zł.
+  - Fundacja: 160 zł.
+- Miesiąc 2: powrót do 2% (obrót 8000 zł → prowizja 160 zł).
+
+Przykład 4: Restauracja (niski obrót)
+- Partner: „Pizzeria Romana", prowizja 2%.
+- Obrót: 1000 zł/miesiąc (mało promotorów).
+- Prowizja partnera: 2% × 1000 zł = 20 zł.
+- Podział:
+  - Cashback: 5 zł.
+  - KR: 8 zł.
+  - Fundacja: 7 zł.
+- Akcja KR: zwiększyć liczbę promotorów (więcej obrotu = więcej prowizji dla wszystkich).
+
+Jak policzyć swoją prowizję?
+- Zapytaj w Fundacji o aktualny Plan Wynagrodzeń (konkretne stawki zależą od poziomu w strukturze).
+- Użyj panelu KR (system pokazuje Twoją prowizję automatycznie).
+
+
+## 04. Transparentność i zaufanie – jak pokazać, że jesteś uczciwy
+
+Zaufanie to fundament współpracy. Partner musi wiedzieć, że nie oszukujesz.
+
+Zasada 1: Pokazuj, jak liczymy prowizję
+- Wyjaśnij partnerowi przy rejestracji: „Prowizja to 2% od obrotu wygenerowanego przez promotorów. System automatycznie identyfikuje transakcje i raportuje w panelu."
+- Pokaż przykład: „Jeśli promotor kupi za 100 zł, zobaczysz 100 zł w raporcie. Zapłacisz 2 zł prowizji."
+
+Zasada 2: Daj dostęp do raportów
+- Partner widzi raport obrotu w czasie rzeczywistym (panel partnera).
+- Raport pokazuje: datę, kwotę, ID promotora (anonimizowany), cashback naliczony.
+
+Zasada 3: Wyjaśnij, kto co dostaje
+- „Z tych 2%, część trafia do klientów (cashback), część do mnie (KR), reszta do Fundacji i systemu. Każdy dostaje swoje."
+
+Zasada 4: Bądź dostępny na pytania
+- „Jeśli coś będzie niejasne – dzwoń lub pisz. Wyjaśnię."
+
+Zasada 5: Dokumentuj ustalenia
+- Po rejestracji wyślij potwierdzenie: „Prowizja 2%, start od [data], raport dostępny w panelu."
+
+Typowe obawy partnera:
+- „Skąd wiem, że nie zawyżasz obrotu?"
+  - Odpowiedź: „System identyfikuje automatycznie (kasa, QR, API). Ty widzisz raport. Możemy porównać z Twoją księgowością."
+- „Czy mogę sprawdzić naliczenia?"
+  - Odpowiedź: „Oczywiście. Panel pokazuje każdą transakcję. Możesz eksportować raport do Excela."
+
+Pamiętaj: transparentność to nie słabość. To przewaga konkurencyjna.
+
+
+## 05. Warianty stawek – stała, okresowa, promocyjna
+
+Nie każdy partner pasuje do jednej stawki. Dostosuj prowizję do sytuacji.
+
+Wariant 1: Stawka stała
+- Procent prowizji nie zmienia się przez cały czas współpracy.
+- Przykład: 2% dla sklepu spożywczego.
+- Plusy: prostota, przewidywalność.
+- Kiedy stosować: standardowa współpraca, partner nie potrzebuje specjalnych warunków.
+
+Wariant 2: Stawka okresowa (degresywna)
+- Wyższa stawka na start, potem obniżka.
+- Przykład: pierwszy miesiąc 5%, potem 2%.
+- Plusy: motywacja partnera do szybkiego startu.
+- Kiedy stosować: partner sceptyczny, potrzebuje „zachęty" do testu.
+
+Wariant 3: Stawka promocyjna
+- Wyższa stawka tylko w okresie promocji (np. wyprzedaż, Black Friday).
+- Przykład: zwykle 2%, w promocji 5–10%.
+- Plusy: zwiększa obrót w kluczowych momentach.
+- Kiedy stosować: partner planuje event, chce przyciągnąć więcej klientów.
+
+Wariant 4: Stawka progowa
+- Procent rośnie wraz z obrotem.
+- Przykład: do 5000 zł/miesiąc = 2%, powyżej 5000 zł = 3%.
+- Plusy: motywuje do większego obrotu.
+- Kiedy stosować: partner ma potencjał do dużego obrotu, potrzebuje zachęty.
+
+Limity Fundacji (przypomnienie z Modułu 1):
+- Minimum: 2% (poniżej nieopłacalne).
+- Maximum stałe: 30%.
+- Maximum okresowe/promocyjne: 50%.
+
+Jak ustalać stawki?
+- Rozmowa z partnerem: „Jaki procent uznałbyś za fair? Pamiętaj, płacisz tylko od dodatkowego obrotu."
+- Zacznij od 2% (standard), negocjuj w górę tylko jeśli partner wymaga.
+- Wyjaśnij limity Fundacji: „System akceptuje 2–30% na stałe, do 50% na promocje."
+
+Pamiętaj: wyższa prowizja = więcej dla wszystkich (klient, KR, Fundacja), ale też większy koszt dla partnera. Szukaj balansu.
+
+
+## 06. Raportowanie obrotu – jak partner widzi, za co płaci
+
+Raport to dowód, że system działa uczciwie. Partner musi wiedzieć, za co płaci.
+
+Co zawiera raport obrotu?
+- Data transakcji.
+- Kwota transakcji.
+- ID promotora (anonimizowany, np. „Promotor #12345").
+- Cashback naliczony dla klienta.
+- Prowizja naliczona dla partnera.
+
+Przykładowy raport (miesiąc):
+| Data | Kwota | Promotor ID | Cashback | Prowizja partnera |
+|------|-------|-------------|----------|-------------------|
+| 2025-01-05 | 150 zł | #12345 | 1,50 zł | 3,00 zł |
+| 2025-01-12 | 200 zł | #67890 | 2,00 zł | 4,00 zł |
+| 2025-01-20 | 500 zł | #11111 | 5,00 zł | 10,00 zł |
+| **Suma** | **850 zł** | — | **8,50 zł** | **17,00 zł** |
+
+Jak partner dostaje raport?
+- Panel partnera: dostęp 24/7, eksport do Excel/PDF.
+- E-mail (opcjonalnie): automatyczne podsumowanie na koniec miesiąca.
+
+Jak Ty (KR) dostajesz raport?
+- Panel KR: widzisz obrót wszystkich partnerów w Twojej strukturze.
+- Twoja prowizja: obliczana automatycznie i widoczna w panelu.
+
+Co jeśli partner kwestionuje raport?
+- Krok 1: Porównaj raport z księgowością partnera (data i kwota transakcji).
+- Krok 2: Jeśli są rozbieżności – zgłoś do supportu systemu (mają logi wszystkich transakcji).
+- Krok 3: Korekta (jeśli system pomylił się – Fundacja koryguje, partner nie płaci za błąd).
+
+Pamiętaj: raport to nie biurokracja. To narzędzie zaufania.
+
+
+## 07. Rozmowa o pieniądzach – jak mówić o prowizji bez stresu
+
+Wielu KR boi się mówić o pieniądzach. Ale to nie jest niezręczne – jeśli mówisz jasno i uczciwie.
+
+Zasada 1: Nie odkładaj tematu prowizji
+- Mów o prowizji już przy pierwszym kontakcie (skrypt z Modułu 3: „prowizja tylko od efektu").
+- Nie ukrywaj: „Zarabiam z prowizji od obrotu, który pomogę Ci wygenerować. To uczciwe – płacisz za wynik."
+
+Zasada 2: Używaj konkretnych liczb, nie ogólników
+- Zamiast: „Prowizja jest niewielka."
+- Mów: „Prowizja to 2% od obrotu wygenerowanego przez promotorów. Jeśli obrót to 5000 zł, płacisz 100 zł."
+
+Zasada 3: Pokazuj wartość, nie koszt
+- Zamiast: „Będziesz płacić 2% prowizji."
+- Mów: „Zyskujesz nowych klientów bez kosztów z góry. Prowizja 2% to inwestycja w obrót, którego wcześniej nie miałeś."
+
+Zasada 4: Porównaj z innymi formami reklamy
+- „Gdybyś wydał 500 zł na ulotki, nie wiesz, czy ktoś przyjdzie. Tu płacisz 500 zł prowizji tylko wtedy, gdy masz 25 000 zł obrotu. Co brzmi lepiej?"
+
+Zasada 5: Bądź otwarty na pytania
+- „Masz pytania o prowizję? Wyjaśnię wszystko."
+
+Typowe pytania partnera:
+- „Czy mogę negocjować stawkę?"
+  - Odpowiedź: „Możesz zaproponować swoją stawkę. Fundacja akceptuje 2–30% na stałe. Co byłoby dla Ciebie fair?"
+- „Czy mogę zrezygnować, jeśli prowizja będzie za wysoka?"
+  - Odpowiedź: „Oczywiście. Umowa ma 10 dni na odstąpienie. Potem możesz zakończyć współpracę z miesięcznym wyprzedzeniem."
+- „Jak płacę prowizję?"
+  - Odpowiedź: „System generuje fakturę na koniec miesiąca. Możesz zapłacić przelewem. Termin: 14 dni."
+
+Pamiętaj: rozmowa o pieniądzach to nie negocjacje wojenne. To ustalenie fair zasad dla obu stron.
+
+
+## 08. Ryzyka i ochrona – co gdy partner nie płaci lub kwestionuje
+
+Nie wszystko zawsze idzie gładko. Przygotuj się na typowe problemy.
+
+Ryzyko 1: Partner nie płaci prowizji
+Przyczyny:
+- Problemy finansowe (nie ma pieniędzy).
+- Kwestionuje raport (uważa, że obrót jest zawyżony).
+- Zapomniał/nie wiedział o terminie.
+
+Akcja:
+- Krok 1: Przypomnienie (e-mail lub telefon): „Prowizja za [miesiąc] to [kwota]. Termin: [data]. Czy są pytania?"
+- Krok 2: Jeśli nie reaguje – eskalacja do Fundacji (mają procedury windykacji).
+- Krok 3: Jeśli nadal nie płaci – zawieszenie konta partnera (nie może korzystać z systemu).
+
+Ochrona:
+- Umowa partnera zawiera klauzulę o terminach płatności.
+- System automatycznie blokuje konto po 30 dniach opóźnienia.
+
+Ryzyko 2: Partner kwestionuje raport
+Przyczyny:
+- Nie rozumie, skąd wzięły się liczby.
+- Uważa, że transakcje nie zostały wygenerowane przez promotorów.
+
+Akcja:
+- Krok 1: Wyjaśnij, jak system identyfikuje transakcje (QR, API, kasa).
+- Krok 2: Porównaj raport z księgowością partnera (data i kwota).
+- Krok 3: Jeśli są rozbieżności – zgłoś do supportu (korekta, jeśli system błędnie naliczył).
+
+Ochrona:
+- System loguje wszystkie transakcje (dowód, że naliczenie jest prawidłowe).
+- Partner ma 7 dni na zgłoszenie reklamacji (po tym czasie raport jest wiążący).
+
+Ryzyko 3: Partner chce zrezygnować po miesiącu
+Przyczyny:
+- Brak efektów (niski obrót).
+- Zmiana strategii biznesowej.
+
+Akcja:
+- Nie naciskaj. Szanuj decyzję: „Rozumiem. Jesteś zadowolony z tego, co udało się osiągnąć?"
+- Zapytaj o feedback: „Co mogłoby być lepsze?" (możesz się nauczyć).
+- Zaproponuj pauzę zamiast rezygnacji: „Może pauza na miesiąc, a potem wrócimy?"
+
+Ochrona:
+- Umowa pozwala na rezygnację z miesięcznym wyprzedzeniem.
+- Nie ma kar za rezygnację (fair play).
+
+Pamiętaj: większość partnerów płaci terminowo. Przygotuj się na wyjątki, ale nie zakładaj najgorszego.
+
+
+## 09. Case: ustalenia prowizji i pierwsze rozliczenie
+
+Sytuacja:
+Salon fryzjerski „Piękny Lok", właścicielka (Pani Ania, 35 lat), prowadzi salon 3 lata, konkurencja wysoka. Źródło: polecenie od innego partnera.
+
+Dzień 0: Rozmowa o prowizji
+- Ania: „Jak to działa z tą prowizją?"
+- Ja: „Proste. Płacisz 2% od obrotu wygenerowanego przez naszych promotorów. Jeśli promotor przyjdzie na fryzurę za 100 zł, zobaczysz to w raporcie i zapłacisz 2 zł prowizji."
+- Ania: „A jeśli obrót będzie niski?"
+- Ja: „Płacisz tylko od tego, co jest. Jeśli obrót to 0 zł – prowizja 0 zł. Możemy też dać Ci wyższą stawkę na start, żeby zmotywować klientów. Pierwszy miesiąc 5%, potem 2%. Pasuje?"
+- Ania: „Okej, spróbujmy."
+
+Dzień 1: Rejestracja i ustalenia
+- Ania wypełnia formularz (promotor → partner).
+- Ustalenia:
+  - Prowizja: miesiąc 1 = 5%, potem 2%.
+  - Start: 01.02.2025.
+  - Raport: dostępny w panelu partnera, e-mail na koniec miesiąca.
+- Potwierdzenie: wysyłam SMS „Prowizja 5% (luty), potem 2%. Raport w panelu. Pytania? Dzwoń."
+
+Dzień 10: Wdrożenie
+- Certyfikat na ścianie w salonie, naklejki na drzwiach.
+- QR dla klientów (rejestracja jako promotor).
+- Ania: „Jak mam mówić klientom?"
+- Ja: „Pokaż QR przy kasie: »Możesz dostać cashback, zeskanuj kod.« Proste."
+
+Tydzień 2: Pierwsze transakcje
+- 3 klientów zeskanowało QR i wróciło (razem 450 zł).
+- Raport w panelu: 450 zł obrotu.
+- Prowizja (5%): 22,50 zł.
+- Ania: „Widzę w panelu. Fajnie!"
+
+Koniec miesiąca (luty):
+- Obrót: 3200 zł (12 klientów z QR).
+- Prowizja (5%): 160 zł.
+- System generuje fakturę: „Prowizja za luty 2025: 160 zł. Termin płatności: 14.03.2025."
+- Ania płaci przelewem.
+
+Marzec (stawka 2%):
+- Obrót: 4000 zł (więcej klientów, cashback działa).
+- Prowizja (2%): 80 zł.
+- Ania: „Obrót rośnie, prowizja niższa – super układ!"
+
+Miesiąc 3 (kwiecień):
+- Ania pyta: „Mogę dać promocję na Dzień Matki? Wyższa stawka cashback?"
+- Ja: „Oczywiście. Możemy 10% na tydzień przed Dniem Matki. Zyskasz więcej klientów."
+- Ania ustala promocję: 10% (tydzień), potem znowu 2%.
+- Obrót w tym tygodniu: 8000 zł (boom!).
+
+Wnioski z case'u:
+- Wyższa stawka na start motywuje partnera do testu.
+- Raport w panelu buduje zaufanie.
+- Partner sam proponuje promocje (widzi wartość systemu).
+
+
+## 10. Checklista finansowa – co sprawdzić przed startem
+
+Przed rozpoczęciem współpracy finansowej z partnerem – sprawdź te punkty:
+
+Przed rejestracją:
+- [ ] Partner rozumie model Success Fee („płacisz po efekcie").
+- [ ] Ustalona stawka prowizji (2–30% stała, do 50% okresowa).
+- [ ] Partner zna terminy płatności (standardowo: koniec miesiąca + 14 dni).
+
+Podczas rejestracji:
+- [ ] Partner wypełnił dane firmowe (NIP, adres, e-mail do faktur).
+- [ ] Partner zaakceptował umowę (regulamin, RODO).
+- [ ] Ustalenia zapisane w systemie (stawka, data startu).
+
+Po wdrożeniu:
+- [ ] Test zakupu przeprowadzony i naliczony w systemie.
+- [ ] Partner widzi raport w panelu.
+- [ ] Partner wie, jak eksportować raport (Excel/PDF).
+
+Pierwszy miesiąc:
+- [ ] Raport na koniec miesiąca wygenerowany.
+- [ ] Faktura wysłana do partnera (e-mail).
+- [ ] Partner zapłacił w terminie (lub przypomnienie wysłane).
+
+Co miesiąc:
+- [ ] Sprawdź raport obrotu (czy rośnie, spada, stabilny?).
+- [ ] Jeśli spada – diagnoza i akcja (więcej promotorów, promocja).
+- [ ] Jeśli rośnie – gratulacje i motywacja („Świetnie idzie!").
+
+Sygnały ostrzegawcze (czerwone flagi):
+- Partner nie płaci 2 miesiące z rzędu → eskalacja.
+- Partner kwestionuje każdy raport → rozmowa o zaufaniu (może system nie pasuje).
+- Obrót = 0 przez 3 miesiące → partner nieaktywny (reaktywacja lub pauza).
+
+Pamiętaj: finanse to kręgosłup współpracy. Pilnuj ich od pierwszego dnia.
+
+
+---
+
+## Podsumowanie Modułu 4
+
+Success Fee to fair model dla obu stron. Kluczowe punkty:
+
+- Idea: płacisz po efekcie (zero opłat z góry, prowizja od obrotu).
+- Struktura: 3 warstwy (cashback dla klienta, prowizja KR, Fundacja i struktura).
+- Przykłady: konkretne liczby pokazują, jak liczymy prowizję.
+- Transparentność: raport w panelu, jasne ustalenia, dostępność na pytania.
+- Warianty stawek: stała, okresowa, promocyjna, progowa (2–30% stałe, do 50% okresowe).
+- Raportowanie: data, kwota, promotor ID, cashback, prowizja – wszystko widoczne.
+- Rozmowa o pieniądzach: jasno, konkretnie, pokazując wartość.
+- Ryzyka: partner nie płaci (przypomnienie, eskalacja), kwestionuje (porównanie, korekta), rezygnuje (feedback, pauza).
+- Case: od ustalenia stawki do pierwszego rozliczenia (tydzień po tygodniu).
+- Checklista: przed, podczas, po – sprawdzaj na każdym etapie.
+
+Następny krok: Moduł 5 (Narzędzia operacyjne – QR, identyfikacja, materiały).

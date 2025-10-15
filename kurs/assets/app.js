@@ -80,8 +80,7 @@
       if (!h.id) {
         h.id = h.textContent.trim().toLowerCase()
           .replace(/\s+/g, '-')
-          .replace(/[^
-w\-ąćęłńóśżź]/gi, '');
+          .replace(/[^\w\-ąćęłńóśżź]/gi, '');
       }
       const a = document.createElement('a');
       a.href = `#${h.id}`;
@@ -139,7 +138,7 @@ w\-ąćęłńóśżź]/gi, '');
     updateProgress();
     renderModulesNav();
     history.replaceState(null, '', `#${currentModule.id}?step=${step}`);
-    document.title = `${s.title} — ${cfg.siteTitle}`;
+    document.title = `${s.title} — ${cfg.title}`;
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 

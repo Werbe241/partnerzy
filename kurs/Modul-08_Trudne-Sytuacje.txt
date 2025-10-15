@@ -1,0 +1,470 @@
+# Moduł 8: Trudne sytuacje i rozwiązywanie problemów
+Konflikty, obiekcje, reklamacje. Jak poradzić sobie z wyzwaniami.
+
+Spis treści:
+01. Kategorie trudności – czego się spodziewać  
+02. Obiekcje cenowe – „To za drogie"  
+03. Brak czasu partnera – „Nie mam na to głowy"  
+04. Brak decyzji – „Muszę to przemyśleć"  
+05. Konflikty etyczne i prawne – czerwone linie  
+06. Ryzyko utraty partnera – jak ratować relację  
+07. Reklamacje i niezadowolenie – „To nie działa jak obiecano"  
+08. Eskalacja i dokumentacja – kiedy prosić o pomoc  
+09. Case deeskalacji – od kryzysu do rozwiązania  
+10. Checklista rozwiązań – co robić krok po kroku
+
+
+## 01. Kategorie trudności – czego się spodziewać
+
+Trudne sytuacje to normalna część pracy KR. Kategorie:
+
+Kategoria 1: Obiekcje (partner wątpi, kwestionuje)
+Przykłady:
+- „Prowizja 2% to za dużo."
+- „To pewnie nie zadziała w mojej branży."
+- „Już korzystam z innego systemu."
+
+Kategoria 2: Bariery czasowe/organizacyjne
+Przykłady:
+- „Nie mam czasu na wdrożenie."
+- „Muszę to skonsultować z księgowym/żoną/partnerem."
+
+Kategoria 3: Problemy techniczne
+Przykłady:
+- „QR nie działa."
+- „Nie mogę się zalogować do panelu."
+- „Transakcje się nie naliczają."
+
+Kategoria 4: Niezadowolenie z wyników
+Przykłady:
+- „Myślałem, że będzie więcej obrotu."
+- „Klienci nie chcą skanować QR."
+
+Kategoria 5: Konflikty etyczne/prawne
+Przykłady:
+- Partner chce oszukać system (zawyżać obrót).
+- Partner działa w branży zakazanej (np. wyroby tytoniowe, jeśli zakaz reklamy).
+
+Kategoria 6: Kryzys relacji
+Przykłady:
+- Partner nie odpowiada na wiadomości.
+- Partner grozi zakończeniem współpracy.
+
+Jak reagować na trudności?
+
+Zasada 1: Słuchaj (nie przerywaj, nie atakuj).
+Zasada 2: Empatia („Rozumiem, że…").
+Zasada 3: Rozwiązanie (konkretne kroki, nie obietnice).
+Zasada 4: Dokumentacja (zapisz problem i rozwiązanie).
+
+Pamiętaj: większość trudności da się rozwiązać. Kluczowa jest reakcja (spokój, empatia, konkret).
+
+
+## 02. Obiekcje cenowe – „To za drogie"
+
+Obiekcja: „Prowizja 2% to za dużo. Nie stać mnie na to."
+
+Dlaczego partner tak mówi?
+- Nie rozumie, że prowizja to procent od dodatkowego obrotu (nie od całego).
+- Porównuje z innymi kosztami (np. czynsz, pensje).
+- Obawa przed nieznanym.
+
+Jak odpowiadać?
+
+Krok 1: Wyjaśnij matematykę
+„Rozumiem obawę. Ale 2% to nie koszt całego obrotu – tylko od obrotu wygenerowanego przez promotorów. Przykład: jeśli promotorzy przyniosą 5000 zł obrotu, płacisz 100 zł prowizji. Gdyby Ci ich nie było – miałbyś 0 zł z tego obrotu."
+
+Krok 2: Porównaj z innymi formami reklamy
+„Gdybyś wydał 500 zł na ulotki, nie wiesz, czy ktoś przyjdzie. Tu płacisz tylko wtedy, gdy obrót faktycznie jest. To najbezpieczniejsza forma reklamy."
+
+Krok 3: Zaproponuj test
+„Możemy przetestować przez pierwszy miesiąc. Jeśli nie zobaczysz efektów – zakończysz współpracę w 10 dni bez kar. Co ryzykujesz?"
+
+Krok 4: Pokazuj wartość, nie cenę
+„2% to inwestycja w nowych klientów i lojalność obecnych. Klienci dostają cashback, wracają częściej. To nie koszt – to rozwój biznesu."
+
+Co NIE mówić:
+- „Wszyscy płacą 2%, więc Ty też musisz." (Nacisk, nie przekonanie.)
+- „To tylko 2%, to mało." (Bagatelizowanie – partner czuje się lekceważony.)
+
+Pamiętaj: obiekcja cenowa to często obawa przed nieznanym. Wyjaśnij, pokaż przykłady, zaproponuj test.
+
+
+## 03. Brak czasu partnera – „Nie mam na to głowy"
+
+Obiekcja: „Brzmi ciekawie, ale nie mam teraz czasu na wdrożenie."
+
+Dlaczego partner tak mówi?
+- Rzeczywiście zajęty (sezon, urlopy, problemy w biznesie).
+- Obawa przed skomplikowanym procesem.
+- Wymówka (nie chce, ale nie mówi wprost).
+
+Jak rozpoznać prawdziwą przyczynę?
+
+Prawdziwy brak czasu:
+- Partner konkretny: „Mam teraz remonty, wrócę za 2 tygodnie."
+- Partner proponuje termin: „Zadzwoń za miesiąc, wtedy będę gotowy."
+
+Wymówka:
+- Partner ogólny: „Nigdy nie mam czasu."
+- Partner nie proponuje terminu: „Może kiedyś, jak będzie luźniej."
+
+Jak odpowiadać (prawdziwy brak czasu)?
+
+Krok 1: Empatia
+„Rozumiem, że masz teraz wiele na głowie. Wdrożenie zajmuje tylko 30 minut – mogę dopasować się do Twojego grafiku."
+
+Krok 2: Minimalizuj wysiłek partnera
+„Ty tylko pokazujesz mi kasy/panel, resztę robię ja. Zero pracy z Twojej strony."
+
+Krok 3: Zaproponuj konkretny termin
+„Kiedy będziesz miał 30 minut? Wtorek wieczorem o 18:00? Sobota rano?"
+
+Krok 4: Follow-up w uzgodnionym terminie
+Nie czekaj – zadzwoń dokładnie wtedy, kiedy partner powiedział („Za 2 tygodnie" = telefon za 2 tygodnie).
+
+Jak odpowiadać (wymówka)?
+
+Krok 1: Test decyzyjności
+„Rozumiem. Co musiałoby się zmienić, żebyś miał czas?"
+
+Jeśli partner nie odpowiada konkretnie („Nie wiem…") → to wymówka.
+
+Krok 2: Zaproponuj pauzę
+„Okej, rozumiem. Mogę zadzwonić za 3 miesiące – jeśli wtedy będzie lepiej, wrócimy do tematu. Pasuje?"
+
+Krok 3: Nie naciskaj
+Zapisz w bazie („Brak czasu – follow-up za 3 miesiące"), idź dalej.
+
+Pamiętaj: prawdziwy brak czasu = konkret i termin. Wymówka = ogólniki. Nie marnuj czasu na wymówki.
+
+
+## 04. Brak decyzji – „Muszę to przemyśleć"
+
+Obiekcja: „To brzmi ciekawie, ale muszę to przemyśleć / skonsultować z księgowym / porozmawiać z żoną."
+
+Dlaczego partner tak mówi?
+- Potrzebuje czasu (prawdziwa niepewność).
+- Obawa przed błędem (risk aversion).
+- Wymówka (nie chce, ale grzecznie odmawia).
+
+Jak rozpoznać?
+
+Prawdziwa niepewność:
+- Partner pyta szczegóły: „A co z RODO? A jak działa cashback?"
+- Partner proponuje termin: „Dam Ci odpowiedź w piątek."
+
+Wymówka:
+- Partner nie pyta: „Wyślij mi materiały, przejrzę jak będę miał czas."
+- Brak terminu: „Przemyślę to, odezwę się."
+
+Jak odpowiadać (prawdziwa niepewność)?
+
+Krok 1: Wyjaśnij wątpliwości
+„Co dokładnie Cię niepokoi? Mogę wyjaśnić."
+
+Krok 2: Daj materiały
+„Wysyłam link do materiałów (case, FAQ, instrukcje). Przeczytaj, a jak będziesz mieć pytania – dzwoń."
+
+Krok 3: Ustal termin decyzji
+„Kiedy będziesz gotowy podjąć decyzję? Zadzwonię wtedy."
+
+Krok 4: Follow-up w terminie
+Dzwoń dokładnie wtedy, kiedy ustaliliście („W piątek" = telefon w piątek).
+
+Jak odpowiadać (wymówka)?
+
+Krok 1: Test decyzyjności
+„Rozumiem. Co musiałoby być w materiałach, żebyś podjął decyzję?"
+
+Jeśli partner nie odpowiada konkretnie → to wymówka.
+
+Krok 2: Zaproponuj limit czasowy
+„Okej. Mogę dać Ci tydzień na przemyślenie. Zadzwonię w następny poniedziałek – wtedy powiesz TAK lub NIE. Pasuje?"
+
+Krok 3: Po tygodniu – decyzja
+Jeśli TAK → rejestracja.
+Jeśli NIE → dziękujesz, idziesz dalej.
+Jeśli „Jeszcze trochę czasu" → to wymówka (podziękuj, zakończ).
+
+Pamiętaj: „Muszę przemyśleć" to OK. Ale bez terminu = wieczne zwlekanie. Ustal termin, egzekwuj.
+
+
+## 05. Konflikty etyczne i prawne – czerwone linie
+
+Niektóre sytuacje są nie do zaakceptowania. Czerwone linie:
+
+Czerwona linia 1: Partner chce oszukać system
+Przykład: „Mogę wpisywać fikcyjne transakcje, żeby zwiększyć obrót?"
+
+Odpowiedź:
+„Nie. System ma zabezpieczenia (logi, weryfikacja). Oszustwo to łamanie umowy i prawo. Jeśli Fundacja wykryje – konto zablokowane, ewentualnie konsekwencje prawne."
+
+Akcja: Jeśli partner nalega – zakończ współpracę (nie ryzykuj swojej reputacji).
+
+Czerwona linia 2: Partner działa w branży zakazanej
+Przykład: Sklep z wyrobami tytoniowymi (jeśli lokalne prawo zakazuje reklamy).
+
+Odpowiedź:
+„Fundacja nie przyjmuje partnerów z branż objętych zakazami reklamy. To wymóg prawny."
+
+Akcja: Sprawdź zasady Fundacji (lista branż zakazanych). Jeśli partner nie pasuje – odmów.
+
+Czerwona linia 3: Partner żąda działań nieetycznych
+Przykład: „Możesz usunąć negatywną opinię klienta?"
+
+Odpowiedź:
+„Nie mogę ingerować w opinie klientów. Jeśli uważasz, że opinia jest niesłuszna – zgłoś reklamację do Fundacji (procedura)."
+
+Akcja: Nie obiecuj rzeczy, których nie możesz zrobić. Eskaluj do Fundacji (jeśli potrzeba).
+
+Czerwona linia 4: Partner narusza RODO
+Przykład: „Mogę sprzedawać dane klientów innemu firmie?"
+
+Odpowiedź:
+„Nie. To naruszenie RODO (prawo o ochronie danych). Konsekwencje: kara finansowa (UODO), utrata zaufania klientów."
+
+Akcja: Edukuj partnera (RODO basics). Jeśli partner nalega – zakończ współpracę.
+
+Jak reagować na konflikty etyczne?
+
+Krok 1: Jasno komunikuj zasady
+„Fundacja działa uczciwie. Oszustwo, nieetyczne działania – to koniec współpracy."
+
+Krok 2: Dokumentuj
+Jeśli partner proponuje coś nieetycznego – zapisz (e-mail, notatka). To Twoje zabezpieczenie.
+
+Krok 3: Eskaluj (jeśli potrzeba)
+Zgłoś do MR lub Fundacji („Partner proponuje…, jak poradzić?").
+
+Pamiętaj: Twoja reputacja = Twój kapitał. Nie ryzykuj jej dla jednego partnera.
+
+
+## 06. Ryzyko utraty partnera – jak ratować relację
+
+Partner zagrożony odejściem. Jak ratować?
+
+Sygnały ryzyka (patrz Moduł 6, sekcja 09):
+- Spadek obrotu przez 2+ miesiące.
+- Partner nie odpowiada na wiadomości.
+- Partner mówi: „Myślę o zakończeniu współpracy."
+
+Jak ratować?
+
+Krok 1: Diagnoza (telefon, nie e-mail)
+„Zauważyłem, że coś się zmieniło. Co się dzieje? Mogę pomóc?"
+
+Możliwe odpowiedzi i akcje:
+
+Odpowiedź A: „Nie widzę efektów."
+- Akcja: Analiza (dlaczego brak efektów? Czy partner mówi klientom o QR?).
+- Plan akcji (patrz Moduł 6, sekcja 06 – reaktywacja).
+
+Odpowiedź B: „Nie mam czasu."
+- Akcja: Uproszczenie (automatyczna identyfikacja obrotu zamiast ręcznej? Szkolenie personelu?).
+- Pauza (jeśli tymczasowe przeciążenie).
+
+Odpowiedź C: „Znalazłem lepszy system."
+- Akcja: Nie walcz ceną, pokaż wartość (nasza przewaga: wsparcie KR, wszystkie formy płatności).
+- Jeśli partner zdecydowany – pożegnaj fair („Rozumiem. Jeśli kiedyś zmienisz zdanie – jestem.").
+
+Odpowiedź D: „Mam konflikt z Tobą / Fundacją."
+- Akcja: Eskalacja do MR (mediacja). Jeśli konflikt z Tobą – zaproponuj zmianę KR (partner zostaje, Ty odchodzisz – struktura fraktalna pozwala).
+
+Krok 2: Plan ratunkowy (konkretne kroki, 2 tygodnie)
+„Okej, rozumiem problem. Proponuję plan: [X, Y, Z]. Daj mi 2 tygodnie – jeśli nie zobaczymy poprawy, zakończysz współpracę. Fair?"
+
+Krok 3: Monitoring (follow-up co 3 dni)
+„Jak idzie po zmianach? Widzisz poprawę?"
+
+Krok 4: Decyzja (po 2 tygodniach)
+- Jeśli poprawa → partner zostaje.
+- Jeśli nie → pożegnanie fair (bez kar, goodwill).
+
+Pamiętaj: nie każdego partnera da się uratować. Ale warto spróbować – czasem potrzeba tylko jednej zmiany (większy QR, szkolenie pracownika).
+
+
+## 07. Reklamacje i niezadowolenie – „To nie działa jak obiecano"
+
+Reklamacja: „Obiecałeś 5000 zł obrotu miesięcznie, a mam 500 zł. To oszustwo!"
+
+Dlaczego partner reklamuje?
+- Nierzeczywiste oczekiwania (partner źle zrozumiał lub Ty źle komunikowałeś).
+- Problemy techniczne (coś faktycznie nie działa).
+- Brak zaangażowania partnera (nie mówi klientom o QR, a oczekuje wyników).
+
+Jak reagować?
+
+Krok 1: Słuchaj (nie przerywaj, nie broń się od razu)
+„Rozumiem frustrację. Opowiedz, co dokładnie poszło nie tak."
+
+Krok 2: Weryfikuj fakty
+- Czy obiecałeś konkretne liczby? (Sprawdź notatki, e-maile.)
+- Jeśli TAK – to Twój błąd (nigdy nie obiecuj gwarantowanych wyników).
+- Jeśli NIE – wyjaśnij: „Nie obiecywałem konkretnych kwot. Mówiłem, że wyniki zależą od wspólnej pracy."
+
+Krok 3: Diagnoza problemu
+- Czy partner mówi klientom o QR? (Jeśli nie – edukacja.)
+- Czy QR działa? (Test techniczny.)
+- Czy promotorzy są aktywni w okolicy? (Może brak promotorów w tym regionie – akcja rekrutacyjna.)
+
+Krok 4: Plan naprawczy
+„Rozumiem problem. Proponuję: [szkolenie personelu / wymiana QR / akcja promocyjna]. Daj mi 2 tygodnie – zobaczymy poprawę."
+
+Krok 5: Jeśli partner nie chce – goodwill
+„Jeśli czujesz, że to nie dla Ciebie – możesz zakończyć współpracę w 10 dni bez kar. Nie będę naciskał."
+
+Co NIE robić:
+
+- Nie obwiniaj partnera: „To Twoja wina, bo nie pokazujesz QR."
+- Nie ignoruj: Partner niezadowolony to ryzyko negatywnej opinii (social media).
+- Nie obiecuj cudów: „Teraz będzie lepiej, na pewno!" (Jeśli nie będzie – problem powtórzy się.)
+
+Pamiętaj: reklamacja to szansa na naprawę relacji. Reaguj szybko, szczerze, konkretnie.
+
+
+## 08. Eskalacja i dokumentacja – kiedy prosić o pomoc
+
+Nie wszystko musisz rozwiązywać sam. Kiedy eskalować?
+
+Sytuacja 1: Problem techniczny, którego nie rozumiesz
+Przykład: API kasy nie działa, nie wiesz dlaczego.
+
+Akcja:
+- Eskaluj do supportu Fundacji (helpdesk, e-mail, telefon).
+- Daj partnera info: „Zgłosiłem problem do supportu, odpowiedź do 24h."
+
+Sytuacja 2: Konflikt z partnerem, którego nie umiesz rozwiązać
+Przykład: Partner oskarża Cię o oszustwo, nie słucha wyjaśnień.
+
+Akcja:
+- Eskaluj do MR (mediacja).
+- Dokumentuj (e-maile, notatki – co partner mówił, co Ty odpowiadałeś).
+
+Sytuacja 3: Partner żąda czegoś nieetycznego/prawnie wątpliwego
+Przykład: Partner chce oszukać system.
+
+Akcja:
+- Eskaluj do Fundacji (compliance, dział prawny).
+- Nie podejmuj decyzji sam (to może Cię narazić).
+
+Sytuacja 4: Partner VIP (segment A) zagrożony odejściem
+Przykład: Najlepszy partner mówi „Kończę współpracę."
+
+Akcja:
+- Eskaluj do MR (może MR ma lepsze rozwiązanie lub ofertę specjalną).
+
+Jak dokumentować?
+
+Zasada 1: Pisz na bieżąco
+- Po każdej trudnej rozmowie: krótka notatka (data, problem, co ustalono).
+
+Zasada 2: E-maile potwierdzające
+- Po telefonie wyślij e-mail: „Potwierdzam ustalenia z rozmowy: [X, Y, Z]."
+
+Zasada 3: Screenshoty/logi (jeśli problem techniczny)
+- „Partner zgłasza, że transakcja nie widoczna" → screenshot z panelu partnera.
+
+Zasada 4: Zachowaj spokój
+- Nie pisz pod wpływem emocji. Poczekaj godzinę, przemyśl, potem dokumentuj.
+
+Pamiętaj: dokumentacja to Twoje zabezpieczenie. Jeśli kiedyś będzie spór – masz dowód.
+
+
+## 09. Case deeskalacji – od kryzysu do rozwiązania
+
+Sytuacja:
+Partner (restauracja „Pizza Roma"), niezadowolony. Zgłasza: „Obiecałeś 10 000 zł obrotu, mam 800 zł. Kończę współpracę!"
+
+Krok 1: Telefon (tego samego dnia)
+- Ja: „Rozumiem frustrację. Opowiedz, co poszło nie tak."
+- Partner: „Mówiłeś, że będzie 10 000 zł miesięcznie!"
+
+Krok 2: Weryfikacja faktów
+- Sprawdzam notatki: Nigdzie nie obiecałem konkretnych kwot. Mówiłem: „Case podobnej restauracji: 10 000 zł, ale wyniki zależą od lokalizacji i zaangażowania."
+- Ja: „Pokazałem case innej restauracji (10 000 zł), ale nie obiecałem, że u Ciebie będzie tyle samo. Wyniki zależą od wielu czynników."
+
+Krok 3: Diagnoza
+- Ja: „Powiedz, jak pracujesz z systemem. Czy mówisz klientom o QR?"
+- Partner: „Czasami mówię, ale zapominam. Mam dużo pracy."
+
+Problem zidentyfikowany: Partner nie pokazuje QR konsekwentnie.
+
+Krok 4: Plan naprawczy
+- Ja: „Rozumiem, że masz dużo na głowie. Proponuję: Przeszkolę Twój personel (kelnerzy), żeby oni pokazywali QR. Zajmie 30 minut. Dasz mi 2 tygodnie? Jeśli nie zobaczysz poprawy – zakończysz współpracę bez kar."
+- Partner: „Okej, spróbujmy."
+
+Krok 5: Szkolenie (następny dzień)
+- Szkolę 3 kelnerów: „Przy podawaniu rachunku mówicie: »Możecie zeskanować kod, dostaniecie cashback.« Proste."
+
+Krok 6: Monitoring (tydzień 1 i 2)
+- Dzwonię co 3 dni: „Jak idzie? Kelnerzy pokazują QR?"
+- Partner: „Tak, klienci skanują. Mamy 2500 zł obrotu w tym tygodniu!"
+
+Krok 7: Podsumowanie (po 2 tygodniach)
+- Partner: „Ok, to działa. Zostajemy."
+- Ja: „Świetnie! Pamiętaj – im częściej kelnerzy pokazują QR, tym więcej obrotu."
+
+Wnioski z case'u:
+- Frustracja partnera to często nieporozumienie (oczekiwania vs rzeczywistość).
+- Diagnoza > obrona („To Twoja wina" nie rozwiązuje problemu).
+- Plan naprawczy (konkretne kroki, termin) + szkolenie = deeskalacja.
+
+
+## 10. Checklista rozwiązań – co robić krok po kroku
+
+Kiedy pojawia się trudna sytuacja:
+
+Krok 1: Słuchaj
+- [ ] Nie przerywaj partnera.
+- [ ] Pozwól wyrazić frustrację/wątpliwości.
+- [ ] Notuj kluczowe punkty (co konkretnie niepokoi?).
+
+Krok 2: Empatia
+- [ ] Powiedz: „Rozumiem, że…" (pokaz, że słuchasz).
+- [ ] Nie bagatelizuj: „To nie jest problem" (dla partnera jest).
+
+Krok 3: Weryfikacja faktów
+- [ ] Sprawdź notatki (co obiecałeś? Co ustaliliście?).
+- [ ] Sprawdź dane techniczne (czy QR działa? Czy transakcje się naliczają?).
+
+Krok 4: Diagnoza
+- [ ] Zidentyfikuj przyczynę (brak czasu? Problem techniczny? Nierzeczywiste oczekiwania?).
+
+Krok 5: Rozwiązanie
+- [ ] Zaproponuj konkretne kroki (nie obietnice, konkret).
+- [ ] Ustal termin (nie „kiedyś", konkretna data).
+
+Krok 6: Follow-up
+- [ ] Monitoruj postęp (dzwoń co kilka dni).
+- [ ] Koryguj (jeśli rozwiązanie nie działa – szukaj innego).
+
+Krok 7: Dokumentacja
+- [ ] Zapisz problem i rozwiązanie (arkusz, CRM).
+- [ ] Wyślij potwierdzenie (e-mail: „Potwierdzam ustalenia…").
+
+Krok 8: Eskalacja (jeśli potrzeba)
+- [ ] Jeśli nie umiesz rozwiązać – zgłoś do MR/supportu.
+- [ ] Informuj partnera o postępach („Zgłosiłem do supportu, czekamy na odpowiedź.").
+
+Pamiętaj: większość problemów da się rozwiązać, jeśli reagujesz szybko, szczerze i konkretnie.
+
+
+---
+
+## Podsumowanie Modułu 8
+
+Trudne sytuacje to test kompetencji KR. Kluczowe punkty:
+
+- Kategorie trudności: obiekcje, bariery czasowe, problemy techniczne, niezadowolenie, konflikty etyczne, kryzys relacji.
+- Obiekcje cenowe: wyjaśnij matematykę (prowizja od dodatkowego obrotu), porównaj z reklamą, zaproponuj test.
+- Brak czasu: minimalizuj wysiłek partnera, ustal termin, follow-up. Jeśli wymówka – nie naciskaj.
+- Brak decyzji: wyjaśnij wątpliwości, daj materiały, ustal termin. Bez terminu = wieczne zwlekanie.
+- Konflikty etyczne: czerwone linie (oszustwo, branże zakazane, RODO). Dokumentuj, eskaluj, zakończ współpracę jeśli potrzeba.
+- Ryzyko utraty: diagnoza (telefon), plan ratunkowy (2 tygodnie test), monitoring, decyzja.
+- Reklamacje: słuchaj, weryfikuj fakty, diagnoza, plan naprawczy, goodwill jeśli nie chce.
+- Eskalacja: problem techniczny, konflikt, nieetyczność, partner VIP. Dokumentuj zawsze.
+- Case: restauracja (frustracja → diagnoza → szkolenie personelu → deeskalacja).
+- Checklista: słuchaj, empatia, weryfikuj, diagnoza, rozwiązanie, follow-up, dokumentacja, eskalacja.
+
+Następny krok: Moduł 9 (Analiza i optymalizacja – jak mierzyć efekty i poprawiać wyniki).

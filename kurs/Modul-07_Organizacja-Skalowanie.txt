@@ -1,0 +1,519 @@
+# Moduł 7: Organizacja i skalowanie pracy KR
+Jak zarządzać czasem, priorytetami i wieloma partnerami jednocześnie.
+
+Spis treści:
+01. Fundament organizacji – planowanie blokowe  
+02. CRM light – prosty system zarządzania partnerami  
+03. Batching zadań – jak robić więcej w mniej czasu  
+04. Priorytety dnia – matryca Eisenhowera dla KR  
+05. Delegowanie i współpraca z innymi KR  
+06. Współpraca z Menadżerami Regionalnymi i mentorami  
+07. Mentoring i rozwój – jak uczyć nowych KR  
+08. Case: przeciążenie → stabilizacja w 2 tygodnie  
+09. Mierniki skalowania – kiedy jesteś gotowy na więcej  
+10. Checklista organizacyjna – co zrobić w weekend
+
+
+## 01. Fundament organizacji – planowanie blokowe
+
+Planowanie blokowe to technika zarządzania czasem. Dzień podzielony na bloki zadań (zamiast chaotycznego przeskakiwania).
+
+Czym jest planowanie blokowe?
+
+Zamiast:
+- 9:00 – telefon do partnera A.
+- 9:15 – e-mail do partnera B.
+- 9:30 – telefon do partnera C.
+- 10:00 – dokumentacja.
+- 10:15 – telefon do partnera D.
+(Chaos, przełączanie kontekstu, utrata energii.)
+
+Rób:
+- 9:00–11:00: Blok telefonów (partnerzy A, C, D – bez przerwy).
+- 11:00–12:00: Blok e-maili (partnerzy B, E, F – wszystkie naraz).
+- 14:00–15:00: Blok dokumentacji (arkusze, notatki, raporty).
+(Porządek, skupienie, efektywność.)
+
+Jak zaplanować dzień w blokach?
+
+Krok 1: Lista zadań (rano, 10 minut).
+- Wypisz wszystko, co musisz zrobić dzisiaj.
+- Przykład: 5 telefonów, 3 e-maile, 1 wdrożenie, dokumentacja, follow-up.
+
+Krok 2: Grupowanie (batching – patrz sekcja 03).
+- Pogrupuj podobne zadania.
+- Telefony razem, e-maile razem, dokumentacja razem.
+
+Krok 3: Przypisz bloki czasowe.
+- 9:00–11:00: Telefony (5 partnerów).
+- 11:00–11:30: E-maile (3 partnerów).
+- 12:00–13:00: Wdrożenie (partner nowy).
+- 15:00–16:00: Dokumentacja (arkusze, notatki).
+
+Krok 4: Bufory (10–15 minut między blokami).
+- Czas na oddech, nieoczekiwane telefony, przejście między zadaniami.
+
+Plusy planowania blokowego:
+- Mniej przełączania = więcej energii.
+- Głębsze skupienie (jesteś „w trybie telefonów" przez 2 godziny, nie co 15 minut).
+- Przewidywalność (wiesz, co robisz i kiedy).
+
+Pamiętaj: bloki to plan, nie więzienie. Jeśli partner potrzebuje pilnej pomocy – reagujesz (elastyczność).
+
+
+## 02. CRM light – prosty system zarządzania partnerami
+
+CRM (Customer Relationship Management) brzmi skomplikowanie, ale może być proste.
+
+Co to CRM light?
+
+To prosty system (arkusz lub aplikacja), gdzie trzymasz:
+- Listę partnerów (dane kontaktowe, segment A/B/C).
+- Historię kontaktów (data, forma, co ustalono).
+- Przypomnienia (następny kontakt, deadline).
+
+Wariant 1: Arkusz kalkulacyjny (Google Sheets, Excel)
+
+Zakładka 1: Partnerzy
+| ID | Nazwa | Kontakt | Segment | Obrót/miesiąc | Następny kontakt | Notatki |
+|----|-------|---------|---------|---------------|------------------|---------|
+| 1 | Sklep u Janka | 123-456-789 | A | 6000 zł | 2025-02-01 | VIP, poleca innych |
+| 2 | AutoSerwis | 987-654-321 | B | 2500 zł | 2025-02-15 | Nowy pracownik, szkolenie |
+| 3 | Apteka | 555-123-456 | C | 300 zł | 2025-02-05 | Reaktywacja |
+
+Zakładka 2: Historia kontaktów
+| Data | Partner | Forma | Co ustalono | Następny krok |
+|------|---------|-------|-------------|---------------|
+| 2025-01-20 | Sklep u Janka | Telefon | Gratulacje za 6000 zł | Follow-up 01.02 |
+| 2025-01-22 | AutoSerwis | Spotkanie | Szkolenie pracownika | Sprawdzić 05.02 |
+
+Wariant 2: Aplikacja CRM (Airtable, Notion, Pipedrive free)
+
+Plusy:
+- Automatyczne przypomnienia (app wysyła notyfikację „Zadzwoń do partnera X").
+- Wizualizacja (kanban board: „Do kontaktu", „W trakcie", „Aktywny").
+
+Minusy:
+- Wymaga nauki (30–60 minut setup).
+- Może być przesadne (jeśli masz <10 partnerów).
+
+Jak wybrać?
+
+- <10 partnerów: Arkusz wystarczy.
+- 10–30 partnerów: Arkusz lub Airtable/Notion.
+- 30+ partnerów: CRM (Pipedrive, HubSpot free).
+
+Kluczowe funkcje CRM light:
+- Kontakty (kto, telefon, e-mail).
+- Historia (co było, co ustalono).
+- Przypomnienia (co dalej, kiedy).
+
+Pamiętaj: CRM to narzędzie, nie cel. Proste i działające > skomplikowane i nieużywane.
+
+
+## 03. Batching zadań – jak robić więcej w mniej czasu
+
+Batching to robienie podobnych zadań naraz (zamiast po jednym).
+
+Przykład batching vs pojedynczo:
+
+Pojedynczo (nieefektywne):
+- 9:00: Telefon do partnera A (10 min).
+- 9:15: E-mail do partnera B (5 min).
+- 9:30: Telefon do partnera C (10 min).
+- 9:45: E-mail do partnera D (5 min).
+- Czas: 30 minut + przełączanie (5 min) = 35 minut.
+
+Batching (efektywne):
+- 9:00–9:20: Telefony (A, C – bez przerwy) = 20 minut.
+- 9:30–9:40: E-maile (B, D – naraz) = 10 minut.
+- Czas: 30 minut (bez przełączania).
+- Oszczędność: 5 minut (15% czasu).
+
+Typy zadań do batching:
+
+Batching 1: Telefony
+- Zrób listę partnerów do telefonu (rano).
+- Blok 2 godziny: dzwonisz po kolei (bez przerwy).
+- Notatki po każdym (krótkie, 1–2 zdania).
+
+Batching 2: E-maile
+- Nie odpowiadaj na każdy e-mail od razu.
+- Zaplanuj blok (np. 11:00–11:30): czytasz i odpowiadasz wszystkie naraz.
+
+Batching 3: Dokumentacja
+- Nie aktualizuj arkusza po każdej rozmowie.
+- Blok (np. 16:00–16:30): aktualizujesz wszystkie notatki z dnia.
+
+Batching 4: Generowanie QR
+- Jeśli masz 5 nowych partnerów – wygeneruj 5 QR naraz (jeden blok, 10 minut).
+
+Plusy batching:
+- Mniej przełączania kontekstu (mózg nie męczy się).
+- Głębsze skupienie (jesteś „w trybie telefonów" lub „w trybie e-maili").
+- Szybciej (rutyna: po 3. telefonie jesteś już w rytmie).
+
+Jak zacząć batching?
+
+Krok 1: Zidentyfikuj powtarzalne zadania (telefony, e-maile, dokumentacja).
+Krok 2: Pogrupuj (wszystkie telefony razem, wszystkie e-maile razem).
+Krok 3: Zaplanuj blok (kalendarz: 9–11 telefony, 11–11:30 e-maile).
+Krok 4: Trzymaj się planu (nie przeskakuj między blokami).
+
+Pamiętaj: batching to nawyk. Pierwsze dni trudne (chcesz odpowiedzieć na e-mail od razu), ale po tygodniu naturalny.
+
+
+## 04. Priorytety dnia – matryca Eisenhowera dla KR
+
+Matryca Eisenhowera to narzędzie priorytetyzacji. Zadania dzielisz na 4 kategorie:
+
+Kwadrant 1: Pilne i ważne (robisz od razu)
+Przykłady:
+- Partner zgłasza problem techniczny (QR nie działa).
+- Telefon od partnera VIP (segment A).
+- Deadline (wdrożenie umówione na dziś).
+
+Akcja: Rób teraz (priorytet 1).
+
+Kwadrant 2: Ważne, ale niepilne (planujesz)
+Przykłady:
+- Follow-up z partnerem (zaplanowany za tydzień).
+- Edukacja (czytanie materiałów, kurs).
+- Strategia (planowanie kolejnego miesiąca).
+
+Akcja: Zaplanuj blok czasowy (np. piątek 14:00–16:00).
+
+Kwadrant 3: Pilne, ale nieważne (deleguj lub odrzuć)
+Przykłady:
+- E-mail od partnera „Czy możesz wysłać link do panelu?" (mógłby znaleźć sam).
+- Telefon z pytaniem, które jest w FAQ.
+
+Akcja: Deleguj (jeśli masz kogoś) lub odpowiedz krótko (link, nie pełne wyjaśnienie).
+
+Kwadrant 4: Niepilne i nieważne (odrzuć)
+Przykłady:
+- Przeglądanie social mediów.
+- Czytanie e-maili marketingowych.
+
+Akcja: Nie rób (marnowanie czasu).
+
+Jak użyć matrycy w dniu KR?
+
+Rano (10 minut):
+- Wypisz zadania na dziś.
+- Przypisz kwadrant (1, 2, 3, 4).
+- Zaplanuj:
+  - Kwadrant 1: Robisz od razu (rano lub pierwszy blok).
+  - Kwadrant 2: Planujesz na dziś lub jutro.
+  - Kwadrant 3: Deleguj lub szybka odpowiedź.
+  - Kwadrant 4: Ignoruj.
+
+Przykład dnia:
+| Zadanie | Kwadrant | Akcja |
+|---------|----------|-------|
+| Partner A zgłasza problem | 1 (pilne, ważne) | Teraz (9:00) |
+| Follow-up partner B | 2 (ważne, niepilne) | Blok (14:00) |
+| E-mail „Wyślij link" | 3 (pilne, nieważne) | Szybka odpowiedź (11:00) |
+| Przeglądanie Facebooka | 4 (niepilne, nieważne) | Nie robię |
+
+Pamiętaj: większość czasu powinna iść na kwadrant 1 i 2 (pilne i ważne + ważne strategiczne). Kwadrant 3 i 4 minimalizuj.
+
+
+## 05. Delegowanie i współpraca z innymi KR
+
+Nie musisz robić wszystkiego sam. Delegowanie to klucz do skalowania.
+
+Co można delegować?
+
+Zadanie 1: Wdrożenia techniczne (jeśli masz zespół)
+- Kto: Inny KR lub asystent techniczny.
+- Co: Generowanie QR, konfiguracja panelu, test zakupu.
+- Ty: Nadzór i kontrola jakości.
+
+Zadanie 2: Follow-up rutynowy (segment B)
+- Kto: Junior KR (uczy się pod Twoim nadzorem).
+- Co: Telefony „Jak tam? Pytania?" (proste, według skryptu).
+- Ty: Eskalacja (jeśli partner zgłasza problem – przejmujesz).
+
+Zadanie 3: Dokumentacja (arkusze, raporty)
+- Kto: Asystent administracyjny.
+- Co: Aktualizacja arkuszy, eksport raportów, kalendarz.
+- Ty: Sprawdzasz wyniki, podejmujesz decyzje.
+
+Jak delegować skutecznie?
+
+Krok 1: Wybierz zadanie (proste, powtarzalne).
+Krok 2: Przygotuj instrukcję (krok po kroku, przykłady).
+Krok 3: Przeszkol osobę (pokaż, jak robić).
+Krok 4: Daj pierwsze zadanie (obserwuj, koryguj).
+Krok 5: Stopniowo zwiększaj autonomię (po 3–5 zadaniach osoba radzi sobie sama).
+
+Współpraca z innymi KR (poziomo):
+
+Scenariusz 1: Wymiana partnerów
+- Ty: Masz partnera w Warszawie, ale nie masz czasu.
+- Inny KR: Mieszka w Warszawie, szuka partnerów.
+- Współpraca: Przekazujesz partnera (za prowizję lub wymiana).
+
+Scenariusz 2: Wsparcie techniczne
+- Ty: Partner ma problem z API kasy, nie znasz się.
+- Inny KR: Specjalista od integracji technicznych.
+- Współpraca: Prosisz o pomoc (może za prowizję lub wzajemnie).
+
+Scenariusz 3: Mentoring
+- Ty: Doświadczony KR.
+- Inny KR: Nowy, uczy się.
+- Współpraca: Uczysz (patrz sekcja 07).
+
+Pamiętaj: delegowanie to nie lenistwo. To efektywność (robisz to, co robisz najlepiej, reszta ktoś inny).
+
+
+## 06. Współpraca z Menadżerami Regionalnymi i mentorami
+
+Struktura Fundacji ma poziomy: KR → Menadżer Regionalny → Mentor/Lider. Współpraca = korzyści dla wszystkich.
+
+Rola Menadżera Regionalnego (MR):
+
+- Nadzór nad KR w regionie (np. województwo).
+- Wsparcie w trudnych przypadkach (partner VIP, problem techniczny, konflikt).
+- Edukacja (szkolenia, materiały, best practices).
+
+Jak współpracować z MR?
+
+Sytuacja 1: Potrzebujesz pomocy (problem, którego nie umiesz rozwiązać)
+- Akcja: Telefon lub e-mail do MR („Mam partnera, który…, jak poradzić?").
+- MR: Doradza lub przejmuje case (jeśli bardzo trudny).
+
+Sytuacja 2: Raportowanie wyników (miesięcznie)
+- Akcja: Wysyłasz krótki raport (ile partnerów, obrót, problemy).
+- MR: Daje feedback („Świetnie! Może spróbuj X w kolejnym miesiącu?").
+
+Sytuacja 3: Szkolenia i rozwój
+- MR organizuje webinar/spotkanie (np. „Jak reaktywować partnerów?").
+- Ty: Uczestniczysz, uczysz się, wymieniasz doświadczenia z innymi KR.
+
+Rola Mentora/Lidera:
+
+- Osoba, która Cię wprowadziła do systemu (Twój sponsor).
+- Pomaga w pierwszych krokach (pierwsze 3 miesiące).
+- Motywuje i doradza (długoterminowo).
+
+Jak współpracować z Mentorem?
+
+Pierwsze 30 dni:
+- Kontakt co tydzień (pytania, wątpliwości, feedback).
+- Mentor pokazuje (jak robić cold calls, jak wdrażać, jak dokumentować).
+
+Miesiąc 2–3:
+- Kontakt co 2 tygodnie (pytania bardziej strategiczne).
+- Mentor koryguje (jeśli robisz coś źle).
+
+Po 3 miesiącach:
+- Kontakt miesięczny (wymiana doświadczeń, planowanie rozwoju).
+
+Pamiętaj: MR i Mentor to zasoby, nie przełożeni. Nie bój się pytać – ich sukces = Twój sukces (struktura fraktalna).
+
+
+## 07. Mentoring i rozwój – jak uczyć nowych KR
+
+Jesteś doświadczonym KR? Możesz uczyć nowych (mentoring). Korzyści:
+- Twoja prowizja rośnie (struktura fraktalna – zarabiasz też z obrotu podopiecznych).
+- Rozwijasz umiejętności (uczenie innych utrwala wiedzę).
+- Budujesz zespół (więcej rąk do pracy = większe możliwości).
+
+Jak zostać mentorem?
+
+Krok 1: Osiągnij wyniki (min. 6 miesięcy jako KR, min. 10 aktywnych partnerów).
+Krok 2: Zgłoś się do MR („Chcę uczyć nowych KR.").
+Krok 3: Szkolenie mentorskie (Fundacja uczy, jak uczyć).
+
+Jak mentorować?
+
+Faza 1: Onboarding (pierwsze 7 dni)
+- Pokaż system (panel KR, narzędzia, materiały).
+- Daj pierwsze zadanie („Zrób listę 100, zadzwoń do 3 kontaktów, napisz raport.").
+- Follow-up (co 2 dni, pytania, korekta).
+
+Faza 2: Pierwsze wdrożenie (tydzień 2–4)
+- Towarzysz przy pierwszym wdrożeniu (pokazujesz krok po kroku).
+- Podopieczny robi drugie wdrożenie sam (Ty obserwujesz, korygujesz).
+- Trzecie wdrożenie: podopieczny solo (Ty tylko sprawdzasz wynik).
+
+Faza 3: Autonomia (miesiąc 2–3)
+- Podopieczny działa sam.
+- Ty: kontakt co tydzień (pytania, feedback, motywacja).
+
+Faza 4: Partnerstwo (po 3 miesiącach)
+- Podopieczny staje się partnerem (wymiana doświadczeń, współpraca pozioma).
+
+Typowe błędy mentorów:
+
+Błąd 1: Za dużo teorii, za mało praktyki
+- Lekarstwo: 20% teoria, 80% praktyka (pokazuj, nie wykładaj).
+
+Błąd 2: Robienie za podopiecznego
+- Lekarstwo: Pokazuj raz, potem pozwól robić samodzielnie (nawet jeśli robi gorzej – uczy się).
+
+Błąd 3: Brak cierpliwości
+- Lekarstwo: Pamiętaj, jak sam zaczynałeś. Każdy popełnia błędy.
+
+Pamiętaj: dobry mentor uczy, nie robi za. Cel: podopieczny samodzielny po 3 miesiącach.
+
+
+## 08. Case: przeciążenie → stabilizacja w 2 tygodnie
+
+Sytuacja:
+KR (Ania, 30 lat), 25 partnerów, pracuje 12 godzin dziennie, chaos, wszystko pilne, brak czasu na rodzinę.
+
+Diagnoza (tydzień 0):
+- Ania nie planuje (reaguje na wszystko na bieżąco).
+- Brak priorytetów (wszystko „ważne").
+- Brak delegowania (robi wszystko sama).
+- Brak narzędzi (notatki w 5 miejscach, nic nie znalazła).
+
+Plan stabilizacji (tydzień 1):
+
+Krok 1: CRM light (1 dzień)
+- Ania tworzy arkusz Google Sheets (lista partnerów, historia kontaktów).
+- Przenosi wszystkie notatki do arkusza (4 godziny, ale teraz wszystko w jednym miejscu).
+
+Krok 2: Segmentacja (1 dzień)
+- Ania dzieli partnerów na A/B/C (według obrotu i aktywności).
+- Wynik: 5 partnerów A (VIP), 15 partnerów B, 5 partnerów C (reaktywacja lub zakończenie).
+
+Krok 3: Planowanie blokowe (1 dzień)
+- Ania planuje typowy tydzień:
+  - Poniedziałek 9–11: Telefony do segmentu A.
+  - Wtorek 9–11: Telefony do segmentu B.
+  - Środa 14–16: Wdrożenia nowe.
+  - Czwartek 9–12: Follow-up i eskalacje.
+  - Piątek 14–16: Dokumentacja, planowanie.
+
+Krok 4: Delegowanie (tydzień 2)
+- Ania zatrudnia asystenta (part-time, 10 godzin/tydzień).
+- Asystent: Dokumentacja (arkusze), generowanie QR, e-maile rutynowe.
+- Ania: Telefony, wdrożenia, eskalacje (rzeczy, które tylko ona umie).
+
+Krok 5: Odrzucanie (tydzień 2)
+- Ania dzwoni do 5 partnerów C (segment ryzyko).
+- 2 chcą kontynuować (plan reaktywacji).
+- 3 nie (zakończenie współpracy fair).
+- Wynik: 22 partnerów (zamiast 25), ale 20 aktywnych (zamiast 15).
+
+Efekt (po 2 tygodniach):
+- Ania pracuje 8 godzin dziennie (zamiast 12).
+- Ma więcej czasu na rodzinę.
+- Zarobki stabilne (20 aktywnych partnerów = przewidywalny dochód).
+
+Wnioski z case'u:
+- Przeciążenie = brak organizacji, nie brak czasu.
+- CRM + segmentacja + bloki = fundament.
+- Delegowanie = klucz do skalowania.
+- Mniej partnerów, ale aktywnych > więcej partnerów, ale chaotycznie obsługiwanych.
+
+
+## 09. Mierniki skalowania – kiedy jesteś gotowy na więcej
+
+Skalowanie to wzrost (więcej partnerów, więcej zarobków). Ale kiedy jesteś gotowy?
+
+Miernik 1: Retencja >70%
+- Co mierzyć: % partnerów aktywnych (obrót >0) vs wszystkich.
+- Cel: Min. 70%.
+- Dlaczego: Jeśli retencja <70%, dołożenie nowych partnerów = większy chaos (więcej nieaktywnych).
+
+Miernik 2: Czas pracy <8 godzin/dzień
+- Co mierzyć: Ile godzin dziennie pracujesz?
+- Cel: Max. 8 godzin (przy pełnym etacie).
+- Dlaczego: Jeśli pracujesz 12 godzin – nie masz czasu na więcej partnerów (wypalenie).
+
+Miernik 3: Dokumentacja aktualna
+- Co mierzyć: Czy arkusze/CRM są aktualne (notatki z ostatnich 7 dni)?
+- Cel: TAK (wszystko zapisane).
+- Dlaczego: Jeśli zapominasz dokumentować – dodanie partnerów = większy chaos.
+
+Miernik 4: Rutyna działa
+- Co mierzyć: Czy trzymasz się planów (bloki, batching, matryca)?
+- Cel: TAK (minimum 80% tygodni zgodnie z planem).
+- Dlaczego: Jeśli nie masz rutyny – dodanie partnerów = stres.
+
+Miernik 5: Provizja stabilna
+- Co mierzyć: Czy prowizja rośnie lub jest stabilna (±10%) przez 3 miesiące?
+- Cel: TAK (stabilność).
+- Dlaczego: Jeśli prowizja skacze (dużo jeden miesiąc, mało następny) – najpierw stabilizuj obecnych.
+
+Test gotowości (checklist):
+- [ ] Retencja >70%
+- [ ] Praca <8h/dzień
+- [ ] Dokumentacja aktualna
+- [ ] Rutyna działa (80% tygodni)
+- [ ] Prowizja stabilna (3 miesiące)
+
+Jeśli 5/5 TAK → jesteś gotowy skalować (dodaj 5 nowych partnerów, zobacz, jak sobie radzisz).
+Jeśli 3–4/5 TAK → jeszcze nie (popraw słabe punkty, spróbuj za miesiąc).
+Jeśli <3/5 TAK → zdecydowanie nie (stabilizuj obecnych, nie dodawaj nowych).
+
+Pamiętaj: skalowanie to nie wyścig. Lepiej 20 dobrze obsłużonych partnerów niż 50 chaotycznie.
+
+
+## 10. Checklista organizacyjna – co zrobić w weekend
+
+Weekend to czas na planowanie i porządkowanie. Co zrobić?
+
+Sobota rano (1 godzina):
+
+Krok 1: Przegląd tygodnia
+- [ ] Sprawdź arkusze/CRM (czy wszystko aktualne?).
+- [ ] Przejrzyj notatki z rozmów (co ustalono, co zrobione, co do zrobienia?).
+
+Krok 2: Analiza wyników
+- [ ] Ile telefonów zrobiłeś? (Cel: min. 10/tydzień przy pełnym etacie.)
+- [ ] Ile wdrożeń? (Cel: min. 1–2/tydzień.)
+- [ ] Ile follow-upów? (Cel: każdy partner kontaktowany min. raz/miesiąc.)
+
+Krok 3: Segmentacja
+- [ ] Sprawdź raporty obrotu (panel KR).
+- [ ] Zaktualizuj segmenty A/B/C (czy ktoś się zmienił?).
+
+Sobota popołudnie (1 godzina):
+
+Krok 4: Planowanie kolejnego tygodnia
+- [ ] Priorytetyzuj (matryca Eisenhowera): co pilne i ważne?
+- [ ] Zaplanuj bloki (poniedziałek: telefony A, wtorek: follow-up B, itd.).
+- [ ] Ustal cele (konkretne liczby: 5 telefonów, 2 wdrożenia, 10 follow-upów).
+
+Krok 5: Przygotowanie narzędzi
+- [ ] Wygeneruj QR (jeśli masz nowych partnerów).
+- [ ] Przygotuj szablony wiadomości (jeśli planujesz masowy follow-up).
+- [ ] Sprawdź kalendarz (czy są konflikty? Czy umówiłeś spotkania?).
+
+Niedziela (opcjonalnie, 30 minut):
+
+Krok 6: Edukacja i rozwój
+- [ ] Przeczytaj artykuł/moduł kursu (rozwój kompetencji).
+- [ ] Obejrzyj webinar Fundacji (nowe funkcje, best practices).
+
+Krok 7: Relaks i reset
+- [ ] Wyłącz telefon służbowy (jesteś człowiekiem, nie maszyną).
+- [ ] Zrób coś dla siebie (rodzina, hobby, odpoczynek).
+
+Pamiętaj: weekend to czas na planowanie, ale też odpoczynek. Nie pracuj 7 dni w tygodniu (wypalenie).
+
+
+---
+
+## Podsumowanie Modułu 7
+
+Organizacja i skalowanie to fundament długoterminowego sukcesu. Kluczowe punkty:
+
+- Planowanie blokowe: dzień podzielony na bloki zadań (telefony razem, e-maile razem, dokumentacja razem).
+- CRM light: arkusz lub aplikacja (kontakty, historia, przypomnienia).
+- Batching: podobne zadania naraz (mniej przełączania, więcej efektywności).
+- Matryca Eisenhowera: priorytetyzacja (pilne i ważne > ważne > pilne nieważne > ignoruj).
+- Delegowanie: wdrożenia techniczne, follow-up rutynowy, dokumentacja (jeśli masz zespół).
+- Współpraca z MR i Mentorem: wsparcie, edukacja, wymiana doświadczeń.
+- Mentoring: uczyć nowych KR (pokazuj, nie rób za, 3 miesiące do autonomii).
+- Case: Ania przeciążona (12h/dzień) → CRM, segmentacja, bloki, delegowanie → 8h/dzień, stabilność.
+- Mierniki skalowania: retencja >70%, praca <8h, dokumentacja aktualna, rutyna działa, prowizja stabilna.
+- Checklista weekendowa: przegląd tygodnia, analiza, segmentacja, planowanie, narzędzia, edukacja, relaks.
+
+Następny krok: Moduł 8 (Trudne sytuacje – jak radzić sobie z konfliktami, obiekcjami, reklamacjami).
