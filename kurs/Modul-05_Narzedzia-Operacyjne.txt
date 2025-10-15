@@ -1,0 +1,178 @@
+# Moduł 5: Narzędzia operacyjne
+
+## 01. Minimum technologiczne KR
+Aby działać skutecznie, potrzebujesz:
+- **CRM/Tracker** – śledzenie kontaktów, statusów, follow-up (może być Google Sheets lub dedykowane CRM).
+- **System kodów/QR** – generowanie unikalnych kodów dla Partnerów i Promotorów.
+- **Dashboard** – podgląd statystyk (rejestracje, transakcje, prowizje).
+- **Komunikacja** – e-mail, telefon, komunikator (WhatsApp Business).
+- **Dokumenty** – szablony (umowy, prezentacje, raporty).
+
+Nie potrzebujesz drogich narzędzi na start. Większość można zastąpić darmowymi rozwiązaniami.
+
+## 02. CRM – wybór i konfiguracja
+**Opcja 1: Google Sheets (darmowe, proste)**
+- Kolumny: Partner, kontakt, telefon, e-mail, status, data ostatniego kontaktu, następny krok, uwagi.
+- Filtry i sortowanie.
+- Współdzielenie z zespołem.
+- **Zalety:** Zero kosztów, wszyscy znają Sheets.
+- **Wady:** Brak automatyzacji, łatwo o chaos przy >50 kontaktach.
+
+**Opcja 2: Dedykowane CRM (HubSpot, Pipedrive, Zoho)**
+- Automatyczne przypomnienia o follow-up.
+- Pipeline (etapy: kontakt → kwalifikacja → wdrożenie → aktywny).
+- Integracje (e-mail, kalendarz, faktury).
+- **Zalety:** Profesjonalne, skalowalne.
+- **Wady:** Koszt (od 50 zł/miesiąc), krzywa uczenia.
+
+**Rekomendacja dla startu:** Google Sheets przez pierwsze 3 miesiące, potem migracja do CRM przy >30 aktywnych Partnerach.
+
+**Minimalna struktura CRM:**
+| ID | Partner       | Branża   | Telefon     | E-mail              | Status       | Ostatni kontakt | Następny krok       | Uwagi         |
+|----|---------------|----------|-------------|---------------------|--------------|-----------------|---------------------|---------------|
+| 1  | Kawiarnia X   | Gastro   | 600123456   | kontakt@kawiarnia.pl| Wdrożenie    | 2025-01-10      | Follow-up 2025-01-15| QR gotowe     |
+| 2  | Sklep Y       | Handel   | 600987654   | biuro@sklepY.pl     | Kwalifikacja | 2025-01-08      | Prezentacja 2025-01-12 | Zainteresowany |
+
+## 03. System kodów/QR
+Każdy Partner i Promotor musi mieć unikalny kod śledzący (tracking code).
+
+**Rodzaje kodów:**
+- **Kod alfanumeryczny** – np. KAW2025X7 (Partner: Kawiarnia, rok 2025, unikalny ID).
+- **QR code** – kod w formie QR do skanowania (łatwiejszy dla klientów).
+- **Link UTM** – dla kampanii online (np. partnerzy.pl/promo?ref=KAW2025X7).
+
+**Generator kodów:**
+- **Online:** QR Code Generator, Canva (darmowe).
+- **Skrypt:** Prosty Python/JavaScript do generowania serii kodów.
+- **Integracja:** System Partner może generować kody automatycznie przy rejestracji.
+
+**Format QR na naklejce:**
+- Logo Partnera + tekst „Skanuj i dołącz do programu" + QR.
+- Link docelowy: strona rejestracji z przedwypełnionym kodem Partnera.
+
+**Przykład:**
+```
+https://partnerzy.pl/register?partner=KAW2025X7
+```
+
+## 04. Dashboard – monitorowanie efektów
+Co powinien pokazywać dashboard dla Partnera?
+- Liczba rejestracji (dzisiaj, ten tydzień, ten miesiąc).
+- Liczba transakcji powrotnych.
+- Wartość transakcji.
+- Liczba poleceń.
+- Prowizja do zapłaty (bieżący miesiąc).
+
+**Narzędzia:**
+- **Google Data Studio (Looker Studio)** – darmowe dashboardy z Google Sheets.
+- **Power BI** – jeśli Partner ma Microsoft 365.
+- **Dedykowane panele** – np. w systemie CRM lub custom (jeśli masz developpera).
+
+**Minimalna wersja (Google Sheets + wykresy):**
+- Arkusz „Rejestracje" (data, imię, kod Partnera).
+- Arkusz „Transakcje" (data, wartość, kod klienta, kod Partnera).
+- Pivot: suma rejestracji i transakcji per Partner.
+- Wykres: trend rejestracji w czasie.
+
+## 05. Komunikacja z Partnerem
+**Kanały:**
+- **E-mail** – formalne podsumowania, umowy, faktury.
+- **Telefon** – pilne sprawy, kwalifikacja, negocjacje.
+- **WhatsApp Business** – szybki follow-up, mikro-raporty („Status: 3 nowe rejestracje dziś").
+- **Spotkania** – tylko kluczowe momenty (wdrożenie, review kwartalny).
+
+**Częstotliwość:**
+- Tydzień 1–2 po wdrożeniu: co 2–3 dni (WhatsApp/telefon).
+- Miesiąc 1–2: raz na tydzień (e-mail + telefon).
+- Dalej: co 2 tygodnie lub wg wskaźników (jeśli spadek → kontakt natychmiast).
+
+**Szablon mikro-raportu (WhatsApp, 3 linijki):**
+> Hej [Imię],  
+> Status: 5 nowych rejestracji, 2 powroty (wartość 320 zł).  
+> Działa: QR przy kasie. Blokuje: personel zapomina wspominać.  
+> Plan: jutro wpadnę na 15 min, krótkie przypomnienie dla zespołu. OK?
+
+## 06. Szablony dokumentów
+**Template 1: Prezentacja (5 slajdów)**
+1. Problem: [Obecna sytuacja Partnera].
+2. Rozwiązanie: [Program lojalnościowy/rekomendacji].
+3. Jak działa: [Prosty schemat: rejestracja → kod → transakcja → prowizja].
+4. Efekt (case study): [Inny Partner, liczby].
+5. Następny krok: [Pilot 30 dni, wdrożenie, termin].
+
+**Template 2: Umowa success fee (1 strona)**
+- Strony, przedmiot, zakres prac, model rozliczenia, termin, RODO, podpisy.
+
+**Template 3: Raport miesięczny (PDF, 1 strona)**
+- Partner: [nazwa].
+- Okres: [miesiąc/rok].
+- Rejestracje: [liczba].
+- Transakcje powrotne: [liczba, wartość].
+- Polecenia: [liczba].
+- Prowizja: [kwota].
+- Trend: [wzrost/spadek, komentarz].
+- Plan na kolejny miesiąc: [1–3 akcje].
+
+**Template 4: Instrukcja dla personelu (A4, laminat)**
+```
+PROGRAM LOJALNOŚCIOWY – CO MÓWIĆ KLIENTOWI?
+
+1. Przy kasie: „Czy ma Pan/Pani naszą kartę stałego klienta? Jeśli nie, zapraszam do programu – zeskanuj kod, dostajesz [rabat/punkty/bonus]."
+
+2. Pokaż QR (naklejka przy kasie).
+
+3. Pomóż zeskanować (jeśli klient nie wie jak).
+
+4. Zapisz (jeśli klient poda telefon/e-mail ręcznie).
+
+5. Przy kolejnej wizycie: „Witamy ponownie! Twój bonus czeka."
+
+Pytania? Dzwoń: [telefon KR].
+```
+
+## 07. Backup i bezpieczeństwo danych
+**RODO compliance:**
+- Dane klientów (imię, e-mail, telefon) są w systemie, nie w otwartych arkuszach.
+- Dostęp: tylko KR i Partner (nie udostępniaj publicznie).
+- Backup: cotygodniowy eksport bazy (Google Drive, szyfrowane archiwum).
+- Retencja: dane usuwane po [X lat] lub na żądanie klienta.
+
+**Minimum zabezpieczeń:**
+- Hasła do systemu (minimum 12 znaków, 2FA jeśli dostępne).
+- Brak danych w e-mailach niezabezpieczonych (używaj linków do dashboardu, nie załączaj CSV z danymi).
+- Partner podpisuje klauzulę RODO (w umowie).
+
+## 08. Automatyzacja (opcjonalnie, dla skali)
+Jeśli obsługujesz >20 Partnerów, warto zautomatyzować:
+- **E-maile follow-up** – narzędzie: Mailchimp, Zapier + Gmail.
+- **Przypomnienia o kontakcie** – CRM wysyła powiadomienie: „Partner X – brak kontaktu 14 dni".
+- **Generowanie raportów** – skrypt w Google Sheets (Apps Script) generuje PDF raportu co miesiąc.
+- **Faktury** – integracja CRM + system fakturowy (np. InFakt, Fakturownia).
+
+**Przykład automatyzacji (Zapier):**
+- Trigger: Nowa rejestracja w Google Sheets.
+- Akcja 1: Wyślij e-mail powitalny do klienta.
+- Akcja 2: Wyślij powiadomienie do Partnera (WhatsApp/SMS): „Nowy klient zarejestrowany!".
+- Akcja 3: Dodaj wpis do CRM.
+
+## 09. Mini-case
+KR obsługuje 15 Partnerów. Narzędzia:
+- CRM: Pipedrive (99 zł/miesiąc).
+- Dashboard: Google Data Studio (darmowe).
+- QR: Canva (darmowe).
+- Komunikacja: WhatsApp Business (darmowe).
+- Szablony: Google Docs (darmowe).
+- Automatyzacja: Zapier (podstawowy plan 20 zł/miesiąc).
+
+Łączny koszt: ~120 zł/miesiąc.  
+Prowizje z 15 Partnerów: ~4 500 zł/miesiąc.  
+ROI narzędzi: **3 750% (4 500 zł / 120 zł)**.
+
+## 10. Zadania 7 dni
+- D1: Skonfiguruj podstawowy CRM (Google Sheets lub darmowy trial CRM).
+- D2: Wygeneruj 10 unikalnych kodów QR dla testowych Partnerów.
+- D3: Stwórz prosty dashboard (Google Sheets + wykres: rejestracje w czasie).
+- D4: Przygotuj szablon mikro-raportu (WhatsApp, 3 linijki).
+- D5: Przygotuj instrukcję dla personelu Partnera (A4, prosty język).
+- D6: Przetestuj proces: rejestracja → zapis w arkuszu → powiadomienie do Partnera.
+- D7: Zrób backup danych i sprawdź, czy CRM działa na telefonie (mobilnie).

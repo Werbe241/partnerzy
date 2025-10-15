@@ -1,0 +1,141 @@
+# Moduł 6: Relacje i retencja
+
+## 01. Czemu Partnerzy odchodzą?
+Najczęstsze przyczyny:
+- **Brak widocznych efektów** – Partner nie widzi przyrostu klientów/transakcji.
+- **Brak follow-up** – KR znika po wdrożeniu.
+- **Za wysoka prowizja** – Partner czuje, że płaci za coś, co by miał i tak.
+- **Skomplikowany system** – personel nie rozumie, jak działa program.
+- **Zmiana priorytetów** – Partner skupia się na czymś innym (remont, nowy produkt).
+
+Klucz: **Proaktywny follow-up + szybka reakcja na spadki.**
+
+## 02. Retencja = relacja, nie tylko raport
+Retencja to nie wysyłanie raportu co miesiąc. To:
+- Zrozumienie celów biznesowych Partnera (co się zmieniło?).
+- Pomoc w rozwiązywaniu problemów (np. personel nie poleca programu → krótkie szkolenie).
+- Dostarczanie wartości poza umową (np. wskazówka marketingowa, kontakt do innego Partnera).
+- Bycie dostępnym (Partner dzwoni → odbierasz lub oddzwaniasz w 24h).
+
+**Zasada:** Partner musi czuć, że zyskuje więcej, niż płaci.
+
+## 03. Rytm kontaktu z Partnerem
+**Tydzień 1–2 po wdrożeniu (intensywny follow-up):**
+- D+2: Telefon: „Jak poszło pierwsze 2 dni? Personel pamięta?"
+- D+5: Mikro-raport (WhatsApp): „Status: X rejestracji. Wszystko gra?"
+- D+7: Mini-spotkanie (15 min): sprawdzenie, czy system działa, korekty.
+- D+14: Raport tygodniowy + plan na kolejny tydzień.
+
+**Miesiąc 1–2 (stabilizacja):**
+- 1× tydzień: mikro-raport (e-mail lub WhatsApp).
+- 1× miesiąc: pełny raport (PDF) + telefon: „Co sądzisz? Kontynuujemy?"
+
+**Miesiąc 3+ (utrzymanie):**
+- Co 2 tygodnie: krótki kontakt (WhatsApp/e-mail).
+- 1× kwartał: spotkanie face-to-face lub video (review, plany, nowe pomysły).
+- Reagowanie na spadki: jeśli rejestracje spadają >30% → kontakt natychmiast.
+
+## 04. Monitoring wskaźników (early warning)
+Które liczby obserwować?
+- **Rejestracje** – jeśli spadek >20% przez 2 tygodnie → czerwona flaga.
+- **Transakcje powrotne** – jeśli klienci się rejestrują, ale nie wracają → problem z ofertą lub komunikacją.
+- **Zaangażowanie personelu** – jeśli personel przestaje polecać program → wizyta + przypomnienie.
+- **Czas od rejestracji do pierwszej transakcji** – jeśli >14 dni → klient zapomniał, potrzebny reminder.
+
+**Dashboard „sygnały alarmowe":**
+- Rejestracje: trend 7 dni (jeśli spadek → żółty, jeśli spadek >30% → czerwony).
+- Transakcje: % klientów wracających (jeśli <20% → problem).
+- Ostatni kontakt z Partnerem: jeśli >14 dni → przypomnienie.
+
+## 05. Proaktywne działania retencyjne
+**Akcja 1: Regularne mikro-usprawnienia**
+- Co miesiąc zaproponuj 1 małą zmianę (np. nowy komunikat przy kasie, test innego miejsca na QR).
+- Nie czekaj, aż Partner poprosi – bądź inicjatorem.
+
+**Akcja 2: Dzielenie się sukcesami innych Partnerów**
+- „Hej, Partner Y zwiększył rejestracje o 40% zmieniając komunikat na kasie. Chcesz przetestować?"
+- Buduje poczucie społeczności (nie jesteś sam).
+
+**Akcja 3: Szkolenia odświeżające dla personelu**
+- Co 3 miesiące: krótkie 15-min przypomnienie dla zespołu Partnera.
+- Nowi pracownicy? → szkolenie dla nich (Partner nie musi prosić).
+
+**Akcja 4: Uznanie i nagrody**
+- Partner osiągnął milestone (100 rejestracji, 50 powrotów)? → certyfikat, wpis na stronie, mała nagroda (np. darmowa grafika do social media).
+
+**Akcja 5: Eksperymentowanie**
+- Zaproponuj test: „Zobaczmy, co się stanie, jeśli dodamy dodatkowy bonus dla klientów polecających."
+- Partner czuje, że rozwijamy program razem (nie tylko „działa jak działa").
+
+## 06. Obsługa sytuacji kryzysowych
+**Scenariusz 1: Partner mówi: „Chcę zakończyć współpracę."**
+- Krok 1: Zapytaj czemu (bez defensywy).
+- Krok 2: Zaproponuj rozwiązanie (np. obniżenie prowizji, zmiana modelu, test nowej strategii).
+- Krok 3: Jeśli brak zgody → zaproponuj „zamrożenie" na 3 miesiące (może wrócić później).
+- Krok 4: Poproś o feedback („Co mogliśmy zrobić lepiej?").
+
+**Scenariusz 2: Wyniki spadają, Partner niezadowolony**
+- Krok 1: Analiza danych (co się zmieniło: sezonowość, konkurencja, personel?).
+- Krok 2: Szybka korekta (np. nowe QR, szkolenie personelu, zmiana komunikatu).
+- Krok 3: Pilot zmiany przez 14 dni → raport z efektu.
+- Krok 4: Jeśli nie pomogło → rozważ obniżenie prowizji lub zmianę modelu.
+
+**Scenariusz 3: Partner nie odpowiada na wiadomości**
+- Krok 1: Próba kontaktu (e-mail, telefon, WhatsApp).
+- Krok 2: Jeśli brak reakcji przez 7 dni → wizyta w punkcie (krótka, bez presji).
+- Krok 3: Jeśli dalej cisza → wiadomość: „Rozumiem, że jesteś zajęty. Daj znać, jeśli chcesz kontynuować. Jeśli nie – możemy zawiesić współpracę, bez problemu."
+
+## 07. Budowanie lojalności Partnera
+**Poziom 1: Podstawowa obsługa**
+- Wdrożenie działa, raporty na czas, follow-up regularny.
+- Partner zadowolony, ale nie emocjonalnie związany.
+
+**Poziom 2: Zaufanie**
+- KR pomaga w sytuacjach nietypowych (np. Partner ma problem z marketingiem, KR podrzuca kontakt do grafika).
+- Partner czuje, że KR dba o jego biznes, nie tylko o prowizję.
+
+**Poziom 3: Partnerstwo**
+- Partner poleca KR innym firmom (najwyższa forma lojalności).
+- Partner współtworzy nowe rozwiązania (np. testuje nową funkcję w systemie).
+- Partner jest ambasadorem (case study, referencje).
+
+**Jak dojść do poziomu 3?**
+- Dostarczaj wartość poza umową (porady, kontakty, pomysły).
+- Świętuj sukcesy (milestone, urodziny firmy → drobny upominek).
+- Bądź transparent (jeśli coś nie działa, przyznaj się i napraw).
+
+## 08. Program referencyjny (Partner poleca KR)
+Jeśdi Partner jest zadowolony, może polecić Cię innym firmom.
+
+**Model prowizji za polecenie:**
+- Partner poleca firmę X.
+- Firma X zostaje Partnerem.
+- Partner polecający dostaje **bonus**: np. 100 zł jednorazowo lub 10% prowizji KR przez pierwsze 3 miesiące.
+
+**Jak zaproponować:**
+- „Hej [Imię], widzę, że program u Was działa super. Czy znasz innych przedsiębiorców, którym mogłoby się to przydać? Za każde skuteczne polecenie dostajesz [bonus]."
+
+**Szablon wiadomości dla Partnera:**
+> Hej [Imię kolegi],  
+> Współpracuję z [Twoje imię], Koordynatorem Reklamy w Fundacji Werbekoordynator. Pomogli mi zwiększyć liczbę powracających klientów o 40% (zero kosztów stałych, płacę tylko za efekt).  
+> Jeśli interesuje Cię coś takiego, daj znać – podam kontakt.  
+> Pozdrawiam, [Imię Partnera]
+
+## 09. Mini-case
+Partner: Salon fryzjerski. Wdrożenie: marzec 2024.
+- **Miesiąc 1:** 25 rejestracji, 8 powrotów. Partner zadowolony.
+- **Miesiąc 2:** 18 rejestracji, 5 powrotów. Spadek. KR dzwoni: „Co się zmieniło?" → Okazuje się, że nowa fryzjerka nie wie o programie.
+- **Akcja:** KR wpadł na 20 min, krótkie szkolenie dla nowej osoby + nowa naklejka przy lustrze.
+- **Miesiąc 3:** 32 rejestracje, 14 powrotów. Partner poleca KR salonowi obok.
+- **Wynik:** Partner został na 12+ miesięcy. Polecił 2 innych salonów (bonus 200 zł).
+
+Klucz: Szybka reakcja na spadek + pomoc w problemie, którego Partner nawet nie zgłosił.
+
+## 10. Zadania 7 dni
+- D1: Zrób listę wszystkich aktywnych Partnerów + data ostatniego kontaktu (jeśli >14 dni → priorytet).
+- D2: Wyślij mikro-raport do 5 Partnerów (WhatsApp, 3 linijki).
+- D3: Zidentyfikuj 1 Partnera z spadkiem wskaźników → umów rozmowę/wizytę.
+- D4: Zaproponuj 1 małe usprawnienie (zmiana komunikatu, nowe miejsce na QR) jednemu Partnerowi.
+- D5: Przygotuj program referencyjny (schemat bonusu za polecenie).
+- D6: Wyślij „podziękowanie" do Partnera z najlepszymi wynikami (e-mail, certyfikat).
+- D7: Przeanalizuj: ilu Partnerów jest w strefie ryzyka (brak kontaktu >21 dni, spadek >30%)? Zaplanuj akcję ratunkową.

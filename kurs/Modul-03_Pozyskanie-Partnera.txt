@@ -1,0 +1,111 @@
+# Moduł 3: Pozyskanie Partnera
+
+## 01. Strategia źródeł
+Źródła: polecenia (najwyższa konwersja), sieci lokalne (izby, grupy branżowe), leady własne (social, strona), baza firm otwartych na prowizję (programy lojalnościowe). Cel: stały dopływ rozmów z decydentami.
+
+Lista priorytetowych źródeł:
+- **Polecenia** – najwyższa konwersja (50–70%), zaufanie już buduje osoba polecająca.
+- **Sieci lokalne** – izby handlowe, grupy branżowe, stowarzyszenia właścicieli firm.
+- **Social media** – LinkedIn, lokalne grupy Facebook, Instagram lokalnych biznesów.
+- **Bazy firm** – firmy już prowadzące programy lojalnościowe lub partnerskie (potencjał).
+- **Cold outreach** – tylko jeśli masz dobrą segmentację (branża, lokalizacja, rozmiar).
+
+Kluczowe pytanie: Czy ten kanał daje nam dostęp do decydenta w rozsądnym czasie?
+
+## 02. Profil idealnego Partnera
+- Ma bezpośredni kontakt z klientami (handel, usługi, gastronomia).
+- Chce zwiększyć retencję lub pozyskanie, ale nie ma czasu/budżetu na marketing.
+- Jest otwarty na rozliczenie success fee (efekt = wynagrodzenie).
+- Decydent dostępny w ciągu 7–14 dni (nie wielopoziomowe struktury).
+- Ma możliwość oznaczenia punktu (naklejki, QR, certyfikat).
+
+Anty-profil (unikaj):
+- Firmy z dużym działem marketingu (wolne procesy, nie potrzebują wsparcia KR).
+- Brak bezpośredniego kontaktu z klientami (B2B dalekiego zasięgu).
+- Brak mierzalności (nie wiedzą, ile mają klientów, nie śledzą powrotów).
+
+## 03. Pierwszy kontakt
+Cel: Umówić rozmowę, nie „sprzedać program" w wiadomości.
+
+**Szablon wiadomości (3–5 zdań):**
+> Dzień dobry [Imię],  
+> Jestem Koordynatorem Reklamy w Fundacji Werbekoordynator. Pomagamy lokalnym firmom w budowaniu relacji z klientami poprzez programy lojalnościowe oparte na success fee.  
+> Czy możemy umówić się na krótką rozmowę (15 min), żeby zobaczyć, czy to ma sens dla [nazwa firmy]?  
+> Proszę o sugestię terminu – mogę dostosować się do Pana/Pani kalendarza.  
+> Pozdrawiam, [Twoje imię]
+
+Nie obiecuj cudów. Nie wysyłaj katalogu usług. Zapisz reakcję (tak/nie/może później) + datę follow-up.
+
+## 04. Kwalifikacja (5 pytań)
+Podczas pierwszej rozmowy sprawdź:
+1. **Cel biznesowy:** Co chcesz osiągnąć w ciągu 3–6 miesięcy? (retencja, nowi klienci, średnia wartość koszyka?)
+2. **Obecne działania:** Co robisz dziś w zakresie marketingu/lojalności?
+3. **Decyzyjność:** Kto decyduje o wdrożeniach i w jakim czasie?
+4. **Mierzalność:** Jak mierzysz skuteczność (czy w ogóle)?
+5. **Otwartość na success fee:** Czy model „płacisz tylko za efekt" jest dla Ciebie sensowny?
+
+Jeśli 3+ odpowiedzi są pozytywne → idziemy dalej. Jeśli nie → zapisz „nie teraz" + termin powrotu (np. Q2 2025).
+
+## 05. Prezentacja rozwiązania
+Nie prezentuj „wszystkiego, co mamy". Pokaż jedną ścieżkę dopasowaną do diagnozy.
+
+**Format prezentacji (5 minut):**
+- Twoja sytuacja: [powtórz ich słowa].
+- Luka: [czego brakuje].
+- Nasza propozycja: [1–3 elementy, np. QR + system rekomendacji + follow-up].
+- Jak to działa: [prosty schemat].
+- Następny krok: [pilot 30 dni / test w jednym punkcie / pełne wdrożenie].
+
+Nie omawiaj technologii. Nie pokazuj paneli administracyjnych. Skup się na efektach (ile rejestracji, ile powrotów, ile oszczędności czasu).
+
+## 06. Obsługa obiekcji
+**„To kosztuje?"**  
+Success fee = płacisz tylko wtedy, gdy klient wraca/poleca. Zero kosztów stałych.
+
+**„Nie mam czasu."**  
+Wdrożenie zajmuje 2–4 godziny (szkolenie personelu, naklejki, test). Później to działa samo.
+
+**„Mamy już program lojalnościowy."**  
+Super! Wtedy możemy ten system zintegrować lub wzmocnić rekomendacjami (druga warstwa).
+
+**„Jak mam pewność, że to zadziała?"**  
+Nie masz gwarancji – to pilot. Testujemy 30 dni, patrzymy na liczby i decydujemy, czy kontynuujemy.
+
+**„Muszę porozmawiać z zespołem/partnerem."**  
+Świetnie. Kiedy będziecie mieli decyzję? Mogę przygotować krótkie podsumowanie do przesłania?
+
+## 07. Zamknięcie rozmowy
+Cel: Konkretny następny krok z datą i osobą odpowiedzialną.
+
+- **Jeśli TAK:** „Świetnie, umawiamy pilota. Potrzebuję [dane kontaktowe, logo, zdjęcie punktu]. Startujemy [data]. Dzwonię [data] z potwierdzeniem."
+- **Jeśli MOŻE:** „Okej, dzwonię [data] po decyzji. Czy jest coś, co mogę przygotować, żeby ułatwić rozmowę w zespole?"
+- **Jeśli NIE:** „Rozumiem. Czy mogę wrócić za [X miesięcy], jeśli sytuacja się zmieni?"
+
+Zapisz w CRM: decyzja, data follow-up, kontekst.
+
+## 08. Follow-up po pierwszym kontakcie
+Jeśli nie ma decyzji po pierwszej rozmowie:
+- D+2: e-mail z podsumowaniem (2–3 zdania + link do case study).
+- D+7: telefon: „Hej, sprawdzam, czy macie pytania."
+- D+14: propozycja alternatywy (np. mniejszy pilot, test w jednym punkcie).
+- D+30: ostatnia wiadomość: „Jeśli nie teraz, wracam za kwartał. Trzymam miejsce w kalendarzu."
+
+Nie naciskaj. Nie wysyłaj co 2 dni. Szanuj czas decydenta.
+
+## 09. Mini-case
+Sklep spożywczy lokalny, 120 klientów/dzień, brak systemu lojalnościowego.
+- D0: Pierwszy kontakt (LinkedIn).
+- D+3: Rozmowa 15 min (kwalifikacja OK).
+- D+5: Prezentacja (QR + naklejki + szkolenie).
+- D+7: Decyzja: pilot 30 dni.
+- D+10: Wdrożenie (2h szkolenie + naklejki).
+- D+40: Wynik: 89 rejestracji, 14 powrotów, decyzja o pełnym wdrożeniu.
+
+Klucz sukcesu: szybka ścieżka od kontaktu do wdrożenia (10 dni), brak przeciągania decyzji.
+
+## 10. Zadania 7 dni
+- D1–D2: Zidentyfikuj 20 potencjalnych Partnerów (profil idealny).
+- D3–D4: Wyślij 20 wiadomości (szablon 3–5 zdań).
+- D5: Umów min. 5 rozmów.
+- D6: Przeprowadź kwalifikację (5 pytań) + notatka.
+- D7: Przygotuj prezentację dla 2 najlepszych leadów + umów następny krok.

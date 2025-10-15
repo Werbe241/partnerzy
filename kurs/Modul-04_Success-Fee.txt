@@ -1,0 +1,162 @@
+# Moduł 4: Success Fee
+
+## 01. Czym jest success fee?
+Success fee = Koordynator Reklamy zarabia prowizję od każdego nowego klienta pozyskanego przez Partnera dzięki programowi rekomendacji lub od każdej transakcji powracającego klienta w programie lojalnościowym.
+
+**Kluczowe zasady:**
+- Partner płaci tylko za efekt (nowy klient zarejestrowany, powrót klienta, polecenie).
+- Zero kosztów stałych dla Partnera (brak abonamentu, brak opłat wdrożeniowych).
+- Mierzalność: każdy efekt jest śledzony (kod, QR, link).
+- Rozliczenie: miesięczne lub kwartalne (zależnie od umowy).
+
+Success fee jest uczciwe dla obu stron: Partner ryzykuje tylko czasem, KR zarabia tylko wtedy, gdy system działa.
+
+## 02. Modele rozliczenia
+**Model 1: Prowizja od nowego klienta**
+- Partner płaci X zł za każdego nowego klienta zarejestrowanego przez system rekomendacji.
+- Przykład: 10 zł za każdą nową rejestrację.
+- Zastosowanie: branże z wysoką wartością życiową klienta (LTV).
+
+**Model 2: Prowizja od transakcji powrotnej**
+- Partner płaci Y% od wartości transakcji klienta powracającego.
+- Przykład: 3% od wartości zakupu klienta lojalnościowego.
+- Zastosowanie: handel detaliczny, gastronomia.
+
+**Model 3: Prowizja hybrydowa**
+- X zł za rejestrację + Y% od transakcji powrotnych.
+- Przykład: 5 zł za rejestrację + 2% od zakupów.
+- Zastosowanie: programy lojalnościowe z elementem rekomendacji.
+
+**Model 4: Prowizja od polecenia**
+- Partner płaci Z zł za każdego klienta polecającego firmę innym.
+- Przykład: 15 zł za każdego promotora aktywnie polecającego.
+- Zastosowanie: branże oparte na word-of-mouth (usługi, beauty, fitness).
+
+## 03. Ustalanie wysokości success fee
+Jak określić rozsądną stawkę?
+
+**Krok 1: Oszacuj LTV (Lifetime Value) klienta Partnera**
+- Ile średnio wydaje klient w ciągu roku?
+- Ile razy wraca?
+- Jaka jest marża na transakcji?
+
+**Krok 2: Określ % LTV, który Partner może przeznaczyć na pozyskanie**
+- Standardowo: 10–20% LTV to sensowny koszt pozyskania klienta (CAC).
+- Przykład: Jeśli LTV = 500 zł, to CAC = 50–100 zł.
+
+**Krok 3: Podziel CAC na etapy**
+- Rejestracja: 30% CAC (np. 15 zł).
+- Pierwsza transakcja: 30% CAC (np. 15 zł).
+- Kolejne transakcje: 40% CAC rozłożone na rok (np. 2% od transakcji).
+
+**Przykład:**
+- LTV klienta: 600 zł/rok.
+- CAC: 15% = 90 zł.
+- Success fee: 20 zł za rejestrację + 2% od transakcji powrotnych (łącznie ~70–90 zł/rok).
+
+## 04. Negocjacje z Partnerem
+**Partner mówi: „To za dużo."**
+- Odpowiedź: „Rozumiem. Ile wydajesz dziś na pozyskanie jednego klienta? (reklama, ulotki, promocje). Porównajmy."
+- Zaproponuj pilot: „Testujemy 30 dni z niższą stawką. Jeśli efekt jest, wracamy do pełnej."
+
+**Partner mówi: „Nie wiem, ile wydaję na marketing."**
+- Odpowiedź: „Zobaczmy na liczby: ile masz nowych klientów miesięcznie? Ile z nich wraca? Jeśli zwiększymy retencję o 20%, to ile to jest wartości? Success fee bierzemy tylko z tego przyrostu."
+
+**Partner mówi: „A jeśli nie będzie efektu?"**
+- Odpowiedź: „Nie płacisz nic. Zero ryzyka finansowego. Ryzykujesz tylko czasem wdrożenia (2–4h)."
+
+**Partner mówi: „Chcę niższą prowizję."**
+- Odpowiedź: „Możemy zacząć od niższej stawki pilotażowej. Po 60 dniach patrzymy na liczby i ustalamy finalną."
+
+## 05. Umowa (template prostej umowy)
+Minimalna umowa success fee powinna zawierać:
+
+1. **Strony:** Partner (firma XYZ) + KR (imię, nazwisko lub Fundacja).
+2. **Przedmiot:** Wdrożenie programu [lojalnościowego/rekomendacji] w punkcie [adres].
+3. **Zakres prac KR:**
+   - Diagnoza i rekomendacja.
+   - Konfiguracja systemu (kody, QR, konta).
+   - Szkolenie personelu.
+   - Follow-up i optymalizacja (pierwsze 60 dni).
+4. **Model rozliczenia:**
+   - Prowizja: [X zł/rejestrację, Y% transakcji, Z zł/polecenie].
+   - Sposób pomiaru: [system, dashboard, raporty].
+   - Termin rozliczenia: [miesięcznie/kwartalnie].
+5. **Okres obowiązywania:** [pilot 30/60 dni] lub [umowa na czas nieokreślony z wypowiedzeniem 30 dni].
+6. **RODO:** Partner przetwarza dane zgodnie z polityką prywatności. KR ma dostęp tylko do danych operacyjnych (imię, e-mail, liczba transakcji).
+7. **Odpowiedzialność:** KR nie gwarantuje efektów, ale zobowiązuje się do wdrożenia zgodnie z best practices.
+
+Umowa nie musi być skomplikowana. 1–2 strony A4 wystarczą.
+
+## 06. Rozliczenia i faktury
+**Krok 1: Zbieranie danych**
+- Miesięczny raport z systemu: liczba rejestracji, transakcji, poleceń.
+- Weryfikacja z Partnerem (czy liczby się zgadzają).
+
+**Krok 2: Obliczenie prowizji**
+- Przykład: 30 rejestracji × 10 zł = 300 zł + 50 transakcji powrotnych × średnia 80 zł × 3% = 120 zł. Razem: 420 zł.
+
+**Krok 3: Faktura**
+- Wystawienie faktury (VAT jeśli KR prowadzi działalność).
+- Termin płatności: 14–30 dni.
+
+**Krok 4: Płatność**
+- Przelew na konto KR.
+- Potwierdzenie wpływu.
+
+Jeśli Partner nie płaci na czas: przypomnienie → wstrzymanie follow-up → ewentualne rozwiązanie umowy (30 dni).
+
+## 07. Typowe pułapki
+**Pułapka 1: Brak jasnych kryteriów mierzenia**
+- Skutek: Partner kwestionuje liczby.
+- Rozwiązanie: Dashboard z dostępem dla obu stron. Definiuj „rejestracja", „transakcja powrotna" w umowie.
+
+**Pułapka 2: Prowizja za wszystko (nie tylko nowe efekty)**
+- Skutek: Partner płaci za klientów, których i tak by miał.
+- Rozwiązenie: Prowizja tylko od przyrostu (nowe rejestracje, nowe powroty ponad baseline).
+
+**Pułapka 3: Zbyt wysoka prowizja na start**
+- Skutek: Partner rezygnuje po miesiącu („za drogie").
+- Rozwiązanie: Pilot z niższą stawką → po 60 dniach pełna stawka (gdy Partner widzi efekt).
+
+**Pułapka 4: Brak follow-up po wdrożeniu**
+- Skutek: System przestaje działać, prowizje spadają, Partner rezygnuje.
+- Rozwiązanie: Cykliczny follow-up (co 2 tygodnie) przez pierwsze 3 miesiące.
+
+## 08. Przykład kalkulacji ROI dla Partnera
+Partner: Sklep odzieżowy, średnia wartość koszyka 200 zł, marża 40%, LTV klienta 800 zł/rok.
+
+**Bez programu:**
+- Nowi klienci/miesiąc: 20 (organicznie).
+- Powroty: 30% (6 klientów).
+- Przychód z powrotów: 6 × 200 zł = 1 200 zł/miesiąc.
+
+**Z programem (success fee):**
+- Nowe rejestracje: +15/miesiąc (dzięki rekomendacjom).
+- Powroty: 50% (17 klientów: 6 organicznych + 11 z programu).
+- Przychód z powrotów: 17 × 200 zł = 3 400 zł/miesiąc.
+- Przyrost przychodu: 3 400 – 1 200 = 2 200 zł/miesiąc.
+- Prowizja KR: 15 rejestracji × 10 zł + 11 powrotów × 200 zł × 3% = 150 + 66 = 216 zł.
+- Zysk netto Partnera (marża 40%): 2 200 × 0,4 – 216 = 880 – 216 = **664 zł/miesiąc**.
+
+ROI Partnera: **664 zł zysku za 216 zł prowizji = 307% ROI**.
+
+## 09. Mini-case
+Restauracja lokalna. LTV klienta: 1 000 zł/rok (średnio 1 wizyta/miesiąc × 80 zł).
+- Pilot 60 dni.
+- Model: 5 zł/rejestracja + 2% od transakcji powrotnych.
+- Wynik 60 dni: 67 rejestracji, 23 klientów wróciło (średnio 2× każdy).
+- Prowizja: 67 × 5 + 23 × 2 × 80 × 0,02 = 335 + 73,60 = **408,60 zł**.
+- Przychód Partnera z powrotów: 23 × 2 × 80 = 3 680 zł (marża ~50% = 1 840 zł zysku).
+- Zysk netto Partnera: 1 840 – 408,60 = **1 431,40 zł**.
+
+Partner kontynuuje program. Po 6 miesiącach prowizje KR: ~2 400 zł, zysk Partnera: ~8 500 zł.
+
+## 10. Zadania 7 dni
+- D1: Przygotuj kalkulator LTV dla 3 typowych branż (handel, gastronomia, usługi).
+- D2: Ustal stawki success fee dla każdej branży (prowizja od rejestracji, od transakcji).
+- D3: Stwórz szablon prostej umowy (1 strona A4).
+- D4: Przeprowadź kalkulację ROI dla jednego potencjalnego Partnera.
+- D5: Wynegocjuj warunki pilota z jednym Partnerem.
+- D6: Przygotuj dashboard do śledzenia efektów (Excel/Google Sheets).
+- D7: Podsumuj: ile prowizji możesz zarobić przy 10 Partnerach/miesiąc?
