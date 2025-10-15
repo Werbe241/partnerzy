@@ -1,0 +1,152 @@
+# Klucz odpowiedzi – Test końcowy
+
+**DOKUMENT TYLKO DLA PROWADZĄCYCH KURS**
+Ten dokument NIE jest linkowany w interfejsie użytkownika i służy wyłącznie do sprawdzania odpowiedzi uczestników.
+
+
+## Odpowiedzi do pytań zamkniętych
+
+### Sekcja 1: Podstawy roli Koordynatora Reklamy
+
+**Pytanie 1:** B (Osoba łącząca ludzi i narzędzia, pomagająca firmom zdobywać klientów)
+
+**Pytanie 2:** C (Prowizja od sukcesu – płatność dopiero gdy firma ma obrót dzięki systemowi)
+
+**Pytanie 3:** A, B, C (Przestrzeganie RODO, Uzyskiwanie zgód marketingowych, Uczciwa komunikacja bez ściemy)
+- Uwaga: D jest NIEPOPRAWNE – nie wolno obiecywać gwarantowanych wyników
+
+
+### Sekcja 2: Komunikacja i relacje z Partnerami
+
+**Pytanie 4:** B (Skupienie się na rozmówcy, zadawanie pytań i parafrazowanie)
+
+**Pytanie 5:** E (Wszystkie powyższe)
+
+**Pytanie 6:** (Pytanie otwarte – przykładowa poprawna odpowiedź)
+Elementy do oceny:
+1. Przedstawienie się i wyjaśnienie celu rozmowy (kto dzwoni, z jakiej organizacji, po co)
+2. Pytanie o potrzeby partnera / słuchanie (nie od razu sprzedaż)
+3. Krótka prezentacja możliwości współpracy
+4. Ustalenie kolejnych kroków (spotkanie, wysłanie materiałów)
+5. Podziękowanie za czas
+
+Odpowiedź powinna zawierać minimum 3 z powyższych elementów opisane własnymi słowami.
+
+
+### Sekcja 3: Narzędzia i wdrożenia
+
+**Pytanie 7:** B (Karty Google, formularz kontaktowy, QR-kod, certyfikat)
+
+**Pytanie 8:** B (Przeprowadzić diagnozę potrzeb i określić cele)
+
+**Pytanie 9:** B (Pozwalają sprawdzić, które rozwiązanie działa lepiej)
+
+
+### Sekcja 4: Zarządzanie procesem i monitorowanie
+
+**Pytanie 10:** B (Regularnie, według ustalonego harmonogramu)
+
+**Pytanie 11:** A, B, C (Liczba nowych zapytań/leadów, Konwersje, Wzrost obrotów)
+- Uwaga: D (pogoda) jest oczywiste niepoprawne – humorystyczna opcja
+
+**Pytanie 12:** (Pytanie otwarte – przykładowa poprawna odpowiedź)
+Elementy do oceny:
+1. Analiza danych – sprawdzenie, czy narzędzia są używane prawidłowo
+2. Rozmowa z partnerem – zrozumienie jego perspektywy i obaw
+3. Optymalizacja – sprawdzenie, czy można coś poprawić (np. treści, oferta)
+4. Cierpliwość – wyjaśnienie, że niektóre działania potrzebują więcej czasu
+5. Ewentualnie: dostosowanie strategii lub dodanie nowych kanałów
+
+Odpowiedź powinna pokazać analityczne podejście i empatię wobec partnera.
+
+
+### Sekcja 5: Rozwój zawodowy i praktyka
+
+**Pytanie 13:** B (Budowanie sieci kontaktów i relacji biznesowych)
+
+**Pytanie 14:** A, B, C (Komunikacja, Empatia, Systematyczność)
+- Uwaga: D (programowanie) nie jest kluczowe dla KR
+
+**Pytanie 15:** D (Wszystkie powyższe)
+
+
+### Sekcja 6: Case studies i praktyczne zastosowanie
+
+**Pytanie 16:** (Pytanie otwarte – przykładowa poprawna odpowiedź)
+Elementy do oceny dla salonu fryzjerskiego:
+1. Założenie/optymalizacja wizytówki Google (Karty Google) z godzinami, zdjęciami
+2. Dodanie prostego formularza rezerwacji online
+3. Utworzenie QR-kodu do szybkiej rezerwacji
+4. Regularny kontakt z klientami (np. przypomnienia SMS/mail)
+5. Zbieranie opinii i rekomendacji
+6. Proste promocje dla nowych klientów
+
+Odpowiedź powinna zawierać minimum 3-4 konkretne, wykonalne kroki.
+
+
+**Pytanie 17:** D (Wszystkie powyższe)
+
+**Pytanie 18:** B (Zaproponować krótkie spotkanie online lub telefoniczne)
+
+
+### Sekcja 7: Finanse i rozliczenia
+
+**Pytanie 19:** B (Ustalony procent od dodatkowego obrotu wygenerowanego dzięki systemowi)
+
+**Pytanie 20:** (Pytanie otwarte – oczekiwana odpowiedź)
+Obliczenia:
+- Dodatkowy obrót: 5000 zł
+- Prowizja: 15%
+- Kwota prowizji: 5000 zł × 15% = 750 zł
+
+Odpowiedź: Prowizja wynosi 750 zł za miesiąc.
+
+Uczestnik powinien pokazać obliczenia krok po kroku.
+
+
+## System oceny
+
+### Punktacja:
+- Pytania zamknięte z jedną poprawną odpowiedzią: 1 punkt
+- Pytania wielokrotnego wyboru: 2 punkty (wszystkie poprawne = 2 pkt, częściowo poprawne = 1 pkt)
+- Pytania otwarte: 2-3 punkty (w zależności od kompletności odpowiedzi)
+
+### Maksymalna liczba punktów: 30
+
+**Rozkład punktów:**
+- Pytania 1, 2: po 1 pkt = 2 pkt
+- Pytanie 3: 2 pkt (wielokrotny wybór)
+- Pytania 4, 5: po 1 pkt = 2 pkt
+- Pytanie 6: 3 pkt (otwarte)
+- Pytania 7, 8, 9: po 1 pkt = 3 pkt
+- Pytanie 10: 1 pkt
+- Pytanie 11: 2 pkt (wielokrotny wybór)
+- Pytanie 12: 3 pkt (otwarte)
+- Pytania 13: 1 pkt
+- Pytanie 14: 2 pkt (wielokrotny wybór)
+- Pytanie 15: 1 pkt
+- Pytanie 16: 3 pkt (otwarte)
+- Pytania 17, 18: po 1 pkt = 2 pkt
+- Pytanie 19: 1 pkt
+- Pytanie 20: 3 pkt (otwarte)
+
+**Razem: 30 punktów**
+
+### Progi oceny:
+- **21-30 punktów (70-100%)**: ZALICZONY – uczestnik otrzymuje certyfikat
+- **15-20 punktów (50-69%)**: Do poprawy – zaleca się powtórzenie materiału i podejście ponowne
+- **Poniżej 15 punktów (<50%)**: Niezaliczony – konieczne gruntowne powtórzenie całego kursu
+
+
+## Uwagi dla prowadzących
+
+1. **Pytania otwarte** – oceniaj elastycznie, zwracaj uwagę na:
+   - Zrozumienie koncepcji (ważniejsze niż dokładne sformułowania)
+   - Praktyczne podejście
+   - Logikę rozumowania
+   
+2. **Feedback** – zawsze udzielaj konstruktywnej informacji zwrotnej, nawet przy wysokim wyniku
+
+3. **Powtórka** – uczestnik może podejść do testu ponownie po 7 dniach (po powtórzeniu materiału)
+
+4. **Certyfikat** – wydawany tylko przy wyniku ≥70% i po weryfikacji tożsamości uczestnika
