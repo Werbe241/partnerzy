@@ -1,0 +1,400 @@
+# Moduł 2: Praktyka operacyjna Koordynatora Reklamy
+Konkretne kroki, narzędzia i rutyny. Dla każdego KR.
+
+Spis treści:
+01. Rola operacyjna KR – co robisz dzień po dniu  
+02. Mapa procesu współpracy – od kontaktu do rozliczenia  
+03. Diagnoza potrzeb partnera – 5 pytań kluczowych  
+04. Rekomendacja w 5 zdaniach – jak przedstawić propozycję  
+05. Wdrożenie w 10 dni – harmonogram i checklisty  
+06. Follow-up i rytmy kontaktu – jak nie zgubić partnera  
+07. Dokumentacja minimalna – co zapisać, żeby spać spokojnie  
+08. RODO w praktyce – zgody, dane, bezpieczeństwo  
+09. Case: sklep detaliczny od kontaktu do pierwszych wyników  
+10. Zadania na 7 dni – konkretny plan działania
+
+
+## 01. Rola operacyjna KR – co robisz dzień po dniu
+
+Koordynator Reklamy to nie sprzedawca. To przewodnik i pilot projektu u partnera.
+
+Twoje główne zadania operacyjne:
+- Identyfikacja potencjalnych partnerów i pierwsze kontakty.
+- Diagnoza potrzeb i rekomendacja rozwiązań.
+- Wdrożenie narzędzi (oznaczenia, QR, identyfikacja obrotu).
+- Monitoring i przypomnienia – pilnujesz, żeby partnerzy byli aktywni.
+- Rozwiązywanie problemów – gdy coś nie działa, pomagasz naprawić.
+- Raportowanie – proste podsumowania dla siebie i partnera.
+
+Typowy dzień KR (pełny etat):
+- 8:00–9:00: Przegląd kalendarza, priorytetów, wiadomości.
+- 9:00–12:00: Rozmowy z nowymi partnerami (cold calls, follow-up).
+- 12:00–14:00: Wdrożenia na żywo (spotkania, instalacje, testy).
+- 14:00–16:00: Dokumentacja, e-maile, przypomnienia.
+- 16:00–17:00: Planowanie na jutro, podsumowanie dnia.
+
+Jeśli pracujesz na część etatu – priorytetem są pierwsze kontakty i wdrożenia. Dokumentację rób na bieżąco (5 minut po każdej rozmowie).
+
+Pamiętaj:
+- Systematyczność bije intensywność. Lepiej 2 telefony dziennie przez tydzień niż 20 telefonów jednego dnia.
+- Nie odkładaj dokumentacji. To, co nie zapisane dzisiaj – jutro jest zapomniane.
+
+
+## 02. Mapa procesu współpracy – od kontaktu do rozliczenia
+
+Cały proces można podzielić na 6 etapów:
+
+Etap 1: Identyfikacja i pierwszy kontakt
+- Źródła: lista 100, polecenia, eventy lokalne, cold calls.
+- Cel: umówienie rozmowy i zadanie 3 pytań TAK.
+
+Etap 2: Kwalifikacja i rekomendacja
+- Rozmowa diagnostyczna (5 pytań, patrz sekcja 03).
+- Rekomendacja w 5 zdaniach (sekcja 04).
+- Decyzja: TAK (idziemy dalej) lub NIE (dziękujemy, następny).
+
+Etap 3: Rejestracja
+- Promotor → Partner → Umowa (online lub papierowa).
+- Zbieranie danych technicznych (VAT, kasa, oprogramowanie).
+
+Etap 4: Wdrożenie w 10 dni (sekcja 05)
+- Oznaczenia punktu, materiały edukacyjne, QR, identyfikacja obrotu.
+- Test zakupu i weryfikacja naliczania.
+
+Etap 5: Opieka i follow-up (sekcja 06)
+- Rytmy kontaktu: tydzień 1 (co 2 dni), miesiąc 1 (co tydzień), potem miesięcznie.
+- Przypomnienia, wsparcie, reaktywacja.
+
+Etap 6: Rozliczenie i raportowanie
+- System automatycznie nalicza prowizję od zidentyfikowanego obrotu.
+- Partner widzi raport, KR widzi swoją prowizję.
+- Feedback i optymalizacja na kolejne okresy.
+
+Kluczowe przejścia:
+- Z etapu 1 do 2: 3 pytania TAK.
+- Z etapu 2 do 3: decyzja po rekomendacji.
+- Z etapu 3 do 4: komplet danych technicznych.
+- Z etapu 4 do 5: pozytywny test zakupu.
+
+
+## 03. Diagnoza potrzeb partnera – 5 pytań kluczowych
+
+Zanim zaproponujesz rozwiązanie – zapytaj. Te 5 pytań to fundament diagnozy:
+
+1. Jakie są Twoje główne źródła klientów dzisiaj?
+   - Cel: zrozumieć, czy partner ma stabilną bazę, czy szuka nowych kanałów.
+   - Co słuchać: „w zasadzie przychodzą sami", „polecenia", „reklama w internecie".
+
+2. Jak często wracają Ci dotychczasowi klienci?
+   - Cel: ocenić retencję i potencjał programu lojalnościowego.
+   - Co słuchać: „raz na kwartał", „rzadko", „regularnie".
+
+3. Czy próbowałeś wcześniej programów partnerskich, cashback, promocji?
+   - Cel: dowiedzieć się o doświadczeniach i obawach.
+   - Co słuchać: „próbowałem, nie zadziałało", „nigdy", „korzystam z czegoś podobnego".
+
+4. Co jest Twoim największym wyzwaniem w pozyskiwaniu klientów?
+   - Cel: znaleźć punkt bólu, który możesz rozwiązać.
+   - Co słuchać: „konkurencja", „brak czasu na reklamę", „koszty marketingu".
+
+5. Jaki dodatkowy obrót miesiąc w miesiąc uznałbyś za sukces?
+   - Cel: określić oczekiwania i realność projektu.
+   - Co słuchać: „kilkaset złotych", „kilka tysięcy", „dziesięć procent więcej".
+
+Jak używać odpowiedzi:
+- Jeśli partner mówi o braku czasu – podkreśl, że wdrożenie jest proste i wspierane.
+- Jeśli mówi o kosztach – podkreśl brak opłat z góry i prowizję od efektu.
+- Jeśli wspomina konkurencję – pokaż, że cashback i promocja to przewaga.
+
+Zapisz odpowiedzi. Użyjesz ich w rekomendacji (następna sekcja).
+
+
+## 04. Rekomendacja w 5 zdaniach – jak przedstawić propozycję
+
+Oparta na diagnozie, krótka, konkretna. Struktura:
+
+Zdanie 1: Co widzę (podsumowanie diagnozy)
+„Widzę, że głównym wyzwaniem jest [punkt bólu z pytania 4], a regularni klienci wracają [częstotliwość z pytania 2]."
+
+Zdanie 2: Co proponuję
+„Proponuję wdrożenie programu partnerskiego Fundacji Werbekoordynator – nasi promotorzy polecają Twój punkt, a klienci dostają cashback."
+
+Zdanie 3: Co zyskujesz
+„Zyskujesz nowych klientów bez kosztów z góry i narzędzia do retencji (cashback motywuje do powrotu)."
+
+Zdanie 4: Jak to działa
+„Wdrożenie trwa 10 dni: oznaczenia, QR, test zakupu. Potem system automatycznie identyfikuje obrót i nalicza prowizję."
+
+Zdanie 5: Co dalej
+„Jeśli pasuje, możemy dziś założyć konto i umówić wdrożenie na [data]. Zajmie to 15 minut. Co o tym myślisz?"
+
+Dlaczego 5 zdań?
+- Partner nie ma czasu na długie prezentacje.
+- Krótka forma zmusza Cię do myślenia o istocie.
+- Łatwiej zapamiętać i powtarzać.
+
+Przykład dla sklepu spożywczego:
+„Widzę, że głównym wyzwaniem jest konkurencja supermarketów, a stali klienci wracają raz w tygodniu. Proponuję program partnerski Fundacji Werbekoordynator – nasi promotorzy polecają Twój sklep, klienci dostają cashback. Zyskujesz nowych klientów bez kosztów z góry i lojalność tych, którzy już przychodzą. Wdrożenie: 10 dni, oznaczenia + QR + test. Jeśli pasuje, dziś rejestracja i umowa na przyszły tydzień. Co myślisz?"
+
+
+## 05. Wdrożenie w 10 dni – harmonogram i checklisty
+
+Plan wdrożenia krok po kroku. Trzymaj się go, żeby nie zgubić szczegółów.
+
+Dzień 0 (rejestracja):
+- [ ] Rejestracja promotora i partnera w systemie.
+- [ ] Przesłanie linków do instrukcji i materiałów.
+- [ ] Ustalenie terminu spotkania wdrożeniowego (dzień 2–3).
+
+Dzień 1:
+- [ ] Zebranie danych technicznych: VAT, marka kasy, oprogramowanie, e-mail właściciela.
+- [ ] Zamówienie certyfikatu partnera i naklejek (jeśli fizyczne).
+
+Dzień 2–3 (spotkanie wdrożeniowe):
+- [ ] Przekazanie certyfikatu i naklejek.
+- [ ] Instalacja/konfiguracja identyfikacji obrotu (QR, plugin, API).
+- [ ] Pokazanie panelu partnera (jak wygląda raport obrotu).
+
+Dzień 4:
+- [ ] Test zakupu z użyciem kodu QR promotora.
+- [ ] Weryfikacja w systemie, czy transakcja została zidentyfikowana.
+
+Dzień 5–7:
+- [ ] Edukacja personelu (jeśli partner ma pracowników): jak pokazywać QR, co mówić klientom.
+- [ ] Krótki film lub instrukcja pdf dla partnera.
+
+Dzień 8–9:
+- [ ] Follow-up: czy są pytania, czy coś nie działa.
+- [ ] Korekta ustawień (jeśli potrzebna).
+
+Dzień 10:
+- [ ] Podsumowanie wdrożenia: co działa, co jest do poprawy.
+- [ ] Ustalenie rytmu follow-up (tydzień 1: co 2 dni, potem co tydzień).
+
+Co jeśli coś nie działa?
+- Problem z identyfikacją obrotu: skontaktuj się z supportem systemu (masz dostęp do FAQ i helpdesk).
+- Problem z QR: wygeneruj nowy kod i przetestuj ponownie.
+- Partner nie ma czasu: przesuń wdrożenie, ale ustal konkretny termin (nie „kiedyś").
+
+Pamiętaj: wdrożenie to nie sprint, ale też nie maraton. 10 dni to standard. Jeśli trwa dłużej – szukaj przyczyny i naprawiaj.
+
+
+## 06. Follow-up i rytmy kontaktu – jak nie zgubić partnera
+
+Wdrożenie to dopiero początek. Teraz trzeba pilnować, żeby partner był aktywny.
+
+Rytm kontaktu (propozycja):
+
+Tydzień 1 po wdrożeniu: kontakt co 2 dni
+- Cel: upewnić się, że wszystko działa.
+- Forma: krótki telefon lub SMS („Jak idzie? Są pytania?").
+
+Miesiąc 1: kontakt co tydzień
+- Cel: monitoring pierwszych wyników, feedback.
+- Forma: telefon + krótki e-mail z podsumowaniem.
+
+Miesiąc 2–3: kontakt co 2 tygodnie
+- Cel: utrzymanie zaangażowania, korekta działań.
+- Forma: e-mail lub telefon.
+
+Po 3 miesiącach: kontakt miesięczny
+- Cel: długoterminowa opieka, optymalizacja.
+- Forma: e-mail z raportem obrotu + telefon jeśli są pytania.
+
+Kiedy zwiększyć częstotliwość?
+- Partner przestaje być aktywny (brak obrotu przez 2 tygodnie).
+- Partner zgłasza problem.
+- Partner planuje promocję lub event (możesz pomóc zwiększyć zasięg).
+
+Kiedy zmniejszyć częstotliwość?
+- Partner działa samodzielnie, wszystko śmiga.
+- Partner prosi o mniej kontaktów (szanuj to).
+
+Narzędzia do follow-up:
+- Kalendarz (Google Calendar, Outlook) z przypomnieniami.
+- CRM light (arkusz kalkulacyjny z datami kontaktów i notatkami).
+- Szablon wiadomości (patrz Moduł 7 – automatyzacja).
+
+Pamiętaj: follow-up to nie nachodzenie. To przypomnienie, że jesteś i pomagasz.
+
+
+## 07. Dokumentacja minimalna – co zapisać, żeby spać spokojnie
+
+Nie dokumentuj wszystkiego. Dokumentuj to, co ważne. Minimalna dokumentacja to:
+
+1. Karta partnera (1 strona lub 1 rekord w arkuszu):
+   - Nazwa firmy, osoba kontaktowa, telefon, e-mail.
+   - Data rejestracji, data wdrożenia.
+   - Status: aktywny / nieaktywny / w trakcie wdrożenia.
+
+2. Historia kontaktów (krótkie notatki):
+   - Data, forma (telefon/e-mail/spotkanie), co ustalono.
+   - Przykład: „2025-01-15, telefon, partner prosi o pomoc z QR – wysłano nowy kod."
+
+3. Dane techniczne:
+   - VAT, marka kasy, oprogramowanie, API/plugin.
+   - To przyda się przy problemach technicznych.
+
+4. Ustalenia kluczowe (umowa, warunki):
+   - Procent prowizji, data startu, specjalne warunki (jeśli są).
+
+5. Checklisty i statusy:
+   - Wdrożenie: etapy ukończone / do zrobienia.
+   - Follow-up: ostatni kontakt, następny zaplanowany.
+
+Narzędzia:
+- Arkusz kalkulacyjny (Google Sheets, Excel): jedna zakładka = partnerzy, druga = historia kontaktów.
+- Notatnik (OneNote, Notion): sekcja na partnera, krótkie wpisy.
+- CRM (jeśli masz): Pipedrive, HubSpot free, Airtable.
+
+Co NIE dokumentować:
+- Zbędne szczegóły (co partner jadł na obiad).
+- Duplikaty (jeśli system zapisuje automatycznie – nie pisz ręcznie).
+
+Pamiętaj: dokumentacja to ubezpieczenie. Gdy coś pójdzie nie tak – masz dowód, co ustaliłeś.
+
+
+## 08. RODO w praktyce – zgody, dane, bezpieczeństwo
+
+RODO brzmi skomplikowanie, ale w praktyce to zdrowy rozsądek.
+
+Podstawy:
+- Zbieraj tylko dane, które są potrzebne (imię, e-mail, telefon, NIP dla partnera).
+- Powiedz, po co je zbierasz („do rejestracji w systemie i kontaktu").
+- Daj możliwość wycofania zgody („w każdej chwili możesz zrezygnować").
+
+Krok po kroku:
+
+Przed zebraniem danych:
+- Zapytaj o zgodę: „Czy mogę zapisać Twój e-mail i telefon, żeby wysłać instrukcje?"
+- Powiedz, jak długo trzymasz dane: „Dane przechowujemy do momentu zakończenia współpracy lub na Twoje żądanie usuwamy wcześniej."
+
+Podczas rejestracji:
+- Formularz powinien mieć checkboxy z zgodami (to robi system, ale Ty wyjaśniasz, na co partner się zgadza).
+- Nigdy nie zaznaczaj zgód za partnera – niech sam zdecyduje.
+
+Po rejestracji:
+- Dane przechowuj bezpiecznie (system ma szyfrowanie, a Ty nie udostępniaj haseł).
+- Nie wysyłaj danych osobowych przez niezabezpieczone kanały (np. SMS z NIP – lepiej e-mail).
+
+Gdy partner chce wycofać zgodę:
+- Potwierdź to niezwłocznie („Rozumiem, usuwam Twoje dane z mojej bazy. System wyloguje Cię automatycznie.").
+- Nie nalegaj, nie pytaj dlaczego (to jego prawo).
+
+Typowe błędy:
+- Zbieranie „na zapas" (np. adres domowy, gdy nie jest potrzebny).
+- Brak informacji, po co dane (partner ma prawo wiedzieć).
+- Udostępnianie danych bez zgody (np. przekazanie telefonu innemu KR bez pytania partnera).
+
+Pamiętaj: RODO to nie biurokracja, to szacunek do prywatności. Traktuj dane partnera tak, jak chciałbyś, żeby traktowano Twoje.
+
+
+## 09. Case: sklep detaliczny od kontaktu do pierwszych wyników
+
+Sytuacja:
+Sklep spożywczy „U Janka", 50m², rodzinny biznes, konkurencja: Biedronka 200m dalej. Właściciel (Janek, 45 lat) sceptyczny wobec „nowinek". Źródło kontaktu: cold call z listy 100.
+
+Dzień 0: Pierwszy telefon
+- Skrypt 3 pytań TAK: Janek odpowiada 2 x TAK (chce nowych klientów, zgadza się na prowizję od efektu), ale nie jest pewny retencji („ludzie i tak przychodzą do Biedronki").
+- Akcja: umawiam rozmowę na żywo („15 minut w sklepie, pokażę, jak to działa").
+
+Dzień 2: Spotkanie w sklepie
+- Diagnoza (5 pytań): główne wyzwanie – konkurencja cenowa, klienci wracają 2–3 razy w tygodniu, nigdy nie próbował programów partnerskich.
+- Rekomendacja w 5 zdaniach: „Widzę, że Biedronka przebija ceną, ale Ty masz stałych klientów. Proponuję cashback – klient kupuje u Ciebie, dostaje zwrot 2%, wraca częściej. Zero kosztów z góry, prowizja tylko od obrotu. Wdrożenie 10 dni: naklejki, QR, test. Jeśli pasuje – dziś rejestracja. Co myślisz?"
+- Janek: „Okej, spróbujemy. Co trzeba zrobić?"
+
+Dzień 2 (cd.): Rejestracja
+- Promotor → Partner w systemie (5 minut na telefonie Janka).
+- Zbieranie danych technicznych: VAT zwolniony, kasa fiskalna Posnet, brak oprogramowania (trzeba plugin prostego QR).
+- Zamawiam certyfikat i naklejki.
+
+Dzień 5: Spotkanie wdrożeniowe
+- Przekazuję certyfikat (do powieszenia przy kasie) i naklejki (na drzwi, ladę).
+- Konfiguruję QR dla Janka (link do rejestracji klienta jako promotor).
+- Pokazuję panel partnera: „Tu będziesz widział obrót wygenerowany przez naszych promotorów."
+
+Dzień 6: Test zakupu
+- Ja (jako promotor testowy) kupuję w sklepie za 50 zł, skanuję QR przy kasie.
+- Sprawdzam w systemie: transakcja widoczna, cashback naliczony.
+- Dzwonię do Janka: „Działa! Widzisz w panelu 50 zł obrotu?"
+
+Dzień 7–10: Edukacja i korekta
+- Janek ma pytanie: „Klient pyta, jak dostać cashback." Wysyłam mu krótką instrukcję (pdf + link do filmu).
+- Follow-up: dzwonię co 2 dni („Czy są pytania? Jak reagują klienci?").
+
+Tydzień 2: Pierwsze wyniki
+- Janek zgłasza: 3 nowych klientów (poleceni przez promotorów), 5 stałych zeskanowało QR.
+- Obrót wygenerowany: 800 zł. Prowizja 2% = 16 zł dla Janka (cashback dla klientów), reszta dzielona w systemie.
+- Janek: „To działa! Co dalej?"
+
+Miesiąc 1: Stabilizacja
+- Obrót rośnie do 3000 zł/miesiąc.
+- Janek samodzielnie pokazuje QR klientom, nie potrzebuje już mojej pomocy.
+- Przechodzę na rytm co tydzień (telefon lub e-mail).
+
+Miesiąc 3: Optymalizacja
+- Janek pyta o promocje (sezonowe wyprzedaże). Pomagam ustawić wyższą stawkę cashback na okres promocji.
+- Obrót skacze do 5000 zł/miesiąc.
+
+Wnioski z case'u:
+- Sceptyk staje się orędownikiem, gdy zobaczy pierwsze wyniki.
+- Test zakupu to przełom – partner widzi, że to działa.
+- Follow-up w pierwszych tygodniach kluczowy – wtedy partner buduje nawyk.
+
+
+## 10. Zadania na 7 dni – konkretny plan działania
+
+Dzień 1:
+- [ ] Przejrzyj swoją listę partnerów (lub listę 100, jeśli zaczynasz).
+- [ ] Wybierz 3 kontakty do cold call.
+- [ ] Zadzwoń do 2 z nich, zadaj 3 pytania TAK, zapisz wyniki.
+
+Dzień 2:
+- [ ] Jeden follow-up z wczorajszych kontaktów (jeśli ktoś nie odebrał).
+- [ ] Jeden nowy cold call.
+- [ ] Przygotuj rekomendację w 5 zdaniach dla partnera, który odpowiedział TAK.
+
+Dzień 3:
+- [ ] Umów spotkanie wdrożeniowe z partnerem (jeśli decyzja TAK).
+- [ ] Zbierz dane techniczne (VAT, kasa, oprogramowanie).
+- [ ] Zamów certyfikat i naklejki (jeśli system wymaga).
+
+Dzień 4:
+- [ ] Spotkanie wdrożeniowe: certyfikat, QR, panel partnera.
+- [ ] Test zakupu (sam lub z pomocą innego promotora).
+
+Dzień 5:
+- [ ] Sprawdź w systemie, czy test zakupu się naliczył.
+- [ ] Jeśli tak – potwierdź partnerowi („Działa!").
+- [ ] Jeśli nie – diagnoza problemu (support, korekta QR).
+
+Dzień 6:
+- [ ] Follow-up z partnerem: „Jak idzie? Pytania?"
+- [ ] Wyślij instrukcję dla klientów (pdf lub link).
+
+Dzień 7:
+- [ ] Podsumuj tydzień: ile cold calls, ile rejestracji, ile wdrożeń.
+- [ ] Zaplanuj tydzień 2: 3 nowe kontakty, 2 follow-upy, 1 optymalizacja u aktywnego partnera.
+
+Bonus (jeśli masz czas):
+- Stwórz szablon rekomendacji w 5 zdaniach (do wielokrotnego użycia z personalizacją).
+- Przygotuj arkusz kalkulacyjny do dokumentacji (karta partnera + historia kontaktów).
+
+Pamiętaj: tydzień to za mało, żeby zobaczyć pełne efekty. Ale wystarczy, żeby zobaczyć, że proces działa. Powtórz przez 4 tygodnie – zobaczysz różnicę.
+
+
+---
+
+## Podsumowanie Modułu 2
+
+Praktyka operacyjna KR to rutyna, dokumentacja i follow-up. Kluczowe punkty:
+
+- Rola KR: przewodnik, nie sprzedawca. Pomagasz, nie wciskasz.
+- Proces: 6 etapów (identyfikacja → kwalifikacja → rejestracja → wdrożenie → opieka → rozliczenie).
+- Diagnoza: 5 pytań kluczowych, rekomendacja w 5 zdaniach.
+- Wdrożenie: 10 dni, checklisty, test zakupu.
+- Follow-up: rytmy kontaktu (tydzień 1: co 2 dni, potem co tydzień, po 3 miesiącach: miesięcznie).
+- Dokumentacja: minimalna, ale konsekwentna (karta partnera, historia kontaktów, dane techniczne).
+- RODO: zbieraj tylko potrzebne, mów po co, daj prawo wycofania.
+
+Case pokazuje, że teoria działa w praktyce. Teraz Twoja kolej: tydzień z zadaniami, potem następny moduł.
