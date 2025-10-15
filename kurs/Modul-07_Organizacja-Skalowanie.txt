@@ -1,0 +1,645 @@
+# Moduł 7: Organizacja i skalowanie
+Jak zarządzać wieloma Partnerami i rozwijać biznes KR.
+
+Spis treści:
+01. Od 1 do 10 Partnerów – jak zarządzać czasem  
+02. Systemy i automatyzacje – pracuj mądrzej, nie ciężej  
+03. Szablony i procesy – standaryzacja pracy  
+04. Delegowanie i outsourcing – kiedy zatrudnić pomoc  
+05. Zarządzanie projektami – narzędzia i metody  
+06. Budowanie zespołu KR – jak skalować organizację  
+07. Finanse i księgowość – zarządzanie przychodami  
+08. Planowanie rozwoju – cele długoterminowe  
+09. Mini–case: Jak przeszedłem od 2 do 15 Partnerów  
+10. Zadanie na 7 dni – zoptymalizuj swoją pracę
+
+
+## 01. Od 1 do 10 Partnerów – jak zarządzać czasem
+
+Na początku masz 1-2 Partnerów. Potem 5. Potem 10. Jak nie oszaleć?
+
+Matematyka czasu:
+- 1 Partner = ~10h/miesiąc (wdrożenie, optymalizacja, komunikacja)
+- 5 Partnerów = ~40h/miesiąc (nie 50h, bo uczysz się efektywności)
+- 10 Partnerów = ~60h/miesiąc (jeszcze mniejsza proporcja, dzięki automatyzacji)
+
+Klucz: Efektywność rośnie z liczbą Partnerów (procesy, szablony, doświadczenie).
+
+Breakdown czasu (dla 1 Partnera):
+- Wdrożenie (miesiąc 1): 15-20h
+- Optymalizacja (miesiące 2-3): 8-10h/mies
+- Maintenance (miesiąc 4+): 4-6h/mies
+
+Typowy tydzień z 10 Partnerami:
+- Poniedziałek: Przegląd wyników wszystkich Partnerów (2h)
+- Wtorek-Czwartek: Optymalizacje, kampanie, wdrożenia (6-8h/dzień)
+- Piątek: Raporty, komunikacja, planowanie (4h)
+- Weekend: Wolne (albo akwizycja nowych Partnerów)
+
+Zasady zarządzania czasem:
+1. Blokuj czas w kalendarzu (konkretne sloty na konkretnych Partnerów)
+2. Grupuj podobne zadania (np. wszystkie raporty w piątek)
+3. Priorytetyzuj (pilne vs ważne)
+4. Eliminuj rozpraszacze (wyłącz notyfikacje podczas pracy)
+5. Używaj timera (Pomodoro: 25 min pracy, 5 min przerwy)
+
+Narzędzia do zarządzania czasem:
+- Google Calendar (planowanie tygodnia)
+- Todoist / Trello (listy zadań)
+- RescueTime (śledzi, na co tracisz czas)
+
+Czerwone flagi (pracujesz za dużo):
+- Więcej niż 60h/tydzień regularnie
+- Brak czasu na nowych Partnerów
+- Stres, wypalenie
+- Spadek jakości (błędy, opóźnienia)
+
+Rozwiązanie: Automatyzacja, delegowanie, lub limit Partnerów (lepiej mieć 10 dobrze obsłużonych niż 20 źle).
+
+
+## 02. Systemy i automatyzacje – pracuj mądrzej, nie ciężej
+
+Automatyzacja to klucz do skalowania. Im więcej automatyzujesz, tym więcej Partnerów obsłużysz.
+
+Co można zautomatyzować:
+
+1. Raportowanie
+   - Narzędzie: Google Data Studio (dashboardy automatyczne)
+   - Efekt: Partner ma dostęp 24/7, nie musisz ręcznie tworzyć raportów
+
+2. Komunikacja
+   - Email automation (np. HubSpot, Mailchimp)
+     - Auto-powitanie dla nowego Partnera
+     - Comiesięczne przypomnienie o raporcie
+     - Follow-up po spotkaniu
+   - Chatboty (odpowiadają na FAQ)
+
+3. Kampanie reklamowe
+   - Facebook: auto-reguły (wyłącz kampanię, jeśli koszt za lead > X)
+   - Google Ads: auto-bidding (algorytm optymalizuje stawki)
+
+4. CRM
+   - Auto-tagowanie kontaktów (źródło, status)
+   - Auto-przypomnienia (follow-up po X dniach)
+   - Auto-przypisywanie zadań
+
+5. Social media
+   - Narzędzia: Buffer, Hootsuite, Later
+   - Zaplanuj posty na tydzień/miesiąc z góry
+   - Publikacja automatyczna
+
+6. Fakturowanie
+   - Narzędzie: Fakturownia, InFakt
+   - Auto-faktury na podstawie raportów
+   - Przypomnienia o płatnościach
+
+7. Onboarding nowego Partnera
+   - Szablon emaila powitalnego
+   - Checklist wdrożenia (auto-wysyłana)
+   - Harmonogram pierwszych 30 dni
+
+Przykład automatyzacji raportowania:
+
+Bez automatyzacji:
+- Zbierasz dane z FB, Google, CRM (30 min)
+- Wklejasz do Excel, robisz wykresy (20 min)
+- Piszesz email z raportem (10 min)
+- Razem: 60 min/Partner/miesiąc = 10h dla 10 Partnerów
+
+Z automatyzacją (Google Data Studio):
+- Raz konfigurujesz dashboard (2h setup)
+- Dane się aktualizują automatycznie
+- Partner ma dostęp 24/7
+- Ty wysyłasz tylko link + komentarz (5 min)
+- Razem: 50 min dla 10 Partnerów (oszczędność 9h!)
+
+Narzędzia automatyzacji:
+- Zapier (łączy różne narzędzia, "jeśli to, to tamto")
+- IFTTT (podobnie, prostsze)
+- Google Sheets + Apps Script (dla custom'owych automatyzacji)
+
+Pamiętaj: Automatyzacja wymaga inwestycji czasu na początku, ale zwraca się wielokrotnie.
+
+
+## 03. Szablony i procesy – standaryzacja pracy
+
+Procesy = powtarzalne kroki. Szablony = gotowe materiały. Oszczędzasz czas i unikasz błędów.
+
+Procesy do zdefiniowania:
+
+1. Proces akwizycji
+   - Krok 1: Znajdź firmę (źródła, kryteria)
+   - Krok 2: Pierwszy kontakt (email/telefon)
+   - Krok 3: Spotkanie (agenda, pytania)
+   - Krok 4: Propozycja (prezentacja, oferta)
+   - Krok 5: Zamknięcie (umowa, ustalenia)
+
+2. Proces onboardingu
+   - Dzień 1: Email powitalny + checklist
+   - Tydzień 1: Zbieranie materiałów
+   - Tydzień 2: Konfiguracja narzędzi
+   - Tydzień 3: Szkolenie Partnera
+   - Tydzień 4: Start kampanii
+
+3. Proces comiesięczny
+   - Dzień 1-5: Zbieranie danych
+   - Dzień 5-10: Tworzenie raportu
+   - Dzień 10-15: Wysyłka i omówienie
+   - Dzień 15-30: Optymalizacje
+
+4. Proces offboardingu (gdy Partner odchodzi)
+   - Rozmowa "exit interview" (dlaczego odchodzi?)
+   - Przekazanie dostępów i materiałów
+   - Podsumowanie współpracy
+   - Poproszenie o referencję (jeśli rozstanie jest w zgodzie)
+
+Szablony do stworzenia:
+
+1. Email templates
+   - Pierwszy kontakt (cold email)
+   - Potwierdzenie spotkania
+   - Powitanie nowego Partnera
+   - Raport miesięczny
+   - Przypomnienie o płatności
+   - Prośba o referencję
+
+2. Prezentacje
+   - Pitch deck (ogólna prezentacja usług)
+   - Case studies (przykłady współprac)
+   - Propozycja dla Partnera (dopasowana)
+
+3. Dokumenty
+   - Umowa współpracy (wzór)
+   - Checklist onboardingu
+   - Checklist miesięczny
+   - Formularz zbierania informacji o Partnerze
+
+4. Grafiki
+   - Kreacje reklamowe (szablony w Canva)
+   - Posty social media (formaty)
+
+5. Raporty
+   - Raport miesięczny (struktura)
+   - Raport kwartalny
+   - Dashboard (Google Data Studio)
+
+Przechowywanie szablonów:
+- Google Drive (foldery: Szablony / Emails / Prezentacje / Grafiki)
+- Notion (baza wiedzy z szablonami)
+- Dropbox / OneDrive
+
+Przykład szablonu emaila (pierwszy kontakt):
+
+---
+Temat: [Nazwa firmy] – pomoc w [cel]
+
+Dzień dobry [Imię],
+
+Nazywam się [Twoje imię] i jestem Koordynatorem Reklamy z Fundacji Werbekoordynator. Pomagamy lokalnym firmom, takim jak [nazwa firmy], w [konkretny cel].
+
+Zauważyłem, że [obserwacja/kontekst], i pomyślałem, że moglibyśmy pomóc w [rozwiązanie]. Współpracujemy z podobnymi firmami i osiągamy realne wyniki – na przykład [krótki case].
+
+Czy byłby Pan/Pani zainteresowany/a krótką rozmową (15 minut), żeby omówić możliwości?
+
+Z poważaniem,
+[Imię Nazwisko]
+[Kontakt]
+---
+
+Utrzymuj i aktualizuj szablony (co kwartał przejrzyj, co można poprawić).
+
+
+## 04. Delegowanie i outsourcing – kiedy zatrudnić pomoc
+
+Nie możesz robić wszystkiego sam. Delegowanie = klucz do skalowania.
+
+Kiedy delegować?
+- Pracujesz >50h/tydzień regularnie
+- Masz więcej zadań niż czasu
+- Niektóre zadania nie wymagają Twoich umiejętności (np. grafiki, administracja)
+- Chcesz rosnąć (nowi Partnerzy, ale brak czasu na ich obsługę)
+
+Co delegować (kolejność):
+
+1. Zadania proste, powtarzalne
+   - Grafiki (kreacje reklamowe, posty social media)
+   - Copywriting (proste teksty, opisy)
+   - Administracja (faktury, harmonogramy)
+   - Zbieranie danych (wpisywanie do CRM, arkuszy)
+
+2. Zadania wymagające specjalistycznej wiedzy
+   - SEO (optymalizacja stron)
+   - Design (profesjonalne grafiki, strony www)
+   - Wideo (montaż, animacje)
+
+3. Zadania strategiczne (ostatnie do delegowania!)
+   - Rozmowy z Partnerami
+   - Analiza wyników
+   - Podejmowanie decyzji
+
+Formy zatrudnienia:
+
+1. Freelancerzy (okazjonalnie)
+   - Gdzie znaleźć: Useme, Fiverr, Upwork
+   - Kiedy: jednorazowe projekty (grafika, tekst, strona www)
+   - Koszt: 50-200 zł/projekt
+
+2. Wirtualny asystent (regularnie)
+   - Zadania: administracja, CRM, komunikacja
+   - Stawka: 20-40 zł/h
+   - Kiedy: masz regularne zadania administracyjne
+
+3. Junior KR (na część etatu)
+   - Zadania: obsługa części Partnerów, raportowanie, kampanie
+   - Stawka: % z Success Fee (np. 50/50 za Partnerów, których obsługuje)
+   - Kiedy: masz >10 Partnerów i chcesz rosnąć
+
+4. Agencja / specjalista (projektowo)
+   - Zadania: SEO, strony www, content marketing
+   - Koszt: 1000-5000 zł/projekt
+   - Kiedy: Partner potrzebuje czegoś, czego nie robisz
+
+Jak delegować skutecznie:
+1. Jasne instrukcje
+   - "Zrób grafikę na FB" (ZŁE)
+   - "Zrób grafikę 1080x1080px, temat: promocja -20%, kolory: niebieski/biały, deadline: piątek" (DOBRE)
+
+2. Przykłady
+   - Pokaż, jak ma wyglądać finalny efekt
+   - "Oto przykład z poprzedniego miesiąca"
+
+3. Narzędzia
+   - Trello / Asana (przypisywanie zadań)
+   - Loom (nagrywasz wideo z instrukcją)
+
+4. Feedback
+   - Sprawdzaj wyniki
+   - Dawaj konstruktywną krytykę
+   - Doceniaj dobrą pracę
+
+5. Zaufanie
+   - Daj autonomię (nie mikrozarządzaj)
+   - Pozwól na błędy (i naucz się z nich)
+
+Koszt vs zysk:
+- Płacisz freelancerowi 100 zł/h
+- Zamiast robić grafiki (2h), pozyskujesz nowego Partnera (potencjalnie 2000 zł/mies)
+- ROI: 100 zł wydane → 2000 zł zysku/mies
+
+Delegowanie to inwestycja, nie koszt.
+
+
+## 05. Zarządzanie projektami – narzędzia i metody
+
+Im więcej Partnerów, tym więcej projektów. Potrzebujesz systemu.
+
+Narzędzia do zarządzania projektami:
+
+1. Trello (prosty, wizualny)
+   - Tablice (np. "Partnerzy", "Kampanie")
+   - Karty (każdy Partner = karta)
+   - Listy (To Do / In Progress / Done)
+   - Etykiety (priorytet, typ zadania)
+
+2. Asana (bardziej zaawansowany)
+   - Projekty (każdy Partner = projekt)
+   - Zadania i podzadania
+   - Terminy, przypisania
+   - Widok kalendarzowy
+
+3. Notion (all-in-one)
+   - Bazy danych (Partnerzy, kampanie, zadania)
+   - Strony wiki (dokumentacja, procesy)
+   - Personalizacja (dowolna struktura)
+
+4. Google Sheets (DIY)
+   - Prosty arkusz z zadaniami
+   - Kolumny: Partner | Zadanie | Deadline | Status
+   - Filtry i sortowanie
+
+Metody zarządzania:
+
+1. Kanban (Trello)
+   - 3 kolumny: To Do | Doing | Done
+   - Przesuwasz karty w miarę postępu
+   - Wizualne, proste
+
+2. GTD (Getting Things Done)
+   - Zbierz wszystkie zadania (inbox)
+   - Sklasyfikuj (co wymaga akcji, co odłożyć)
+   - Organizuj (w projekty, konteksty)
+   - Wykonuj (priorytet)
+
+3. Pomodoro (zarządzanie czasem)
+   - 25 min pracy (skupienie)
+   - 5 min przerwy
+   - Po 4 cyklach: dłuższa przerwa (15-30 min)
+
+4. Time blocking
+   - Kalendarz: blokuj czas na konkretne zadania
+   - Np. 9-11: Kampanie Partnera A, 11-12: Raport Partner B
+
+Przykładowa struktura w Trello:
+
+Tablice:
+- Partnerzy (status współpracy)
+- Kampanie (aktywne kampanie reklamowe)
+- Backlog (pomysły, przyszłe projekty)
+
+Listy (w tablicy "Partnerzy"):
+- Prospekty (potencjalni Partnerzy)
+- Onboarding (nowi, w trakcie wdrożenia)
+- Aktywni (stała współpraca)
+- Churned (byli Partnerzy)
+
+Karta (przykład):
+- Tytuł: "Partner: Salon Piękna Ty"
+- Opis: Kontakt, umowa, kluczowe info
+- Checklist: [ ] GMF, [ ] FB Ads, [ ] Raport
+- Załączniki: Umowa, prezentacja
+- Etykiety: Priorytet (wysoki/średni/niski)
+
+Przegląd tygodniowy (co piątek):
+- Przejrzyj wszystkie projekty
+- Zaktualizuj statusy
+- Zaplanuj następny tydzień
+- Zrób backup danych
+
+
+## 06. Budowanie zespołu KR – jak skalować organizację
+
+Solo KR ma limit (10-15 Partnerów). Zespół = nielimitowany potencjał.
+
+Kiedy budować zespół?
+- Masz >10 Partnerów i odrzucasz nowe zapytania (brak czasu)
+- Zarabiasz stabilnie >10,000 zł/mies (masz na zatrudnienie)
+- Chcesz rosnąć (wizja 50+ Partnerów)
+
+Role w zespole KR:
+
+1. Junior KR (pierwszy na pokładzie)
+   - Zadania: Obsługa części Partnerów (raportowanie, kampanie podstawowe)
+   - Rekrutacja: Kurs KR (certyfikat), chęć nauki
+   - Wynagrodzenie: % z Success Fee Partnerów, których obsługuje (np. 50%)
+
+2. Specjalista ds. kampanii
+   - Zadania: FB Ads, Google Ads (optymalizacja, kreacje)
+   - Rekrutacja: Doświadczenie w paid ads
+   - Wynagrodzenie: Stała stawka lub % od budżetów
+
+3. Specjalista ds. content
+   - Zadania: Social media, copywriting, grafiki
+   - Rekrutacja: Portfolio, kreatywność
+   - Wynagrodzenie: Projekty lub miesięczny retainer
+
+4. Account Manager (senior KR)
+   - Zadania: Relacje z kluczowymi Partnerami, strategia
+   - Rekrutacja: Doświadczenie, umiejętności miękkie
+   - Wynagrodzenie: % z Success Fee + bonusy
+
+5. Specjalista ds. akwizycji
+   - Zadania: Pozyskiwanie nowych Partnerów (cold calling, spotkania)
+   - Rekrutacja: Umiejętności sprzedażowe
+   - Wynagrodzenie: Prowizja od nowych Partnerów
+
+Jak rekrutować:
+- Ogłoszenia (LinkedIn, pracuj.pl, OLX)
+- Polecenia (Twoja sieć, obecni Partnerzy)
+- Kurs KR (absolwenci szukający pracy)
+
+Onboarding zespołu:
+- Tydzień 1: Szkolenie (procesy, narzędzia, wartości)
+- Tydzień 2-4: Shadowing (obserwuje Twoją pracę)
+- Miesiąc 2: Pierwsi Partnerzy (pod Twoim okiem)
+- Miesiąc 3+: Samodzielna praca (z regularnym feedbackiem)
+
+Zarządzanie zespołem:
+- Weekly 1-on-1 (rozmowy indywidualne, feedback)
+- Team meeting (co tydzień, status projektów)
+- OKR / cele (kwartalne cele dla zespołu i osób)
+- Kultura: transparentność, wsparcie, rozwój
+
+Przykład struktury (15 Partnerów, 3 osoby):
+- Ty (Team Lead): 5 kluczowych Partnerów, strategia, akwizycja
+- Junior KR 1: 5 Partnerów (małych)
+- Junior KR 2: 5 Partnerów (małych)
+- Freelancer (grafik): Grafiki dla wszystkich
+
+Przychód: 15 Partnerów x 2000 zł = 30,000 zł
+Koszty: 2x Junior (po 5000 zł) + freelancer (2000 zł) = 12,000 zł
+Zysk: 18,000 zł (vs 15,000 zł solo, ale z potencjałem wzrostu!)
+
+
+## 07. Finanse i księgowość – zarządzanie przychodami
+
+Zarabiasz na Success Fee. Jak to wszystko ogarnąć finansowo?
+
+Formy działalności:
+
+1. Działalność gospodarcza (JDG)
+   - Najprostsze na start
+   - Rozliczenie: ryczałt 8.5% lub podatek liniowy 19%
+   - Koszty: ZUS (~1500 zł/mies), księgowość (~200 zł/mies)
+
+2. Spółka (sp. z o.o.)
+   - Gdy zarabiasz >15,000 zł/mies
+   - Niższe składki ZUS (możliwość optymalizacji)
+   - Bardziej skomplikowane
+
+3. Umowa o dzieło / zlecenie (na start)
+   - Jeśli masz 1-2 Partnerów i traktujesz to jako dodatkowy dochód
+   - Brak ZUS (lub niski)
+   - Limit: nie możesz tego robić długoterminowo jako główne źródło dochodu
+
+Księgowość:
+- Zatrudnij księgowego (200-500 zł/mies)
+- Nie rób sam (chyba że masz wiedzę)
+- Narzędzia: Fakturownia, InFakt, iFirma
+
+Faktury:
+- Wystawiaj co miesiąc (po raporcie)
+- Termin płatności: 7-14 dni
+- Opis: "Prowizja Success Fee za [miesiąc]"
+- Składuj (elektronicznie i papierowo, jeśli wymagane)
+
+Cash flow (przepływ gotówki):
+- Dochody: Success Fee (miesięczny, zmienny)
+- Koszty: ZUS, księgowość, narzędzia, freelancerzy
+- Bufor: Miej 3-6 miesięcy kosztów stałych na koncie (bezpieczeństwo)
+
+Optymalizacja podatkowa (legalnie):
+- Koszty uzyskania przychodu (narzędzia, szkolenia, sprzęt)
+- Odliczenia ZUS
+- Konsultacja z księgowym (co można odliczyć)
+
+Oszczędności i inwestycje:
+- Odkładaj 20-30% przychodu (na rozwój, kryzys, emeryturę)
+- Inwestuj nadwyżki (fundusze, akcje, nieruchomości)
+- Nie wydawaj wszystkiego (skaluj mądrze)
+
+Finanse w zespole:
+- Budget na freelancerów (ustal limit miesięczny)
+- Wynagrodzenia (stabilne terminy płatności)
+- Reinwestycje (30-40% zysku na rozwój: szkolenia, narzędzia, marketing)
+
+
+## 08. Planowanie rozwoju – cele długoterminowe
+
+Gdzie chcesz być za rok? 3 lata? 5 lat? Bez planu to tylko marzenia.
+
+Framework celów (SMART):
+- Specific (konkretny)
+- Measurable (mierzalny)
+- Achievable (osiągalny)
+- Relevant (istotny)
+- Time-bound (terminowy)
+
+Przykłady celów:
+
+Rok 1:
+- Zdobyć 10 Partnerów
+- Zarobić 100,000 zł (całość)
+- Zautomatyzować raportowanie
+- Uzyskać 5 referencji
+
+Rok 2:
+- Rozwinąć do 20 Partnerów
+- Zatrudnić 1 Junior KR
+- Zarobić 250,000 zł
+- Uruchomić program lojalnościowy
+
+Rok 3:
+- Zespół 3-5 osób
+- 50+ Partnerów
+- Przychód 500,000 zł+
+- Rozpoznawalność w regionie (konferencje, artykuły)
+
+Planowanie kwartalne (OKR):
+- Objective (cel): Co chcesz osiągnąć
+- Key Results (kluczowe wyniki): Jak zmierzysz sukces
+
+Przykład OKR (Q1 2025):
+- Objective: Rozwinąć bazę Partnerów
+  - KR1: Pozyskać 5 nowych Partnerów
+  - KR2: Utrzymać 100% obecnych (0% churn)
+  - KR3: Uzyskać 3 polecenia od Partnerów
+
+Przegląd celów:
+- Miesięczny: Czy jestem na dobrej drodze?
+- Kwartalny: Ocena OKR, planowanie kolejnego kwartału
+- Roczny: Wielki przegląd, strategia na kolejny rok
+
+Rozwój osobisty (równie ważny):
+- Szkolenia (marketing, sprzedaż, narzędzia)
+- Networking (konferencje, grupy KR)
+- Mentoring (znajdź kogoś doświadczonego)
+- Work-life balance (nie wypal się!)
+
+Wizja długoterminowa (5-10 lat):
+- Czy chcesz być solo KR (stabilny dochód, mniej stresu)?
+- Czy chcesz zbudować agencję (większe przychody, zespół, skala)?
+- Czy chcesz przejść w konsulting/szkolenia (dzielenie się wiedzą)?
+
+Nie ma jednej dobrej odpowiedzi. Wybierz swoją ścieżkę i do niej dąż.
+
+
+## 09. Mini–case: Jak przeszedłem od 2 do 15 Partnerów
+
+Case: Moja droga w 18 miesięcy
+
+Start (miesiąc 0):
+- 0 Partnerów
+- Ukończyłem kurs KR
+- Cel: Zdobyć pierwszego Partnera
+
+Miesiące 1-3:
+- Zdobyłem 2 Partnerów (salon fryzjerski + warsztat)
+- Działałem solo, wszystko ręcznie
+- Dochód: ~3000 zł/mies (1500 zł każdy)
+- Praca: ~30h/mies
+
+Miesiące 4-6:
+- Zdobyłem 3 kolejnych Partnerów (5 razem)
+- Zacząłem automatyzować raportowanie (Google Data Studio)
+- Stworzyłem pierwsze szablony (emaile, prezentacje)
+- Dochód: ~8000 zł/mies
+- Praca: ~50h/mies
+
+Wyzwanie: Za dużo pracy. Nie mam czasu na nowych Partnerów.
+
+Rozwiązanie (miesiąc 7):
+- Wynająłem freelancera (grafiki) – 500 zł/mies
+- Wdrożyłem Trello (zarządzanie projektami)
+- Zautomatyzowałem social media (Buffer)
+- Oszczędność czasu: 10h/mies
+
+Miesiące 7-12:
+- Zdobyłem 5 kolejnych Partnerów (10 razem)
+- Zatrudniłem Junior KR (na 50/50 z Success Fee)
+- Przekazałem mu 3 mniejszych Partnerów
+- Dochód: ~18,000 zł/mies (12k moje Partnerzy + 3k z Junior + 3k jego 50%)
+- Praca: ~40h/mies (dzięki delegowaniu)
+
+Miesiące 13-18:
+- Zdobyłem 5 kolejnych Partnerów (15 razem)
+- Struktura: Ja (7 Partnerów), Junior 1 (4), Junior 2 (4)
+- Freelancer (grafiki + content)
+- Dochód: ~30,000 zł/mies
+- Koszty: 2x Junior (~10k), freelancer (2k) = 12k
+- Zysk: ~18,000 zł/mies
+- Praca: ~35h/mies (większość to strategia i akwizycja)
+
+Kluczowe decyzje:
+1. Automatyzacja wcześnie (zanim zwariowałem)
+2. Pierwsze zatrudnienie (freelancer, niski koszt)
+3. Junior KR (skalowanie przez ludzi)
+4. Procesy i szablony (oszczędność czasu)
+5. Fokus na retencji (0% churn = stabilność)
+
+Lekcje:
+- Nie możesz rosnąć bez delegowania
+- Automatyzacja = inwestycja, która się zwraca
+- Zespół = mniejszy % z pojedynczego Partnera, ale więcej Partnerów ogółem
+- Work-life balance jest możliwy (35h/tydzień przy 15 Partnerach!)
+
+
+## 10. Zadanie na 7 dni – zoptymalizuj swoją pracę
+
+Ćwiczenie: Przeanalizuj i popraw swoją efektywność
+
+Dzień 1: Time audit
+- Przez cały dzień zapisuj, na co tracisz czas (co 30 min notuj)
+- Sklasyfikuj: produktywne vs nieproduktywne
+- Zidentyfikuj "pożeracze czasu" (social media, chaos, niepotrzebne spotkania)
+
+Dzień 2: Analiza zadań
+- Wypisz wszystkie zadania, które robisz regularnie
+- Oceń każde: (1) Czy musi być zrobione? (2) Czy musi być zrobione przez Ciebie?
+- Zaznacz: Do zautomatyzowania | Do delegowania | Do kontynuacji
+
+Dzień 3: Automatyzacja
+- Wybierz 1-2 zadania do zautomatyzowania
+- Znajdź narzędzie (Zapier, IFTTT, narzędzie dedykowane)
+- Skonfiguruj (poświęć 2-3h na setup)
+
+Dzień 4: Szablony
+- Stwórz 3 szablony, których najczęściej używasz
+- Np. email raport, prezentacja, kreacja FB
+- Zapisz w łatwo dostępnym miejscu (Google Drive, Notion)
+
+Dzień 5: Procesy
+- Wybierz 1 proces (np. onboarding Partnera)
+- Rozpisz krok po kroku (checklist)
+- Testuj na następnym Partnerze
+
+Dzień 6: Narzędzia
+- Wypróbuj jedno nowe narzędzie (Trello, Asana, Notion, Buffer)
+- Skonfiguruj podstawową strukturę
+- Oceń: Czy oszczędza czas?
+
+Dzień 7: Plan skalowania
+- Gdzie chcesz być za 6 miesięcy? (liczba Partnerów, dochód)
+- Co musisz zmienić, żeby tam dojść? (delegowanie, automatyzacja, zespół)
+- Zapisz konkretny plan (kroki, terminy)
+
+Bonus: Przejrzyj swój kalendarz. Czy masz bloki czasu na strategiczne myślenie, rozwój, odpoczynek? Jeśli nie – dodaj!

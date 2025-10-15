@@ -1,0 +1,623 @@
+# Moduł 8: Trudne sytuacje
+Jak radzić sobie z problemami, konfliktami i wyzwaniami.
+
+Spis treści:
+01. Typowe trudne sytuacje – czego się spodziewać  
+02. Partner nie płaci – jak odzyskać należności  
+03. Konflikt z Partnerem – mediacja i rozwiązanie  
+04. Brak wyników mimo działań – diagnostyka  
+05. Partner chce odejść – jak reagować  
+06. Etyczne dylematy – trudne decyzje  
+07. Wypalenie zawodowe – jak tego unikać  
+08. Kryzysy zewnętrzne – pandemia, recesja, zmiany rynku  
+09. Mini–case: Najtrudniejszy Partner i jak sobie z nim poradziłem  
+10. Zadanie na 7 dni – przygotuj plan kryzysowy
+
+
+## 01. Typowe trudne sytuacje – czego się spodziewać
+
+Nie wszystko zawsze idzie gładko. Oto najczęstsze problemy i jak się do nich przygotować.
+
+Kategorie trudnych sytuacji:
+
+1. Finansowe
+   - Partner nie płaci na czas
+   - Partner kwestionuje wysokość Success Fee
+   - Partner nie ma budżetu na kontynuację kampanii
+
+2. Wynikowe
+   - Brak efektów mimo działań
+   - Spadek wyników (po dobrym okresie)
+   - Partner niezadowolony z tempa wzrostu
+
+3. Relacyjne
+   - Konflikt osobowości (różne style komunikacji)
+   - Partner nierealistyczne oczekiwania
+   - Brak zaangażowania Partnera (nie dostarcza materiałów)
+
+4. Operacyjne
+   - Problemy techniczne (narzędzia, integracje)
+   - Utrata dostępu (Partner zmienił hasła, nie daje uprawnień)
+   - Konkurencja (inny KR/agencja podkupuje Partnera)
+
+5. Zewnętrzne
+   - Zmiany rynkowe (algorytmy, regulacje)
+   - Kryzysy (pandemia, recesja)
+   - Force majeure (choroba, wypadek)
+
+Jak się przygotować:
+- Dokumentuj wszystko (umowy, ustalenia, komunikacja)
+- Buduj bufor finansowy (3-6 miesięcy kosztów)
+- Rozwijaj kompetencje (komunikacja, negocjacje)
+- Miej plan B (co zrobisz, jeśli X się wydarzy?)
+
+Mentalność:
+- Problemy się zdarzają (to normalne)
+- Spokój i profesjonalizm (nie panikuj)
+- Szukaj rozwiązań (nie obwiniaj)
+- Ucz się z każdej sytuacji (post-mortem)
+
+
+## 02. Partner nie płaci – jak odzyskać należności
+
+Wysłałeś fakturę, minął termin, a pieniędzy nie ma. Co robić?
+
+Krok 1: Upomnienie (dzień po terminie)
+Email/SMS:
+"Dzień dobry, przypominam o fakturze [numer] z terminem [data]. Proszę o płatność w ciągu 3 dni. Dziękuję!"
+
+Ton: Grzeczny, rzeczowy. Może zapomniał.
+
+Krok 2: Rozmowa telefoniczna (3 dni później)
+"Dzień dobry, dzwonię w sprawie niezapłaconej faktury. Czy jest jakiś problem?"
+
+Możliwe odpowiedzi:
+- "Zapomniałem" → Ustal nowy termin (max 7 dni)
+- "Nie mam teraz pieniędzy" → Zaproponuj rozłożenie na raty
+- "Kwestionuję fakturę" → Wyjaśnij, wróć do raportu i ustaleń
+
+Krok 3: Formalne wezwanie (7 dni później)
+Email/pismo:
+"Wzywam do zapłaty w ciągu 7 dni, w przeciwnym razie wstrzymam świadczenie usług i rozważę kroki prawne."
+
+Ton: Formalny, stanowczy.
+
+Krok 4: Wstrzymanie usług
+- Przestań świadczyć usługi (wyłącz kampanie, przestań raportować)
+- Poinformuj Partnera: "Usługi wznowię po uregulowaniu zaległości"
+
+Krok 5: Windykacja / prawnik (ostateczność)
+- Jeśli kwota >2000 zł i Partner całkowicie ignoruje
+- Windykacja (firma zewnętrzna, bierze % od odzyskanej kwoty)
+- Prawnik (pozew sądowy)
+
+Zapobieganie:
+- Krótkie terminy płatności (7-14 dni)
+- Płatność z góry dla nowych Partnerów (opcjonalnie)
+- Auto-przypomnienia (system wysyła przed terminem)
+- Klauzula w umowie (odsetki za zwłokę)
+
+Ważne: W większości przypadków wystarczy upomnienie lub rozmowa. Partner po prostu zapomniał.
+
+
+## 03. Konflikt z Partnerem – mediacja i rozwiązanie
+
+Różnice zdań są normalne. Konflikt może być destruktywny lub konstruktywny.
+
+Przyczyny konfliktów:
+- Niezrozumienie oczekiwań (Partner myślał, że będzie X, a jest Y)
+- Komunikacja (brak regularnego kontaktu)
+- Wyniki (Partner niezadowolony)
+- Osobowość (różne style, wartości)
+
+Objawy konfliktu:
+- Partner unika kontaktu
+- Ton wiadomości chłodny, negatywny
+- Kwestionuje wszystkie Twoje decyzje
+- Wspomina o zakończeniu współpracy
+
+Jak rozwiązać (metoda DESC):
+
+D – Describe (Opisz sytuację obiektywnie)
+"Zauważyłem, że w ostatnich tygodniach komunikacja między nami jest napięta."
+
+E – Express (Wyraź swoje uczucia)
+"Martwi mnie to, bo zależy mi na naszej współpracy i chcę, żeby działała dobrze."
+
+S – Specify (Określ, co chcesz)
+"Chciałbym porozmawiać otwarcie, żeby zrozumieć, co Cię niepokoi i jak mogę to poprawić."
+
+C – Consequences (Konsekwencje pozytywne)
+"Jeśli uda nam się to rozwiązać, będziemy mogli kontynuować efektywną współpracę."
+
+Rozmowa mediacyjna:
+1. Zaproponuj spotkanie (face-to-face lub video)
+2. Stwórz bezpieczną przestrzeń ("Bez oskarżeń, tylko rozwiązania")
+3. Słuchaj aktywnie (powtórz, co usłyszałeś: "Czyli mówisz, że...")
+4. Przyznaj rację tam, gdzie należy ("Masz rację, powinienem był...")
+5. Wspólnie szukajcie rozwiązań ("Co możemy zrobić, żeby było lepiej?")
+6. Ustalcie konkretne kroki ("Od teraz będę [X], a Ty [Y]")
+
+Przykład:
+
+Partner: "Nie jestem zadowolony. Wyniki są słabe, a płacę dużo."
+
+Ty (DESC):
+- D: "Rozumiem, że wyniki w ostatnich dwóch miesiącach były niższe niż wcześniej."
+- E: "Mnie też to frustruje, bo chcę, żebyś był zadowolony."
+- S: "Przeanalizujmy razem, co się stało i co możemy zmienić."
+- C: "Jestem przekonany, że możemy to poprawić i wrócić do dobrych wyników."
+
+Dalej:
+- Analizujecie dane (co się zmieniło)
+- Proponujesz rozwiązania (nowa strategia, narzędzia)
+- Ustalicie plan na kolejny miesiąc
+- Jeśli Partner się zgadza – kontynuujecie
+- Jeśli nie – rozstajecie się w zgodzie
+
+Pamiętaj: Czasem najlepsze rozwiązanie to rozstanie. Jeśli nie pasujecie, lepiej się rozejść kulturalnie niż ciągnąć toksyczną relację.
+
+
+## 04. Brak wyników mimo działań – diagnostyka
+
+Robisz wszystko dobrze (kampanie, optymalizacje), a wyników brak. Dlaczego?
+
+Diagnostyka (krok po kroku):
+
+1. Sprawdź dane
+   - Czy tracking działa? (Pixel, Analytics, UTM)
+   - Czy dane są kompletne? (Partner raportuje wszystko?)
+   - Czy nie ma błędu w pomiarze? (np. zduplikowane transakcje)
+
+2. Sprawdź kampanie
+   - Czy są aktywne? (nie wyłączone przez pomyłkę)
+   - Budżet wydany? (czy kampania w ogóle się wyświetla)
+   - Targetowanie OK? (czy docierasz do właściwej grupy)
+   - Kreacje OK? (czy przyciągają uwagę)
+
+3. Sprawdź stronę/ofertę
+   - Czy strona działa? (ładuje się, nie ma błędów)
+   - Czy formularz działa? (testowałeś?)
+   - Czy oferta jest atrakcyjna? (cena, wartość)
+   - Czy proces zakupu/kontaktu jest prosty?
+
+4. Sprawdź konkurencję
+   - Czy pojawiła się nowa konkurencja?
+   - Czy konkurent ma lepszą ofertę/ceny?
+   - Czy konkurent wydaje więcej na reklamy?
+
+5. Sprawdź sezonowość
+   - Czy to normalny spadek sezonowy? (wakacje, święta)
+   - Porównaj z rokiem ubiegłym (dane historyczne)
+
+6. Sprawdź czynniki zewnętrzne
+   - Zmiany algorytmów (Facebook, Google)
+   - Nowe regulacje (RODO, cookies)
+   - Kryzysy (pandemia, recesja)
+
+Typowe przyczyny braku wyników:
+
+1. Problem z targetowaniem
+   - Reklama trafia do złych ludzi
+   - Rozwiązanie: Zmień grupę docelową, testuj różne segmenty
+
+2. Słabe kreacje
+   - Reklamy nie przyciągają uwagi
+   - Rozwiązanie: Nowe grafiki, teksty, A/B testy
+
+3. Zła oferta
+   - Produkt/usługa nie odpowiada potrzebom
+   - Rozwiązanie: Zmień komunikat, zaproponuj inny produkt
+
+4. Problemy techniczne
+   - Strona nie działa, formularz nie wysyła
+   - Rozwiązanie: Napraw, przetestuj
+
+5. Za niski budżet
+   - Kampania nie ma szansy się rozkręcić
+   - Rozwiązanie: Zwiększ budżet lub skoncentruj na jednym kanale
+
+6. Konkurencja
+   - Inni są lepsi/tańsi/szybsi
+   - Rozwiązanie: Znajdź niszę, USP (unikalna wartość)
+
+Plan działania:
+- Zidentyfikuj problem (powyższa diagnostyka)
+- Testuj rozwiązanie (małe zmiany, jedno na raz)
+- Mierz efekty (czy pomogło?)
+- Skaluj to, co działa
+
+Komunikacja z Partnerem:
+"Rozumiem frustrację. Przeanalizowałem sytuację i wydaje mi się, że problem leży w [X]. Proponuję przetestować [Y]. Jeśli zadziała, zobaczymy wyniki w ciągu 2-3 tygodni. Co Pan na to?"
+
+
+## 05. Partner chce odejść – jak reagować
+
+Partner mówi: "Kończę współpracę". Co teraz?
+
+Krok 1: Nie panikuj
+- Zachowaj spokój
+- To nie koniec świata (stracisz jednego, możesz zdobyć kolejnego)
+
+Krok 2: Zapytaj "dlaczego?"
+"Czy mogę zapytać, co sprawiło, że podjął Pan tę decyzję?"
+
+Możliwe powody:
+- Brak wyników
+- Za drogo (Success Fee za wysoka)
+- Brak czasu (Partner nie ma czasu na współpracę)
+- Zmiana strategii (Partner rezygnuje z reklamy)
+- Oszczędności (kryzys finansowy)
+- Problemy relacyjne (nie dogadujecie się)
+
+Krok 3: Słuchaj i empatyzuj
+- Wysłuchaj do końca
+- Nie przerywaj, nie usprawiedliwiaj się
+- "Rozumiem, to musi być trudna decyzja."
+
+Krok 4: Zaproponuj rozwiązanie (jeśli ma sens)
+- Brak wyników → "Daj mi miesiąc na poprawę, mam plan"
+- Za drogo → "Mogę obniżyć stawkę do [X%]"
+- Brak czasu → "Przejmę więcej zadań, żeby odciążyć"
+
+Krok 5: Akceptuj lub negocjuj
+- Jeśli Partner jest otwarty → Negocjujcie nowe warunki
+- Jeśli Partner jest zdecydowany → Akceptuj z godnością
+
+Krok 6: Rozstań się kulturalnie
+"Rozumiem Twoją decyzję. Dziękuję za dotychczasową współpracę. Jeśli kiedykolwiek zmienisz zdanie, drzwi są otwarte."
+
+Krok 7: Poproś o feedback
+"Czy mógłbym prosić o szczerą opinię? Co mogłem zrobić lepiej? To pomoże mi w pracy z innymi Partnerami."
+
+Krok 8: Exit interview (jeśli możliwe)
+- Krótka rozmowa/email z pytaniami:
+  - Co było dobre?
+  - Co było złe?
+  - Co mogłem zrobić inaczej?
+  - Czy poleciłbyś mnie komuś?
+
+Krok 9: Poproś o referencję (jeśli rozstanie jest w zgodzie)
+"Czy mimo zakończenia współpracy mógłbyś wystawić krótką opinię o tym, co razem osiągnęliśmy?"
+
+Krok 10: Analizuj i ucz się
+- Co poszło nie tak?
+- Czy można było temu zapobiec?
+- Co zmienisz w przyszłości?
+
+Ważne: Nie zabiegaj rozpaczliwie. Jeśli Partner naprawdę chce odejść, lepiej puścić. Toksyczna relacja to strata czasu i energii.
+
+Kiedy walczyć o Partnera:
+- Długoterminowa współpraca (>12 miesięcy)
+- Duże przychody (>3000 zł/mies)
+- Problem do rozwiązania (nie fundamentalna niezgodność)
+
+Kiedy puścić:
+- Partner toksyczny (stres, ciągłe konflikty)
+- Nierealistyczne oczekiwania (nie da się ich spełnić)
+- Brak szacunku (traktuje Cię źle)
+
+
+## 06. Etyczne dylematy – trudne decyzje
+
+Czasem staniesz przed trudnym wyborem moralnym. Jak postąpić?
+
+Typowe dylematy:
+
+1. Partner prosi o nieetyczne działania
+   Przykład: "Kup fake'owe opinie w GMF"
+   
+   Dlaczego problem: Nielegalne, ryzyko kary, szkodzi reputacji
+   
+   Jak postąpić:
+   - Odmów stanowczo
+   - Wyjaśnij ryzyko ("To może skończyć się banem konta, karą prawną")
+   - Zaproponuj legalne alternatywy ("Zbierzmy prawdziwe opinie od klientów")
+
+2. Wiesz, że coś nie zadziała, ale Partner nalega
+   Przykład: "Chcę reklamować się w TikToku" (a jego grupa docelowa to 50+)
+   
+   Jak postąpić:
+   - Wyjaśnij ryzyko ("Twoja grupa nie jest na TikToku")
+   - Zaproponuj lepsze rozwiązanie
+   - Jeśli Partner nadal nalega: zgódź się z zastrzeżeniem ("OK, ale niski budżet testowy, żeby nie stracić dużo")
+
+3. Konflikt interesów
+   Przykład: Dwóch Partnerów w tej samej branży, w tym samym mieście (konkurują)
+   
+   Jak postąpić:
+   - Bądź transparentny z oboma ("Współpracuję z inną firmą w tej branży")
+   - Zapewnij, że nie dzielisz się danymi
+   - Jeśli się nie zgadzają – zrezygnuj z jednego
+
+4. Partner łamie prawo
+   Przykład: Partner nie płaci ZUS pracownikom, omija podatki
+   
+   Jak postąpić:
+   - To nie Twoja odpowiedzialność (nie jesteś organem ścigania)
+   - Ale: Nie pomagaj w nielegalnych działaniach
+   - Rozważ zakończenie współpracy (reputacja)
+
+5. Presja na niezgodność z wartościami
+   Przykład: Firma z branży, której nie akceptujesz (hazard, papierosy, alkohol)
+   
+   Jak postąpić:
+   - Masz prawo odmówić
+   - "Nie współpracuję z tą branżą z osobistych przekonań"
+   - Nie musisz się usprawiedliwiać
+
+Zasady etyczne:
+- Uczciwość (nie oszukuj, nie kłam)
+- Transparentność (mów prawdę, pokazuj dane)
+- Profesjonalizm (trzymaj standardy)
+- Szacunek (dla Partnera, klientów, konkurencji)
+- Zgodność z prawem (nie łam zasad)
+
+W razie wątpliwości:
+- Zapytaj siebie: "Czy czułbym się komfortowo, gdyby to wyszło na jaw?"
+- Skonsultuj z kimś zaufanym (mentor, kolega)
+- Sprawdź regulacje (RODO, kodeks etyki)
+
+
+## 07. Wypalenie zawodowe – jak tego unikać
+
+Praca z ludźmi, presja wyników, wiele projektów – to przepis na wypalenie. Jak się chronić?
+
+Objawy wypalenia:
+- Chroniczne zmęczenie (nawet po wypoczynku)
+- Brak motywacji (nie chce Ci się nic robić)
+- Cynizm (negatywne myślenie o Partnerach, pracy)
+- Spadek produktywności (mniej robisz, gorzej)
+- Problemy zdrowotne (bóle głowy, żołądka, bezsenność)
+
+Przyczyny:
+- Zbyt dużo pracy (>60h/tydzień regularnie)
+- Brak granic (praca 24/7, brak weekendów)
+- Toksyczni Partnerzy (ciągłe konflikty, brak szacunku)
+- Brak sukcesów (same problemy, brak wyników)
+- Izolacja (pracujesz sam, nie masz wsparcia)
+
+Jak unikać wypalenia:
+
+1. Work-life balance
+   - Ustal godziny pracy (np. 9-17)
+   - Wyłączaj telefon służbowy po godzinach
+   - Weekend = święty (żadnej pracy)
+   - Urlop (min. 2 tygodnie/rok)
+
+2. Deleguj
+   - Nie rób wszystkiego sam
+   - Zatrudnij pomoc (freelancer, Junior KR)
+   - Naucz się mówić "nie"
+
+3. Automatyzuj
+   - Im więcej automatyzujesz, tym mniej stresu
+   - Procesy, szablony, narzędzia
+
+4. Dbaj o zdrowie
+   - Regularny sport (30 min/dzień)
+   - Zdrowe jedzenie (nie fast food na biurku)
+   - Sen (7-8h/noc)
+   - Nawodnienie (2L wody/dzień)
+
+5. Hobby i pasje
+   - Rób coś poza pracą (sport, muzyka, czytanie)
+   - Spotykaj się z przyjaciółmi
+   - Czas dla rodziny
+
+6. Wsparcie
+   - Grupa KR (dziel się problemami, rozwiązaniami)
+   - Mentor (ktoś doświadczony, kto Cię wspiera)
+   - Terapeuta (jeśli potrzebujesz)
+
+7. Świętuj sukcesy
+   - Nie tylko problemy – doceniaj też wyniki
+   - Nagradzaj się (po dobrym miesiącu: kolacja, prezent)
+
+8. Regularny odpoczynek
+   - Przerwy w ciągu dnia (co 2h: 10 min)
+   - Jeden dzień w tygodniu bez pracy
+   - Urlopy (odłącz się całkowicie)
+
+Jeśli już jesteś wypalony:
+- Przyznaj się ("Mam wypalenie")
+- Weź przerwę (tydzień, dwa – odpocznij)
+- Zmniejsz obciążenie (oddaj część Partnerów, zatrudnij pomoc)
+- Poproś o pomoc (terapeuta, coach)
+
+Pamiętaj: Twoje zdrowie psychiczne > pieniądze. Lepiej zarabiać mniej, ale być szczęśliwym.
+
+
+## 08. Kryzysy zewnętrzne – pandemia, recesja, zmiany rynku
+
+Czasem dzieje się coś, na co nie masz wpływu. Jak przetrwać?
+
+Typy kryzysów:
+
+1. Pandemia (COVID-19)
+   - Lockdown (firmy zamknięte)
+   - Brak klientów (ludzie nie wydają)
+   - Niepewność (nikt nie wie, co będzie)
+
+2. Recesja ekonomiczna
+   - Spadek PKB
+   - Mniej pieniędzy w obiegu
+   - Firmy ciną koszty (w tym marketing)
+
+3. Zmiany technologiczne
+   - Algorytmy (Facebook ogranicza zasięg organiczny)
+   - Regulacje (RODO, cookies)
+   - Nowe platformy (konkurencja dla istniejących)
+
+4. Zmiany rynkowe
+   - Nowa konkurencja (duży gracz wchodzi na rynek)
+   - Zmiany w branży (np. e-commerce zabija sklepy stacjonarne)
+
+Jak przetrwać kryzys:
+
+1. Bądź elastyczny
+   - Dostosuj ofertę (np. w pandemii: online zamiast stacjonarnie)
+   - Zmień kanały (jeśli Facebook słabo – spróbuj Google)
+   - Nowe usługi (co jeszcze możesz zaoferować?)
+
+2. Komunikuj się z Partnerami
+   - Bądź transparentny ("Sytuacja jest trudna, ale...")
+   - Zaproponuj rozwiązania ("Możemy tymczasowo obniżyć stawkę")
+   - Wspieraj ("Jestem z Tobą, przejdziemy przez to")
+
+3. Zarządzaj kosztami
+   - Zredukuj wydatki (odłóż inwestycje, negocjuj ceny)
+   - Bufor finansowy (dlatego ważne 3-6 miesięcy oszczędności!)
+   - Priorytetyzuj (co jest must-have, a co nice-to-have)
+
+4. Szukaj nowych możliwości
+   - Kryzysy tworzą nisze (np. w pandemii: e-commerce boom)
+   - Nowe Partnerzy (kto radzi sobie dobrze w kryzysie?)
+   - Nowe umiejętności (ucz się, rozwijaj)
+
+5. Utrzymuj długoterminową perspektywę
+   - Kryzysy mijają (to tymczasowe)
+   - Focus na relacje (zbudowane teraz, przynoszą efekty później)
+   - Inwestuj w siebie (szkolenia, networking)
+
+Przykład: Pandemia COVID-19
+
+Problem:
+- Partnerzy: restauracje, salony, warsztaty (wszystkie zamknięte)
+- Zero przychodów dla nich = zero Success Fee dla mnie
+
+Rozwiązania:
+1. Czasowe obniżenie stawek (10% zamiast 20%)
+2. Nowe usługi: pomoc w przejściu online (zamówienia, dostawy)
+3. Focus na e-commerce (sklepy, które działają online)
+4. Wsparcie moralne (regularne rozmowy, motywacja)
+
+Wynik:
+- 30% Partnerów odeszło (nie przetrwali)
+- 70% zostało (docenili wsparcie)
+- Po kryzysie: +50% nowych Partnerów (polecenia!)
+
+Lekcje:
+- Elastyczność ratuje biznes
+- Relacje > pieniądze (lojalność wraca po kryzysie)
+- Kryzysy to szansa na zmiany
+
+
+## 09. Mini–case: Najtrudniejszy Partner i jak sobie z nim poradziłem
+
+Case: Pan Kowalski – właściciel warsztatu samochodowego
+
+Kontekst:
+- Współpraca: 8 miesięcy
+- Wyniki: dobre (obrót +25%)
+- Problem: Pan Kowalski bardzo wymagający, ciągle niezadowolony
+
+Objawy trudnej współpracy:
+- Dzwoni o każdej porze (nawet weekendy, 22:00)
+- Kwestionuje każdą decyzję ("A dlaczego tak? A może inaczej?")
+- Nigdy nie jest zadowolony ("To za mało, potrzeba więcej")
+- Nie dostarcza materiałów na czas (ale oczekuje natychmiastowych efektów)
+
+Mój stan: Frustracja, stres, wypalenie (tylko z tym jednym Partnerem)
+
+Punkt krytyczny (miesiąc 8):
+Pan Kowalski zadzwonił w sobotę wieczorem (21:30):
+"Dlaczego kampania nie działa? To skandal!"
+(Kampania działała dobrze, wyniki w normie.)
+
+Moja reakcja:
+- Zamiast odpowiedzieć na zarzuty, zapytałem o spotkanie
+- "Panie Kowalski, widzę, że jest Pan zaniepokojony. Spotkajmy się w poniedziałek, żeby wszystko omówić spokojnie."
+
+Spotkanie (poniedziałek):
+1. Dałem mu się wypowiedzieć (15 minut narzekania)
+2. Podsumowałem: "Rozumiem, że czuje się Pan niedoinformowany i chciałby lepszych wyników."
+3. Pokazałem dane:
+   - Obrót: +25% (najlepszy wynik w branży!)
+   - Źródła: kampanie działają
+   - Problem: Oczekiwania Partnera nierealistyczne (+50% w miesiąc? Niemożliwe)
+4. Postawiłem granice:
+   - "Będę raportował co tydzień (piątek, 10:00) – wtedy możemy rozmawiać o wynikach"
+   - "Jestem dostępny w godzinach 9-18, pon-pt. Weekendy to mój czas prywatny"
+   - "Potrzebuję materiałów do środy, inaczej nie zdążę na piątek"
+5. Zaproponowałem wybór:
+   - "Jeśli te warunki Panu pasują – kontynuujemy"
+   - "Jeśli nie – rozstaniemy się w zgodzie, bez urazy"
+
+Reakcja Pana Kowalskiego:
+Zaskoczony. Nikt nigdy nie postawił mu granic.
+Po chwili zastanowienia: "Dobra, spróbujmy."
+
+Co się zmieniło:
+- Ustalony harmonogram komunikacji (piątki 10:00)
+- Materiały na czas (bo wiedział, że inaczej nie zdążę)
+- Przestał dzwonić po godzinach (tylko 2 razy w 3 miesiące – emergiencje)
+- Wyniki nadal dobre, ale Partner spokojniejszy
+
+Współpraca trwała kolejne 10 miesięcy (razem 18). Rozstaliśmy się, gdy Pan Kowalski zamknął warsztat (emerytura).
+
+Kluczowe lekcje:
+1. Granice są kluczowe (bez nich wypalenie)
+2. Czasem trzeba postawić ultimatum (z szacunkiem, ale stanowczo)
+3. Ludzie szanują asertywność (jeśli robisz to profesjonalnie)
+4. Nie każdego Partnera da się "uratować" – ale warto spróbować
+
+Co zrobiłbym inaczej:
+- Postawiłbym granice wcześniej (miesiąc 2, nie 8)
+- Uniknąłbym frustracji i stresu
+
+
+## 10. Zadanie na 7 dni – przygotuj plan kryzysowy
+
+Ćwiczenie: Co zrobisz, gdy pojawi się problem?
+
+Dzień 1: Inwentaryzacja ryzyk
+- Wypisz 10 rzeczy, które mogłyby pójść nie tak w Twojej pracy
+- Np. "Partner nie płaci", "Brak wyników", "Chore przez tydzień"
+- Oceń prawdopodobieństwo (1-10) i wpływ (1-10)
+
+Dzień 2: Plan finansowy
+- Ile masz oszczędności? (ile miesięcy przeżyjesz bez dochodu?)
+- Jeśli <3 miesiące: zacznij odkładać (cel: 3-6 miesięcy kosztów)
+- Zidentyfikuj możliwe źródła awaryjne (pożyczka, inne źródła dochodu)
+
+Dzień 3: Plan operacyjny
+- Co zrobisz, jeśli stracisz największego Partnera?
+  - Masz listę potencjalnych nowych?
+  - Masz bufor finansowy?
+- Co zrobisz, jeśli zachorujesz na 2 tygodnie?
+  - Kto przejmie Partnerów?
+  - Jak zautomatyzujesz komunikację?
+
+Dzień 4: Plan komunikacji
+- Napisz szablon emaila na wypadek kryzysu
+  - Np. "Partner nie płaci" → Upomnienie
+  - Np. "Brak wyników" → Email wyjaśniający sytuację
+- Zapisz w folderze "Szablony kryzysowe"
+
+Dzień 5: Plan wsparcia
+- Kto może Ci pomóc w kryzysie?
+  - Mentor (doradztwo)
+  - Kolega KR (przejęcie Partnera tymczasowo)
+  - Rodzina/przyjaciele (wsparcie moralne)
+- Zapisz kontakty
+
+Dzień 6: Test scenariusza
+- Wybierz jeden kryzys (np. "Największy Partner odchodzi")
+- Przejdź przez plan krok po kroku:
+  - Co robię w dniu 1?
+  - Co w dniu 7?
+  - Co w dniu 30?
+- Czy plan jest realistyczny?
+
+Dzień 7: Dokument "Plan kryzysowy"
+- Zapisz wszystko w jednym dokumencie
+- Struktura:
+  1. Lista ryzyk
+  2. Plan finansowy (oszczędności, źródła)
+  3. Plan operacyjny (co robię w każdej sytuacji)
+  4. Szablony komunikacji
+  5. Kontakty wsparcia
+- Zapisz w łatwo dostępnym miejscu (Google Drive)
+
+Bonus: Raz na kwartał przeglądaj i aktualizuj plan. Świat się zmienia, plan też powinien.
