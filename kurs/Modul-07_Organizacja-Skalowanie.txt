@@ -244,7 +244,7 @@ Jak delegować skutecznie?
 
 Krok 1: Wybierz zadanie (proste, powtarzalne).
 Krok 2: Przygotuj instrukcję (krok po kroku, przykłady).
-Krok 3: Prześlub osobę (pokaż, jak robić).
+Krok 3: Przeszkol osobę (pokaż, jak robić).
 Krok 4: Daj pierwsze zadanie (obserwuj, koryguj).
 Krok 5: Stopniowo zwiększaj autonomię (po 3–5 zadaniach osoba radzi sobie sama).
 
@@ -336,7 +336,7 @@ Faza 1: Onboarding (pierwsze 7 dni)
 
 Faza 2: Pierwsze wdrożenie (tydzień 2–4)
 - Towarzysz przy pierwszym wdrożeniu (pokazujesz krok po kroku).
-- Podopieczny robi drugie wdrożenie sam (Ty obserwujesz, korgujesz).
+- Podopieczny robi drugie wdrożenie sam (Ty obserwujesz, korygujesz).
 - Trzecie wdrożenie: podopieczny solo (Ty tylko sprawdzasz wynik).
 
 Faza 3: Autonomia (miesiąc 2–3)

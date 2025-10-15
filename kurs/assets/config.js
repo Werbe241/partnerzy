@@ -55,5 +55,5 @@ window.KURS_CONFIG = {
     }
   ],
   defaultModuleId: 'modul-01',
-  preferredSource: 'local' // czytamy z lokalnego pliku .txt
+  preferredSource: 'local' // czytamy z lokalnych plików .txt (zmienione z .md dla kompatybilności serwera)
 };
