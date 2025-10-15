@@ -1,0 +1,603 @@
+# Moduł 6: Relacje i retencja
+Jak utrzymać Partnerów i budować długoterminowe współprace.
+
+Spis treści:
+01. Dlaczego retencja jest ważniejsza niż akwizycja  
+02. Budowanie zaufania z Partnerem – podstawy relacji  
+03. Regularna komunikacja – jak i jak często  
+04. Raportowanie wyników – transparentność buduje lojalność  
+05. Rozwiązywanie problemów – jak reagować na kryzysy  
+06. Upselling i cross-selling – rozszerzanie współpracy  
+07. Program lojalnościowy dla Partnerów  
+08. Pozyskiwanie referencji i poleceń  
+09. Mini–case: Jak odzyskałem Partnera, który chciał odejść  
+10. Zadanie na 7 dni – wzmocnij relację z obecnym Partnerem
+
+
+## 01. Dlaczego retencja jest ważniejsza niż akwizycja
+
+Utrzymanie Partnera jest 5x tańsze niż zdobycie nowego. A długoterminowa współpraca = stabilny dochód.
+
+Fakty:
+- Koszt pozyskania nowego Partnera: 5-10 godzin pracy (rozmowy, prezentacje, wdrożenie)
+- Koszt utrzymania obecnego: 1-2 godziny/miesiąc (raporty, optymalizacja)
+- Partnerzy długoterminowi częściej polecają Cię dalej
+- Partnerzy długoterminowi są bardziej cierpliwi (rozumieją, że wyniki przychodzą z czasem)
+
+Matematyka retencji:
+- 10 Partnerów x 2000 zł/mies = 20,000 zł przychodu
+- Jeśli tracisz 2 Partnerów/miesiąc, musisz pozyskać 2 nowych = ciągła praca
+- Jeśli tracisz 0 Partnerów, możesz skupić się na optymalizacji i pozyskaniu kolejnych
+
+Lifecycle Partnera:
+1. Miesiąc 1-3: Wdrożenie (dużo pracy, mało zarobku)
+2. Miesiąc 4-6: Stabilizacja (wyniki rosną, Success Fee rośnie)
+3. Miesiąc 7+: Dojrzała współpraca (mniej pracy, stabilny zarobek, potencjał upsellingu)
+
+Kluczowe wskaźniki retencji:
+- Churn rate (ile % Partnerów odchodzi miesięcznie)
+- Średni czas współpracy (retention time)
+- NPS (Net Promoter Score) – czy polecają Cię innym?
+
+Cel: Churn rate <5% miesięcznie (czyli utrzymujesz >95% Partnerów).
+
+
+## 02. Budowanie zaufania z Partnerem – podstawy relacji
+
+Zaufanie to fundament długoterminowej współpracy. Jak je budować?
+
+1. Przejrzystość (transparency)
+   - Zawsze mów prawdę (dobre i złe wiadomości)
+   - Pokazuj dane (liczby, źródła, wyniki)
+   - Przyznawaj się do błędów ("pomyłka z mojej strony, naprawię to")
+
+2. Dotrzymywanie obietnic
+   - Jeśli powiesz "zrobię to do piątku" – zrób
+   - Lepiej obiecać mniej, a dostarczyć więcej (underpromise, overdeliver)
+   - Jeśli nie zdążysz – komunikuj wcześniej, nie w ostatniej chwili
+
+3. Empatia
+   - Słuchaj Partnera (jego obaw, potrzeb, wyzwań)
+   - Pokaż, że rozumiesz ("to musi być frustrujące")
+   - Dostosuj się do jego tempa i stylu komunikacji
+
+4. Kompetencja
+   - Wiedz, o czym mówisz (Partner musi czuć, że jesteś ekspertem)
+   - Jeśli czegoś nie wiesz – powiedz to i znajdź odpowiedź
+   - Ciągłe uczenie się (nowe narzędzia, trendy)
+
+5. Dostępność
+   - Odpowiadaj szybko (max 24h na email, 2h na pilne sprawy)
+   - Bądź przewidywalny (Partner wie, kiedy może na Ciebie liczyć)
+   - Informuj o niedostępności ("będę offline 3-5.08, pilne sprawy: tel XYZ")
+
+6. Zaangażowanie
+   - Traktuj sukces Partnera jak swój
+   - Świętuj razem wyniki ("Wow, świetny miesiąc! Gratulacje!")
+   - Wspieraj w trudnych momentach
+
+Błędy niszczące zaufanie:
+- Kłamstwo (nawet małe)
+- Ukrywanie problemów
+- Niedotrzymywanie terminów
+- Ignorowanie wiadomości
+- Narzucanie swojego zdania bez słuchania
+
+Zaufanie buduje się miesiącami, a traci w sekundy. Dbaj o nie.
+
+
+## 03. Regularna komunikacja – jak i jak często
+
+Komunikacja to klucz do retencji. Partner musi czuć, że jesteś obecny i zaangażowany.
+
+Częstotliwość kontaktu:
+1. Cotygodniowy check-in (15 min)
+   - Email lub krótka rozmowa
+   - "Jak minął tydzień? Są jakieś pytania?"
+   - Szybka aktualizacja wyników
+
+2. Miesięczny raport (30-60 min)
+   - Szczegółowy raport wyników
+   - Analiza i wnioski
+   - Plan na kolejny miesiąc
+
+3. Kwartalne spotkanie strategiczne (60-90 min)
+   - Przegląd 3 miesięcy
+   - Ocena celów
+   - Planowanie długoterminowe
+
+4. Dostępność ad-hoc
+   - Partner może napisać/zadzwonić w każdej chwili
+   - Odpowiadasz w ciągu 24h (pilne: tego samego dnia)
+
+Kanały komunikacji:
+- Email (oficjalne komunikaty, raporty)
+- Telefon (pilne sprawy, rozmowy głębsze)
+- Messenger/WhatsApp (szybki kontakt, nieformalne pytania)
+- Spotkania (miesięczne, kwartalne)
+
+Struktura komunikacji:
+1. Pozytywne otwarcie
+   "Cześć! Mam nadzieję, że tydzień dobrze się układa."
+
+2. Aktualizacja / raport
+   "Wyniki z ostatniego tygodnia: [dane]."
+
+3. Wyzwania / problemy (jeśli są)
+   "Kampania Facebook spadła – analizuję przyczyny, poprawki w tym tygodniu."
+
+4. Plan / następne kroki
+   "W tym tygodniu skupiam się na: [akcje]."
+
+5. Pytanie / zaangażowanie
+   "Czy jest coś, na czym powinienem się skupić?"
+
+Zasady dobrej komunikacji:
+- Bądź konkretny (liczby, daty, akcje)
+- Nie przytłaczaj (krótko i na temat)
+- Słuchaj więcej niż mówisz
+- Dostosuj styl do Partnera (niektórzy wolą email, inni telefon)
+
+Przykład tygodniowego check-inu:
+
+---
+Temat: Tydzień 15-21.05 – krótka aktualizacja
+
+Cześć Marcin!
+
+Szybka aktualizacja:
+- Facebook Ads: 8 nowych leadów (budżet 70 zł)
+- GMF: 12 kliknięć telefonu, 5 zapytań mapy
+- Email: wysłany newsletter (30% open rate)
+
+Wszystko idzie dobrze! Kampania FB działa lepiej niż w zeszłym tygodniu.
+
+W tym tygodniu:
+- Testuję nową kreację (żeby poprawić koszt za lead)
+- Dorzucam post na Insta
+
+Jakieś pytania? Daj znać!
+
+Pozdrawiam,
+[Imię]
+---
+
+Częste błędy:
+- Zbyt rzadki kontakt (Partner czuje się zaniedbany)
+- Zbyt częsty kontakt (irytuje, przytłacza)
+- Tylko negatywne wiadomości (buduj też na pozytywach!)
+- Brak konkretu ("wszystko OK" nie wystarczy)
+
+
+## 04. Raportowanie wyników – transparentność buduje lojalność
+
+Partner płaci Success Fee, więc ma prawo wiedzieć, za co płaci. Raporty pokazują wartość.
+
+Co zawierać w raporcie miesięcznym:
+1. Podsumowanie liczb
+   - Baseline vs obecny obrót
+   - Wzrost (liczby bezwzględne i %)
+   - Success Fee
+
+2. Źródła wyników
+   - Skąd przyszli klienci (FB, Google, polecenia)
+   - Ile kosztował każdy kanał
+   - Który kanał był najskuteczniejszy
+
+3. Działania podjęte w miesiącu
+   - Co zrobiłeś (kampanie, posty, optymalizacje)
+   - Co działało, co nie
+   - Decyzje i ich uzasadnienie
+
+4. Analiza i wnioski
+   - Dlaczego wyniki są takie, a nie inne
+   - Co można poprawić
+   - Rekomendacje
+
+5. Plan na kolejny miesiąc
+   - Co będziesz robić
+   - Jakie cele
+   - Czego oczekujesz od Partnera (jeśli coś)
+
+Format raportu:
+- PDF (profesjonalny wygląd)
+- Email (jeśli Partner woli prostotę)
+- Google Slides / prezentacja (jeśli spotkanie)
+
+Przykład prostego raportu:
+
+---
+RAPORT MIESIĘCZNY – MAJ 2025
+
+Partner: Salon "Piękna Ty"
+
+1. WYNIKI FINANSOWE
+   - Baseline: 30,000 zł
+   - Obrót w maju: 40,000 zł
+   - Wzrost: 10,000 zł (+33%)
+   - Success Fee (20%): 2,000 zł
+
+2. ŹRÓDŁA WZROSTU
+   - Facebook Ads: 15 klientek, 6,500 zł
+   - Google Moja Firma: 10 klientek, 3,500 zł
+
+3. DZIAŁANIA W MAJU
+   - Kampania FB: 3 kreacje, budżet 400 zł
+   - GMF: 15 nowych opinii, 20 zdjęć
+   - Email: 2 newslettery (promocja Dzień Matki)
+
+4. ANALIZA
+   - Kampania Dzień Matki była hitem (40% wzrostu w tym tygodniu)
+   - GMF rośnie systematycznie (więcej opinii = wyższa pozycja)
+
+5. PLAN NA CZERWIEC
+   - Nowa kampania FB (lato, promocja opalanie)
+   - Zbieranie kolejnych opinii
+   - Test Instagram Ads (nowy kanał)
+
+Pytania? Jestem do dyspozycji!
+
+Pozdrawiam,
+[Imię]
+---
+
+Częstotliwość raportów:
+- Miesięczne (obowiązkowo)
+- Kwartalne (podsumowanie + strategia)
+- Roczne (wielki przegląd, planowanie na rok)
+
+Wizualizacje:
+- Wykresy (obrót miesiąc po miesiącu)
+- Porównania (ten miesiąc vs poprzedni)
+- Proste tabele (czytelne dla Partnera)
+
+Pamiętaj: Dobry raport to nie tylko liczby, ale też interpretacja ("dlaczego") i plan ("co dalej").
+
+
+## 05. Rozwiązywanie problemów – jak reagować na kryzysy
+
+Problemy się zdarzają. Ważne, jak na nie reagujesz.
+
+Typowe problemy:
+
+1. Spadek wyników
+   Co robić:
+   - Przeanalizuj dane (co się zmieniło?)
+   - Szukaj przyczyn (sezonowość, konkurencja, zmiana w algorytmach)
+   - Komunikuj Partnerowi ("Widzę spadek, analizuję, mam plan")
+   - Testuj rozwiązania (nowe kampanie, optymalizacja)
+   - Raportuj postęp
+
+2. Partner niezadowolony
+   Co robić:
+   - Słuchaj (wysłuchaj do końca, nie przerywaj)
+   - Empatia ("Rozumiem frustrację")
+   - Zbierz fakty ("Co konkretnie Cię niepokoi?")
+   - Zaproponuj rozwiązanie
+   - Daj czas (jeśli potrzebuje zastanowić się)
+
+3. Budżet na reklamę się skończył
+   Co robić:
+   - Przełącz na działania organiczne (bez płatnych kampanii)
+   - Pokaż alternatywy (content marketing, GMF, email)
+   - Zaplanuj na kolejny miesiąc (kiedy będzie budżet?)
+
+4. Partner nie dostarcza materiałów
+   Co robić:
+   - Przypomnienie (grzeczne, konkretne)
+   - Pomoc ("Mogę pomóc przygotować zdjęcia/teksty?")
+   - Ustaw deadline ("Potrzebuję do piątku, inaczej musimy odłożyć kampanię")
+   - Plan B (czy możesz sam przygotować materiały?)
+
+5. Konflikt oczekiwań
+   Co robić:
+   - Wróć do umowy / ustaleń początkowych ("Umówiliśmy się na X")
+   - Wyjaśnij realistyczne oczekiwania ("To zazwyczaj trwa 3 miesiące")
+   - Zaproponuj kompromis
+   - Jeśli nie pasuje – rozstań się kulturalnie
+
+Schemat rozwiązywania problemów (ACE):
+1. Acknowledge (Uznaj problem)
+   "Rozumiem, że wyniki nie są takie, jak oczekiwałeś."
+
+2. Clarify (Wyjaśnij sytuację)
+   "Spadek wynika z niższego budżetu na reklamy w tym miesiącu."
+
+3. Execute (Działaj)
+   "Proponuję zwiększyć budżet do X lub przejść na działania organiczne."
+
+Komunikacja w kryzysie:
+- Szybko (nie zwlekaj)
+- Otwarcie (nie ukrywaj, nie usprawiedliwiaj się)
+- Konkretnie (co zrobisz, kiedy, jaki efekt)
+- Z empatią (rozumiesz frustrację Partnera)
+
+Przykład:
+
+---
+Partner: "Wyniki są słabe, nie jestem zadowolony."
+
+Ty:
+"Rozumiem frustrację. Rzeczywiście, maj był słabszy niż kwiecień. Przeanalizowałem dane i widzę, że główna przyczyna to:
+1. Niższy budżet na FB Ads (200 zł vs 400 zł w kwietniu)
+2. Konkurencja uruchomiła agresywną kampanię
+
+Proponuję:
+- Zwiększyć budżet do 400 zł
+- Zmienić targetowanie (uniknąć bezpośredniej konkurencji)
+- Dodać nowy kanał (Instagram Ads)
+
+Mogę to wdrożyć w tym tygodniu. Jeśli zadziała, czerwiec powinien być lepszy. Co Pan na to?"
+---
+
+Pamiętaj: Kryzysy można przekuć w szansę na pokazanie profesjonalizmu.
+
+
+## 06. Upselling i cross-selling – rozszerzanie współpracy
+
+Partner już Ci ufa. Czas zaproponować więcej usług = więcej wartości dla niego, więcej zarobku dla Ciebie.
+
+Upselling = sprzedaż wyższej/szerszej wersji
+Cross-selling = dodatkowe usługi
+
+Przykłady upsellingu:
+- Partner ma tylko GMF → Zaproponuj Facebook Ads
+- Partner ma Facebook Ads (mały budżet) → Zaproponuj zwiększenie budżetu
+- Partner ma podstawowy CRM → Zaproponuj automatyzacje i integracje
+
+Przykłady cross-sellingu:
+- Partner ma kampanie reklamowe → Zaproponuj email marketing
+- Partner ma social media → Zaproponuj content marketing (blog)
+- Partner ma sprzedaż online → Zaproponuj program lojalnościowy
+
+Kiedy proponować więcej?
+- Po 3-6 miesiącach współpracy (Partner już widzi wartość)
+- Gdy wyniki są dobre (momentum!)
+- Gdy Partner wspomina o nowym wyzwaniu ("Chciałbym dotrzeć do młodszych klientów" → Instagram!)
+
+Jak proponować:
+1. Opakuj w korzyść dla Partnera
+   NIE: "Chcę Ci sprzedać email marketing"
+   TAK: "Widzę, że masz coraz więcej klientów. Gdybyśmy mieli ich emaile, mógłbym wysyłać im promocje. To zwiększy powroty o 20-30%."
+
+2. Pokaż przykłady
+   "Inny Partner z Twojej branży dodał email marketing i zyskał +5000 zł/mies."
+
+3. Zacznij małym testem
+   "Możemy przetestować przez 2 miesiące i zobaczyć, jak działa."
+
+4. Nie naciskaj
+   "Pomyśl o tym. Jeśli będziesz zainteresowany, daj znać."
+
+Przykład propozycji:
+
+---
+"Marcin, widzę, że kampanie Facebook działają świetnie. Mam pomysł: co powiesz na dodanie email marketingu? Mógłbym zbierać emaile od klientów (w zamian za rabat 10%) i wysyłać im promocje co miesiąc. Z doświadczenia wiem, że to zwiększa powroty o 20-30%. Chcesz spróbować?"
+---
+
+Pakiety usług:
+- Basic: GMF + Facebook (500-1000 zł Success Fee/mies)
+- Standard: Basic + email marketing + CRM (1500-2500 zł/mies)
+- Premium: Standard + Google Ads + content marketing (3000+ zł/mies)
+
+Upselling/cross-selling to nie "wciskanie". To proponowanie rozwiązań, które realnie pomogą Partnerowi.
+
+
+## 07. Program lojalnościowy dla Partnerów
+
+Nagradzaj Partnerów za długoterminową współpracę i polecenia.
+
+Pomysły na program lojalnościowy:
+
+1. Rabaty za staż
+   - Po 6 miesiącach: -5% Success Fee
+   - Po roku: -10% Success Fee
+   - Po 2 latach: -15% Success Fee
+
+2. Bonusy za polecenia
+   - Partner poleca nowego Partnera → dostaje bonus 500 zł (lub 1 miesiąc bez prowizji)
+
+3. Dodatkowe usługi za darmo
+   - Po roku współpracy: 1 miesiąc dodatkowej usługi gratis (np. email marketing)
+
+4. Priorytetowe wsparcie
+   - Długoletni Partnerzy mają priorytet w kontakcie
+   - Szybsze reakcje, dedykowany czas
+
+5. Ekskluzywne szkolenia
+   - Raz na kwartał: webinar tylko dla długoletnich Partnerów
+   - Tematy: nowe trendy, case studies, Q&A
+
+6. Certyfikaty / wyróżnienia
+   - "Partner Roku" (najlepsze wyniki)
+   - Certyfikat współpracy (można wyeksponować w firmie)
+
+Przykład programu:
+
+---
+PROGRAM LOJALNOŚCIOWY
+
+Dla Partnerów >6 miesięcy:
+- Rabat 5% na Success Fee
+- Priorytetowy kontakt
+
+Dla Partnerów >12 miesięcy:
+- Rabat 10% na Success Fee
+- 1 dodatkowa usługa gratis (do wyboru)
+- Certyfikat "Zaufany Partner"
+
+Bonus za polecenie:
+- Poleć nowego Partnera → 500 zł bonusu
+- lub 1 miesiąc bez prowizji
+---
+
+Komunikacja programu:
+- Ogłoś na początku współpracy ("Po roku czeka na Ciebie bonus!")
+- Przypominaj ("Za miesiąc kończysz 6 miesięcy = rabat 5%!")
+- Świętuj ("Rok współpracy! Gratulacje! Oto Twój bonus.")
+
+Efekt:
+- Partner czuje się doceniony
+- Ma motywację, żeby zostać
+- Poleca Cię innym (marketing szeptany)
+
+
+## 08. Pozyskiwanie referencji i poleceń
+
+Zadowoleni Partnerzy to najlepsi sprzedawcy. Jak wykorzystać ich potencjał?
+
+Kiedy prosić o referencję:
+- Po dobrym miesiącu / kwartale (momentum!)
+- Po osiągnięciu kamienia milowego ("Wow, 10,000 zł wzrostu!")
+- Gdy Partner sam chwali ("To świetnie działa!")
+
+Jak prosić:
+
+1. Bezpośrednio (telefon/spotkanie)
+   "Marcin, cieszę się, że współpraca idzie dobrze. Czy mógłbyś napisać krótką referencję? To mi bardzo pomoże w pozyskaniu nowych Partnerów."
+
+2. Email (z szablonem)
+   "Cześć Marcin! Czy mógłbyś napisać 2-3 zdania o naszej współpracy? Oto przykład:
+   '[Imię] pomógł mi zwiększyć obroty o X%. Profesjonalne podejście, świetna komunikacja. Polecam!'
+   Dziękuję!"
+
+3. Prośba o polecenie
+   "Czy znasz kogoś, kto mógłby skorzystać z podobnej pomocy? Chętnie porozmawiam."
+
+Formy referencji:
+- Tekst (LinkedIn, strona www, materiały)
+- Wideo (krótkie nagranie, 30-60 sek)
+- Case study (szczegółowy opis współpracy)
+
+Co zawierać w referencji:
+- Kim jest Partner (branża, wielkość firmy)
+- Jaki był problem/cel
+- Co zrobiłeś
+- Jakie były wyniki (liczby!)
+- Rekomendacja
+
+Przykład dobrej referencji:
+
+---
+"Jako właściciel salonu fryzjerskiego miałem problem ze znalezieniem nowych klientek. [Imię] pomógł mi wdrożyć Google Moja Firma i kampanie Facebook Ads. W ciągu 3 miesięcy obroty wzrosły o 30%. Profesjonalne podejście, jasna komunikacja i realne wyniki. Polecam każdemu małemu biznesowi!"
+– Marcin, Salon "X", Warszawa
+---
+
+Wykorzystanie referencji:
+- Strona www (sekcja "Opinie")
+- LinkedIn (rekomendacje)
+- Materiały prezentacyjne
+- Rozmowy z nowymi Partnerami
+
+Polecenia (referrals):
+- Najlepsze źródło nowych Partnerów (zaufanie)
+- Prosty program: "Poleć Partnera, dostaniesz bonus"
+- Śledź źródła (kto kogo polecił)
+
+Pamiętaj: Zadowoleni Partnerzy polecają naturalnie. Twoja praca to dać im powód i ułatwić proces.
+
+
+## 09. Mini–case: Jak odzyskałem Partnera, który chciał odejść
+
+Case: Warsztat samochodowy "Auto-Serwis Jan"
+
+Kontekst:
+- Współpraca: 4 miesiące
+- Wyniki początkowo dobre, potem spadek
+- Partner niezadowolony, zapowiedział koniec współpracy
+
+Problem:
+Miesiąc 1-2: Świetne wyniki (+15% obrót)
+Miesiąc 3: Spadek (tylko +5%)
+Miesiąc 4: Dalszy spadek (+2%)
+
+Partner zadzwonił: "To nie działa. Kończę współpracę."
+
+Moja reakcja (krok po kroku):
+
+Krok 1: Słuchaj i empatyzuj
+"Jan, rozumiem frustrację. Rzeczywiście wyniki ostatnio spadły. Wysłuchajmy, co Cię konkretnie niepokoi."
+
+Krok 2: Zbierz fakty
+Pytania:
+- Co się zmieniło w firmie? (Jan: "Nic")
+- Czy budżet był taki sam? (Jan: "Tak")
+- Czy zauważyłeś coś nietypowego? (Jan: "Konkurencja otworzyła się 2 ulice dalej")
+
+Aha! Przyczyna: nowa konkurencja.
+
+Krok 3: Przeanalizuj dane
+- Sprawdziłem kampanie FB: spadek kliknięć, wzrost kosztu za lead
+- GMF: nadal dobre wyniki
+- Wniosek: konkurencja "ściągnęła" część ruchu z FB
+
+Krok 4: Zaproponuj rozwiązanie
+"Jan, widzę problem. Konkurencja rzeczywiście wpłynęła na wyniki. Mam plan:
+1. Zmienić targetowanie (inne dzielnice, gdzie konkurencji nie ma)
+2. Skupić się na GMF (opinie, zdjęcia – to przewaga nad nową konkurencją)
+3. Dodać Google Ads (łapać ludzi, którzy szukają 'warsztatu blisko mnie')
+
+Daj mi miesiąc. Jeśli nie poprawię wyników, rozstaniemy się bez żalu."
+
+Krok 5: Działaj szybko
+- W tydzień: nowa kampania FB, zmienione targetowanie
+- Zebrałem 10 nowych opinii w GMF (poprosiłem stałych klientów)
+- Uruchomiłem prostą kampanię Google Ads (300 zł budżet)
+
+Wyniki po miesiącu:
+- Obrót: +12% (powrót do normy!)
+- Źródła: mniej FB, więcej Google i GMF
+- Jan zadowolony
+
+Krok 6: Wzmocnij relację
+- Umówiłem spotkanie: podsumowanie, co się stało, co zrobiłem
+- Zaproponowałem rabat 5% na Success Fee przez 2 miesiące (w ramach przeprosin za stres)
+- Jan został, współpraca trwa do dziś (18 miesięcy!)
+
+Kluczowe lekcje:
+- Nie ignoruj problemu (reaguj szybko)
+- Słuchaj i empatyzuj (Partner musi czuć, że rozumiesz)
+- Szukaj prawdziwej przyczyny (nie zawsze to Twoja wina)
+- Proponuj konkretne rozwiązanie (nie tylko "poprawię")
+- Daj czas i dowody (działania mówią więcej niż słowa)
+
+
+## 10. Zadanie na 7 dni – wzmocnij relację z obecnym Partnerem
+
+Ćwiczenie: Praktyczne działania na wzmocnienie relacji
+
+Dzień 1: Przegląd obecnej relacji
+- Jak długo współpracujecie?
+- Kiedy ostatnio rozmawialiście?
+- Czy są jakieś nierozwiązane problemy?
+- Jak oceniasz satysfakcję Partnera (1-10)?
+
+Dzień 2: Przygotuj szczegółowy raport
+- Zbierz dane (wyniki od początku współpracy)
+- Stwórz wizualizacje (wykresy, porównania)
+- Przygotuj pełny raport (nie tylko bieżący miesiąc, ale cała historia)
+
+Dzień 3: Umów spotkanie / rozmowę
+- Zaproponuj spotkanie (osobiście lub online)
+- "Chciałbym podsumować naszą współpracę i porozmawiać o planach."
+
+Dzień 4: Przeprowadź spotkanie
+- Pokaż raport (liczby, efekty)
+- Wysłuchaj feedbacku ("Co działa dobrze? Co mogę poprawić?")
+- Zapytaj o cele ("Co chciałbyś osiągnąć w kolejnych miesiącach?")
+
+Dzień 5: Zaproponuj coś nowego
+- Upselling / cross-selling (dodatkowa usługa)
+- Optymalizacja (nowa strategia, nowe narzędzie)
+- "Pomyślałem, że moglibyśmy spróbować..."
+
+Dzień 6: Wyślij referencję
+- Poproś o referencję / polecenie (jeśli relacja jest dobra)
+- "Jesteś zadowolony? Czy mógłbyś polecić mnie komuś?"
+
+Dzień 7: Zaplanuj kolejne kroki
+- Ustal harmonogram komunikacji na następny kwartał
+- Zapisz cele długoterminowe
+- Potwierdź zobowiązania (email z podsumowaniem)
+
+Bonus: Wyślij niewielki prezent / gest (np. e-book branżowy, voucher, kartkę z podziękowaniem). Buduje lojalność!

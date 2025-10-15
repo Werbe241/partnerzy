@@ -1,0 +1,590 @@
+# Moduł 4: Success Fee
+Model rozliczeń, który jest uczciwy dla obu stron.
+
+Spis treści:
+01. Czym jest Success Fee – podstawy modelu prowizyjnego  
+02. Jak działa Success Fee w praktyce – rozliczenia krok po kroku  
+03. Ustalanie stawek prowizji – ile i od czego  
+04. Tracking i mierzenie wyników – skąd wiemy, ile zarobiliśmy  
+05. Umowy i formalności – co powinno być na piśmie  
+06. Komunikacja z Partnerem o prowizji – jak rozmawiać o pieniądzach  
+07. Problemy i rozwiązania – gdy coś idzie nie tak  
+08. Alternatywne modele rozliczeń – inne opcje  
+09. Mini–case: Pierwszy Success Fee w praktyce  
+10. Zadanie na 7 dni – przygotuj swój model rozliczeń
+
+
+## 01. Czym jest Success Fee – podstawy modelu prowizyjnego
+
+Success Fee to model, w którym zarabiasz prowizję od sukcesu Partnera. Proste, uczciwe, motywujące.
+
+Definicja:
+- Pomagasz Partnerowi zwiększyć obroty/zyski
+- Dostajesz procent od tego wzrostu
+- Nie ma wzrostu = nie ma prowizji (ale i ryzyka dla Partnera)
+
+Dlaczego Success Fee?
+1. Uczciwe dla Partnera:
+   - Nie płaci z góry (brak ryzyka)
+   - Płaci tylko za efekty
+   - Motywacja dla KR do realnej pomocy
+
+2. Uczciwe dla KR:
+   - Zarabiasz proporcjonalnie do wartości, którą dostarczasz
+   - Motywacja do najlepszych wyników
+   - Potencjalnie wyższe zarobki niż stała stawka
+
+3. Buduje zaufanie:
+   - "Płacisz, gdy zarabiasz" = brak obaw
+   - Interesy obu stron są zbieżne
+   - Partner widzi, że wierzysz w to, co robisz
+
+Przykład:
+- Partner ma obrót 50 000 zł/miesiąc
+- Po wdrożeniu: 65 000 zł/miesiąc (wzrost 15 000 zł)
+- Success Fee: 20% z wzrostu = 3 000 zł dla KR
+
+Model win-win:
+- Partner zyskał +12 000 zł netto (15 000 - 3 000)
+- KR zarobił 3 000 zł
+- Obie strony zadowolone
+
+
+## 02. Jak działa Success Fee w praktyce – rozliczenia krok po kroku
+
+Jak technicznie rozliczać się z Partnerem? Krok po kroku.
+
+Etap 1: Ustalenie punktu wyjścia (baseline)
+- Sprawdź obroty Partnera przed wdrożeniem
+- Najlepiej: średnia z ostatnich 3 miesięcy
+- Dokumentuj wszystko (wydruki, screeny, faktury)
+
+Przykład:
+- Styczeń: 48 000 zł
+- Luty: 52 000 zł
+- Marzec: 50 000 zł
+- Baseline: 50 000 zł/miesiąc
+
+Etap 2: Okres wdrożenia (grace period)
+- Pierwsze 1-2 miesiące: wdrożenie bez rozliczeń
+- Czas na konfigurację, testy, pierwsze efekty
+- Partner nie płaci, KR nie zarabia (jeszcze)
+
+Etap 3: Start rozliczeń
+- Po okresie wdrożenia zaczynamy liczyć wyniki
+- Porównujemy obecne obroty z baseline
+- Różnica = podstawa Success Fee
+
+Przykład (miesiąc 3):
+- Obrót: 62 000 zł
+- Baseline: 50 000 zł
+- Wzrost: 12 000 zł
+- Success Fee (20%): 2 400 zł
+
+Etap 4: Dokumentowanie i raportowanie
+- Przygotuj raport miesięczny
+- Pokaż źródła wzrostu (kampanie, nowi klienci)
+- Wyjaśnij, skąd bierze się różnica
+
+Etap 5: Wystawianie faktury
+- Faktura na kwotę Success Fee
+- Termin płatności (np. 7-14 dni)
+- Jasny opis: "Prowizja Success Fee za [miesiąc]"
+
+Etap 6: Monitoring i optymalizacja
+- Co miesiąc analizuj wyniki
+- Dostosowuj działania, żeby wzrost się utrzymał
+- Komunikuj się z Partnerem regularnie
+
+Ważne zasady:
+- Transparentność (Partner musi rozumieć, skąd liczby)
+- Regularność (raport co miesiąc, nie raz na rok)
+- Uczciwość (nie przypisujesz sobie cudzych sukcesów)
+
+
+## 03. Ustalanie stawek prowizji – ile i od czego
+
+Ile procent prowizji jest fair? To zależy od wielu czynników.
+
+Typowe stawki Success Fee:
+- 15-25% z wzrostu obrotów (najczęstsze)
+- 30-40% z wzrostu zysków (rzadziej, trudniejsze do zmierzenia)
+- 10-15% dla dużych Partnerów (wyższe kwoty)
+- 25-35% dla małych Partnerów (mniejsze kwoty, więcej pracy)
+
+Od czego liczyć prowizję?
+1. Od wzrostu obrotów (najprostsze)
+   - Łatwo zmierzyć
+   - Jasne dla obu stron
+   - Nie wymaga wglądu w koszty
+
+2. Od wzrostu zysków (bardziej fair, ale trudniejsze)
+   - Uwzględnia marże Partnera
+   - Wymaga dostępu do danych finansowych
+   - Trudniejsze do weryfikacji
+
+3. Od liczby nowych klientów
+   - Ustalona kwota za każdego nowego klienta
+   - Wymaga dobrego trackingu
+   - Dobre dla firm z wysoką LTV klienta
+
+Czynniki wpływające na stawkę:
+- Branża (wyższe marże = możesz wziąć mniej %)
+- Wielkość Partnera (więksi = niższy %, ale wyższe kwoty)
+- Zakres pracy (więcej pracy = wyższy %)
+- Czas trwania współpracy (długoterminowo = możesz negocjować)
+
+Przykład ustalania stawki:
+Partner: Mały sklep spożywczy, obrót 80 000 zł/mies, marża 25%
+- Wzrost o 20 000 zł = zysk Partnera +5 000 zł
+- Success Fee 20% = 4 000 zł dla KR
+- Partner zyskuje netto 1 000 zł (5 000 - 4 000)
+- To może być za dużo! Lepiej: 15% = 3 000 zł (Partner zyskuje 2 000 zł)
+
+Negocjacja:
+- Zacznij od propozycji 20%
+- Bądź elastyczny (15-25% to szeroki zakres)
+- Podkreśl wartość: "Płaci Pan tylko za realne efekty"
+- Daj opcję: "Możemy zacząć od 15% i zobaczyć, jak idzie"
+
+
+## 04. Tracking i mierzenie wyników – skąd wiemy, ile zarobiliśmy
+
+Żeby rozliczyć Success Fee, musisz dokładnie wiedzieć, jakie są wyniki. Jak to mierzyć?
+
+Źródła danych:
+1. System kasowy / fakturowanie
+   - Najdokładniejsze źródło
+   - Partner udostępnia raporty miesięczne
+   - Weryfikowalne
+
+2. CRM / system zarządzania klientami
+   - Liczba nowych klientów
+   - Wartość transakcji
+   - Źródła leadów
+
+3. Narzędzia analityczne
+   - Google Analytics (ruch, konwersje na stronie)
+   - Facebook Ads Manager (wyniki kampanii)
+   - Inne platformy reklamowe
+
+4. Ręczne raportowanie
+   - Partner prowadzi prostą tabelę
+   - Zapisuje źródło każdego nowego klienta
+   - Przekazuje Ci dane co miesiąc
+
+Metody trackingu:
+1. UTM codes (dla ruchu online)
+   - Dodaj parametry do linków w reklamach
+   - Śledź w Google Analytics, skąd przychodzą klienci
+
+2. Unikalne numery telefonów
+   - Osobny numer w kampaniach reklamowych
+   - Wiesz, ile telefonów przyszło z Twoich działań
+
+3. Kody rabatowe / promocje
+   - Każda kampania ma unikalny kod
+   - Partner wie, kto skorzystał z której reklamy
+
+4. Ankieta "Skąd Pan/Pani o nas?"
+   - Proste pytanie przy zakupie
+   - Klient mówi, skąd dowiedział się o firmie
+
+Przykład systemu trackingu:
+- Kampania Facebook: kod rabatowy FACEBOOK10
+- Reklama Google: unikalny numer tel. 123-456-789
+- Post na Instagramie: link z UTM (utm_source=instagram)
+- Miesiąc później: raport, ile klientów z każdego kanału
+
+Dokumentowanie:
+- Arkusz kalkulacyjny (Excel/Google Sheets)
+- Kolumny: Data | Źródło | Klient | Wartość zakupu
+- Suma na koniec miesiąca = podstawa Success Fee
+
+Ważne:
+- Ustal system trackingu PRZED startem kampanii
+- Trenuj Partnera, jak zbierać dane
+- Regularnie weryfikuj poprawność danych
+
+
+## 05. Umowy i formalności – co powinno być na piśmie
+
+Współpraca na Success Fee wymaga jasnych ustaleń. Najlepiej na piśmie.
+
+Co powinno być w umowie:
+1. Strony umowy
+   - Dane Partnera (firma)
+   - Twoje dane (lub Fundacji, jeśli działasz z jej ramienia)
+
+2. Zakres współpracy
+   - Co dokładnie robisz (np. kampanie, CRM, szkolenia)
+   - Czego nie robisz (wyłączenia)
+
+3. Model rozliczeń
+   - Stawka Success Fee (np. 20%)
+   - Od czego liczona (wzrost obrotów, zysków, liczba klientów)
+   - Baseline (punkt wyjścia)
+
+4. Okres wdrożenia
+   - Czas na setup (np. 1-2 miesiące bez rozliczeń)
+   - Kiedy zaczyna się liczenie Success Fee
+
+5. Raportowanie
+   - Jak często raporty (miesięcznie)
+   - Kto dostarcza dane
+   - Forma raportu
+
+6. Płatności
+   - Termin płatności (np. do 14 dni od faktury)
+   - Forma płatności (przelew)
+   - Dane do faktury
+
+7. Czas trwania umowy
+   - Na czas określony (np. 6 miesięcy) lub nieokreślony
+   - Okres wypowiedzenia (np. 1 miesiąc)
+
+8. Poufność
+   - Ochrona danych Partnera
+   - Zakaz ujawniania strategii biznesowych
+
+9. Postanowienia końcowe
+   - Co w przypadku sporu
+   - Prawo właściwe (polskie)
+
+Przykład prostej umowy (fragment):
+
+---
+UMOWA WSPÓŁPRACY
+
+§1. Przedmiot umowy
+Zleceniodawca [Partner] zleca Zleceniobiorcy [KR] świadczenie usług doradczych i wdrożeniowych w zakresie reklamy i pozyskiwania klientów.
+
+§2. Wynagrodzenie
+Wynagrodzenie Zleceniobiorcy wynosi 20% miesięcznego wzrostu obrotów Zleceniodawcy powyżej poziomu bazowego 50 000 PLN.
+
+§3. Okres wdrożenia
+Pierwsze 2 miesiące współpracy stanowią okres wdrożenia, w którym nie następuje rozliczenie Success Fee.
+
+§4. Raportowanie
+Zleceniobiorca dostarcza miesięczny raport wyników do 5. dnia kolejnego miesiąca.
+
+[...]
+---
+
+Czy umowa jest konieczna?
+- Formalnie: tak, to zabezpieczenie dla obu stron
+- Praktycznie: można zacząć od prostego porozumienia emailowego
+- Najlepiej: prosta umowa na 1-2 stronach A4
+
+Konsultacja prawna:
+- Jeśli nie jesteś pewien, skonsultuj się z prawnikiem
+- Fundacja może mieć wzór umowy – zapytaj
+
+
+## 06. Komunikacja z Partnerem o prowizji – jak rozmawiać o pieniądzach
+
+Rozmowa o pieniądzach bywa niezręczna. Jak ją prowadzić profesjonalnie?
+
+Zasady komunikacji:
+1. Bądź transparentny od początku
+   - Nie ukrywaj, że zarabiasz prowizję
+   - Wyjaśnij model już podczas pierwszej rozmowy
+   - Podkreśl fair play ("płaci Pan tylko za efekty")
+
+2. Używaj prostego języka
+   - NIE: "Remumeracja oparta o KPI wzrostu względem baselineu"
+   - TAK: "Zarabiam 20% z tego, o ile zwiększymy Pana obroty"
+
+3. Pokazuj wartość
+   - "To znaczy, że jeśli pomogę Panu zarobić 10 000 zł więcej, wezmę 2 000 zł, a Pan zyska 8 000 zł"
+   - Podkreśl, że Partner zawsze zyskuje więcej
+
+4. Bądź elastyczny
+   - "Możemy zacząć od niższej stawki i po 3 miesiącach ocenić"
+   - "Jeśli wolałby Pan inny model, możemy porozmawiać"
+
+Typowe pytania i odpowiedzi:
+
+Q: "20%? To dużo!"
+A: "Rozumiem. Pamiętajmy jednak, że płaci Pan tylko od wzrostu. Jeśli nie ma wzrostu, nie płaci Pan nic. Żadne ryzyko."
+
+Q: "Skąd mam wiedzieć, że to Pana zasługa?"
+A: "Dokładnie dlatego będziemy śledzić każdy kanał. Raport pokaże, ile klientów przyszło z naszych kampanii."
+
+Q: "A jeśli będzie spadek, nie wzrost?"
+A: "Wtedy nie płaci Pan prowizji. Zarabiam tylko wtedy, gdy Pan zarabia."
+
+Q: "Czy mogę płacić mniej?"
+A: "Mogę zaproponować 15%, jeśli zobowiąże się Pan do dłuższej współpracy, np. rok."
+
+Raportowanie prowizji:
+- Wysyłaj raport miesięczny z wynikami
+- Pokaż liczby: baseline, obecny obrót, różnica
+- Oblicz prowizję krok po kroku
+- Dołącz fakturę (lub przypomnienie o terminie płatności)
+
+Przykład raportu:
+
+---
+Raport miesięczny – Maj 2025
+
+Baseline: 50 000 PLN
+Obrót w maju: 64 000 PLN
+Wzrost: 14 000 PLN
+
+Źródła wzrostu:
+- Facebook Ads: +8 klientów, 6 500 PLN
+- Google Moja Firma: +12 klientów, 7 500 PLN
+
+Success Fee (20%): 2 800 PLN
+
+Dziękuję za współpracę!
+---
+
+Pamiętaj: Jasna komunikacja = mniej nieporozumień = lepsza relacja.
+
+
+## 07. Problemy i rozwiązania – gdy coś idzie nie tak
+
+Czasem coś nie gra. Oto najczęstsze problemy i jak je rozwiązać.
+
+Problem 1: Partner nie dostarcza danych
+Rozwiązanie:
+- Przypomnij o terminie (grzecznie)
+- Zaproponuj pomoc (może nie wie, jak zebrać dane)
+- Ustaw automatyzację (CRM, integracje)
+- Ostateczność: zawieś współpracę do momentu dostarczenia danych
+
+Problem 2: Spadek wyników (nie wzrost)
+Rozwiązanie:
+- Przeanalizuj, dlaczego (sezonowość, konkurencja, zmiany w firmie)
+- Dostosuj strategię
+- Komunikuj: "Wyniki są słabsze, ale pracuję nad poprawą"
+- Pamiętaj: nie pobierasz prowizji przy spadku
+
+Problem 3: Partner kwestionuje liczby
+Rozwiązanie:
+- Pokaż źródła danych (raporty, screeny)
+- Przejrzyjcie razem każdą pozycję
+- Dojdźcie do konsensusu
+- Jeśli wątpliwości – nie naliczaj prowizji z tej części
+
+Problem 4: Partner nie płaci na czas
+Rozwiązanie:
+- Upomnienie (email po terminie)
+- Rozmowa telefoniczna (może zapomniał?)
+- Wstrzymanie działań (do czasu uregulowania)
+- Ostateczność: rozwiązanie umowy
+
+Problem 5: Nieporozumienia co do zakresu pracy
+Rozwiązanie:
+- Wróć do umowy (co było ustalone?)
+- Wyjaśnij, co robisz, a czego nie
+- Jeśli trzeba – rozszerz zakres (ale dostosuj prowizję)
+
+Problem 6: Partner chce renegocjować stawkę
+Rozwiązanie:
+- Wysłuchaj argumentów
+- Oceń, czy są uzasadnione
+- Zaproponuj kompromis (np. niższa stawka, ale dłuższa umowa)
+- Jeśli nie pasuje – rozejdźcie się w zgodzie
+
+Kluczowe zasady przy problemach:
+- Komunikuj się otwarcie i szybko
+- Nie ignoruj problemu (rozwiąż go, zanim urośnie)
+- Dokumentuj wszystko (maile, notatki)
+- Szukaj rozwiązań win-win
+- Jeśli się nie da – rozstań się kulturalnie (reputacja się liczy)
+
+
+## 08. Alternatywne modele rozliczeń – inne opcje
+
+Success Fee to nie jedyny sposób. Oto inne modele, które możesz rozważyć.
+
+1. Stała miesięczna opłata (retainer)
+Opis:
+- Partner płaci ustaloną kwotę co miesiąc
+- Niezależnie od wyników
+
+Plusy:
+- Przewidywalny dochód dla KR
+- Prostsze rozliczenia
+
+Minusy:
+- Brak motywacji do maksymalnych wyników
+- Partner może czuć, że przepłaca (jeśli brak efektów)
+
+Kiedy stosować:
+- Partner chce stabilności kosztów
+- Długoterminowa współpraca z jasnym zakresem
+
+2. Hybryda: stała opłata + Success Fee
+Opis:
+- Niska stała opłata (np. 500 zł/mies) + prowizja od wyników (np. 10%)
+
+Plusy:
+- Stabilność dla KR (stała część)
+- Motywacja do wyników (zmienna część)
+- Uczciwe dla obu stron
+
+Minusy:
+- Bardziej skomplikowane rozliczenia
+
+Kiedy stosować:
+- Partner chce mieć pewność, że KR działa (płaci coś z góry)
+- KR chce zabezpieczenia (stała część)
+
+3. Opłata za projekt (one-time)
+Opis:
+- Ustalona kwota za konkretne zadanie (np. wdrożenie CRM)
+- Płatność jednorazowa
+
+Plusy:
+- Jasne ramy (wiesz, ile zarobisz)
+- Brak długoterminowych zobowiązań
+
+Minusy:
+- Brak ciągłego dochodu
+- Nie motywuje do długoterminowych wyników
+
+Kiedy stosować:
+- Konkretne, jednorazowe wdrożenie
+- Partner nie chce długiej współpracy
+
+4. Opłata za lead / klienta
+Opis:
+- Ustalona kwota za każdego nowego klienta (np. 50 zł/lead)
+
+Plusy:
+- Łatwo zmierzyć
+- Jasne rozliczenia
+
+Minusy:
+- Nie uwzględnia wartości klienta (niektórzy są więcej warci)
+- Trudne do ustalenia fair stawki
+
+Kiedy stosować:
+- Wyraźnie zdefiniowany lead
+- Łatwy tracking (np. formularz kontaktowy)
+
+Jak wybrać model?
+- Pytaj Partnera, co mu pasuje
+- Zacznij od Success Fee (najmniej ryzyka dla Partnera)
+- Bądź otwarty na hybrydy i dostosowania
+
+
+## 09. Mini–case: Pierwszy Success Fee w praktyce
+
+Case: Salon kosmetyczny "Piękna Ty"
+
+Kontekst:
+- Mały salon (2 kosmetyczki)
+- Obrót: około 30 000 zł/miesiąc
+- Cel: zwiększyć liczbę klientek i wypełnić kalendarz
+
+Krok 1: Ustalenie modelu
+- Zaproponowałem Success Fee 20% z wzrostu obrotów
+- Baseline: 30 000 zł/mies (średnia z 3 miesięcy)
+- Okres wdrożenia: 1 miesiąc (bez rozliczeń)
+
+Krok 2: Wdrożenie
+- Utworzenie wizytówki Google Moja Firma
+- Kampania Facebook Ads (budżet 400 zł/mies)
+- System rezerwacji online (Booksy)
+- Zbieranie opinii od klientek
+
+Krok 3: Tracking
+- Partner prowadził prostą tabelę: źródło klienta + wartość usług
+- Co tydzień sprawdzałem wyniki kampanii
+- Co miesiąc: raport zbiorczy
+
+Wyniki miesiąc po miesiącu:
+
+Miesiąc 1 (wdrożenie):
+- Obrót: 31 000 zł (bez rozliczeń)
+- Pierwsze efekty: +5 klientek z Facebook
+
+Miesiąc 2:
+- Obrót: 36 500 zł
+- Wzrost: 6 500 zł
+- Success Fee: 1 300 zł
+
+Miesiąc 3:
+- Obrót: 38 000 zł
+- Wzrost: 8 000 zł
+- Success Fee: 1 600 zł
+
+Miesiąc 4:
+- Obrót: 34 000 zł (spadek - wakacje)
+- Wzrost: 4 000 zł
+- Success Fee: 800 zł
+
+Miesiąc 5:
+- Obrót: 40 000 zł
+- Wzrost: 10 000 zł
+- Success Fee: 2 000 zł
+
+Miesiąc 6:
+- Obrót: 42 000 zł
+- Wzrost: 12 000 zł
+- Success Fee: 2 400 zł
+
+Razem po 6 miesiącach:
+- Partner zarobił dodatkowo około 50 000 zł
+- Ja zarobiłem około 10 000 zł (20% z wzrostu)
+- Partner netto zyskał 40 000 zł
+
+Kluczowe lekcje:
+- Prosty tracking (tabela) wystarczy
+- Wyniki rosną stopniowo (cierpliwość!)
+- Komunikacja co miesiąc buduje zaufanie
+- Partnerka była zadowolona i poleciła mnie dalej
+
+Problem, który rozwiązałem:
+- W miesiącu 4 był spadek (wakacje). Partnerka się zdenerwowała.
+- Wyjaśniłem, że to sezonowość (normalne latem)
+- Pokazałem plan na wrzesień (powrót do normy)
+- Wzięliśmy niższą prowizję, ale utrzymaliśmy współpracę
+- We wrześniu wyniki wróciły i partnerka była usatysfakcjonowana
+
+
+## 10. Zadanie na 7 dni – przygotuj swój model rozliczeń
+
+Ćwiczenie: Zaprojektuj swój system Success Fee
+
+Dzień 1: Wybierz model
+- Success Fee (tylko prowizja)
+- Hybryda (stała + prowizja)
+- Inny model (uzasadnij dlaczego)
+
+Dzień 2: Określ stawki
+- Ile procent prowizji? (15-25%)
+- Od czego? (wzrost obrotów, zysków, liczba klientów)
+- Dlaczego taka stawka?
+
+Dzień 3: Zaprojektuj system trackingu
+- Jak będziesz mierzył wyniki?
+- Jakie narzędzia? (CRM, Analytics, tabela)
+- Kto zbiera dane? (Ty, Partner, automatycznie)
+
+Dzień 4: Przygotuj wzór umowy
+- Napisz prostą umowę (1-2 strony)
+- Uwzględnij: strony, zakres, rozliczenia, czas trwania
+- Możesz użyć szablonu z tego modułu
+
+Dzień 5: Stwórz szablon raportu
+- Jak będzie wyglądał miesięczny raport?
+- Jakie informacje? (baseline, obrót, wzrost, źródła, prowizja)
+- Przygotuj wzór w Excel/Google Sheets
+
+Dzień 6: Symulacja rozmowy
+- Jak wyjaśnisz model Partnerowi?
+- Przećwicz z kimś rozmowę o prowizji
+- Zapisz typowe pytania i odpowiedzi
+
+Dzień 7: Refleksja
+- Czy Twój model jest fair dla obu stron?
+- Co może pójść nie tak? (przygotuj plan B)
+- Czy jesteś gotowy wdrożyć to w praktyce?
+
+Bonus: Pokaż swój model doświadczonemu KR lub mentorowi i poproś o feedback.

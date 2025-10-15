@@ -1,0 +1,815 @@
+# Moduł 9: Analiza i optymalizacja
+Jak mierzyć, analizować i poprawiać swoje działania.
+
+Spis treści:
+01. KPI dla KR – co mierzyć w swojej pracy  
+02. Analiza wyników Partnerów – metryki sukcesu  
+03. A/B testing – testuj i ucz się  
+04. Optymalizacja kampanii – jak poprawiać efekty  
+05. Benchmarking – porównuj się z najlepszymi  
+06. Feedback loop – ucz się z każdej współpracy  
+07. Narzędzia analityczne – co i jak używać  
+08. Raportowanie własnych wyników – track progress  
+09. Mini–case: Jak 3 testy A/B zwiększyły wyniki o 40%  
+10. Zadanie na 7 dni – przeanalizuj i zoptymalizuj jednego Partnera
+
+
+## 01. KPI dla KR – co mierzyć w swojej pracy
+
+Nie tylko Partnerzy mają KPI. Ty też powinieneś mierzyć swoje wyniki.
+
+KPI biznesowe (pieniądze):
+1. Miesięczny przychód (Success Fee)
+   - Cel: stabilny wzrost (np. +10% miesiąc do miesiąca)
+   - Tracking: Arkusz Excel / CRM
+
+2. Średni przychód per Partner (ARPP)
+   - Formuła: Przychód całkowity / Liczba Partnerów
+   - Dobry wynik: 1500-3000 zł/Partner/mies
+   - Wyższy ARPP = lepsi Partnerzy lub lepsze wyniki
+
+3. Lifetime Value Partnera (LTV)
+   - Ile zarabiasz z Partnera przez cały czas współpracy
+   - Formuła: ARPP x średni czas współpracy (w miesiącach)
+   - Przykład: 2000 zł x 12 mies = 24,000 zł LTV
+
+4. Customer Acquisition Cost (CAC)
+   - Ile kosztuje Cię pozyskanie Partnera
+   - Formuła: Koszty akwizycji / Liczba nowych Partnerów
+   - Cel: CAC < 20% LTV (np. CAC 3000 zł, LTV 24,000 zł = OK)
+
+KPI operacyjne (efektywność):
+1. Liczba aktywnych Partnerów
+   - Cel: stabilny wzrost
+   - Red flag: spadek (churn)
+
+2. Churn rate (ile % Partnerów odchodzi)
+   - Formuła: (Partnerzy lost / Partnerzy na początku) x 100%
+   - Cel: <5% miesięcznie
+
+3. Retention rate (ile % zostaje)
+   - Formuła: 100% - Churn rate
+   - Cel: >95%
+
+4. Czas poświęcony per Partner
+   - Ile godzin/miesiąc per Partner
+   - Cel: <10h po okresie wdrożenia
+   - Niższy = lepsza efektywność
+
+KPI relacyjne (satysfakcja):
+1. NPS (Net Promoter Score)
+   - "W skali 0-10, jak prawdopodobne, że poleciłbyś mnie innym?"
+   - >9 = Promotor, 7-8 = Pasywny, <7 = Detractor
+   - Cel: NPS > 50 (więcej Promotorów niż Detractorów)
+
+2. Liczba referencji / poleceń
+   - Ile Partnerów Cię poleciło
+   - Cel: min. 30% Partnerów rocznie
+
+3. Średnia ocena współpracy (ankieta)
+   - Regularnie pytaj: "Jak oceniasz współpracę 1-5?"
+   - Cel: >4.5/5
+
+KPI akwizycyjne:
+1. Liczba nowych Partnerów/miesiąc
+   - Cel: zgodny z planem wzrostu
+
+2. Conversion rate (rozmowa → Partner)
+   - Ile % spotkań kończy się współpracą
+   - Dobry wynik: 20-30%
+
+3. Czas do zamknięcia (time to close)
+   - Od pierwszego kontaktu do podpisania umowy
+   - Cel: <30 dni
+
+Dashboard KR (przykład):
+- Miesięczny przychód: 18,000 zł
+- ARPP: 1,800 zł
+- Liczba Partnerów: 10
+- Churn: 0% (wszyscy zostali)
+- Nowi Partnerzy: 2
+- Conversion rate: 25% (8 spotkań, 2 podpisane)
+- NPS: 60
+
+
+## 02. Analiza wyników Partnerów – metryki sukcesu
+
+Każdego Partnera musisz mierzyć. Co ma znaczenie?
+
+Metryki finansowe:
+1. Wzrost obrotów (vs baseline)
+   - Główny KPI dla Success Fee
+   - Mierz: miesięcznie, kwartalnie, rocznie
+
+2. ROI kampanii (Return on Investment)
+   - Formuła: (Przychód - Koszty) / Koszty x 100%
+   - Przykład: Wydano 1000 zł, zysk 5000 zł → ROI 400%
+   - Cel: >200%
+
+3. ROAS (Return on Ad Spend)
+   - Podobne do ROI, ale tylko dla płatnych reklam
+   - Formuła: Przychód z reklam / Koszt reklam
+   - Cel: >3 (za każdą wydaną złotówkę, 3 zł przychodu)
+
+Metryki marketingowe:
+1. Liczba leadów
+   - Ile potencjalnych klientów pozyskano
+   - Źródła: Facebook, Google, GMF, polecenia
+
+2. Koszt za lead (CPL - Cost Per Lead)
+   - Formuła: Koszt kampanii / Liczba leadów
+   - Niższy = lepiej
+   - Benchmark: zależy od branży (5-50 zł)
+
+3. Conversion rate (lead → klient)
+   - Ile % leadów zamienia się w płacących klientów
+   - Formuła: (Klienci / Leady) x 100%
+   - Dobry wynik: 20-40%
+
+4. Koszt za klienta (CAC - Customer Acquisition Cost)
+   - Formuła: Koszt kampanii / Liczba nowych klientów
+   - Powinien być <30% średniej wartości transakcji
+
+Metryki zaangażowania:
+1. Ruch na stronie (traffic)
+   - Liczba odwiedzin (users/sessions)
+   - Źródła ruchu (organiczny, płatny, social)
+
+2. Czas na stronie
+   - Czy użytkownicy czytają treść?
+   - Cel: >1 min
+
+3. Bounce rate (współczynnik odrzuceń)
+   - Ile % użytkowników opuszcza stronę od razu
+   - Cel: <50%
+
+4. Zaangażowanie social media
+   - Lajki, komentarze, udostępnienia
+   - Zasięg organiczny i płatny
+
+Metryki operacyjne:
+1. Średnia wartość transakcji (AOV - Average Order Value)
+   - Ile średnio wydaje jeden klient
+   - Wzrost AOV = wyższe przychody bez więcej klientów
+
+2. Częstotliwość zakupów
+   - Ile razy klient wraca w ciągu roku
+   - Cel: >2 (retencja)
+
+3. Customer Lifetime Value (CLV)
+   - Ile Partner zarobi na jednym kliencie przez cały czas
+   - Formuła: AOV x częstotliwość x czas życia klienta
+
+Jak analizować:
+1. Porównaj z baseliną (przed współpracą)
+2. Porównaj z poprzednim miesiącem (trend)
+3. Porównaj z benchmarkiem (branża, konkurencja)
+4. Szukaj anomalii (nagłe wzrosty/spadki)
+
+Raport analizy (struktura):
+- Metryki główne (obrót, wzrost, ROI)
+- Metryki szczegółowe (leady, konwersje, źródła)
+- Trendy (co rośnie, co spada)
+- Insighty (dlaczego tak jest)
+- Akcje (co zmienić, co poprawić)
+
+
+## 03. A/B testing – testuj i ucz się
+
+Nie zgaduj, testuj. A/B testing to metoda nauki, co działa lepiej.
+
+Czym jest A/B testing?
+- Testujesz dwie wersje (A i B)
+- Zmieniasz JEDNĄ zmienną (nagłówek, grafikę, CTA)
+- Mierzysz, która wersja działa lepiej
+- Skalujesz zwycięzcę
+
+Co testować:
+
+1. Kreacje reklamowe (Facebook/Instagram)
+   - Grafika: zdjęcie vs ilustracja
+   - Nagłówek: pytanie vs stwierdzenie
+   - CTA: "Dowiedz się więcej" vs "Kup teraz"
+   - Format: zdjęcie vs wideo vs karuzela
+
+2. Landing page
+   - Nagłówek (główne przekaz)
+   - CTA (przycisk, tekst)
+   - Długość (krótka vs długa strona)
+   - Kolory (niebieski vs czerwony przycisk)
+
+3. Email marketing
+   - Temat (krótki vs długi, emoji vs bez)
+   - Treść (krótka vs długa)
+   - CTA (jeden vs kilka linków)
+   - Czas wysyłki (rano vs popołudnie)
+
+4. Targetowanie (kampanie płatne)
+   - Grupa wiekowa (25-35 vs 35-45)
+   - Lokalizacja (całe miasto vs konkretne dzielnice)
+   - Zainteresowania (szersze vs węższe)
+
+Jak prowadzić A/B test:
+1. Zdefiniuj hipotezę
+   "Sądzę, że czerwony przycisk CTA będzie skuteczniejszy niż niebieski"
+
+2. Stwórz dwie wersje (A i B)
+   - A: Niebieski przycisk
+   - B: Czerwony przycisk
+   - Wszystko inne IDENTYCZNE
+
+3. Podziel ruch 50/50
+   - Połowa użytkowników widzi A
+   - Połowa widzi B
+
+4. Ustal cel (metryka sukcesu)
+   - Kliknięcia (CTR)
+   - Konwersje (zakupy, zapisy)
+   - Czas na stronie
+
+5. Zbieraj dane (min. 100-200 konwersji dla wiarygodności)
+
+6. Analizuj wyniki
+   - Która wersja wygrała?
+   - Czy różnica jest statystycznie istotna? (>5%)
+
+7. Wdróż zwycięzcę, testuj dalej
+   - Zwycięska wersja staje się nową bazą (A)
+   - Testujesz kolejną zmienną (nowe B)
+
+Przykład A/B testu:
+
+Cel: Zwiększyć zapisy na newsletter
+
+Test:
+- A: "Zapisz się na newsletter" (baseline)
+- B: "Otrzymaj 10% rabatu – zapisz się"
+
+Dane po 2 tygodniach:
+- A: 1000 wyświetleń, 20 zapisów (2% konwersja)
+- B: 1000 wyświetleń, 45 zapisów (4.5% konwersja)
+
+Wynik: B wygrywa (+125% wzrost!)
+
+Akcja: Wdrażamy B, testujemy kolejne (np. emoji w tekście)
+
+Narzędzia do A/B testingu:
+- Google Optimize (landing pages, za darmo)
+- Facebook Ads (wbudowane A/B testing)
+- Mailchimp (A/B testy emaili)
+- Optimizely (zaawansowane, płatne)
+
+Błędy w A/B testingu:
+- Za mało danych (test na 10 osobach = niewiarygodny)
+- Zmieniasz więcej niż jedną zmienną (nie wiesz, co zadziałało)
+- Za krótki czas (test trwa 2 dni = za mało)
+- Nie testujesz dalej (jeden test nie wystarczy)
+
+
+## 04. Optymalizacja kampanii – jak poprawiać efekty
+
+Kampania działa, ale mogłaby działać lepiej. Jak optymalizować?
+
+Cykl optymalizacji:
+1. Zmierz (gdzie jesteśmy teraz?)
+2. Przeanalizuj (co działa, co nie?)
+3. Testuj (spróbuj czegoś nowego)
+4. Skaluj (zwiększ to, co działa)
+5. Powtórz
+
+Optymalizacja Facebook Ads:
+
+1. Targetowanie
+   - Za szerokie? (Koszt za lead wysoki, niski CTR)
+     → Zawęź (konkretne zainteresowania, mniejszy obszar)
+   - Za wąskie? (Mały zasięg, reklama się nie wyświetla)
+     → Poszerz (lookalike audience, większy obszar)
+
+2. Kreacje
+   - Niska CTR (<1%)
+     → Zmień grafikę/wideo (bardziej przyciągająca)
+   - Niska konwersja (dużo kliknięć, mało zakupów)
+     → Zmień przekaz (oferta, CTA)
+
+3. Budżet
+   - Koszt za wynik rośnie
+     → Pauza na kilka dni (zmęczenie reklamy - ad fatigue)
+   - Koszt za wynik spada
+     → Zwiększ budżet (skaluj)
+
+4. Czas wyświetlania
+   - Sprawdź, kiedy kampania działa najlepiej (raport godzinowy)
+   - Ogranicz wyświetlanie do najlepszych godzin
+
+Optymalizacja Google Ads:
+
+1. Słowa kluczowe
+   - Sprawdź wyszukiwania (search terms report)
+   - Dodaj negatywne słowa (wykluczaj nierelewantne)
+   - Zwiększ stawki na najlepiej konwertujące
+
+2. Jakość reklam (Quality Score)
+   - Niski QS = droższe kliknięcia
+   - Popraw: trafność (słowa kluczowe ↔ reklama ↔ landing page)
+
+3. Landing page
+   - Wysoki bounce rate?
+     → Poprawa strony (szybkość, treść, UX)
+
+4. Rozszerzenia reklam
+   - Dodaj: lokalizacja, telefon, linki do podstron
+   - Zwiększa CTR
+
+Optymalizacja organiczna:
+
+1. SEO (strona www)
+   - Słowa kluczowe (co ludzie szukają?)
+   - Content (wartościowe treści)
+   - Linki (budowanie pozycji)
+
+2. Social media
+   - Najlepsze posty (co ma najwięcej zaangażowania?)
+   - Optymalne czasy (kiedy publikować?)
+   - Format (zdjęcie vs wideo vs karuzela)
+
+3. Email marketing
+   - Segmentacja (różne grupy, różne treści)
+   - Personalizacja (imię, preferencje)
+   - Timing (najlepszy czas wysyłki)
+
+Kiedy optymalizować:
+- Nie za wcześnie (poczekaj min. 2 tygodnie, 100+ wyświetleń)
+- Nie za późno (jeśli widzisz problem, reaguj)
+- Regularnie (przegląd co tydzień, optymalizacje co 2-4 tygodnie)
+
+Metryki do obserwacji:
+- CTR (Click-Through Rate) – ile % klika
+- CPC (Cost Per Click) – ile płacisz za kliknięcie
+- CPL (Cost Per Lead) – ile płacisz za lead
+- Conversion rate – ile % konwertuje
+- ROAS – zwrot z wydatków na reklamy
+
+Pamiętaj: Mała optymalizacja (np. 10% niższy CPL) x regularność = duża różnica w długim terminie.
+
+
+## 05. Benchmarking – porównuj się z najlepszymi
+
+Skąd wiesz, że Twoje wyniki są dobre? Porównaj się z innymi.
+
+Czym jest benchmarking?
+- Porównanie swoich wyników z najlepszymi w branży
+- Cel: zrozumieć, gdzie jesteś, gdzie chcesz być
+- Identyfikacja luk (co można poprawić)
+
+Co benchmarkować:
+
+1. Twoje wyniki vs rynek
+   - Średni CTR w Twojej branży (Facebook, Google)
+   - Średni koszt za kliknięcie
+   - Średni conversion rate
+
+2. Twoi Partnerzy vs konkurencja
+   - Obroty (jak sobie radzą?)
+   - Widoczność online (pozycje Google, social media)
+   - Opinie (ile mają, jaka średnia)
+
+3. Ty vs inni KR
+   - Liczba Partnerów
+   - ARPP (średni przychód per Partner)
+   - Retention rate
+
+Źródła benchmarków:
+
+1. Raporty branżowe
+   - Facebook Ads benchmarks (branża, kraj)
+   - Google Ads benchmarks
+   - Email marketing (average open rate, CTR)
+
+2. Konkurencja (analiza)
+   - Sprawdź, co robią inni KR
+   - Jakie narzędzia, strategie używają
+   - Jak komunikują się z Partnerami
+
+3. Narzędzia
+   - SimilarWeb (analiza ruchu konkurencji)
+   - SEMrush (analiza SEO, kampanii)
+   - Social Blade (social media statystyki)
+
+4. Networking
+   - Rozmowy z innymi KR (grupy, konferencje)
+   - Dzielenie się danymi (anonimowo)
+
+Przykład benchmarkingu:
+
+Twój wynik:
+- Facebook Ads CTR: 1.2%
+- CPL: 25 zł
+- Conversion rate: 20%
+
+Benchmark branży (usługi lokalne):
+- CTR: 1.5%
+- CPL: 20 zł
+- Conversion rate: 25%
+
+Wnioski:
+- CTR niższy → Popraw kreacje
+- CPL wyższy → Optymalizuj targetowanie
+- Conversion rate niższy → Popraw landing page
+
+Benchmarking własnych Partnerów:
+
+Partner A vs Partner B (ta sama branża):
+- A: +30% wzrost, CPL 15 zł, conversion 35%
+- B: +10% wzrost, CPL 40 zł, conversion 15%
+
+Co robi A lepiej?
+- Lepsza oferta (promocja, USP)
+- Lepsza strona (UX, szybkość)
+- Lepsze targetowanie
+
+Akcja: Zastosuj najlepsze praktyki z A u Partnera B.
+
+Pamiętaj: Benchmarking to nie kopiowanie. To inspiracja i orientacja.
+
+
+## 06. Feedback loop – ucz się z każdej współpracy
+
+Każdy Partner to lekcja. Jak wyciągać wnioski i się rozwijać?
+
+Czym jest feedback loop?
+- Cykl: Działanie → Wynik → Analiza → Nauka → Nowe działanie
+- Cel: ciągłe doskonalenie
+
+Jak zbierać feedback:
+
+1. Od Partnerów (regularnie)
+   - Co miesiąc: "Jak oceniasz ten miesiąc? Co mogę poprawić?"
+   - Co kwartał: Ankieta (1-5, konkretne pytania)
+   - Po zakończeniu współpracy: Exit interview
+
+2. Od siebie (refleksja)
+   - Co poszło dobrze?
+   - Co poszło źle?
+   - Co bym zrobił inaczej?
+
+3. Z danych (metryki)
+   - Które kampanie działają najlepiej?
+   - Które narzędzia przynoszą efekty?
+   - Które branże są najłatwiejsze/najtrudniejsze?
+
+System zbierania feedbacku:
+
+1. Prosty formularz (Google Forms)
+   Pytania:
+   - Jak oceniasz komunikację? (1-5)
+   - Jak oceniasz wyniki? (1-5)
+   - Co mogę poprawić? (otwarte)
+   - Czy poleciłbyś mnie? (NPS, 0-10)
+
+2. Miesięczna notatka (dla siebie)
+   - Co zadziałało w tym miesiącu?
+   - Co nie zadziałało?
+   - Co testuję w kolejnym?
+
+3. Baza wiedzy (Notion, Google Docs)
+   - Sekcje: Case studies, Lekcje, Best practices
+   - Dodawaj po każdej współpracy
+
+Jak wykorzystać feedback:
+
+1. Szybkie winy (quick wins)
+   - Partner mówi: "Za rzadko się odzywasz"
+   → Akcja: Zwiększ częstotliwość komunikacji
+
+2. Długoterminowe zmiany
+   - Partnerzy z branży X zawsze odchodzą
+   → Akcja: Przestań targetować tę branżę
+
+3. Procesy
+   - Partnerzy mówią: "Onboarding był chaotyczny"
+   → Akcja: Stwórz checklist onboardingu
+
+4. Oferta
+   - Partnerzy pytają o usługę Y (której nie masz)
+   → Akcja: Rozważ dodanie tej usługi
+
+Przykład feedback loop:
+
+Miesiąc 1:
+- Działanie: Kampania Facebook dla Partnera (fryzjer)
+- Wynik: CPL 30 zł, conversion 15% (słabo)
+- Analiza: Targetowanie za szerokie, kreacja nieatrakcyjna
+- Nauka: Zawężyć do kobiet 25-45, lepsze zdjęcia
+- Nowe działanie (miesiąc 2): Nowe targetowanie + kreacja
+
+Miesiąc 2:
+- Wynik: CPL 18 zł, conversion 28% (lepiej!)
+- Nauka: Działa. Zastosuj u innych Partnerów z branży beauty.
+
+Miesiąc 3:
+- Skalowanie: 3 Partnerów branży beauty, ta sama strategia
+- Wynik: Wszyscy z dobrymi wynikami
+
+Lekcja zapisana: "Branża beauty: kobiety 25-45, zdjęcia przed/po, promocje -20%"
+
+Pamiętaj: Bez feedbacku powtarzasz te same błędy. Z feedbackiem stajesz się lepszy.
+
+
+## 07. Narzędzia analityczne – co i jak używać
+
+Analiza bez narzędzi to zgadywanie. Oto must-have.
+
+1. Google Analytics (analiza strony www)
+   Co pokazuje:
+   - Ruch (ile osób, skąd, co robią)
+   - Konwersje (ile osiąga cel: zakup, formularz, telefon)
+   - Ścieżki użytkowników (jak poruszają się po stronie)
+
+   Jak używać:
+   - Ustaw cele (np. "Wypełnienie formularza")
+   - Sprawdzaj źródła ruchu (który kanał działa?)
+   - Analizuj bounce rate (czy strona angażuje?)
+
+2. Google Data Studio (dashboardy)
+   Co robi:
+   - Wizualizuje dane z wielu źródeł (Analytics, Ads, FB)
+   - Automatyczne aktualizacje (dane live)
+   - Udostępnianie (Partner ma dostęp 24/7)
+
+   Jak używać:
+   - Stwórz dashboard dla każdego Partnera
+   - Kluczowe metryki: ruch, leady, konwersje, źródła
+   - Wysyłaj link zamiast robić ręczne raporty
+
+3. Facebook Ads Manager (kampanie Facebook/Instagram)
+   Co pokazuje:
+   - Wyniki kampanii (zasięg, kliknięcia, konwersje)
+   - Koszt (CPM, CPC, CPL)
+   - Demografia (kto klika, kto kupuje)
+
+   Jak używać:
+   - Sprawdzaj codziennie (pierwsze 3 dni kampanii)
+   - Analizuj breakdown (wiek, płeć, lokalizacja, urządzenie)
+   - Testuj (A/B testy wbudowane)
+
+4. Google Ads (kampanie wyszukiwarka i Display)
+   Co pokazuje:
+   - Słowa kluczowe (które konwertują, które nie)
+   - Quality Score (jakość reklam)
+   - Conversion tracking (śledzenie konwersji)
+
+   Jak używać:
+   - Dodaj negatywne słowa kluczowe (oszczędza budżet)
+   - Monitoruj QS (poprawa obniża koszty)
+
+5. Hotjar (analiza zachowań na stronie)
+   Co pokazuje:
+   - Heatmapy (gdzie klikają użytkownicy)
+   - Nagrania sesji (jak poruszają się po stronie)
+   - Ankiety (feedback od użytkowników)
+
+   Jak używać:
+   - Znajdź problemy UX (gdzie użytkownicy się gubią)
+   - Optymalizuj landing page
+
+6. CRM Analytics (HubSpot, Pipedrive)
+   Co pokazuje:
+   - Źródła leadów
+   - Conversion funnel (ile % przechodzi przez etapy)
+   - LTV klientów
+
+   Jak używać:
+   - Identyfikuj najlepsze źródła (więcej z tego kanału)
+   - Optymalizuj lejek (gdzie tracisz leadów?)
+
+7. SEMrush / Ahrefs (SEO i konkurencja)
+   Co pokazuje:
+   - Pozycje w Google (słowa kluczowe)
+   - Analiza konkurencji (co robią, jakie słowa kluczowe)
+   - Backlinks
+
+   Jak używać:
+   - Badaj konkurencję (co działa u nich?)
+   - Znajdź nowe słowa kluczowe
+
+Integracje:
+- Zapier (łączy narzędzia, automatyzuje)
+- Google Sheets (centralizacja danych)
+
+Ile to kosztuje:
+- Google Analytics, Data Studio: GRATIS
+- Facebook Ads Manager, Google Ads: GRATIS (płacisz za reklamy)
+- HubSpot CRM: GRATIS (basic)
+- Hotjar: 39 EUR/mies (plan basic)
+- SEMrush: 99 USD/mies (opcjonalnie)
+
+Zalecenie dla startu: Google Analytics + Data Studio + CRM (gratis). Reszta opcjonalnie.
+
+
+## 08. Raportowanie własnych wyników – track progress
+
+Nie tylko Partnerzy mają raporty. Ty też powinieneś monitorować swoje postępy.
+
+Co raportować (dla siebie):
+
+1. Miesięczne KPI
+   - Przychód (Success Fee)
+   - Liczba Partnerów (aktywni, nowi, lost)
+   - ARPP (średni przychód per Partner)
+   - Churn rate
+
+2. Czas pracy
+   - Ile godzin/tydzień
+   - Podział: akwizycja, obsługa, optymalizacje, admin
+   - Efektywność (przychód / godzina)
+
+3. Rozwój osobisty
+   - Szkolenia (ile godzin, jakie tematy)
+   - Networking (spotkania, konferencje)
+   - Nowe umiejętności
+
+Format raportu (miesięcznego):
+
+---
+RAPORT OSOBISTY – MAJ 2025
+
+FINANSE:
+- Przychód: 18,000 zł (+20% vs kwiecień)
+- Koszty: 3,500 zł (freelancer, narzędzia, ZUS)
+- Zysk: 14,500 zł
+
+PARTNERZY:
+- Aktywni: 10
+- Nowi: 2
+- Lost: 0
+- ARPP: 1,800 zł
+- Churn: 0%
+
+CZAS:
+- Praca: 160h (40h/tydzień)
+- Efektywność: 112 zł/h (18k / 160h)
+
+ROZWÓJ:
+- Szkolenie: Google Ads (10h)
+- Networking: 2 spotkania KR
+
+CELE NA CZERWIEC:
+- +2 nowych Partnerów
+- Wdrożyć automatyzację raportów (Data Studio)
+- Przychód: 20,000 zł
+---
+
+Wizualizacje:
+- Wykres przychodów (miesiąc po miesiącu)
+- Wykres liczby Partnerów (wzrost w czasie)
+- Wykres ARPP (czy rośnie?)
+
+Narzędzia:
+- Google Sheets (prosty arkusz)
+- Notion (dashboard osobisty)
+- App do budżetu (YNAB, Mint)
+
+Częstotliwość:
+- Miesięczny przegląd (obowiązkowo)
+- Kwartalny przegląd (strategia)
+- Roczny przegląd (wielki przegląd, planowanie)
+
+Korzyści:
+- Widzisz postęp (motywacja)
+- Identyfikujesz problemy (spadek ARPP? Dlaczego?)
+- Planujesz lepiej (dane do decyzji)
+- Celebration (świętuj sukcesy!)
+
+
+## 09. Mini–case: Jak 3 testy A/B zwiększyły wyniki o 40%
+
+Case: Partner – sklep z odzieżą online
+
+Kontekst:
+- Kampania Facebook Ads
+- Budżet: 800 zł/mies
+- Wyniki startowe: CPL 40 zł, conversion 15%, koszt klienta 160 zł
+
+Cel: Obniżyć koszt klienta, zwiększyć konwersję
+
+Test #1: Kreacja (zdjęcie vs wideo)
+
+Hipoteza: Wideo będzie bardziej angażujące niż zdjęcie
+
+Setup:
+- A: Zdjęcie produktu (baseline)
+- B: 15-sekundowe wideo (modelka w ubraniu, muzyka)
+
+Wynik (po 2 tygodniach):
+- A: CTR 1.2%, CPL 40 zł
+- B: CTR 2.1%, CPL 28 zł
+
+Wygrywa B! Wideo działa lepiej.
+
+Akcja: Wdrażamy wideo jako standard, testujemy dalej.
+
+Test #2: CTA (text na przycisku)
+
+Hipoteza: "Kup teraz" będzie skuteczniejsze niż "Zobacz więcej"
+
+Setup:
+- A: "Zobacz więcej" (baseline)
+- B: "Kup teraz -20%"
+
+Wynik (po 2 tygodniach):
+- A: Conversion 15%
+- B: Conversion 22%
+
+Wygrywa B! Konkretny CTA + rabat działa.
+
+Akcja: Wdrażamy "Kup teraz -20%", testujemy dalej.
+
+Test #3: Targetowanie (szerokie vs wąskie)
+
+Hipoteza: Węższe targetowanie (lookalike audience) będzie skuteczniejsze
+
+Setup:
+- A: Szerokie (kobiety 20-50, cała Polska)
+- B: Lookalike (podobni do obecnych klientów, 1%)
+
+Wynik (po 2 tygodniach):
+- A: CPL 28 zł, conversion 22%
+- B: CPL 22 zł, conversion 28%
+
+Wygrywa B! Lookalike audience lepiej targetuje.
+
+Akcja: Wdrażamy lookalike.
+
+WYNIKI KOŃCOWE (po 3 testach):
+
+Przed:
+- CPL: 40 zł
+- Conversion: 15%
+- Koszt klienta: 160 zł
+
+Po:
+- CPL: 22 zł (-45%)
+- Conversion: 28% (+87%)
+- Koszt klienta: 95 zł (-40%)
+
+Efekt biznesowy:
+- Ten sam budżet (800 zł/mies)
+- Przed: 5 klientów/mies
+- Po: 8.4 klientów/mies (+68%!)
+
+Partner zachwycony. Success Fee wzrosło odpowiednio.
+
+Kluczowe lekcje:
+1. Małe zmiany = duży wpływ (każdy test poprawiał o 20-30%)
+2. Testuj systematycznie (nie zgaduj, mierz)
+3. Jedna zmienna na raz (łatwiej zidentyfikować, co działa)
+4. Cierpliwość (każdy test trwa 2 tygodnie, nie 2 dni)
+
+
+## 10. Zadanie na 7 dni – przeanalizuj i zoptymalizuj jednego Partnera
+
+Ćwiczenie: Dogłębna analiza i optymalizacja
+
+Dzień 1: Wybór Partnera
+- Wybierz Partnera, którego wyniki można poprawić
+- Nie najgorszy (potrzeba więcej niż 7 dni), nie najlepszy (nie ma co poprawiać)
+- Średni lub lekko poniżej oczekiwań
+
+Dzień 2: Zbierz dane
+- Wyciągnij wszystkie metryki (ostatnie 3 miesiące)
+  - Obroty, wzrost, źródła
+  - Kampanie: CTR, CPC, CPL, conversion
+  - Strona: ruch, bounce rate, konwersje
+- Stwórz arkusz z danymi
+
+Dzień 3: Analiza
+- Co działa dobrze? (kontynuuj)
+- Co działa źle? (optymalizuj lub wyłącz)
+- Gdzie są największe luki? (vs benchmark, vs cel)
+- Zidentyfikuj 3 obszary do poprawy
+
+Dzień 4: Hipotezy
+- Dla każdego obszaru: stwórz hipotezę
+  - "Sądzę, że zmiana [X] spowoduje [Y]"
+- Przykład: "Zmiana kreacji na wideo zwiększy CTR o 50%"
+
+Dzień 5: Zaplanuj testy
+- Dla każdej hipotezy: zaplanuj A/B test
+  - Co testujesz (konkretnie)
+  - Jak mierzysz (metryka sukcesu)
+  - Ile czasu (min. 2 tygodnie)
+
+Dzień 6: Wdróż pierwszy test
+- Uruchom pierwszy test A/B
+- Skonfiguruj tracking
+- Ustaw przypomnienie (sprawdzić wyniki za 2 tygodnie)
+
+Dzień 7: Raport dla Partnera
+- Napisz email/raport:
+  - Co przeanalizowałeś
+  - Co znalazłeś (dobre i złe)
+  - Co testujesz (hipotezy)
+  - Oczekiwane wyniki
+- Wyślij Partnerowi (transparentność!)
+
+Bonus: Za 2 tygodnie sprawdź wyniki testu, wyciągnij wnioski, uruchom kolejny test. Powtarzaj co 2 tygodnie. Za 3 miesiące zobaczysz znaczną poprawę!

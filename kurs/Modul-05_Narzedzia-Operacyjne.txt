@@ -1,0 +1,664 @@
+# Moduł 5: Narzędzia operacyjne
+Konkretne narzędzia, które wdrażasz u Partnerów.
+
+Spis treści:
+01. Przegląd narzędzi – co masz w arsenale  
+02. Google Moja Firma – podstawa lokalnej widoczności  
+03. CRM i bazy kontaktów – organizacja relacji  
+04. Email marketing – komunikacja z klientami  
+05. Social media – Facebook, Instagram i inne  
+06. Systemy rezerwacji i umówień online  
+07. Kampanie reklamowe – Facebook Ads, Google Ads  
+08. Narzędzia analityczne – jak mierzyć efekty  
+09. Mini–case: Wdrożenie pakietu narzędzi od zera  
+10. Zadanie na 7 dni – naucz się jednego narzędzia
+
+
+## 01. Przegląd narzędzi – co masz w arsenale
+
+Jako KR musisz znać podstawowe narzędzia reklamowe i operacyjne. Oto lista must-have.
+
+Kategorie narzędzi:
+
+1. Widoczność lokalna:
+   - Google Moja Firma (GMF)
+   - Mapy Apple
+   - Lokalne katalogi (Panorama Firm, PulseBiznesu)
+
+2. Komunikacja i CRM:
+   - Prosty CRM (HubSpot, Pipedrive, Bitrix24)
+   - Email marketing (Mailchimp, GetResponse)
+   - SMS marketing (SMSAPI, SMSPlanet)
+
+3. Social media:
+   - Facebook/Instagram (organiczny + płatny)
+   - LinkedIn (dla B2B)
+   - TikTok (dla młodszej grupy)
+
+4. Rezerwacje i umówienia:
+   - Booksy (usługi: fryzjer, kosmetyka)
+   - Calendly (spotkania B2B)
+   - SimplyBook.me (uniwersalne)
+
+5. Kampanie płatne:
+   - Facebook Ads
+   - Google Ads (wyszukiwarka + Display)
+   - Instagram Ads
+
+6. Analityka:
+   - Google Analytics
+   - Facebook Pixel
+   - Narzędzia CRM (wbudowane raporty)
+
+7. Strony www i landing pages:
+   - WordPress (jeśli Partner nie ma strony)
+   - Landingi.com (proste landing pages)
+
+Jak wybierać narzędzia dla Partnera?
+- Zacznij od najprostszych (GMF, Facebook)
+- Dopasuj do branży (fryzjer = Booksy, B2B = LinkedIn)
+- Uwzględnij budżet (wiele narzędzi ma darmowe wersje)
+- Nie przytłaczaj (2-3 narzędzia na start, potem więcej)
+
+Pamiętaj: Narzędzie to środek, nie cel. Cel to wyniki biznesowe Partnera.
+
+
+## 02. Google Moja Firma – podstawa lokalnej widoczności
+
+Google Moja Firma (GMF) to najważniejsze narzędzie dla lokalnych biznesów. Darmowe i skuteczne.
+
+Czym jest GMF?
+- Wizytówka firmy w Google (wyniki wyszukiwania + Mapy)
+- Pokazuje: adres, godziny, telefon, zdjęcia, opinie
+- Wyświetla się, gdy ktoś szuka lokalnie (np. "fryzjer Warszawa")
+
+Dlaczego jest ważne?
+- 46% wyszukiwań Google ma charakter lokalny
+- 76% osób, które szukają czegoś lokalnie, odwiedza firmę w ciągu dnia
+- Darmowe!
+
+Jak skonfigurować GMF (krok po kroku):
+1. Wejdź na google.com/business
+2. "Dodaj firmę" (lub przejmij istniejącą wizytówkę)
+3. Wpisz nazwę firmy i kategorię
+4. Podaj adres (lub zaznacz "obsługuję klientów w ich lokalizacjach")
+5. Dodaj numer telefonu i stronę www
+6. Weryfikacja (pocztą lub telefonem)
+7. Po weryfikacji: uzupełnij szczegóły
+
+Co wypełnić w GMF:
+- Zdjęcia (logo, wnętrze, produkty, zespół) – min. 10 zdjęć
+- Godziny otwarcia (aktualne!)
+- Opis firmy (krótko, z słowami kluczowymi)
+- Kategoria i dodatkowe kategorie
+- Atrybuty (np. "dostępny parking", "płatność kartą")
+
+Funkcje GMF:
+- Posty (aktualności, promocje, eventy)
+- Produkty/usługi (katalog oferty)
+- Pytania i odpowiedzi (FAQ)
+- Wiadomości (klienci mogą pisać bezpośrednio)
+
+Opinie w GMF:
+- Kluczowe dla widoczności i zaufania
+- Zachęcaj klientów do wystawiania opinii
+- Odpowiadaj na opinie (pozytywne i negatywne)
+
+Przykład działania:
+- Ktoś szuka "mechanik Kraków"
+- GMF Partnera wyświetla się w Top 3
+- Klient widzi opinie (4.8/5), zdjęcia, telefon
+- Dzwoni i umawia wizytę
+
+Wdrożenie GMF: 1-2 godziny pracy. Efekt: natychmiastowa widoczność lokalna.
+
+
+## 03. CRM i bazy kontaktów – organizacja relacji
+
+CRM (Customer Relationship Management) to system do zarządzania kontaktami z klientami.
+
+Po co CRM?
+- Organizacja (wszystkie kontakty w jednym miejscu)
+- Historia (wiesz, co było z danym klientem)
+- Automatyzacja (przypomnienia, follow-upy)
+- Mierzenie (ile klientów, jaki obrót, z jakiego źródła)
+
+Kluczowe funkcje CRM:
+1. Baza kontaktów
+   - Imię, nazwisko, telefon, email
+   - Źródło (skąd przyszedł klient)
+   - Notatki
+
+2. Zarządzanie relacjami
+   - Status (lead, klient, były klient)
+   - Historia interakcji (rozmowy, emaile, zakupy)
+   - Zadania i przypomnienia
+
+3. Pipeline (lejek sprzedaży)
+   - Etapy (kontakt → oferta → transakcja → po-sprzedaż)
+   - Wizualizacja (gdzie jest każdy klient)
+
+4. Automatyzacja
+   - Auto-odpowiedzi na emaile
+   - Przypomnienia o follow-upach
+   - Segmentacja (grupy klientów)
+
+5. Raportowanie
+   - Ile leadów, ile klientów
+   - Źródła pozyskania
+   - Wartość życiowa klienta (LTV)
+
+Polecane CRM (dla małych firm):
+1. HubSpot (darmowa wersja!)
+   - Intuicyjny
+   - Wiele funkcji za darmo
+   - Dobry dla początkujących
+
+2. Bitrix24 (darmowa wersja do 12 użytkowników)
+   - Polski interfejs
+   - Integracje
+   - Chat i komunikatory
+
+3. Pipedrive (płatny, ale prosty)
+   - Wizualny pipeline
+   - Dobre dla sprzedaży
+
+4. Google Sheets (DIY CRM)
+   - Darmowy
+   - Pełna kontrola
+   - Wymaga ręcznej pracy
+
+Jak wdrożyć CRM u Partnera:
+1. Wybierz system (dopasuj do potrzeb)
+2. Zaimportuj istniejące kontakty
+3. Ustaw pipeline (etapy lejka)
+4. Skonfiguruj automatyzacje
+5. Przeszkol Partnera (jak używać)
+6. Monitoruj i optymalizuj
+
+Przykład użycia:
+- Klient dzwoni do salonu fryzjerskiego
+- Recepcjonistka dodaje go do CRM
+- System przypomina o wysłaniu SMS przed wizytą
+- Po wizycie: auto-email z prośbą o opinię
+- Miesiąc później: przypomnienie o kolejnej wizycie
+
+CRM = więcej klientów wraca, mniej "ucieka".
+
+
+## 04. Email marketing – komunikacja z klientami
+
+Email to jedno z najskuteczniejszych narzędzi marketingu. Tanie i efektywne.
+
+Po co email marketing?
+- Utrzymanie kontaktu z klientami
+- Przypomnienia (o firmie, promocjach)
+- Budowanie relacji
+- Cross-sell i up-sell (sprzedaż dodatkowa)
+
+Co można wysyłać emailem:
+1. Newsletter (aktualności, porady, ciekawostki)
+2. Promocje i oferty specjalne
+3. Przypomnienia (np. wizyta, sezonowe usługi)
+4. Podziękowania (po zakupie)
+5. Urodziny i święta (personalizacja)
+6. Reaktywacja (do klientów, którzy nie wrócili)
+
+Narzędzia email marketingu:
+- Mailchimp (do 500 kontaktów za darmo)
+- GetResponse (polskie narzędzie, trial)
+- Sendinblue (darmowy plan)
+- Freshmail (polskie, proste)
+
+Jak zacząć:
+1. Zbierz adresy email
+   - Przy zakupie (zgoda RODO!)
+   - Formularz na stronie
+   - W zamian za coś (np. rabat 10%)
+
+2. Stwórz listę
+   - Segmentuj (nowi, stali, VIP)
+   - Taguj (zainteresowania, branża)
+
+3. Zaplanuj kampanię
+   - Cel (co chcesz osiągnąć?)
+   - Treść (wartościowa, nie tylko sprzedaż)
+   - Częstotliwość (1-2 razy w miesiącu to OK)
+
+4. Napisz email
+   - Temat (krótki, ciekawy)
+   - Treść (zwięzła, konkretna)
+   - Call-to-action (co odbiorca ma zrobić)
+   - Design (prosty, responsywny)
+
+5. Testuj i optymalizuj
+   - A/B testy (różne tematy, treści)
+   - Sprawdzaj open rate, click rate
+   - Wyłączaj nieaktywnych
+
+Przykład kampanii:
+Salon kosmetyczny:
+- Email 1 (powitanie): "Witaj! Oto 10% rabatu na pierwszą wizytę"
+- Email 2 (2 tyg później): "5 sposobów na zdrową skórę jesienią"
+- Email 3 (1 mies.): "Promocja: peeling + masaż -20%"
+- Email 4 (co miesiąc): Newsletter z poradami
+
+Ważne zasady:
+- Zawsze daj opcję wypisania się
+- Przestrzegaj RODO (zgoda na kontakt)
+- Nie spamuj (jakość > ilość)
+- Personalizuj (imię, preferencje)
+
+ROI email marketingu: 1 zł wydane = 30-40 zł zwrotu (średnia).
+
+
+## 05. Social media – Facebook, Instagram i inne
+
+Social media to nie tylko zabawa. To potężne narzędzie biznesowe.
+
+Dlaczego social media?
+- Zasięg (miliony użytkowników)
+- Targetowanie (dotrzesz do konkretnej grupy)
+- Budowanie relacji (nie tylko reklama, także content)
+- Niski koszt (organiczny content = darmowy)
+
+Główne platformy:
+
+1. Facebook
+   - Najszersza grupa wiekowa
+   - Dobre dla lokalnych firm (grupy, eventy)
+   - Możliwość płatnych kampanii
+
+2. Instagram
+   - Młodsza grupa (18-40)
+   - Wizualny content (zdjęcia, Stories, Reels)
+   - Świetny dla usług (fryzjer, gastronomia, moda)
+
+3. LinkedIn
+   - B2B
+   - Networking profesjonalny
+   - Dobre dla usług biznesowych (doradztwo, IT)
+
+4. TikTok
+   - Bardzo młoda grupa (16-30)
+   - Kreatywny content
+   - Dobre dla trendów i viralowych kampanii
+
+Co publikować (content plan):
+- 50% wartościowy content (porady, ciekawostki)
+- 30% zaangażowanie (pytania, ankiety, za kulisami)
+- 20% promocje (oferty, nowości)
+
+Częstotliwość:
+- Facebook/Instagram: 3-5 razy w tydzień
+- LinkedIn: 2-3 razy w tydzień
+- TikTok: codziennie (jeśli aktywny)
+
+Organiczny zasięg (darmowy):
+- Regularne posty
+- Hashtagi (trafne, nie za dużo)
+- Zaangażowanie (odpowiadaj na komentarze)
+- Stories (Instagram/Facebook)
+- Grupy (aktywność w lokalnych grupach)
+
+Płatne kampanie:
+- Facebook Ads / Instagram Ads (to samo narzędzie)
+- Targetowanie (lokalizacja, wiek, zainteresowania)
+- Budżet (od 5 zł/dzień)
+- Cele (ruch na stronę, zasięg, konwersje)
+
+Przykład strategii:
+Restauracja:
+- Poniedziałek: Zdjęcie dania dnia
+- Środa: Przepis (wartościowy content)
+- Piątek: Promocja weekend (20% na rezerwacje)
+- Stories codziennie: za kulisami kuchni
+
+Jak mierzyć efekty:
+- Zasięg (ile osób zobaczyło)
+- Zaangażowanie (lajki, komentarze, udostępnienia)
+- Kliknięcia (w link)
+- Konwersje (ile osób wykonało akcję)
+
+Wdrożenie u Partnera:
+- Załóż profile (jeśli nie ma)
+- Uzupełnij opisy, zdjęcia
+- Stwórz plan publikacji
+- Przeszkol Partnera (lub zarządzaj sam)
+
+
+## 06. Systemy rezerwacji i umówień online
+
+Ułatw klientom umawianie się. Im prościej, tym więcej rezerwacji.
+
+Po co system rezerwacji?
+- Wygoda klienta (umówi się o 23:00, nie tylko w godzinach pracy)
+- Mniej pracy dla Partnera (automatyzacja)
+- Mniej "no-showów" (przypomnienia SMS/email)
+- Lepsze zarządzanie czasem
+
+Typy systemów:
+
+1. Booksy (dla usług beauty i wellness)
+   - Fryzjerzy, kosmetyczki, masażyści
+   - Aplikacja mobilna dla klientów
+   - Przypomnienia SMS
+   - Integracja z kalendarzem
+
+2. Calendly (dla spotkań B2B)
+   - Konsultacje, spotkania online
+   - Integracja z Google Calendar, Zoom
+   - Darmowa wersja podstawowa
+
+3. SimplyBook.me (uniwersalne)
+   - Różne branże
+   - Płatności online
+   - Personalizacja
+
+4. SetMore (dla małych firm)
+   - Darmowa wersja
+   - Proste w obsłudze
+   - Przypomnienia
+
+Funkcje systemów rezerwacji:
+- Kalendarz dostępności (klient widzi wolne terminy)
+- Rezerwacja online (bez telefonów)
+- Przypomnienia (SMS/email przed wizytą)
+- Zarządzanie personelem (kto, kiedy, co)
+- Płatności online (opcjonalnie)
+- Raporty (ile wizyt, anulacji, przychody)
+
+Jak wdrożyć:
+1. Wybierz system (dopasuj do branży)
+2. Skonfiguruj:
+   - Usługi (co oferujesz, ile trwa, ile kosztuje)
+   - Personel (kto świadczy usługi)
+   - Godziny pracy
+   - Bufory (przerwy między wizytami)
+3. Dodaj link do rezerwacji:
+   - Na stronie www
+   - W GMF
+   - W social media
+   - W sygnaturze email
+4. Przeszkol Partnera (jak zarządzać)
+5. Promuj (zachęcaj klientów do rezerwacji online)
+
+Przykład:
+Salon fryzjerski:
+- Klientka szuka fryzjera na Google
+- Widzi GMF z linkiem "Umów się online"
+- Klika, widzi wolne terminy
+- Rezerwuje sobotę 14:00
+- Dostaje potwierdzenie SMS
+- Dzień przed: przypomnienie SMS
+- Nie zapomina, przychodzi
+
+Efekt:
+- 30% więcej rezerwacji (wygoda)
+- 50% mniej "no-showów" (przypomnienia)
+- Partner oszczędza czas (mniej telefonów)
+
+
+## 07. Kampanie reklamowe – Facebook Ads, Google Ads
+
+Organiczny zasięg to za mało. Czasem trzeba zapłacić za reklamę.
+
+Facebook Ads / Instagram Ads:
+
+Dlaczego FB Ads?
+- Precyzyjne targetowanie (wiek, lokalizacja, zainteresowania)
+- Niski koszt (od 5 zł/dzień)
+- Wizualne (zdjęcia, wideo)
+
+Jak stworzyć kampanię FB Ads:
+1. Wejdź do Facebook Ads Manager
+2. Wybierz cel (zasięg, ruch, konwersje)
+3. Określ grupę docelową:
+   - Lokalizacja (np. 10 km od firmy)
+   - Wiek (np. 25-50)
+   - Zainteresowania (np. zdrowie, uroda)
+4. Ustaw budżet (np. 10 zł/dzień)
+5. Stwórz kreację (zdjęcie/wideo + tekst)
+6. Uruchom kampanię
+
+Co reklamować:
+- Promocje (rabaty, oferty specjalne)
+- Nowe produkty/usługi
+- Eventy (otwarcie, warsztaty)
+- Content (artykuł, poradnik)
+
+Google Ads:
+
+Dlaczego Google Ads?
+- Łapiesz ludzi, którzy aktywnie szukają (intent)
+- Lokalne kampanie (np. "fryzjer Warszawa")
+- Szybkie efekty
+
+Typy kampanii Google:
+1. Wyszukiwarka (Search Ads)
+   - Reklama w wynikach Google
+   - Ktoś wpisuje "mechanik Kraków" → widzi Twoją reklamę
+
+2. Display (baner na stronach)
+   - Graficzne reklamy
+   - Retargeting (przypominasz o firmie)
+
+3. Mapy (Local Ads)
+   - Reklama w Google Maps
+   - Świetne dla lokalnych firm
+
+Jak stworzyć kampanię Google Ads:
+1. Wejdź do Google Ads
+2. Wybierz cel (wizyty w firmie, telefony, ruch na stronę)
+3. Określ słowa kluczowe (np. "fryzjer damski Kraków")
+4. Ustaw lokalizację (np. 15 km od firmy)
+5. Napisz reklamę (nagłówek + opis)
+6. Ustaw budżet (np. 20 zł/dzień)
+7. Uruchom
+
+Budżety:
+- Małe firmy: 10-30 zł/dzień (300-900 zł/mies)
+- Średnie: 30-100 zł/dzień
+- Duże: 100+ zł/dzień
+
+Optymalizacja:
+- Testuj różne kreacje (A/B testing)
+- Wyłączaj niedziałające kampanie
+- Skaluj działające (większy budżet)
+- Sprawdzaj ROI (ile wydałeś vs ile zarobiłeś)
+
+Kiedy stosować płatne reklamy:
+- Partner ma budżet (min. 500 zł/mies)
+- Chcemy szybkich efektów (organiczny zasięg trwa dłużej)
+- Mamy jasny cel (promocja, event, nowy produkt)
+
+
+## 08. Narzędzia analityczne – jak mierzyć efekty
+
+Bez danych działasz na ślepo. Analityka pokazuje, co działa, a co nie.
+
+Google Analytics:
+
+Co mierzy:
+- Ruch na stronie (ile osób, skąd, co robią)
+- Konwersje (ile osób wykonało akcję: zakup, formularz, telefon)
+- Źródła ruchu (Google, Facebook, bezpośrednio)
+
+Jak wdrożyć:
+1. Utwórz konto Google Analytics
+2. Dodaj kod śledzący na stronę www Partnera
+3. Ustaw cele (np. "wypełnienie formularza")
+4. Sprawdzaj raporty regularnie
+
+Kluczowe metryki:
+- Użytkownicy (ile osób odwiedziło stronę)
+- Czas na stronie (czy czytają treść?)
+- Współczynnik odrzuceń (bounce rate - czy opuszczają od razu?)
+- Konwersje (ile osób wykonało akcję)
+
+Facebook Pixel:
+
+Co robi:
+- Śledzi użytkowników ze stron www na Facebooku
+- Pozwala na retargeting (ponowne dotarcie do odwiedzających)
+- Mierzy konwersje z kampanii FB
+
+Jak wdrożyć:
+1. Utwórz Pixel w Facebook Business Manager
+2. Dodaj kod Pixel na stronę www
+3. Ustaw zdarzenia (np. "dodanie do koszyka", "zakup")
+4. Używaj w kampaniach FB Ads
+
+Google Search Console:
+
+Co pokazuje:
+- Jak strona radzi sobie w Google (pozycje, kliknięcia)
+- Jakie frazy wpisują użytkownicy
+- Błędy na stronie (techniczne)
+
+CRM Analytics:
+
+Co mierzysz:
+- Liczba leadów (potencjalnych klientów)
+- Konwersja lead → klient
+- Źródła leadów (Facebook, Google, polecenie)
+- LTV (wartość życiowa klienta)
+
+Raporty dla Partnera:
+
+Co zawierać:
+- Źródła ruchu (skąd przychodzą klienci)
+- Liczba leadów/klientów
+- Konwersje (ile % zamienia się w klientów)
+- Obroty (jeśli masz dostęp)
+- Koszty (ile wydano na reklamy)
+- ROI (zwrot z inwestycji)
+
+Przykład prostego raportu:
+
+---
+Raport – Maj 2025
+
+Ruch na stronie:
+- 1,200 odwiedzin (+30% vs kwiecień)
+- Źródła: 50% Google, 30% Facebook, 20% bezpośrednio
+
+Leady:
+- 45 nowych leadów
+- Źródła: 25 z FB Ads, 15 z GMF, 5 z polecenia
+
+Klienci:
+- 18 nowych klientów (konwersja 40%)
+- Obrót: +14,000 zł
+
+Koszty:
+- Facebook Ads: 600 zł
+- Google Ads: 400 zł
+- Razem: 1,000 zł
+
+ROI:
+- Wydatki: 1,000 zł
+- Obrót: 14,000 zł
+- ROI: 1400% (14x zwrot)
+---
+
+Pamiętaj: Dane bez akcji to tylko liczby. Analizuj, wyciągaj wnioski, optymalizuj.
+
+
+## 09. Mini–case: Wdrożenie pakietu narzędzi od zera
+
+Case: Mały sklep z odzieżą "Moda dla Ciebie"
+
+Kontekst:
+- Sklep stacjonarny (małe miasto, 50k mieszkańców)
+- Zero obecności online
+- Klienci: głównie przechodnie
+- Cel: zwiększyć ruch i obroty
+
+Pakiet narzędzi do wdrożenia:
+1. Google Moja Firma (widoczność lokalna)
+2. Facebook + Instagram (social media)
+3. Email marketing (komunikacja z klientami)
+4. Prosty CRM (organizacja kontaktów)
+
+Krok 1: Google Moja Firma (tydzień 1)
+- Założyłem wizytówkę GMF
+- Dodałem zdjęcia (wnętrze, ubrania, właścicielka)
+- Opis + kategorie
+- Zebrałem 5 pierwszych opinii (od stałych klientów)
+- Efekt: Po 2 tygodniach wizytówka w top 3 wyników "sklep odzieżowy [miasto]"
+
+Krok 2: Facebook + Instagram (tydzień 2)
+- Założyłem profile (wcześniej nie było)
+- Zrobiłem sesję zdjęciową (ubrania, sklep)
+- Plan publikacji: 3 posty/tydzień
+- Lokalna kampania FB Ads (10 zł/dzień, promocja otwarcia)
+- Efekt: 200 obserwujących w miesiąc, 15 klientów z FB
+
+Krok 3: Email marketing (tydzień 3)
+- Zbieranie emaili: rabat 10% w zamian za email
+- System: Mailchimp (darmowy plan)
+- Pierwszy newsletter: powitanie + kod rabatowy
+- Plan: 2 emaile/miesiąc
+- Efekt: 80 adresów w miesiąc, 20% open rate
+
+Krok 4: CRM (tydzień 4)
+- Wybrałem HubSpot (darmowy)
+- Zaimportowałem zebrane kontakty
+- Tagowanie (zainteresowania: damskie, męskie, dziecięce)
+- Automatyzacja: email powitalny, przypomnienie po miesiącu
+- Efekt: Właścicielka wie, kto jest kim, może personalizować oferty
+
+Wyniki po 3 miesiącach:
+- Ruch w sklepie: +40% (więcej klientów)
+- Obrót: +12,000 zł/mies
+- Koszty narzędzi: 50 zł/mies (FB Ads 300 zł, reszta darmowe)
+- Success Fee (20%): 2,400 zł/mies dla KR
+
+Kluczowe lekcje:
+- Nie trzeba wszystkiego od razu (krok po kroku)
+- Proste narzędzia wystarczą (nie trzeba drogich systemów)
+- Szkolenie właściciela jest kluczowe (musi umieć z tego korzystać)
+- Małe miasto = łatwiej wyróżnić się (mniej konkurencji)
+
+
+## 10. Zadanie na 7 dni – naucz się jednego narzędzia
+
+Ćwiczenie: Wybierz jedno narzędzie i opanuj je dogłębnie
+
+Dzień 1: Wybór narzędzia
+- Które narzędzie najbardziej Cię interesuje?
+- Google Moja Firma, Facebook Ads, CRM, email marketing?
+- Wybierz jedno (nie wszystkie naraz!)
+
+Dzień 2: Teoria
+- Przeczytaj dokumentację / poradniki
+- Zobacz tutoriale na YouTube
+- Zrób notatki (kluczowe funkcje, możliwości)
+
+Dzień 3: Praktyka – założenie
+- Załóż konto (testowe lub własne)
+- Skonfiguruj podstawowe ustawienia
+- Poznaj interfejs
+
+Dzień 4: Praktyka – pierwsze działania
+- Stwórz przykładową kampanię / profil / email
+- Przetestuj funkcje
+- Zrób screeny (dokumentuj proces)
+
+Dzień 5: Optymalizacja
+- Przeanalizuj wyniki (jeśli są)
+- Popraw coś (kreacja, ustawienia)
+- Testuj A/B (jeśli możliwe)
+
+Dzień 6: Studium przypadku
+- Znajdź przykład użycia tego narzędzia (case study)
+- Przeanalizuj: co zrobili, jakie wyniki
+- Zastanów się: jak zastosować to u Partnera?
+
+Dzień 7: Plan wdrożenia
+- Napisz krok-po-kroku plan wdrożenia tego narzędzia u Partnera
+- Jakie materiały potrzebne? Ile czasu? Jakie efekty?
+- Przygotuj prezentację (jak przedstawisz to Partnerowi)
+
+Bonus: Zaoferuj się wdrożyć to narzędzie u prawdziwego Partnera (bezpłatnie, jako portfolio).
