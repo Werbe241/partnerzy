@@ -1,0 +1,453 @@
+# Moduł 6: Relacje i retencja partnerów
+Jak utrzymać partnera aktywnego, zaangażowanego i zadowolonego.
+
+Spis treści:
+01. Dlaczego retencja jest ważniejsza niż pozyskanie  
+02. Segmentacja partnerów – A, B, C (aktywność i potencjał)  
+03. Cykl opieki nad partnerem – co robić każdego miesiąca  
+04. Nawyki utrzymujące relację – małe gesty, duży efekt  
+05. Eskalacja wsparcia – kiedy partner potrzebuje więcej uwagi  
+06. Reaktywacja partnera nieaktywnego – jak wrócić do gry  
+07. Mierniki zdrowia relacji – jak poznać, że partner „chwieje się"  
+08. Case: spadek aktywności i droga powrotna  
+09. Sygnały ostrzegawcze – na co zwracać uwagę  
+10. Checklista retencji – co sprawdzać co miesiąc
+
+
+## 01. Dlaczego retencja jest ważniejsza niż pozyskanie
+
+Retencja to utrzymanie partnera aktywnym. Pozyskanie to zdobycie nowego. Która jest ważniejsza?
+
+Matematyka retencji:
+- Koszt pozyskania nowego partnera: 10–20 godzin pracy (cold calls, rozmowy, wdrożenie).
+- Koszt utrzymania aktywnego partnera: 2–5 godzin miesięcznie (follow-up, wsparcie).
+- Prowizja od aktywnego partnera: stała, przewidywalna, rośnie z czasem.
+- Prowizja od nowego partnera: niepewna (może nie wygenerować obrotu).
+
+Przykład:
+- KR A: pozyskuje 10 nowych partnerów miesięcznie, ale po 3 miesiącach 7 jest nieaktywnych. Zostaje 3.
+- KR B: pozyskuje 5 nowych miesięcznie, ale utrzymuje 90% aktywnych. Po 3 miesiącach ma 13 aktywnych (5+4+4).
+- Wynik: KR B zarabia więcej (13 aktywnych > 3 aktywne).
+
+Dlaczego partnerzy przestają być aktywni?
+- Brak wyników (niski obrót = rozczarowanie).
+- Brak wsparcia (partner czuje się zapomniany).
+- Problemy techniczne (coś nie działa, a nikt nie pomaga).
+- Zmiana sytuacji (partner zamyka biznes, zmienia profil).
+
+Jak retencja wpływa na Twoje zarobki?
+- Aktywny partner = stały dochód.
+- Nieaktywny partner = 0 zł prowizji.
+- 10 aktywnych partnerów po 100 zł/miesiąc = 1000 zł miesięcznie (stabilne).
+
+Złota zasada retencji:
+„Łatwiej utrzymać zadowolonego partnera niż pozyskać nowego."
+
+
+## 02. Segmentacja partnerów – A, B, C (aktywność i potencjał)
+
+Nie każdy partner jest taki sam. Segmentacja pomaga priorytetyzować czas.
+
+Segment A (VIP – Very Important Partner):
+- Definicja: Wysoki obrót (top 20%), aktywny, zadowolony.
+- Przykład: Partner generuje 5000+ zł obrotu miesięcznie, regularnie kontaktuje się, poleca nowych partnerów.
+- Opieka: Kontakt co 2 tygodnie, priorytet w przypadku problemów, dodatkowe materiały (np. promocje sezonowe).
+- Cel: Utrzymać aktywność, rozwijać współpracę (więcej obrotu).
+
+Segment B (Standardowy):
+- Definicja: Średni obrót (1000–5000 zł), aktywny, ale potrzebuje przypominania.
+- Przykład: Partner generuje obrót, ale nie zawsze mówi klientom o cashbacku.
+- Opieka: Kontakt co miesiąc, edukacja (jak zwiększyć obrót), wsparcie przy problemach.
+- Cel: Przesunąć do segmentu A (więcej aktywności).
+
+Segment C (Ryzyko):
+- Definicja: Niski obrót (<1000 zł) lub brak obrotu przez 2+ miesiące.
+- Przykład: Partner się zarejestrował, ale nie wdraża aktywnie (nie mówi klientom o QR).
+- Opieka: Kontakt co 2 tygodnie (reaktywacja), diagnoza przyczyn (brak czasu? Problem techniczny?).
+- Cel: Reaktywować lub zakończyć współpracę (jeśli partner nie chce).
+
+Jak przypisać partnera do segmentu?
+
+Krok 1: Sprawdź obrót (panel KR, raport miesięczny).
+
+Krok 2: Oceń aktywność:
+- Czy partner odpowiada na wiadomości?
+- Czy zgłasza problemy/pytania (to dobry znak – jest zaangażowany)?
+- Czy wdraża sugestie (np. mówienie klientom o cashbacku)?
+
+Krok 3: Przypisz literę (A/B/C) w arkuszu partnerów.
+
+Krok 4: Zaplanuj opiekę (częstotliwość kontaktu, cele).
+
+Przykład arkusza:
+| Partner | Obrót/miesiąc | Aktywność | Segment | Następny kontakt |
+|---------|---------------|-----------|---------|------------------|
+| Sklep u Janka | 6000 zł | Wysoka | A | 2025-02-01 |
+| AutoSerwis | 2500 zł | Średnia | B | 2025-02-15 |
+| Apteka | 300 zł | Niska | C | 2025-02-05 (reaktywacja) |
+
+Pamiętaj: segment może się zmieniać. Partner C dziś może być A za 3 miesiące (jeśli zareagujesz).
+
+
+## 03. Cykl opieki nad partnerem – co robić każdego miesiąca
+
+Opieka to rutyna. Plan miesięczny:
+
+Tydzień 1 (początek miesiąca):
+- Przejrzyj raport obrotu (wszystkich partnerów).
+- Zidentyfikuj segment A: wyślij gratulacje („Świetny miesiąc! 6000 zł obrotu – tak trzymaj!").
+- Zidentyfikuj segment C: zaplanuj rozmowę reaktywacyjną.
+
+Tydzień 2:
+- Kontakt z segmentem B: „Jak idzie? Czy są pytania?"
+- Wysłanie materiałów edukacyjnych (jeśli partner prosi lub widzisz potrzebę).
+
+Tydzień 3:
+- Follow-up z segmentem C: diagnoza (dlaczego niski obrót?).
+- Eskalacja wsparcia (jeśli partner zgłasza problem – patrz sekcja 05).
+
+Tydzień 4 (koniec miesiąca):
+- Podsumowanie: krótki e-mail do wszystkich partnerów („Raport obrotu dostępny w panelu. Pytania? Dzwoń.").
+- Planowanie następnego miesiąca (cele, akcje specjalne).
+
+Dodatkowo (ad hoc):
+- Partner dzwoni z problemem → reakcja tego samego dnia.
+- Partner prosi o pomoc (np. promocja sezonowa) → wsparcie w ciągu 2 dni.
+
+Narzędzia do cyklu opieki:
+- Kalendarz (przypomnienia o kontaktach).
+- Arkusz partnerów (status, segment, notatki).
+- Szablony wiadomości (oszczędność czasu).
+
+Pamiętaj: cykl opieki to nie sztywny harmonogram. Dostosuj do potrzeb partnera.
+
+
+## 04. Nawyki utrzymujące relację – małe gesty, duży efekt
+
+Relacja to nie tylko biznes. To także ludzkie kontakty.
+
+Nawyk 1: Pamiętaj imię (i używaj go)
+- Zamiast: „Dzień dobry, jak tam w sklepie?"
+- Mów: „Cześć Janku, jak tam w sklepie?"
+- Efekt: Partner czuje się doceniony (nie jest numerem w bazie).
+
+Nawyk 2: Gratuluj sukcesów
+- „Widzę 7000 zł obrotu w tym miesiącu – rekord! Gratuluję!"
+- Efekt: Partner wie, że monitorujesz wyniki i cieszysz się z jego sukcesu.
+
+Nawyk 3: Pytaj o feedback
+- „Co mogę poprawić? Czy coś Cię denerwuje w systemie?"
+- Efekt: Partner czuje, że jego zdanie się liczy.
+
+Nawyk 4: Oferuj wartość (nie tylko przypominaj o prowizji)
+- „Znalazłem artykuł o promocjach w Twojej branży – może zainteresuje. Link: [URL]."
+- Efekt: Partner widzi, że pomagasz, nie tylko zarabiasz.
+
+Nawyk 5: Bądź dostępny (ale nie nachodzący)
+- „Jeśli coś – dzwoń. Jestem dostępny 9–17."
+- Nie dzwoń codziennie „bo tak". Dzwoń, gdy masz powód (raport, problem, nowość).
+
+Nawyk 6: Świętuj rocznice współpracy
+- „Rok temu zacząłeś z nami – dziękuję za zaufanie! W tym roku wygenerowałeś X zł obrotu. Co myślisz o kolejnym roku?"
+- Efekt: Partner czuje się ważny (nie zapomniałeś o nim).
+
+Nawyk 7: Rozwiązuj problemy szybko
+- Partner zgłasza problem → reakcja tego samego dnia (nawet jeśli nie masz rozwiązania – potwierdź, że pracujesz nad tym).
+- Efekt: Zaufanie (partner wie, że nie jest sam).
+
+Małe gesty = duży efekt:
+- Gratulacje: 30 sekund pisania SMS-a → partner zadowolony przez tydzień.
+- Artykuł: 2 minuty wyszukiwania → partner czuje wsparcie.
+- Szybka reakcja: 5 minut telefonu → problem rozwiązany, relacja uratowana.
+
+Pamiętaj: partnerzy to ludzie, nie maszyny. Traktuj ich jak współpracowników, nie klientów.
+
+
+## 05. Eskalacja wsparcia – kiedy partner potrzebuje więcej uwagi
+
+Czasem rutynowego follow-upu nie wystarczy. Partner potrzebuje więcej.
+
+Sytuacja 1: Problem techniczny (coś nie działa)
+Sygnał:
+- „QR nie działa, klienci nie mogą się zarejestrować."
+- „Panel pokazuje błąd."
+
+Akcja:
+- Krok 1: Telefon tego samego dnia („Opisz problem dokładnie.").
+- Krok 2: Diagnoza (test QR, sprawdzenie logów w panelu KR).
+- Krok 3: Jeśli nie możesz naprawić – eskalacja do supportu Fundacji (zgłoszenie z opisem).
+- Krok 4: Informuj partnera o postępach („Support pracuje nad tym, odpowiedź do jutra.").
+
+Sytuacja 2: Partner rozczarowany wynikami (niski obrót)
+Sygnał:
+- „Myślałem, że będzie więcej klientów."
+- „To chyba nie działa u mnie."
+
+Akcja:
+- Krok 1: Spotkanie (telefon lub na żywo). Pytaj: „Co dokładnie Cię rozczarowuje?"
+- Krok 2: Diagnoza:
+  - Czy partner mówi klientom o cashbacku? (Jeśli nie – trening.)
+  - Czy QR jest widoczny? (Jeśli nie – poprawa oznaczeń.)
+  - Czy klienci wiedzą, jak to działa? (Jeśli nie – materiały edukacyjne.)
+- Krok 3: Plan akcji (konkretne kroki na 2 tygodnie).
+- Krok 4: Follow-up za tydzień („Jak idzie po zmianach?").
+
+Sytuacja 3: Partner ma kryzys w biznesie (brak klientów, problemy finansowe)
+Sygnał:
+- „Mam teraz trudny okres, mało klientów."
+- „Nie wiem, czy dam radę płacić prowizję."
+
+Akcja:
+- Krok 1: Empatia („Rozumiem, że to trudny moment. Jak mogę pomóc?").
+- Krok 2: Zaproponuj pauzę („Możemy zawiesić współpracę na miesiąc, wrócisz, gdy będzie lepiej.").
+- Krok 3: Nie naciskaj na prowizję (goodwill – to inwestycja w długoterminową relację).
+- Krok 4: Stay in touch („Jak będzie lepiej – daj znać, pomożemy wrócić do gry.").
+
+Sytuacja 4: Partner chce więcej (rozszerzenie współpracy)
+Sygnał:
+- „Mogę otworzyć drugi punkt – jak to rozwiązać w systemie?"
+- „Chcę dać wyższą stawkę cashback na promocję."
+
+Akcja:
+- Krok 1: Gratulacje („Świetnie, że biznes rośnie!").
+- Krok 2: Pomoc w konfiguracji (drugi punkt = nowe QR, nowy panel; promocja = zmiana stawki w systemie).
+- Krok 3: Edukacja (jak zarządzać wieloma punktami, jak planować promocje).
+
+Pamiętaj: eskalacja to nie problem. To szansa na pokazanie, że jesteś wartościowym partnerem (nie tylko zbieraczem prowizji).
+
+
+## 06. Reaktywacja partnera nieaktywnego – jak wrócić do gry
+
+Partner nieaktywny = 0 zł obrotu przez 2+ miesiące. Jak go reaktywować?
+
+Krok 1: Diagnoza (dlaczego nieaktywny?)
+
+Zadzwoń lub napisz:
+„Cześć [Imię], zauważyłem, że od 2 miesięcy nie ma obrotu. Co się stało? Mogę pomóc?"
+
+Możliwe odpowiedzi:
+a) „Zapomniałem mówić klientom o QR."
+   - Akcja: Przypomnienie, trening („Pokaż mi, jak mówisz klientom.").
+
+b) „QR nie działa / nie wiem, jak to obsługiwać."
+   - Akcja: Test techniczny, wymiana QR, edukacja.
+
+c) „Nie widziałem efektów, więc przestałem."
+   - Akcja: Analiza (dlaczego brak efektów?), plan akcji, test na 2 tygodnie.
+
+d) „Nie mam czasu / zmiana w biznesie."
+   - Akcja: Zaproponuj pauzę lub zakończenie współpracy (fair play).
+
+Krok 2: Plan reaktywacji (jeśli partner chce wrócić)
+
+Tydzień 1:
+- Świeży start: nowy QR, nowe materiały, powtórka edukacji.
+- Cel: 3 transakcje w tygodniu (mały, osiągalny).
+
+Tydzień 2:
+- Follow-up: „Jak idzie? Czy udało się zrobić 3 transakcje?"
+- Korekta (jeśli nie – diagnoza, co przeszkadza).
+
+Tydzień 3–4:
+- Stabilizacja: partner wraca do rutyny (mówienie klientom o QR, regularne transakcje).
+
+Krok 3: Monitoring (czy reaktywacja działa?)
+
+Sprawdź po miesiącu:
+- Czy obrót >0 zł?
+- Czy partner odpowiada na wiadomości?
+- Czy zgłasza pytania/problemy (to dobry znak – jest zaangażowany)?
+
+Jeśli TAK → partner reaktywowany, przejdź do standardowej opieki (segment B lub A).
+Jeśli NIE → rozmowa decyzyjna („Chcesz kontynuować? Jeśli nie – zakończmy fair.").
+
+Case reaktywacji:
+- Partner: Salon fryzjerski, nieaktywny 3 miesiące.
+- Diagnoza: Właścicielka zapomniała o QR (była chora, zastępstwo nie wiedziało).
+- Akcja: Powtórka edukacji dla zastępstwa, nowy QR (większy, bardziej widoczny).
+- Wynik: Po miesiącu obrót 2000 zł (partner reaktywowany).
+
+Pamiętaj: nie każdy partner da się reaktywować. Ale warto spróbować – koszt (1 telefon) jest niski, potencjał (powrót do aktywności) wysoki.
+
+
+## 07. Mierniki zdrowia relacji – jak poznać, że partner „chwieje się"
+
+Zdrowa relacja = aktywny partner. Chora relacja = ryzyko odejścia. Jak mierzyć?
+
+Miernik 1: Obrót miesięczny (trend)
+- Co mierzyć: Czy obrót rośnie, spada, stabilny?
+- Zdrowy: Rośnie lub stabilny (±10%).
+- Chory: Spada przez 2+ miesiące z rzędu.
+- Akcja: Jeśli spada – telefon (diagnoza przyczyn).
+
+Miernik 2: Częstotliwość transakcji
+- Co mierzyć: Ile transakcji miesięcznie?
+- Zdrowy: 10+ transakcji/miesiąc (regularność).
+- Chory: <5 transakcji lub 0 transakcji.
+- Akcja: Jeśli niska – pytaj partnera („Czy mówisz klientom o QR?").
+
+Miernik 3: Responsywność (odpowiedzi na wiadomości)
+- Co mierzyć: Jak szybko partner odpowiada?
+- Zdrowy: Odpowiada w ciągu 24 godzin.
+- Chory: Nie odpowiada lub odpowiada po tygodniu.
+- Akcja: Jeśli nie odpowiada – telefon (może e-mail nie dotarł lub partner ma problem).
+
+Miernik 4: Inicjatywa partnera (czy zgłasza pytania/pomysły?)
+- Co mierzyć: Czy partner aktywnie kontaktuje się (pyta, proponuje, zgłasza problemy)?
+- Zdrowy: Kontaktuje się 1–2 razy miesięcznie.
+- Chory: Brak inicjatywy (tylko reaguje na Twoje wiadomości lub wcale).
+- Akcja: Jeśli brak – zapytaj („Wszystko OK? Czy coś Cię niepokoi?").
+
+Miernik 5: Zaangażowanie w edukację klientów
+- Co mierzyć: Czy partner używa materiałów (ulotki, QR, filmy)?
+- Zdrowy: Materiały widoczne w punkcie, partner mówi klientom o cashbacku.
+- Chory: Materiały schowane, partner milczy przy kasie.
+- Akcja: Jeśli schowane – pytaj („Dlaczego nie pokazujesz QR? Mogę pomóc?").
+
+Dashboard zdrowia relacji (przykład):
+| Partner | Obrót trend | Transakcje | Responsywność | Inicjatywa | Edukacja | Ocena |
+|---------|-------------|------------|---------------|------------|----------|-------|
+| Janko | ↑ (rośnie) | 15/miesiąc | 24h | Wysoka | TAK | ✅ Zdrowy |
+| AutoSerwis | → (stabilny) | 8/miesiąc | 48h | Średnia | TAK | ✅ OK |
+| Apteka | ↓ (spada) | 2/miesiąc | 7 dni | Brak | NIE | ⚠️ Ryzyko |
+
+Pamiętaj: mierniki to sygnały wczesnego ostrzegania. Reaguj, zanim partner odejdzie.
+
+
+## 08. Case: spadek aktywności i droga powrotna
+
+Sytuacja:
+Warsztat samochodowy „AutoSerwis", partner od 6 miesięcy. Obrót:
+- Miesiąc 1–3: 3000–4000 zł/miesiąc (segment A).
+- Miesiąc 4: 1500 zł (spadek).
+- Miesiąc 5: 500 zł (duży spadek).
+- Miesiąc 6: 0 zł (nieaktywny).
+
+Krok 1: Diagnoza (telefon)
+- Ja: „Cześć Kowalski, zauważyłem spadek obrotu. Co się stało?"
+- Kowalski: „Zatrudniłem nowego pracownika. On nie wie o systemie, nie mówi klientom o QR."
+
+Krok 2: Plan akcji
+- Ja: „Mogę przyjechać i przeszkolić pracownika? 15 minut wystarczy."
+- Kowalski: „Okej, przyjdź jutro."
+
+Krok 3: Szkolenie pracownika
+- Pokazuję pracownikowi QR, panel, jak mówić klientom („Może Pan zeskanować kod, dostanie Pan cashback.").
+- Pracownik: „Rozumiem. Ile klient dostaje?"
+- Ja: „2% wartości zakupu. Jeśli naprawa kosztuje 500 zł – klient dostaje 10 zł zwrotu."
+
+Krok 4: Nowe materiały
+- Przekazuję większą naklejkę QR (na ladę, bardziej widoczną).
+- Kowalski: „Dobry pomysł. Stara była mała, nie zauważałem."
+
+Krok 5: Follow-up (tydzień później)
+- Dzwonię: „Jak idzie po szkoleniu?"
+- Kowalski: „Lepiej! Pracownik mówi klientom, 3 transakcje w tym tygodniu."
+
+Krok 6: Monitoring (miesiąc później)
+- Obrót: 2500 zł (powrót do normy).
+- Kowalski: „Dzięki za pomoc. Teraz już pilnujemy."
+
+Wnioski z case'u:
+- Spadek obrotu to sygnał (nie ignoruj).
+- Diagnoza > założenia (pytaj, nie zgaduj).
+- Szkolenie personelu = kluczowe (jeśli partner ma pracowników).
+- Proste zmiany (większy QR, edukacja) = duży efekt.
+
+
+## 09. Sygnały ostrzegawcze – na co zwracać uwagę
+
+Sygnały, że partner może odejść lub przestać być aktywny:
+
+Sygnał 1: Spadek obrotu przez 2+ miesiące
+- Co robić: Telefon, diagnoza, plan akcji (patrz case w sekcji 08).
+
+Sygnał 2: Partner nie odpowiada na wiadomości
+- Co robić: Telefon (może e-mail nie dotarł), pytaj („Wszystko OK?").
+
+Sygnał 3: Partner mówi „nie mam czasu"
+- Co robić: Zaproponuj uproszczenie (np. automatyczna identyfikacja obrotu zamiast ręcznej), pauzę (jeśli tymczasowe przeciążenie).
+
+Sygnał 4: Partner porównuje z konkurencją
+- „Inny system oferuje wyższy cashback."
+- Co robić: Nie walcz ceną, pokaż wartość (nasza przewaga: wszystkie formy płatności, wsparcie KR).
+
+Sygnał 5: Partner kwestionuje każdy raport
+- Co robić: Transparentność (pokaż logi), edukacja (jak liczymy), jeśli nadal nie ufa – rozważ zakończenie (brak zaufania = zła relacja).
+
+Sygnał 6: Partner planuje zamknięcie biznesu
+- Co robić: Empatia, zaproponuj zakończenie współpracy fair (bez kar), stay in touch (może otworzy nowy biznes).
+
+Jak reagować na sygnały?
+
+Zasada 1: Reaguj szybko (nie czekaj miesiąc).
+Zasada 2: Pytaj, nie oskarżaj („Co się stało?" zamiast „Dlaczego nie działasz?").
+Zasada 3: Oferuj rozwiązania („Mogę pomóc X, Y, Z. Co wybierasz?").
+
+Pamiętaj: sygnały ostrzegawcze to szansa na naprawę relacji. Ignorowanie = utrata partnera.
+
+
+## 10. Checklista retencji – co sprawdzać co miesiąc
+
+Co miesiąc (na początku miesiąca):
+
+Krok 1: Raport obrotu
+- [ ] Sprawdź obrót wszystkich partnerów (panel KR).
+- [ ] Zidentyfikuj segment A (gratulacje), B (standardowy follow-up), C (reaktywacja).
+
+Krok 2: Trendy
+- [ ] Porównaj z poprzednim miesiącem (czy rośnie, spada, stabilny?).
+- [ ] Jeśli spada u 2+ partnerów – szukaj wspólnej przyczyny (problem techniczny? Sezonowość?).
+
+Krok 3: Kontakt z segmentem A
+- [ ] Wyślij gratulacje (SMS lub e-mail).
+- [ ] Zapytaj o feedback („Co mogę poprawić?").
+
+Krok 4: Kontakt z segmentem B
+- [ ] Standardowy follow-up („Jak idzie? Pytania?").
+- [ ] Edukacja (jeśli potrzebna).
+
+Krok 5: Kontakt z segmentem C
+- [ ] Telefon reaktywacyjny (diagnoza, plan akcji).
+- [ ] Jeśli partner nie reaguje – zaplanuj decyzję (kontynuować czy zakończyć?).
+
+Krok 6: Problemy techniczne
+- [ ] Sprawdź, czy są zgłoszenia (panel KR, e-maile).
+- [ ] Jeśli tak – eskalacja do supportu, informuj partnera o postępach.
+
+Krok 7: Planowanie
+- [ ] Zaplanuj akcje specjalne (promocje sezonowe, eventy).
+- [ ] Zaktualizuj arkusz partnerów (status, segment, notatki).
+
+Co kwartał (co 3 miesiące):
+
+- [ ] Analiza retencji: ilu partnerów aktywnych (obrót >0) vs nieaktywnych (obrót =0)?
+- [ ] Cel: min. 70% aktywnych.
+- [ ] Jeśli <70% – diagnoza (co nie działa w opiece?).
+
+Co rok:
+
+- [ ] Spotkanie roczne z partnerami (jeśli możliwe – lokalny event, networking).
+- [ ] Podsumowanie roku (obroty, sukcesy, plany na przyszłość).
+
+Pamiętaj: checklista to narzędzie, nie cel. Dostosuj do swojej sytuacji (liczby partnerów, dostępnego czasu).
+
+
+---
+
+## Podsumowanie Modułu 6
+
+Retencja to serce biznesu KR. Kluczowe punkty:
+
+- Dlaczego retencja: łatwiej (i taniej) utrzymać partnera niż pozyskać nowego.
+- Segmentacja: A (VIP, top 20%), B (standard), C (ryzyko). Każdy segment = inna opieka.
+- Cykl opieki: tydzień 1 (raport, gratulacje), 2 (follow-up B), 3 (reaktywacja C), 4 (podsumowanie).
+- Nawyki: imię, gratulacje, feedback, wartość, dostępność, rocznice, szybkie reakcje.
+- Eskalacja: problem techniczny (diagnoza, support), rozczarowanie (plan akcji), kryzys (empatia, pauza), rozszerzenie (gratulacje, pomoc).
+- Reaktywacja: diagnoza (dlaczego nieaktywny?), plan (2 tygodnie test), monitoring (czy działa?).
+- Mierniki zdrowia: obrót (trend), transakcje, responsywność, inicjatywa, edukacja.
+- Case: spadek obrotu (nowy pracownik) → szkolenie → powrót do normy.
+- Sygnały ostrzegawcze: spadek, brak odpowiedzi, brak czasu, porównanie z konkurencją, kwestionowanie, zamknięcie biznesu.
+- Checklista: co miesiąc (raport, kontakt A/B/C, problemy, planowanie), co kwartał (analiza retencji), co rok (event).
+
+Następny krok: Moduł 7 (Organizacja i skalowanie – jak zarządzać wieloma partnerami jednocześnie).
