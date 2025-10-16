@@ -1,0 +1,167 @@
+# Mini-Raport-3-Linijki
+Comiesięczny raport dla Partnera – prosty i konkretny
+
+---
+
+**INSTRUKCJA:**
+Co miesiąc przygotuj dla każdego aktywnego Partnera Mini-Raport.
+Format: 3 linijki – co zadziałało, co poprawić, następne kroki.
+Czas przygotowania: max 10 minut na raport.
+Wyślij Partnerowi emailem lub omów podczas miesięcznego check-inu.
+
+---
+
+## SZABLON
+
+**Partner:** [Nazwa firmy]  
+**Raport za:** [Miesiąc RRRR]  
+**Przygotował:** [Twoje Imię, KR]  
+**Data:** [DD-MM-RRRR]
+
+---
+
+### 1️⃣ CO ZADZIAŁAŁO
+[Co w tym miesiącu działało dobrze? Jakie działania przyniosły pozytywne efekty?]
+
+**Format:** [Akcja] → [Efekt (konkretne liczby jeśli możliwe)]
+
+**Przykład:**  
+Kampania cashback 10% (zamiast 5%) → Wzrost skanowań o 35% (234 vs. 173 w poprzednim miesiącu)
+
+---
+
+### 2️⃣ CO POPRAWIĆ
+[Co wymaga poprawy lub optymalizacji? Gdzie widzisz potencjał wzrostu?]
+
+**Format:** [Problem/Obserwacja] → [Sugerowana akcja]
+
+**Przykład:**  
+Niska widoczność kodu QR przy wejściu → Przenieść kod na ladę (bliżej kasy, większa ekspozycja)
+
+---
+
+### 3️⃣ NASTĘPNE KROKI
+[Co planujemy zrobić w następnym miesiącu? Konkretne akcje.]
+
+**Format:** [Akcja] + [Deadline/Termin]
+
+**Przykład:**  
+Test kampanii "przyprowadź znajomego" (bonus 20 PLN dla obu) – start 1 listopada 2024
+
+---
+
+## METRYKI (opcjonalnie, ale zalecane)
+
+Jeśli masz dane, dodaj krótką tabelkę z kluczowymi metrykami:
+
+| Metryka                      | Ten miesiąc | Poprzedni | Zmiana   |
+|------------------------------|-------------|-----------|----------|
+| Skanowania QR                | 234         | 173       | +35%     |
+| Transakcje po skanowaniu     | 187         | 142       | +32%     |
+| Conversion rate              | 80%         | 82%       | -2 p.p.  |
+| Obrót wygenerowany           | 18 500 PLN  | 14 200 PLN| +30%     |
+| Prowizja                     | 1 850 PLN   | 1 420 PLN | +30%     |
+| ROI (obrót/prowizja)         | 10x         | 10x       | 0%       |
+
+---
+
+## PRZYKŁAD PEŁNEGO RAPORTU
+
+**Partner:** Kawiarnia "Mocny Start"  
+**Raport za:** Październik 2024  
+**Przygotował:** Tomasz Nowak, KR  
+**Data:** 31-10-2024
+
+---
+
+### 1️⃣ CO ZADZIAŁAŁO
+
+**Nowy plakat przy kasie z wyraźnym hasłem "Zeskanuj i zyskaj 5% zwrotu"**  
+→ Wzrost skanowań o 45% (234 vs. 162 we wrześniu)
+
+**Szkolenie baristas – teraz każdy klient przy kasie słyszy o cashbacku**  
+→ Conversion rate skanowanie→zakup utrzymuje się na 80% (bardzo dobry wynik!)
+
+---
+
+### 2️⃣ CO POPRAWIĆ
+
+**15% klientów skanuje kod, ale nie dokonuje zakupu (conversion 80%, było 85%)**  
+→ Sugeruję zwiększyć cashback testowo do 7% (z 5%) na miesiąc – sprawdzimy, czy to poprawi conversion
+
+**Niska aktywność w weekendy (tylko 30% skanowań przypada na sobotę-niedzielę, a ruch jest największy)**  
+→ Dodać dedykowaną promocję weekendową: "Skanuj w weekend – podwójny cashback"
+
+---
+
+### 3️⃣ NASTĘPNE KROKI
+
+✅ **Test cashback 7%** – start 1 listopada, monitoring przez cały listopad  
+✅ **Promocja weekendowa** – przygotowanie grafik i komunikatu – deadline: 5 listopada  
+✅ **Spotkanie check-in** – zaplanowane na 15 listopada o 10:00 (omówienie wyników testu)
+
+---
+
+### METRYKI
+
+| Metryka                      | Październik | Wrzesień  | Zmiana   |
+|------------------------------|-------------|-----------|----------|
+| Skanowania QR                | 234         | 162       | +45%     |
+| Transakcje                   | 187         | 137       | +36%     |
+| Conversion rate              | 80%         | 85%       | -5 p.p.  |
+| Obrót wygenerowany           | 18 500 PLN  | 13 800 PLN| +34%     |
+| Prowizja (10%)               | 1 850 PLN   | 1 380 PLN | +34%     |
+| ROI dla Partnera             | 10x         | 10x       | bez zmian|
+
+---
+
+**Podsumowanie:**  
+Bardzo dobry miesiąc! Wzrost skanowań i obrotu o ponad 30%. 
+Drobny spadek conversion – testujemy wyższy cashback w listopadzie. 
+Ciągle rośniemy 📈
+
+Gratulacje!
+
+**Kontakt:**  
+Tomasz Nowak, KR  
+Tel: +48 XXX XXX XXX  
+Email: tomasz.nowak@werbekoordinator.org
+
+---
+
+## JAK WYKORZYSTAĆ MINI-RAPORT?
+
+### 1. Wyślij emailem po zakończeniu miesiąca
+- Wysyłaj w pierwszych dniach nowego miesiąca (np. 1-3 listopada za październik)
+- Dodaj w temacie: "[Nazwa Partnera] – Mini-Raport za [Miesiąc]"
+
+### 2. Omów podczas miesięcznego check-inu
+- Prześlij dzień przed spotkaniem
+- Podczas spotkania: omów kluczowe punkty, odpowiedz na pytania
+
+### 3. Archiwizuj raporty
+- Trzymaj kopie wszystkich raportów (folder/CRM)
+- Po 6-12 miesiącach możesz pokazać Partnerowi historyczny trend (wzrost!)
+
+---
+
+## DLACZEGO 3 LINIJKI?
+
+**Krótko = czyta się to!**  
+Partner nie ma czasu na 10-stronicowe analizy. 3 linijki = przeczyta w 2 minuty.
+
+**Konkretnie = wartość!**  
+Każda linijka zawiera konkret: liczby, akcje, terminy. Bez ogólników.
+
+**Akcyjnie = następne kroki!**  
+Raport nie kończy się na analizie – zawsze jest plan działania na przyszłość.
+
+---
+
+**KOŃCOWA WSKAZÓWKA:**
+
+Mini-Raport-3-Linijki to Twój dowód pracy i wartości, którą dostarczasz.
+Partner widzi, że monitorujesz, analizujesz, działasz.
+To buduje zaufanie i lojalność – Partner nie odejdzie, bo wie, że dbasz o jego sukces.
+
+**Systematyczność = klucz do długoterminowej współpracy!**

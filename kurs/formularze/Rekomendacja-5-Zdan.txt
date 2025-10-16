@@ -1,0 +1,154 @@
+# Rekomendacja-5-Zdań
+Format polecenia od obecnego Partnera dla nowego potencjalnego Partnera
+
+---
+
+**INSTRUKCJA:**
+Gdy Twój zadowolony Partner poleca Ci kolejnego przedsiębiorcę, poproś go o krótką rekomendację.
+Format: 5 zdań odpowiadających na 5 pytań.
+Wykorzystaj tę rekomendację przy pierwszym kontakcie z polecaną osobą.
+
+---
+
+## SZABLON PROŚBY O REKOMENDACJĘ
+
+**Email/Wiadomość do Partnera:**
+
+```
+Szanowny Panie/Pani [Nazwisko],
+
+Dziękuję za polecenie Pana/Pani [Nazwisko polecanej osoby / nazwa firmy].
+
+Bardzo by mi pomogło, gdyby mógł Pan/Pani napisać krótką rekomendację 
+(5 zdań), którą mógłbym pokazać podczas pierwszego kontaktu. 
+To buduje zaufanie i pokazuje, że współpraca z Fundacją przynosi realne efekty.
+
+Poniżej 5 pytań – wystarczy po jednym zdaniu na każde:
+
+1. Jak długo współpracujemy?
+2. Co najbardziej pomogło Panu/Pani w naszym systemie?
+3. Jaki efekt Pan/Pani zauważył/a (np. % wzrostu, liczba nowych klientów)?
+4. Co poleciłby Pan/Pani [Imię polecanej osoby / nazwa firmy]?
+5. Dlaczego warto spróbować współpracy z Fundacją?
+
+Dziękuję za czas!
+
+Pozdrawiam,
+[Twoje Imię]
+Koordynator Reklamy, Fundacja Werbekoordinator
+```
+
+---
+
+## SZABLON REKOMENDACJI (dla Partnera)
+
+**Partner wypełnia:**
+
+**Od:** [Imię i Nazwisko, Firma]  
+**Dla:** [Imię i Nazwisko / Firma polecanej osoby]  
+**Data:** [DD-MM-RRRR]
+
+---
+
+**1. JAK DŁUGO WSPÓŁPRACUJEMY?**  
+[Odpowiedź w 1 zdaniu]
+
+Przykład: "Współpracuję z Koordynatorem [Imię] i Fundacją Werbekoordinator od 4 miesięcy."
+
+---
+
+**2. CO NAJBARDZIEJ POMOGŁO?**  
+[Odpowiedź w 1 zdaniu]
+
+Przykład: "Największą korzyścią był system cashback, który sprawił, że klienci zaczęli wracać regularnie."
+
+---
+
+**3. JAKI EFEKT ZAUWAŻYŁEM/AM?**  
+[Odpowiedź w 1 zdaniu – konkretne liczby jeśli możliwe]
+
+Przykład: "W ciągu 3 miesięcy liczba klientów powracających wzrosła o 35%, co przełożyło się na 12% wzrost obrotu."
+
+---
+
+**4. CO POLECAM [OSOBA POLECANA]?**  
+[Odpowiedź w 1 zdaniu]
+
+Przykład: "Polecam [Imię polecanej osoby] spróbować tego systemu, szczególnie jeśli chce zmierzyć skuteczność swoich działań marketingowych."
+
+---
+
+**5. DLACZEGO WARTO?**  
+[Odpowiedź w 1 zdaniu]
+
+Przykład: "Warto, bo nie płacisz z góry – tylko prowizję od rzeczywistych efektów, więc ryzyko jest zerowe."
+
+---
+
+**Podpis:**  
+[Imię i Nazwisko]  
+[Nazwa firmy]  
+[Data]
+
+---
+
+## JAK WYKORZYSTAĆ REKOMENDACJĘ?
+
+### Przy pierwszym kontakcie (telefon/email):
+
+**Przykład użycia w rozmowie telefonicznej:**
+
+```
+"Dzień dobry! Nazywam się [Imię]. Dzwonię z polecenia Pana Kowalskiego 
+z Kawiarni Mocny Start. Pan Kowalski współpracuje z nami od 4 miesięcy 
+i zauważył 35% wzrost klientów powracających. Powiedział, że warto, 
+żebym się z Panem skontaktował, bo może Pan być zainteresowany podobnym 
+rozwiązaniem. Czy miałby Pan 20 minut na krótką rozmowę?"
+```
+
+### Przy pierwszym spotkaniu:
+
+Pokaż pisemną rekomendację (wydruk lub na tablecie).
+
+**Powiedz:**
+
+```
+"Oto krótka rekomendacja od Pana Kowalskiego, który już korzysta 
+z naszego systemu. Proszę przeczytać – to tylko 5 zdań."
+```
+
+---
+
+## PRZYKŁAD PEŁNEJ REKOMENDACJI
+
+**Od:** Jan Kowalski, Kawiarnia "Mocny Start"  
+**Dla:** Anna Nowak, Piekarnia "Ciepły Chleb"  
+**Data:** 16-10-2024
+
+---
+
+1. **JAK DŁUGO WSPÓŁPRACUJEMY?**  
+   Współpracuję z Koordynatorem Tomaszem i Fundacją Werbekoordinator od 4 miesięcy.
+
+2. **CO NAJBARDZIEJ POMOGŁO?**  
+   System cashback sprawił, że klienci wracają częściej – zamiast raz w miesiącu, teraz co tydzień.
+
+3. **JAKI EFEKT ZAUWAŻYŁEM?**  
+   W ciągu 3 miesięcy mój obrót wzrósł o 18%, a klientów powracających mam o 42% więcej.
+
+4. **CO POLECAM ANNIE?**  
+   Anno, polecam ten system – będziesz widzieć dokładnie, co działa, a co nie, zamiast strzelać w ciemno.
+
+5. **DLACZEGO WARTO?**  
+   Zero ryzyka – płacisz tylko prowizję od efektów, a Tomasz wszystko wdraża i pilnuje.
+
+**Podpis:** Jan Kowalski, Kawiarnia "Mocny Start", 16-10-2024
+
+---
+
+**KOŃCOWA WSKAZÓWKA:**
+
+Najlepsze polecenia przychodzą od zadowolonych Partnerów.
+Dbaj o swoich Partnerów, dostarczaj wartość, a rekomendacje przyjdą same.
+
+Rekomendacja-5-Zdań to potężne narzędzie sprzedażowe (choć KR nie sprzedaje, tylko pomaga 😉).

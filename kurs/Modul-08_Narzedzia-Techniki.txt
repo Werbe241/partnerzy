@@ -1,0 +1,181 @@
+# Moduł 8: Narzędzia i Techniki
+Opanowanie narzędzi Fundacji i technik pracy
+
+Spis treści:
+01. Przegląd narzędzi Fundacji Werbekoordinator
+02. System kodów QR – generowanie i wdrażanie
+03. Panel Koordynatora – funkcje i możliwości
+04. System cashback – jak działa dla klienta
+05. Narzędzia AI Fundacji – analiza i wsparcie
+06. Aplikacja mobilna dla Promotorów
+07. Materiały promocyjne – szablony i personalizacja
+08. Integracje z systemami Partnera
+09. Troubleshooting – rozwiązywanie problemów technicznych
+10. Nowości i updates – jak być na bieżąco
+
+
+## 01. Przegląd narzędzi Fundacji Werbekoordinator
+
+### Ekosystem narzędzi
+
+1. **Panel Koordynatora** – Twoje centrum dowodzenia
+2. **Generator kodów QR** – unikalne kody dla Partnerów
+3. **System cashback** – automatyczne rozliczenia
+4. **Narzędzia AI** – analiza i rekomendacje
+5. **Aplikacja Promotora** – dla końcowych użytkowników
+6. **Biblioteka materiałów** – szablony i grafiki
+
+
+## 02. System kodów QR – generowanie i wdrażanie
+
+### Generowanie kodu QR
+
+**Krok po kroku:**
+1. Zaloguj się do panelu
+2. Wybierz Partnera
+3. Kliknij "Generuj kod QR"
+4. Wybierz format (plakat A4, naklejka, wizytówka)
+5. Pobierz plik (PDF/PNG)
+
+### Wdrażanie u Partnera
+
+**Najlepsze miejsca:**
+- Przy kasie (największa widoczność)
+- Na stolikach (restauracje, kawiarnie)
+- W menu/cenniku
+- Na wizytówkach
+- W social mediach
+
+
+## 03. Panel Koordynatora – funkcje i możliwości
+
+### Główne sekcje panelu
+
+1. **Dashboard** – szybki przegląd KPI
+2. **Partnerzy** – lista i szczegóły
+3. **Raporty** – analiza wyników
+4. **Materiały** – biblioteka zasobów
+5. **Ustawienia** – profil i powiadomienia
+
+### Najważniejsze funkcje
+
+- Dodawanie nowego Partnera
+- Generowanie kodów QR
+- Przeglądanie statystyk
+- Eksport raportów
+- Komunikacja z MR
+
+
+## 04. System cashback – jak działa dla klienta
+
+### Proces cashback
+
+1. **Klient skanuje kod QR**
+2. **System rejestruje identyfikator**
+3. **Klient dokonuje zakupu u Partnera**
+4. **System nalicza cashback** (np. 5% z wartości zakupu)
+5. **Cashback trafia na konto Promotora**
+
+### Wypłata cashback
+
+- Miesięcznie (dla osób fizycznych po wdrożeniu systemu)
+- Na konto bankowe lub kartę płatniczą
+
+
+## 05. Narzędzia AI Fundacji – analiza i wsparcie
+
+### Pracownia AI
+
+**Co oferuje:**
+- Analiza skuteczności kampanii
+- Rekomendacje optymalizacyjne
+- Prognozowanie trendów
+- Dotowane usługi dla Partnerów
+
+### Jak korzystać
+
+1. Zbierz dane z kampanii
+2. Prześlij do analizy AI (przez panel)
+3. Otrzymaj raport z rekomendacjami
+4. Wdrożaj sugestie
+
+
+## 06. Aplikacja mobilna dla Promotorów
+
+### Funkcje aplikacji
+
+- Skanowanie kodów QR
+- Przegląd cashbacku
+- Historia transakcji
+- Polecanie Partnerów
+- Powiadomienia o promocjach
+
+
+## 07. Materiały promocyjne – szablony i personalizacja
+
+### Dostępne szablony
+
+- Plakaty A4, A3
+- Ulotki DL
+- Naklejki na okna
+- Grafiki social media (Facebook, Instagram)
+- Wizytówki z kodem QR
+
+### Personalizacja
+
+W panelu możesz:
+- Dodać logo Partnera
+- Zmienić kolory
+- Dostosować tekst
+
+
+## 08. Integracje z systemami Partnera
+
+### Możliwe integracje
+
+- System POS (kasa fiskalna)
+- CRM Partnera
+- Newsletter
+- Facebook Pixel
+
+### Korzyści
+
+- Automatyzacja danych
+- Lepsza analiza
+- Mniej pracy ręcznej
+
+
+## 09. Troubleshooting – rozwiązywanie problemów technicznych
+
+### Problem 1: Kod QR nie skanuje się
+
+**Rozwiązania:**
+- Sprawdź jakość wydruku
+- Zwiększ rozmiar kodu
+- Sprawdź oświetlenie (nie może być refleks)
+- Test na różnych telefonach
+
+### Problem 2: Cashback się nie nalicza
+
+**Rozwiązania:**
+- Sprawdź, czy transakcja została zarejestrowana
+- Sprawdź ustawienia Partnera (% cashback)
+- Kontakt z supportem technicznym
+
+
+## 10. Nowości i updates – jak być na bieżąco
+
+### Źródła informacji
+
+- Newsletter Fundacji
+- Webinary
+- Panel (sekcja "Aktualności")
+- Grupa Koordynatorów (komunikator)
+
+### Regularne szkolenia
+
+Fundacja organizuje comiesięczne webinary z nowościami.
+
+---
+
+**Gratulacje!** Ukończyłeś Moduł 8. Teraz znasz wszystkie narzędzia i techniki.

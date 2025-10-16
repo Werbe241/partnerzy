@@ -1,0 +1,174 @@
+# Moduł 5: Prowadzenie Partnera
+Systematyczne wsparcie dla długoterminowego sukcesu
+
+Spis treści:
+01. Pierwsze 30 dni – budowanie fundamentów
+02. Comiesięczne check-iny i raportowanie
+03. Analiza danych i optymalizacja kampanii
+04. Rozwiązywanie problemów na bieżąco
+05. Edukacja Partnera i jego zespołu
+06. Rozszerzanie współpracy
+07. Budowanie długoterminowej relacji
+08. Identyfikacja sygnałów ostrzegawczych
+09. Zatrzymanie Partnera (retention)
+10. Przygotowanie Partnera do skalowania
+
+
+## 01. Pierwsze 30 dni – budowanie fundamentów
+
+### Tydzień 1: Quick wins
+
+**Dni 1-2:**
+- Podpisanie umowy
+- Rejestracja w systemie
+- Generowanie kodów QR
+
+**Dni 3-5:**
+- Montaż/rozmieszczenie kodów QR
+- Szkolenie pracowników Partnera (30 min)
+- Test pierwszego skanowania
+
+**Dni 6-7:**
+- Monitoring pierwszych transakcji
+- Quick feedback: "Jak idzie?"
+
+### Tydzień 2-4: Stabilizacja
+
+- Cotygodniowy kontakt (telefon 15 min)
+- Obserwacja danych w systemie
+- Małe korekty (np. lepsze miejsce na kod QR)
+- Zbieranie feedbacku od klientów Partnera
+
+
+## 02. Comiesięczne check-iny i raportowanie
+
+### Check-in miesięczny (45-60 min)
+
+**Agenda:**
+1. Przegląd wyników miesiąca (15 min)
+2. Co zadziałało? (10 min)
+3. Co wymaga poprawy? (10 min)
+4. Plan na następny miesiąc (15 min)
+5. Q&A (10 min)
+
+### Mini-Raport-3-Linijki
+
+**Struktura raportu (plik: kurs/formularze/Mini-Raport-3-Linijki.txt):**
+
+```
+[Partner] – Raport za [Miesiąc]
+
+1. CO ZADZIAŁAŁO: [np. Kampania cashback 10% – wzrost skanowań o 35%]
+2. CO POPRAWIĆ: [np. Niska widoczność kodu przy wejściu – przenieść na ladę]
+3. NASTĘPNE KROKI: [np. Test kampanii "przyprowadź znajomego" w listopadzie]
+```
+
+
+## 03. Analiza danych i optymalizacja kampanii
+
+### Kluczowe wskaźniki (KPI)
+
+**1. Liczba skanowań QR (miesięcznie)**
+Trend: Wzrost miesiąc do miesiąca
+
+**2. Conversion rate: skanowanie → zakup**
+Benchmark: 60-80%
+
+**3. Liczba powracających klientów**
+Trend: Wzrost
+
+**4. Średnia wartość transakcji**
+Porównanie: przed vs. po wdrożeniu
+
+**5. ROI Partnera**
+Prowizja wypłacona vs. dodatkowy obrót
+
+
+## 04. Rozwiązywanie problemów na bieżąco
+
+### Problem 1: Niskie skanowania
+
+**Diagnoza:**
+- Czy kody są widoczne?
+- Czy pracownicy informują klientów?
+- Czy komunikat jest jasny?
+
+**Rozwiązania:**
+- Lepsze miejsce na kod
+- Szkolenie pracowników
+- Dodanie plakatu: "Skanuj i zyskaj 5% cashback!"
+
+
+## 05. Edukacja Partnera i jego zespołu
+
+### Szkolenie zespołu Partnera
+
+**Co szkolić:**
+- Jak informować klientów o kodzie QR
+- Jak obsługiwać pytania klientów
+- Jak sprawdzać statystyki
+
+**Format:**
+- 30-minutowe szkolenie na miejscu
+- Krótki handout (1 strona A4)
+- Numer do Ciebie w razie pytań
+
+
+## 06. Rozszerzanie współpracy
+
+### Możliwości rozszerzenia
+
+- Dodatkowe lokalizacje Partnera
+- Wyższy procent cashback (testy)
+- Kampanie sezonowe
+- Cross-promocje z innymi Partnerami
+
+
+## 07. Budowanie długoterminowej relacji
+
+### Zasady:
+
+1. **Bądź dostępny** – odbieraj telefony
+2. **Bądź proaktywny** – nie czekaj, aż Partner zadzwoni z problemem
+3. **Celebruj sukcesy** – gratuluj wzrostów
+4. **Bądź partnerem** – ich sukces = Twój sukces
+
+
+## 08. Identyfikacja sygnałów ostrzegawczych
+
+### Red flags:
+
+- Partner przestaje odbierać telefony
+- Spadek skanowań o >50%
+- Skargi od klientów Partnera
+- Partner usuwa kody QR
+
+**Reakcja:** Natychmiastowy kontakt i analiza problemu
+
+
+## 09. Zatrzymanie Partnera (retention)
+
+### Gdy Partner chce zrezygnować
+
+**Krok 1: Słuchaj**
+"Co sprawiło, że chce Pan zakończyć współpracę?"
+
+**Krok 2: Analizuj**
+Czy to problem do rozwiązania, czy faktycznie system nie pasuje?
+
+**Krok 3: Zaproponuj rozwiązanie**
+"Czy gdybyśmy [X], dałby Pan szansę jeszcze na miesiąc?"
+
+
+## 10. Przygotowanie Partnera do skalowania
+
+### Gdy Partner osiąga sukces
+
+- Więcej lokalizacji
+- Większy procent prowizji (więcej Promotorów)
+- Zaawansowane kampanie
+- Polecanie innym (Rekomendacja-5-Zdan)
+
+---
+
+**Gratulacje!** Ukończyłeś Moduł 5. Teraz wiesz, jak prowadzić Partnera dla długoterminowego sukcesu.

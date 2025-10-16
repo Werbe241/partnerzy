@@ -1,0 +1,472 @@
+# Moduł 4: Success Fee – System Wynagrodzeń i Prowizji
+Wersja oparta na oficjalnym Planie Wynagrodzeń Fundacji Werbekoordinator
+
+Spis treści:
+01. Wprowadzenie do Planu Wynagrodzeń
+02. Wariant A: Prowizje za Pakiety Usług
+03. Wariant B: Success Fee – podział prowizji z obrotów Partnera
+04. Role i ich wynagrodzenia
+05. System awansów i kwalifikacji
+06. Konkursy i premie
+07. Status Rentiera – najwyższy poziom
+08. Bilansowanie i rozliczenia
+09. Zasady etyczne i odpowiedzialność
+10. Podsumowanie i najczęstsze pytania
+
+
+## 01. Wprowadzenie do Planu Wynagrodzeń
+
+Plan Wynagrodzeń Fundacji Werbekoordinator
+
+Szanowni Państwo,
+
+Prowadząc działalność gospodarczą jako Fundacja, polegającą na stworzeniu wyjątkowych usług oraz uzyskiwania zwrotów gotówki z bieżących zakupów w ramach Fundacji – Międzynarodowej Agencji Reklamy, która z założenia realizuj projekt połączenia dwóch najsilniejszych co do skuteczności, trendów marketingu, czyli marketingu bezpośredniego z marketingiem sieciowym w Internecie.
+
+Działalność ta ma na celu aktywne pozyskiwanie przychodu, aby uzyskać przychody dla realizacji celów statutowych. Projekt zakłada nowatorskie rozwiązania, budowania sieci konsumenckiej na bazie fraktali oraz specyficznego Planu Wynagrodzeń zarówno współpracujących z Fundacją przedsiębiorców oraz społecznością grupy konsumenckiej, której będą wypłacane zwroty gotówki (cashback) z realizowanego obrotu gospodarczego (PKB).
+
+Wszystko zostanie połączone i rozliczone za pomocą najbardziej popularnego narzędzia dla identyfikacji i działań promocyjnych jakim na całym świecie jest znany kod QR.
+
+Kluczowe zasady:
+- Pamiętaj jednak o tym, że Twoim zadaniem jest wspieranie, wyjaśnianie oraz organizacja kampanii reklamowych dla Partnera.
+- Nigdy nie zajmuj się sprzedażą!!! Sama sprzedaż to krótki i jednorazowy zakup.
+- Partner oczekuje Twojego wsparcia w wykorzystaniu nowatorskich narzędzi i rozwiązań wraz z bieżącym analizowaniu skuteczności rozwiązań identyfikacji kodem QR.
+
+Wszystkie kwoty są naliczane od wartości netto i wypłacane z stawką VAT w danym kraju. Usługi są zakupione zawsze w Polsce, więc zagraniczni kontrahenci w EU mają usługi z stawką między granicznych transakcji która wynosi "0".
+
+
+## 02. Wariant A: Prowizje za Pakiety Usług
+
+### Udostępnianie odpłatne na zamówienie Partnera lub Promotora Pakietów Usług Reklamy
+
+Plan wynagrodzeń ma za zadanie zoptymalizowanie zachowań doradztwa poprzez udział w konkursie nagród, umożliwiając zdobywanie coraz efektowniejszej nagrody dzięki swojemu zaangażowaniu w proces sprzedażowy Fundacji Werbekoordinator oraz zdobycia awansu zawodowego.
+
+Fundacja Werbekoordinator zawiera z każdym przedsiębiorcą umowę współpracy i rozlicza bezpośrednio na podstawie faktury VAT wynagrodzenia na poniższych warunkach liczonych od obrotów udostępnianych Pakietów Usług. Wynagrodzenie płatne na konto firmowe.
+
+### Prowizje za sprzedaż Pakietów Usług:
+
+**Menadżer Regionalny:**
+- Udostępnianie Pakietów Usług – własna sprzedaż: 50%
+- Udostępnianie Pakietów Usług – sprzedaż sieci: bilans %
+
+Wysokość nagród w konkursie rozliczana według planu wynagrodzeń przekazywanych na kartę płatniczą lub konto bankowe w flagowym partnerze bankowym.
+
+**Koordynator:**
+- Udostępnianie Pakietów Usług: 30%
+
+Wysokość nagród w konkursie rozliczana według planu wynagrodzeń przekazywanych na konto bankowe w flagowym partnerze bankowym lub kartę płatniczą.
+
+### Nagrody konkursowe dla Menadżera Regionalnego:
+
+Wartość nagrody w konkursie liczona od wysokości obrotu za sprzedaż Pakietów usług w danym miesiącu w kwotach netto:
+
+| Obrót miesięczny netto | Procent nagrody | Dodatek do biura (netto) |
+|------------------------|-----------------|--------------------------|
+| 400 001 PLN            | 1%              | 1 600 PLN                |
+| 1 500 001 PLN          | 2%              | 2 400 PLN                |
+| 2 000 001 PLN          | 3%              | 4 800 PLN                |
+| 3 000 001 PLN          | 4%              | 7 200 PLN                |
+| 4 000 001 PLN          | 5%              | 10 000 PLN               |
+
+Obroty są sumowane z całej własnej poleconej sieci w celu zakwalifikowania miesięcznie wysokości nagrody w konkursie oraz awansu na Menadżera Regionu.
+
+### Nagroda za obrót swoich Menadżerów Regionalnych do momentu uzyskania statusu Rentiera:
+
+| Ilość Menadżerów Regionalnych Kwalifikowanych | Wysokość Premii od ich obrotu |
+|----------------------------------------------|-------------------------------|
+| 1 do 5 MR                                    | 8%                            |
+| 6 do 10 MR                                   | 6%                            |
+| 11 do 15 MR                                  | 4%                            |
+| 16 do 20 MR                                  | 3%                            |
+| Powyżej 20 MR                                | 2%                            |
+
+### Nagrody konkursowe dla Koordynatora:
+
+Wartość nagrody w konkursie liczona od wysokości obrotu za sprzedaż Pakietów w danym miesiącu:
+
+| Obrót miesięczny | Procent nagrody |
+|------------------|-----------------|
+| 24 000 PLN       | 1%              |
+| 28 000 PLN       | 2%              |
+| 32 000 PLN       | 3%              |
+| 36 000 PLN       | 4%              |
+| 40 000 PLN       | 5%              |
+
+Wszystkie nagrody liczone od faktycznej kwoty netto.
+
+Obrót swojej grupy handlowej wpływa na wysokość liczonego obrotu do Konkursu nagród i jest podstawa do zdobycia odpowiedniej wysokości nagrody.
+
+### Promocja Pakietów Usług przez Promotora:
+
+Wartość nagrody w konkursie naliczana za każdy polecony Pakiet Usług dla bezpośredniego Promotora oraz za każdy odnawialny Pakiet Usług w przyszłości według poniższego wzoru:
+
+| Pakiet             | Prowizja do naliczenia (Cashback od ceny netto) |
+|--------------------|--------------------------------------------------|
+| Student            | 2%                                               |
+| Mini               | 3%                                               |
+| Standard           | 4%                                               |
+| Premium            | 5%                                               |
+| Menadżer – Licencja| 10%                                              |
+
+Promocja usług w pakietach i wartość cashback liczona od obrotu zgodnie z cennikiem w sklepie firmowym Werbekoordinator.
+
+
+## 03. Wariant B: Success Fee – podział prowizji z obrotów Partnera
+
+### Success Fee – model cashback dla Promotorów i prowizji dla ról zawodowych
+
+Dlatego został opracowany, wyjątkowy i nowatorski Plan Wynagrodzeń, który zawiera wynagrodzenia za promocje produktów w sklepie Fundacji oraz produktów lub usług Partnerów, okraszony także całym zestawem premii i dodatków do działalności. 
+
+**Najważniejszym jednak jest generowanie zwrotów gotówki z prowizji uzyskiwanych z obrotów u Partnerów.**
+
+- Grupa konsumencka uzyska cashback należny Promotorom
+- Koordynator uzyska bardzo wysokie prowizje
+- Menadżer Regionalny uzyska bardzo wysokie prowizje
+
+### Partner – zasady współpracy
+
+Każdy uczestnik, który dokona rejestracji w serwisie, uzyska status PROMOTORA i będzie mógł uzyskiwać nagrody przewidziane w konkursach dla Promotorów. (od momentu wdrożenia systemu rozliczeń cashback dla osób fizycznych). 
+
+W przypadku przedsiębiorców współpracujących jako Partnerzy lub Koordynatorzy Reklamy lub Menadżerowie Regionalni, naliczenie cashback jest wypłacane w całości należnej kwoty na fakturę lub rachunek.
+
+**Partner zawierając umowę ustala:**
+- Obowiązkowy, procentowy poziom prowizji, nie mniejszy niż 2% lub licząc w górę do poziomu 99%, liczony od obrotu wykonanego przez naszych Promotorów
+- Dobrowolny procent rabatu na zakupy, który w każdym momencie może zmienić w swoim biurze wirtualnym
+
+**Prowizja w głównej mierze jest opłatą za:**
+- Budowę sieci konsumenckiej
+- Kadrę Koordynatorów Reklamy oraz Menadżerów Regionalnych w systemie „Fraktali"
+- Pracę w promowaniu usług i produktów w zamian za sprzedaż premiowaną lub prowizję zawodową
+
+### Podział prowizji Success Fee:
+
+**Definicja "bilans":**
+„Bilans %" oznacza naliczenie prowizji po zbilansowaniu struktury sieci i obrotów według zasad opisanych w Planie Wynagrodzeń. System automatycznie rozlicza prowizje, uwzględniając hierarchię ról i przepływy w strukturze fraktalnej.
+
+**Standardowy podział prowizji z obrotu Partnera:**
+
+Z prowizji ustalonej przez Partnera (np. od 2% do 99% obrotu), prowizja ta stanowi podstawę – 100% do podziału według takich zasad:
+
+| Rola                    | Udział w prowizji | Typ wynagrodzenia         |
+|-------------------------|-------------------|---------------------------|
+| Promotor                | 40%               | zwrot gotówki (Cashback)  |
+| Koordynator             | 35%               | prowizja fakturowana      |
+| Menadżer Regionalny     | 25%               | prowizja fakturowana      |
+
+**Przykład:**
+Jeśli Partner ustala prowizję 10% od obrotu, a Promotorzy wygenerują 10 000 PLN obrotu:
+- Całkowita prowizja: 1 000 PLN
+- Promotor otrzymuje: 400 PLN (cashback)
+- Koordynator otrzymuje: 350 PLN (faktura VAT)
+- Menadżer Regionalny otrzymuje: 250 PLN (faktura VAT)
+
+
+## 04. Role i ich wynagrodzenia
+
+### Promotor
+
+**Status:**
+Każdy uczestnik, który dokona rejestracji w serwisie, uzyska status PROMOTORA i będzie mógł uzyskiwać nagrody przewidziane w konkursach dla Promotorów.
+
+**Wynagrodzenia:**
+- Wariant A: Prowizje od poleconej sprzedaży Pakietów (2-10% zależnie od pakietu)
+- Wariant B: 40% z prowizji Success Fee od obrotu Partnera (cashback dla osób fizycznych)
+
+### Koordynator Reklamy (KR)
+
+**Podstawowe prowizje:**
+- Wariant A: 30% od sprzedaży Pakietów Usług
+- Wariant B: 35% z prowizji Success Fee od obrotu Partnera (fakturowane)
+
+**Nagrody konkursowe:**
+Nagrody liczone od miesięcznego obrotu za sprzedaż Pakietów w grupie:
+
+| Próg obrotu | Bonus konkursowy |
+|-------------|------------------|
+| 24 000 PLN  | 1%               |
+| 28 000 PLN  | 2%               |
+| 32 000 PLN  | 3%               |
+| 36 000 PLN  | 4%               |
+| 40 000 PLN  | 5%               |
+
+**Warunek awansu na Menadżera Regionu:**
+Każdy Koordynator, który osiągnie wraz z swoją grupą handlową Koordynatorów i Promotorów, stabilny obrót w danym miesiącu, liczony przez kolejne trzy miesiące na poziomie **200 001 PLN minimalnie miesięcznie**, uzyska awans na stanowisko Menadżera Regionu.
+
+### Menadżer Regionalny (MR)
+
+**Podstawowe prowizje:**
+- Wariant A: 
+  - Własna sprzedaż Pakietów: 50%
+  - Sprzedaż sieci: bilans %
+- Wariant B: 25% z prowizji Success Fee od obrotu Partnera (fakturowane)
+
+**Nagrody konkursowe:**
+Nagrody liczone od miesięcznego obrotu całej sieci za sprzedaż Pakietów:
+
+| Próg obrotu     | Bonus konkursowy | Dodatek do biura |
+|-----------------|------------------|------------------|
+| 400 001 PLN     | 1%               | 1 600 PLN        |
+| 1 500 001 PLN   | 2%               | 2 400 PLN        |
+| 2 000 001 PLN   | 3%               | 4 800 PLN        |
+| 3 000 001 PLN   | 4%               | 7 200 PLN        |
+| 4 000 001 PLN   | 5%               | 10 000 PLN       |
+
+**Warunki utrzymania statusu:**
+Awans jest dożywotni pod warunkiem utrzymywania poziomu sprzedaży pakietów w wysokości **130 001 PLN obrotu miesięcznie** wraz z siecią. Przy obniżeniu obrotów, wynagrodzenie będzie wypłacane na poziomie Koordynatora.
+
+**Premia za rozwój zespołu MR:**
+Nagroda za obrót swoich Menadżerów Regionalnych (do momentu uzyskania przez nich statusu Rentiera):
+
+| Liczba kwalifikowanych MR | Premia od ich obrotu |
+|---------------------------|----------------------|
+| 1-5 MR                    | 8%                   |
+| 6-10 MR                   | 6%                   |
+| 11-15 MR                  | 4%                   |
+| 16-20 MR                  | 3%                   |
+| Powyżej 20 MR             | 2%                   |
+
+
+## 05. System awansów i kwalifikacji
+
+### Awans z Koordynatora na Menadżera Regionalnego
+
+**Warunki:**
+1. Stabilny obrót w grupie: **200 001 PLN miesięcznie**
+2. Utrzymanie poziomu przez: **3 kolejne miesiące**
+3. Obrót liczony łącznie z grupą handlową (Koordynatorzy + Promotorzy)
+
+**Efekt awansu:**
+- Wyższe prowizje (50% za własną sprzedaż vs. 30% dla KR)
+- Dostęp do wyższych progów bonusów konkursowych
+- Możliwość budowania zespołu MR i otrzymywania premii za ich obroty
+- Dodatki do biura przy osiągnięciu progów
+
+### Utrzymanie statusu Menadżera Regionalnego
+
+**Wymóg minimalny:**
+- **130 001 PLN** obrotu miesięcznie (wraz z siecią)
+
+**W przypadku spadku poniżej minimum:**
+- Status MR pozostaje (awans dożywotni)
+- Wynagrodzenie wypłacane na poziomie Koordynatora
+- Możliwość powrotu do pełnych prowizji MR po osiągnięciu 130 001 PLN
+
+
+## 06. Konkursy i premie
+
+### System konkursów nagród
+
+Plan wynagrodzeń zawiera regularne konkursy miesięczne, w których wysokość nagrody zależy od osiągniętych obrotów.
+
+**Dla Koordynatorów:**
+- Progi od 24 000 PLN do 40 000 PLN
+- Bonusy od 1% do 5% od faktycznego obrotu
+
+**Dla Menadżerów Regionalnych:**
+- Progi od 400 001 PLN do 4 000 001 PLN
+- Bonusy od 1% do 5% od faktycznego obrotu
+- Dodatkowo: dodatek do biura od 1 600 PLN do 10 000 PLN
+
+### Premia za rozwój sieci MR
+
+Menadżer Regionalny otrzymuje dodatkowe premie za rozwój własnych Menadżerów Regionalnych w swojej strukturze:
+
+- Im większa liczba kwalifikowanych MR, tym niższy procent, ale od większej bazy
+- Maksymalnie 8% od obrotów pierwszych 5 MR
+- System zachęca do budowania szerokiej i stabilnej struktury
+
+### Dodatkowe premie i bonusy
+
+**Dodatek do biura (dla MR):**
+- Od 1 600 PLN (przy obrocie 400 001 PLN)
+- Do 10 000 PLN (przy obrocie 4 000 001 PLN)
+- Może być przeznaczony na koszty operacyjne działalności
+
+
+## 07. Status Rentiera – najwyższy poziom
+
+### Czym jest status Rentiera?
+
+**Rentier Systemu Werbekoordinator** to najwyższy poziom w strukturze wynagrodzeń, osiągany przez Menadżera Regionalnego, którego bezpośredni Menadżer Regionalny przekroczył próg 5 000 000 PLN obrotów miesięcznych.
+
+### Warunki uzyskania statusu Rentiera:
+
+**Wymóg:**
+Uzyskanie przez Menadżera Regionalnego najwyższego poziomu obrotów przewidzianych w Planie Motywacyjnym – **5 000 000 PLN** – skutkuje dla jego polecającego Menadżera Regionalnego uzyskaniem statusu „Rentiera Systemu Werbekoordinator".
+
+### Kwota rentierska:
+
+**Wysokość:**
+- **0,5%** liczone od obrotów w danym miesiącu MR, który przekroczył 5 000 001 PLN kwoty obrotu z sprzedaży Pakietów Werbekoordinator
+
+**Charakter:**
+- Kwota Rentierska jest traktowana jako nagroda honorowa
+- Podlega bilansowaniu według zasad Planu wynagrodzeń
+
+### Premia generacyjna dla Rentierów:
+
+**Warunek:**
+W przypadku powstawania w tej samej sieci kolejnego Rentiera po zbilansowaniu obrotu i nagrody.
+
+**Wysokość:**
+- Dodatkowa premia: **0,1%** od obrotu nowego Rentiera
+- Zasięg: do **czterech (4) generacji**
+- Naliczana zawsze od obrotu rozliczonego rentiera po bilansowaniu obrotu do naliczenia
+
+**Przykład:**
+Jeśli jesteś Rentierem i w Twojej strukturze pojawi się kolejny Rentier:
+- 1. generacja (bezpośredni): 0,1% od jego obrotu
+- 2. generacja: 0,1% od jego obrotu
+- 3. generacja: 0,1% od jego obrotu
+- 4. generacja: 0,1% od jego obrotu
+
+
+## 08. Bilansowanie i rozliczenia
+
+### Czym jest "bilans %" w Planie Wynagrodzeń?
+
+**Definicja:**
+„Bilans %" oznacza sposób naliczania prowizji z obrotów sieci, w którym system automatycznie rozlicza prowizje po uwzględnieniu struktury organizacyjnej, hierarchii ról oraz przepływów w systemie fraktalnym.
+
+### Zasady bilansowania:
+
+1. **Prowizje bezpośrednie:**
+   - Za własną sprzedaż/działania – naliczane bezpośrednio (np. 50% dla MR, 30% dla KR)
+
+2. **Prowizje z sieci:**
+   - Naliczane po uwzględnieniu prowizji niższych poziomów
+   - System "bilansuje" czyli odlicza to, co już zostało wypłacone poziomom niżej
+
+3. **Success Fee – podział 40/35/25:**
+   - Z prowizji ustalonej przez Partnera (podstawa 100%)
+   - Promotor: 40% (cashback)
+   - Koordynator: 35% (faktura)
+   - Menadżer Regionalny: 25% (faktura)
+   - System rozlicza automatycznie w zależności od struktury
+
+### Forma rozliczeń:
+
+**Promotorzy (osoby fizyczne):**
+- Cashback – zwrot gotówki
+- Od momentu wdrożenia systemu rozliczeń cashback
+
+**Koordynatorzy i Menadżerowie (przedsiębiorcy):**
+- Faktura VAT
+- Wynagrodzenie płatne na konto firmowe
+- W przypadku przedsiębiorców cashback jest wypłacany w całości na fakturę/rachunek
+
+### Rozliczenia międzynarodowe:
+
+**Zasada:**
+Wszystkie kwoty są naliczane od wartości netto i wypłacane z stawką VAT w danym kraju.
+
+**Transakcje międzynarodowe:**
+- Usługi są zakupione zawsze w Polsce
+- Zagraniczni kontrahenci w EU mają usługi z stawką między granicznych transakcji która wynosi "0"
+
+
+## 09. Zasady etyczne i odpowiedzialność
+
+### Kodeks Etyczny Koordynatorów Reklamy
+
+**Pamiętaj o fundamentalnej zasadzie:**
+
+> "Pamiętaj jednak o tym, że Twoim zadaniem jest wspieranie, wyjaśnianie oraz organizacja kampanii reklamowych dla Partnera. Nigdy nie zajmuj się sprzedażą!!! Sama sprzedaż to krótki i jednorazowy zakup. Partner oczekuje Twojego wsparcia w wykorzystaniu nowatorskich narzędzi i rozwiązań wraz z bieżącym analizowaniu skuteczności rozwiązań identyfikacji kodem QR."
+
+### Umowy dodatkowe:
+
+**Czym są umowy dodatkowe?**
+- Nic nie kosztują
+- Wskazują na obowiązki wdrażania narzędzi Fundacji
+- Zobowiązują do bieżącej pomocy w tworzeniu coraz większych obrotów Partnera
+- Zobowiązują do krzewienia kultury organizacji postępowania zgodnie z Kodeksem Etycznym
+
+**Co gwarantują?**
+- Zapewnienie godnego traktowania
+- Rzetelne wynagrodzenie za realizację „Marketingu Szeptanego"
+- Wynagrodzenie za poświęcenie czasu na wdrożenie narzędzi Fundacji dla Partnera
+
+### Odpowiedzialność Koordynatora i Menadżera:
+
+1. **Wspieranie Partnera** – nie sprzedaż, ale pomoc w wykorzystaniu narzędzi
+2. **Wdrażanie rozwiązań** – systematyczne wprowadzanie narzędzi Fundacji
+3. **Analiza skuteczności** – bieżące monitorowanie i optymalizacja
+4. **Etyczne postępowanie** – zgodnie z Kodeksem Etycznym
+5. **Rozwój Partnera** – celem jest wzrost obrotów i sukces Partnera
+
+### Marketing Szeptany:
+
+Wynagrodzenie w modelu Success Fee jest nagrodą za:
+- Budowanie pozytywnej reputacji Partnera
+- Polecanie i promowanie w sposób naturalny i autentyczny
+- Tworzenie sieci konsumenckiej opartej na zaufaniu
+- Systematyczną pracę nad wzrostem obrotów
+
+
+## 10. Podsumowanie i najczęstsze pytania
+
+### Podsumowanie dwóch wariantów:
+
+**Wariant A: Prowizje za Pakiety Usług**
+- Koordynator: 30% od sprzedaży Pakietów
+- Menadżer Regionalny: 50% (własna sprzedaż), bilans % (sieć)
+- Bonusy konkursowe: 1-5% przy określonych progach
+- Dodatki do biura dla MR: 1 600 - 10 000 PLN
+- Awans KR → MR: 200 001 PLN przez 3 miesiące
+
+**Wariant B: Success Fee z obrotów Partnera**
+- Prowizja Partnera (2-99% obrotu) dzieli się:
+  - 40% → Promotor (cashback)
+  - 35% → Koordynator (faktura)
+  - 25% → Menadżer Regionalny (faktura)
+- Partner ustala procent prowizji przy podpisaniu umowy
+- System automatycznie rozlicza według struktury
+
+### Najczęstsze pytania:
+
+**Q: Czy mogę zarabiać w obu wariantach jednocześnie?**
+A: Tak! Możesz sprzedawać Pakiety Usług (wariant A) i jednocześnie otrzymywać prowizje Success Fee z obrotów Partnerów, którym pomagasz (wariant B).
+
+**Q: Co to znaczy "bilans %"?**
+A: To automatyczne rozliczenie prowizji z sieci, gdzie system odlicza już wypłacone prowizje niższym poziomom. Np. MR dostaje prowizję z sieci, ale "zbilansowaną" – czyli pomniejszoną o to, co już otrzymali Koordynatorzy i Promotorzy.
+
+**Q: Kiedy otrzymuję status Rentiera?**
+A: Gdy Twój bezpośredni Menadżer Regionalny przekroczy 5 000 000 PLN obrotu miesięcznego z Pakietów. Wtedy otrzymujesz 0,5% od jego obrotów jako nagrodę rentierską.
+
+**Q: Czy awans na MR jest stały?**
+A: Tak, awans jest dożywotni, ale jeśli obroty spadną poniżej 130 001 PLN miesięcznie, wynagrodzenie będzie naliczane na poziomie Koordynatora (możesz wrócić do pełnych stawek MR po przekroczeniu progu).
+
+**Q: Jak wygląda rozliczenie VAT?**
+A: Wszystkie kwoty naliczane są od wartości netto. Dla przedsiębiorców (KR, MR) wynagrodzenie jest fakturowane z VAT. Promotorzy (osoby fizyczne) otrzymują cashback.
+
+**Q: Co jeśli Partner ustali prowizję tylko 2%?**
+A: To minimum. Z tych 2% obrotu Partnera, prowizja dzieli się: 40% dla Promotora, 35% dla KR, 25% dla MR. Np. przy 10 000 PLN obrotu Partnera i prowizji 2% (200 PLN): Promotor = 80 PLN, KR = 70 PLN, MR = 50 PLN.
+
+**Q: Jak często wypłacane są wynagrodzenia?**
+A: Miesięcznie, na podstawie faktury VAT (dla przedsiębiorców) lub jako cashback (dla Promotorów będących osobami fizycznymi, po wdrożeniu systemu).
+
+**Q: Czy muszę mieć firmę?**
+A: Jako Promotor – nie (cashback). Jako Koordynator lub Menadżer – tak, wynagrodzenie jest fakturowane, więc potrzebna jest działalność gospodarcza.
+
+### Kluczowe zasady do zapamiętania:
+
+1. **Nie sprzedajesz – wspierasz!**
+   Partner potrzebuje pomocy w wdrożeniu i korzystaniu z narzędzi.
+
+2. **Sukces Partnera = Twój sukces**
+   Im większy obrót Partnera, tym większa prowizja Success Fee.
+
+3. **Buduj strukturę mądrze**
+   Szeroka i stabilna struktura (wielu aktywnych MR) daje stały dochód.
+
+4. **Jakość przed ilością**
+   Lepiej mieć 5 aktywnych i skutecznych MR niż 20 nieaktywnych.
+
+5. **Wszystkie liczby są oficjalne**
+   Wszystkie progi, procenty i kwoty pochodzą z oficjalnego Planu Wynagrodzeń Fundacji.
+
+6. **Pamiętaj o etyce**
+   Kodeks Etyczny i Marketing Szeptany to fundament długoterminowego sukcesu.
+
+---
+
+**Gratulacje!** Ukończyłeś Moduł 4. Teraz rozumiesz system wynagrodzeń i wiesz, jak zarabiać jako Koordynator lub Menadżer Regionalny. W następnym module dowiesz się, jak prowadzić Partnera i wspierać go w osiąganiu sukcesów.

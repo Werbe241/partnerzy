@@ -1,0 +1,897 @@
+# Moduł 3: Pozyskanie Partnera
+Od pierwszego kontaktu do podpisania umowy
+
+Spis treści:
+01. Mindset pozyskiwania – nie sprzedaż, a pomoc
+02. Identyfikacja potencjalnych Partnerów
+03. Pierwszy kontakt – jak się przedstawić
+04. Rozmowa odkrywcza – pytania, które musisz zadać
+05. Prezentacja wartości – pokazanie rozwiązania
+06. Radzenie sobie z obiekcjami
+07. Zamykanie rozmowy i next steps
+08. Follow-up – systematyczność kluczem do sukcesu
+09. Skrypty i szablony komunikacji
+10. Mierzenie skuteczności i optymalizacja
+
+
+## 01. Mindset pozyskiwania – nie sprzedaż, a pomoc
+
+### Zmiana perspektywy
+
+**Błędne podejście (sprzedażowe):**
+"Muszę komuś sprzedać Pakiet/przekonać do współpracy"
+→ Presja, stres, niskie rezultaty
+
+**Właściwe podejście (wsparcie):**
+"Szukam przedsiębiorcy, któremu mogę pomóc rozwinąć biznes"
+→ Autentyczność, energia, długoterminowy sukces
+
+### Fundamentalna prawda
+
+**Nie każdy przedsiębiorca jest Twoim idealnym Partnerem.**
+
+To jest OK. Twoim zadaniem jest:
+1. Znaleźć tych, którym naprawdę możesz pomóc
+2. Pomóc im odnieść sukces
+3. Nie tracić czasu na tych, którzy nie są gotowi
+
+### Charakterystyka idealnego Partnera
+
+**Kto odniesie sukces z naszym systemem?**
+
+✓ Przedsiębiorca, który:
+- Ma stabilny biznes (nie startup w fazie testowania)
+- Obsługuje klientów regularnie (nie jednorazowe duże transakcje)
+- Jest otwarty na nowe rozwiązania
+- Ma czas i chęć na wdrożenie (lub zespół, który to zrobi)
+- Chce rosnąć i mierzyć skuteczność
+
+✗ Trudny Partner (unikaj lub edukuj dłużej):
+- Szuka magicznego rozwiązania "na już"
+- Nie ma czasu na nic
+- Nie wierzy w technologię
+- Biznes w kryzysie (liczą, że my ich uratujemy)
+- Nie jest gotowy na żadne zmiany
+
+### Success Fee – klucz do zrozumienia
+
+**Twoje motto:**
+"Zarabiam tylko wtedy, gdy Ty zarabiasz. Jeśli system nie działa, ja też nic nie dostaję. Dlatego w moim interesie jest, żebyś odniósł sukces."
+
+To fundamentalnie zmienia dynamikę rozmowy:
+- Partner nie musi inwestować z góry
+- Nie ma ryzyka finansowego
+- Ty stajesz się jego partnerem biznesowym, nie sprzedawcą
+
+
+## 02. Identyfikacja potencjalnych Partnerów
+
+### Gdzie szukać Partnerów?
+
+**1. Lokalne biznesy w Twojej okolicy**
+- Sklepy, restauracje, warsztaty, salony
+- Zaleta: łatwy kontakt face-to-face, możesz obserwować biznes
+
+**2. Branże z wysoką częstotliwością transakcji**
+- Kawiarnie, piekarnie
+- Fryzjerzy, kosmetyczki, barberzy
+- Warsztaty samochodowe
+- Małe sklepy spożywcze
+- Fitness, siłownie
+
+**3. Polecenia od obecnych Partnerów**
+- Najlepsza jakość leadów
+- Budują zaufanie z góry
+- Wykorzystuj formularz: Rekomendacja-5-Zdan.txt
+
+**4. Networking i wydarzenia lokalne**
+- Spotkania przedsiębiorców
+- Targi lokalne
+- Grupy w social media
+
+### Kwalifikacja potencjalnego Partnera
+
+**Zanim umówisz się na spotkanie, sprawdź:**
+
+1. **Czy mają klientów?**
+   - Obserwuj – czy jest ruch?
+   - Sprawdź social media – czy są aktywni?
+
+2. **Czy są otwarci na technologię?**
+   - Czy mają profil na Facebooku/Instagramie?
+   - Czy odbierają płatności elektroniczne?
+
+3. **Czy biznes jest stabilny?**
+   - Minimum 1 rok działania
+   - Nie w trakcie likwidacji/restrukturyzacji
+
+4. **Czy mają potencjał wzrostu?**
+   - Czy mogą obsłużyć więcej klientów?
+   - Czy chcą rosnąć?
+
+### Lista-100: Twoja baza potencjalnych Partnerów
+
+**Cel: Stwórz listę 100 potencjalnych Partnerów**
+
+Struktura (plik: kurs/materialy/Lista-100.csv):
+- Nazwa biznesu
+- Osoba kontaktowa
+- Telefon
+- Email
+- Branża
+- Status (do kontaktu/kontakt zainicjowany/spotkanie/wdrożenie/aktywny)
+- Notatki
+
+**Aktywna lista = aktywny biznes**
+
+Codziennie:
+- Dodaj 2-3 nowe potencjalne firmy
+- Zaktualizuj statusy
+- Zaplanuj follow-upy
+
+
+## 03. Pierwszy kontakt – jak się przedstawić
+
+### Kanały pierwszego kontaktu
+
+**1. Wizyta w lokalu (face-to-face)**
+Najlepszy kanał dla lokalnych biznesów.
+
+**2. Telefon**
+Szybki, bezpośredni, ale wymaga pewności siebie.
+
+**3. Email/wiadomość**
+Dobry na rozpoczęcie, ale follow-up telefonem/spotkaniem.
+
+**4. Social media (LinkedIn, Facebook)**
+Osobiste podejście, ale wymaga cierpliwości.
+
+### Skrypt pierwszego kontaktu (wizyta w lokalu)
+
+**Krok 1: Obserwuj i zbieraj informacje**
+- Przyjdź jako klient
+- Obserwuj, jak działa biznes
+- Zbierz wizytówkę/materiały
+
+**Krok 2: Przedstaw się**
+```
+"Dzień dobry! Nazywam się [Imię]. Jestem Koordynatorem Reklamy 
+z Fundacji Werbekoordinator. Widzę, że prowadzicie świetny biznes. 
+Pomagam lokalnym przedsiębiorcom zwiększać obroty dzięki 
+nowatorskim narzędziom marketingowym, bez konieczności inwestowania 
+z góry. Czy mógłbym zamienić kilka słów z właścicielem?"
+```
+
+**Krok 3: Krótko o korzyściach (jeśli możesz porozmawiać teraz)**
+```
+"Specjalizujemy się w systemach cashback dla klientów i kodach QR. 
+Partner płaci tylko prowizję od rzeczywistego obrotu – czyli jeśli 
+system nie działa, nic nie kosztuje. Mógłbym pokazać Panu/Pani 
+przykłady za 15-20 minut. Kiedy miałby Pan/Pani chwilę?"
+```
+
+**Krok 4: Umów spotkanie**
+```
+"Rozumiem, że teraz nie ma czasu. Może jutro o 10:00 lub 
+popołudniu o 15:00? Zajmie to maksymalnie 20 minut."
+```
+
+### Skrypt pierwszego kontaktu (telefon)
+
+**Przygotowanie:**
+- Wiedz, do kogo dzwonisz
+- Przygotuj notatnik (Notatka-5-Pol)
+- Zrelaksuj się – to rozmowa, nie atak
+
+**Otwarcie:**
+```
+Osoba: "Słucham?"
+
+Ty: "Dzień dobry! Nazywam się [Imię]. Czy mogę rozmawiać 
+z właścicielem/Panem/Panią [Nazwisko]?"
+
+[jeśli to ta osoba]
+
+Ty: "Dzwonię z Fundacji Werbekoordinator. Pomagamy lokalnym 
+przedsiębiorcom, takim jak Pan/Pani, zwiększać obroty dzięki 
+narzędziom marketingowym opartym na kodach QR i cashbacku dla 
+klientów. Model współpracy to Success Fee – czyli płaci Pan/Pani 
+tylko prowizję od rzeczywistego obrotu. Chciałbym umówić się na 
+krótkie 20-minutowe spotkanie, żeby pokazać, jak to działa. 
+Kiedy miałby Pan/Pani 20 minut?"
+```
+
+**Jeśli mówią "Nie mam czasu":**
+```
+"Rozumiem, że czas jest cenny. Dlatego proponuję tylko 20 minut. 
+Pokażę konkretne przykłady i jeśli uzna Pan/Pani, że to nie dla 
+Pana/Pani – nic się nie dzieje. Jutro o 10:00 lub pojutrze o 14:00?"
+```
+
+**Jeśli mówią "Wyślij materiały":**
+```
+"Oczywiście, wyślę! Mógłbym zadzwonić za 2 dni, żebyśmy mogli 
+omówić pytania? Może we wtorek o 11:00?"
+```
+
+### Kluczowe zasady pierwszego kontaktu
+
+1. **Bądź konkretny** – "20 minut", nie "trochę czasu"
+2. **Mów o korzyściach**, nie o sobie – "zwiększyć obroty", nie "mamy super system"
+3. **Nie sprzedawaj na pierwszym kontakcie** – cel to umówienie spotkania
+4. **Bądź naturalny** – nie czytaj skryptu jak robot
+5. **Smile & Dial** – uśmiech słychać przez telefon
+
+
+## 04. Rozmowa odkrywcza – pytania, które musisz zadać
+
+### Cel rozmowy odkrywczej
+
+**NIE:** Sprzedać
+**TAK:** Zrozumieć sytuację Partnera i ocenić, czy możesz pomóc
+
+### Struktura spotkania (20-30 minut)
+
+**5 minut:** Powitanie i build rapport
+**10-15 minut:** Pytania odkrywcze (TY słuchasz, PARTNER mówi)
+**5-10 minut:** Krótka prezentacja rozwiązania
+**5 minut:** Next steps
+
+### Pytania odkrywcze – przykłady
+
+**1. Obecna sytuacja:**
+- "Jak długo prowadzi Pan/Pani ten biznes?"
+- "Jak Pan/Pani obecnie pozyskuje nowych klientów?"
+- "Jaki procent Pana/Pani klientów to klienci powracający?"
+
+**2. Aktywności marketingowe:**
+- "Jakie działania promocyjne Pan/Pani obecnie prowadzi?"
+- "Co działa najlepiej w pozyskiwaniu klientów?"
+- "Co próbował Pan/Pani, a nie zadziałało?"
+
+**3. Cele:**
+- "Gdzie chciałby Pan/Pani być za 6 miesięcy?"
+- "Jaki wzrost obrotu byłby dla Pana/Pani sukcesem?"
+- "Co jest obecnie największą przeszkodą we wzroście?"
+
+**4. Pomiar skuteczności:**
+- "Czy mierzy Pan/Pani skuteczność swoich działań promocyjnych?"
+- "Skąd Pan/Pani wie, czy reklama działa?"
+- "Czy wie Pan/Pani, ile kosztuje Pana/Panią pozyskanie jednego klienta?"
+
+**5. Budżet i zasoby:**
+- "Ile obecnie wydaje Pan/Pani miesięcznie na marketing?"
+- "Czy ma Pan/Pani kogoś, kto zajmuje się marketingiem?"
+- "Czy korzystał Pan/Pani z agencji marketingowych? Jakie były efekty?"
+
+### Techniki aktywnego słuchania
+
+**1. Parafrazowanie:**
+```
+Partner: "Mam problem, że klienci przychodzą raz i już więcej ich nie widzę."
+Ty: "Rozumiem – chciałby Pan mieć więcej klientów powracających?"
+```
+
+**2. Głębienie (dig deeper):**
+```
+Partner: "Próbowałem Facebooka, ale nie działało."
+Ty: "Co konkretnie nie działało? Mało reakcji czy klienci nie przychodzili?"
+```
+
+**3. Potwierdzanie:**
+```
+Ty: "Czyli jeśli dobrze rozumiem, chciałby Pan:
+1. Więcej nowych klientów
+2. Więcej klientów powracających
+3. Mierzyć, co działa, a co nie
+
+Dobrze to ujmuje?"
+```
+
+### Notatka-5-Pol
+
+Po rozmowie (najlepiej zaraz po wyjściu lub zakończeniu rozmowy) zapisz 5 kluczowych punktów:
+
+**Format (plik: kurs/formularze/Notatka-5-Pol.txt):**
+```
+[Nazwa Partnera] – [Data]
+1. [Główny problem/potrzeba]
+2. [Obecne działania marketingowe]
+3. [Cele/oczekiwania]
+4. [Obiekcje/obawy]
+5. [Next step i deadline]
+```
+
+**Przykład:**
+```
+Kawiarnia "Mocny Start" – 2024-10-16
+1. Problem: 70% klientów to "jednorazówki", brak powrotów
+2. Marketing: Facebook (niskie zaangażowanie), ulotki (zero mierzalności)
+3. Cel: +30% klientów powracających w ciągu 6 miesięcy
+4. Obawa: "Czy to nie będzie skomplikowane dla moich pracowników?"
+5. Next: Wysłać przykładowe materiały + telefon 2024-10-18 o 15:00
+```
+
+
+## 05. Prezentacja wartości – pokazanie rozwiązania
+
+### Zasada: Dopasuj rozwiązanie do potrzeby
+
+**NIE pokazuj wszystkiego!**
+
+Pokaż tylko te elementy, które rozwiązują konkretne problemy, które Partner wskazał w rozmowie odkrywczej.
+
+### Struktura prezentacji (5-10 minut)
+
+**1. Podsumuj potrzebę (1 min):**
+```
+"Jak Pan powiedział, największym wyzwaniem jest to, że klienci 
+przychodzą raz i nie wracają. Dobrze?"
+```
+
+**2. Przedstaw rozwiązanie (3-5 min):**
+```
+"Nasz system działa w trzech krokach:
+
+Krok 1: Umieszczamy kody QR w Pana kawiarni – przy kasie, na 
+stolikach. Klient skanuje kod przed płaceniem.
+
+Krok 2: System automatycznie przypisuje mu cashback – np. 5% 
+zwrotu z zakupu. Klient dostaje pieniądze na swoje konto.
+
+Krok 3: Za tydzień system wysyła mu przypomnienie: 'Masz 
+cashback czekający w Kawiarni Mocny Start'. Klient wraca.
+
+Rezultat: Klienci wracają częściej, bo mają konkretną korzyść. 
+A Pan widzi dokładnie, ilu klientów wróciło dzięki systemowi."
+```
+
+**3. Pokaż przykład/case study (2-3 min):**
+```
+"Mamy Partnera – piekarnia w Krakowie. Po 3 miesiącach wzrost 
+klientów powracających o 42%. System pokazał dokładnie, że 
+klienci zaczęli wracać co 10 dni zamiast co 30 dni."
+```
+
+**4. Wyjaśnij Success Fee (1-2 min):**
+```
+"Model współpracy jest prosty: Pan ustala procent prowizji – 
+minimum 2%, może Pan ustawić więcej. My budujemy sieć 
+Promotorów, którzy polecają Pana biznes. Płaci Pan prowizję 
+tylko od rzeczywistego obrotu, który Promotorzy wygenerują.
+
+Przykład: Jeśli ustali Pan 10% prowizji, a Promotorzy 
+wygenerują 10 000 zł obrotu – prowizja to 1 000 zł. Jeśli 
+wygenerują 0 zł – prowizja 0 zł. Zero ryzyka."
+```
+
+### Materiały wspierające prezentację
+
+**Co możesz pokazać:**
+- Przykładowy kod QR
+- Screenshot panelu Partnera w systemie
+- Case study (jeśli masz)
+- Prostą grafikę: jak działa cashback
+
+**Co NIE pokazuj:**
+- Skomplikowanych diagramów
+- Długich prezentacji PowerPoint
+- Technicznych szczegółów (chyba że Partner pyta)
+
+### Reguła 80/20 w prezentacji
+
+- 80% czasu Partner mówi (rozmowa odkrywcza)
+- 20% czasu Ty prezentujesz
+
+**Dlaczego?**
+Bo najlepszą prezentacją jest taka, która odpowiada na realne pytania i potrzeby Partnera, które usłyszałeś w rozmowie.
+
+
+## 06. Radzenie sobie z obiekcjami
+
+### Mindset: Obiekcja = pytanie, nie odmowa
+
+**Obiekcja to znak, że Partner:**
+- Jest zainteresowany (gdyby nie był, powiedziałby "Nie, dziękuję")
+- Ma wątpliwości, które możesz rozwiać
+- Potrzebuje więcej informacji
+
+### Top 10 obiekcji i jak je rozwiązać
+
+**Obiekcja 1: "To za drogie"**
+
+Reakcja:
+```
+"Rozumiem obawę o koszty. Dlatego właśnie działa to na Success Fee. 
+Nie płaci Pan z góry nic. Płaci Pan tylko prowizję od rzeczywistego 
+obrotu, który wygenerujemy. Gdyby system nie działał, nie płaci Pan 
+nic. Zero ryzyka finansowego."
+```
+
+---
+
+**Obiekcja 2: "Nie mam czasu na to"**
+
+Reakcja:
+```
+"Rozumiem – czas to najcenniejszy zasób. Dlatego moja rola to 
+wszystko wdrożyć za Pana. Pan tylko podpisuje umowę i zatwierdza 
+kod QR. Resztą – wdrożenie, szkolenie pracowników, monitoring – 
+zajmuję się ja. Pan maksymalnie poświęci 2 godziny w pierwszym 
+tygodniu."
+```
+
+---
+
+**Obiekcja 3: "Muszę to skonsultować z żoną/partnerem/księgową"**
+
+Reakcja:
+```
+"Oczywiście! To ważna decyzja biznesowa. Czy mogę przygotować 
+krótkie podsumowanie (1 strona A4), które Pan może pokazać? 
+A może moglibyśmy umówić się na krótkie spotkanie z 
+żoną/partnerem, żebym odpowiedział na pytania? Jutro o 15:00 
+pasowałoby?"
+```
+
+---
+
+**Obiekcja 4: "Nie wiem, czy moi klienci będą skanować kody QR"**
+
+Reakcja:
+```
+"Świetne pytanie! Statystyki pokazują, że 70% Polaków korzysta 
+z kodów QR (zwłaszcza po pandemii). A nasi Partnerzy widzą, że 
+klienci chętnie skanują, gdy wiedzą, że dostaną cashback. Moja 
+rola to też przeszkolić Pana pracowników, żeby informowali: 
+'Proszę zeskanować kod – dostanie Pan 5% zwrotu'. To działa."
+```
+
+---
+
+**Obiekcja 5: "Już korzystam z programu lojalnościowego"**
+
+Reakcja:
+```
+"Super! To znaczy, że widzi Pan wartość w lojalności klientów. 
+Nasz system może uzupełnić Pana obecny program. Kody QR to tylko 
+narzędzie identyfikacji – nie koliduje z kartami lojalnościowymi. 
+A może pokazać, którzy kanały przynoszą najwięcej powracających 
+klientów."
+```
+
+---
+
+**Obiekcja 6: "To brzmi zbyt pięknie, żeby było prawdziwe"**
+
+Reakcja:
+```
+"Rozumiem sceptycyzm – ja bym też tak myślał :) Dlatego proponuję: 
+spróbujmy przez 1 miesiąc. Jeśli nie zobaczy Pan rezultatów, 
+rozstajemy się bez żalu. Success Fee to zero ryzyka. A jeśli 
+zadziała – co Pan traci?"
+```
+
+---
+
+**Obiekcja 7: "Nie rozumiem, jak to działa technicznie"**
+
+Reakcja:
+```
+"Nie musi Pan rozumieć technikaliów – to moja robota :) Dla Pana 
+to proste: dostaje Pan kod QR (wydruk lub naklejka), umieszcza 
+Pan przy kasie. Klient skanuje telefonem (jak w restauracji przy 
+menu). System robi resztę. Pokażę Panu krok po kroku podczas 
+wdrożenia."
+```
+
+---
+
+**Obiekcja 8: "A co jeśli system przestanie działać?"**
+
+Reakcja:
+```
+"System jest utrzymywany przez Fundację Werbekoordinator – mamy 
+zespół techniczny i wsparcie 24/7. Ale jeśli kiedykolwiek byłby 
+problem – od razu reaguję i rozwiązuję. Poza tym: w umowie ma 
+Pan prawo wypowiedzenia, jeśli system nie spełnia oczekiwań."
+```
+
+---
+
+**Obiekcja 9: "Moi klienci to starsi ludzie, nie używają smartfonów"**
+
+Reakcja:
+```
+"Rozumiem obawę. Ale statystyki pokazują, że 60+ też coraz 
+częściej korzysta ze smartfonów. Ale kluczowe: system działa 
+równolegle z tradycyjnymi metodami. Młodsi skanują QR, starsi 
+nadal przychodzą jak zawsze. Nie tracimy żadnej grupy, a zyskujemy 
+nową."
+```
+
+---
+
+**Obiekcja 10: "Nie teraz, może za 3 miesiące"**
+
+Reakcja:
+```
+"Rozumiem, że teraz nie jest dobry moment. Czy mogę zapytać – co 
+musiałoby się zmienić za 3 miesiące, żeby to był dobry moment? 
+[słuchaj odpowiedzi]
+
+Propozycja: zróbmy tak – za 6 tygodni (nie za 3 miesiące) 
+zadzwonię, żebyśmy zobaczyli, czy wtedy jest lepszy czas. 
+Czy 15 listopada o 10:00 brzmi OK?"
+```
+
+### Technika FFF (Feel, Felt, Found)
+
+**Struktura:**
+1. **Feel** – "Rozumiem, że Pan/Pani czuje..."
+2. **Felt** – "Inni nasi Partnerzy też tak czuli..."
+3. **Found** – "Ale po wdrożeniu odkryli, że..."
+
+**Przykład:**
+```
+"Rozumiem, że czuje Pan obawę co do czasu wdrożenia. Inni Partnerzy 
+też tak czuli – szczególnie Pani Kowalska z piekarni w Warszawie. 
+Ale po wdrożeniu odkryli, że system działa automatycznie i wymaga 
+maksymalnie 15 minut tygodniowo na sprawdzenie raportów."
+```
+
+
+## 07. Zamykanie rozmowy i next steps
+
+### Sygnały gotowości do zamknięcia
+
+Partner jest gotowy, gdy:
+- Zadaje pytania o szczegóły wdrożenia ("Jak długo to trwa?")
+- Pyta o następne kroki ("Co muszę zrobić?")
+- Wyobraża sobie siebie w systemie ("A gdybym chciał zmienić procent prowizji?")
+
+### Techniki zamykania
+
+**1. Założeniowe zamknięcie (Assumptive Close)**
+```
+"Świetnie! Więc następnym krokiem jest podpisanie umowy i 
+wygenerowanie Pana kodów QR. Mógłbym wrócić w czwartek z 
+gotowymi materiałami i wdrożymy system. 10:00 czy 14:00?"
+```
+
+**2. Wybór alternatywny**
+```
+"Czy wolałby Pan zacząć od pakietu Mini, czy od razu Standard?"
+```
+
+**3. Testowe zamknięcie**
+```
+"Gdybyśmy mieli zacząć współpracę, co byłoby dla Pana najważniejsze 
+w pierwszym miesiącu?"
+```
+
+**4. Bezpośrednie zamknięcie**
+```
+"Co Pan o tym myśli? Chce Pan spróbować?"
+```
+
+### Co robić, gdy Partner mówi "NIE"
+
+**1. Zapytaj DLACZEGO:**
+```
+"Rozumiem. Czy mogę zapytać – co konkretnie sprawia, że teraz nie 
+jest dobry moment? [słuchaj uważnie]"
+```
+
+**2. Zaproponuj alternatywę:**
+```
+"OK, rozumiem. A może zamiast pełnego wdrożenia, zrobimy krótką 
+prezentację Pana pracownikom, żeby zobaczyli, jak to działa? 
+30 minut, bez zobowiązań."
+```
+
+**3. Zostaw otwarte drzwi:**
+```
+"Rozumiem, że teraz to nie jest odpowiedni moment. Czy mogę 
+zadzwonić za miesiąc, żebyśmy sprawdzili, czy coś się zmieniło?"
+```
+
+**4. Poproś o feedback:**
+```
+"Pomogłoby mi bardzo, gdyby Pan powiedział szczerze – czy to 
+kwestia rozwiązania (nie pasuje), czy timing (teraz nie), czy 
+ja coś źle wyjaśniłem?"
+```
+
+### Definicja next step
+
+**ZAWSZE kończ spotkanie konkretnym next step:**
+
+❌ Źle: "OK, odezwę się!"
+✓ Dobrze: "Zadzwonię w czwartek 10 października o 15:00, żebyśmy omówili umowę. Zapisał Pan w kalendarzu?"
+
+**Format:**
+- KTO (ja/Pan/oboje)
+- CO (zadzwonić/wysłać materiały/spotkanie)
+- KIEDY (konkretna data i godzina)
+
+
+## 08. Follow-up – systematyczność kluczem do sukcesu
+
+### Statystyka: 80% sprzedaży wymaga 5-12 kontaktów
+
+**Typowy błąd początkującego KR:**
+1. Spotkanie z Partnerem
+2. Partner mówi "Muszę pomyśleć"
+3. KR czeka... i czeka... i Partner nigdy nie oddzwania
+
+**Prawidłowe podejście:**
+1. Spotkanie z Partnerem
+2. Partner mówi "Muszę pomyśleć"
+3. KR: "Rozumiem! Wyślę Panu podsumowanie mailem jeszcze dziś. Czy mogę zadzwonić w środę, żebyśmy omówili pytania? 15:00 OK?"
+4. KR wysyła mail tego samego dnia
+5. KR dzwoni w środę o 15:00
+
+### System follow-upów
+
+**Follow-up 1: Tego samego dnia (email/wiadomość)**
+```
+Temat: Podsumowanie – Kawiarnia "Mocny Start"
+
+Szanowny Panie [Nazwisko],
+
+Dziękuję za dzisiejsze spotkanie! Poniżej kluczowe punkty:
+
+✓ Problem: 70% klientów jednorazowych
+✓ Rozwiązanie: System cashback + kody QR
+✓ Model: Success Fee (płaci Pan tylko % od obrotu)
+✓ Wdrożenie: 1-2 tygodnie, ja wszystko organizuję
+
+Załączam krótką prezentację (1 strona) i case study piekarni 
+z Krakowa.
+
+Zadzwonię w środę 18.10 o 15:00, żebyśmy omówili pytania.
+
+Pozdrawiam,
+[Imię]
+[Telefon]
+```
+
+**Follow-up 2: Umówiona data (telefon)**
+```
+[dzwonisz zgodnie z ustaleniami]
+
+"Dzień dobry! [Imię]. Dzwonię jak ustaliliśmy. Czy miał Pan 
+okazję przejrzeć materiały? Czy pojawiły się pytania?"
+```
+
+**Follow-up 3-5: Co 7-14 dni (telefon/email)**
+```
+"Dzień dobry! [Imię] z Werbekoordinator. Widziałem, że otworzył 
+Pan naszą kawiarnie w nowym miejscu – gratulacje! Pomyślałem, że 
+może to dobry moment na wdrożenie systemu cashback w obu 
+lokalach? Mógłbym wpaść w tym tygodniu?"
+```
+
+### Narzędzia do follow-upów
+
+**Kalendarz z przypomnieniami:**
+- Ustaw przypomnienie w telefonie/kalendarzu
+- Dzień przed: "Jutro telefon do Pana Kowalskiego o 15:00"
+
+**CRM / Lista-100.csv:**
+- Kolumna "Następny kontakt" – ZAWSZE wypełniona
+- Sortuj listę po dacie – widzisz, kto wymaga kontaktu DZIŚ
+
+**Szablony wiadomości:**
+- Przygotuj 3-5 szablonów emaili/wiadomości
+- Personalizuj (zmień nazwę, dodaj konkret z rozmowy)
+
+### Jak często kontaktować?
+
+**Gorący lead (zainteresowany, ale wahający się):**
+- Co 3-5 dni przez pierwsze 2 tygodnie
+- Potem co 7-14 dni
+
+**Ciepły lead (zainteresowany, ale "nie teraz"):**
+- Co 2-3 tygodnie przez 2 miesiące
+- Potem raz w miesiącu
+
+**Chłodny lead (potencjalnie zainteresowany, ale brak okazji do rozmowy):**
+- Raz w miesiąc lub kwartalnie
+
+**Zasada:** Nie bądź natrętny, ale bądź konsekwentny.
+
+
+## 09. Skrypty i szablony komunikacji
+
+### Szablon: Rekomendacja od obecnego Partnera
+
+**Plik: kurs/formularze/Rekomendacja-5-Zdan.txt**
+
+Gdy obecny Partner poleca Ci kolejnego przedsiębiorcę, poproś go o krótką rekomendację (5 zdań):
+
+```
+Szanowny Panie/Pani [Nazwisko polecającego],
+
+Dziękuję za polecenie Pana/Pani [Nazwisko polecane]. Czy mógłbym 
+prosić o krótką rekomendację w formie 5 zdań? Pomogłoby to w 
+pierwszym kontakcie.
+
+Przykładowy format:
+1. Jak długo współpracujemy?
+2. Co najbardziej Panu/Pani pomaga w naszym systemie?
+3. Jaki efekt zauważył Pan/Pani (np. % wzrostu)?
+4. Co poleciłby Pan/Pani [Osoba polecana]?
+5. Dlaczego warto spróbować?
+
+Dziękuję!
+[Imię]
+```
+
+**Jak użyć rekomendacji:**
+
+Dzwoniąc do poleconej osoby:
+```
+"Dzień dobry! Nazywam się [Imię]. Pan Kowalski z Kawiarni Mocny 
+Start polecił mi kontakt do Pana. Powiedział, że może być Pan 
+zainteresowany systemem, który pomógł mu zwiększyć klientów 
+powracających o 40%. Czy miałby Pan 20 minut na krótką rozmowę?"
+```
+
+### Szablon: Email po pierwszym spotkaniu
+
+```
+Temat: [Nazwa firmy] – Podsumowanie + Next Steps
+
+Szanowny Panie/Pani [Nazwisko],
+
+Dziękuję za czas podczas dzisiejszego spotkania. Poniżej 
+podsumowanie:
+
+📌 Główne wyzwanie: [np. Niska liczba powracających klientów]
+📌 Proponowane rozwiązanie: System cashback + kody QR
+📌 Model współpracy: Success Fee (prowizja tylko od obrotu)
+📌 Czas wdrożenia: 1-2 tygodnie
+
+Załączniki:
+- Prezentacja (1 strona)
+- Case study [inna firma]
+- Draft umowy (do przejrzenia, bez zobowiązań)
+
+Next step:
+Zadzwonię [data] o [godzina], żebyśmy omówili pytania i 
+ewentualnie ustalili start wdrożenia.
+
+Jeśli ma Pan/Pani pytania wcześniej – proszę śmiało dzwonić!
+
+Pozdrawiam,
+[Imię] [Nazwisko]
+Koordynator Reklamy, Fundacja Werbekoordinator
+Tel: [Telefon]
+Email: [Email]
+```
+
+### Szablon: SMS/WhatsApp przypomnienie
+
+```
+Dzień dobry! [Imię] z Werbekoordinator. Przypominam o naszej 
+rozmowie dziś o 15:00. Czy godzina nadal aktualna? Pozdrawiam!
+```
+
+### Szablon: Email follow-up (brak odpowiedzi)
+
+```
+Temat: [Nazwa firmy] – Pytania?
+
+Szanowny Panie/Pani [Nazwisko],
+
+Wysłałem tydzień temu materiały o systemie cashback dla Pana/Pani 
+firmy. Czy miał Pan/Pani okazję przejrzeć? Czy pojawiły się pytania?
+
+Chętnie odpowiem telefonicznie lub mailowo.
+
+Jeśli teraz nie jest dobry czas – daj Pan/Pani znać, kiedy mogę 
+się odezwać ponownie (np. za miesiąc?).
+
+Pozdrawiam,
+[Imię]
+```
+
+
+## 10. Mierzenie skuteczności i optymalizacja
+
+### Metryki, które powinieneś śledzić
+
+**1. Liczba nowych kontaktów (tygodniowo)**
+Cel: Minimum 10 nowych potencjalnych Partnerów tygodniowo
+
+**2. Conversion rate: Kontakt → Spotkanie**
+Cel: 30-50% (z 10 kontaktów, 3-5 spotkań)
+
+**3. Conversion rate: Spotkanie → Wdrożenie**
+Cel: 20-30% (z 10 spotkań, 2-3 wdrożenia)
+
+**4. Średni czas od pierwszego kontaktu do wdrożenia**
+Benchmark: 2-4 tygodnie
+
+**5. Liczba aktywnych Partnerów**
+Cel: +2-3 nowych aktywnych Partnerów miesięcznie
+
+### Narzędzie: Dashboard w Lista-100.csv
+
+**Dodaj kolumny:**
+- Data pierwszego kontaktu
+- Data spotkania
+- Data wdrożenia
+- Status (lead/spotkanie/wdrożenie/aktywny/odrzucony)
+
+**Co tydzień analizuj:**
+```
+Tydzień 16-22 października:
+- Nowe kontakty: 12
+- Spotkania umówione: 5 (42%)
+- Wdrożenia: 1 (z 3 spotkań = 33%)
+- Follow-upy: 8
+```
+
+### Optymalizacja: Co robić, gdy wyniki są słabe?
+
+**Problem: Niska konwersja Kontakt → Spotkanie (poniżej 20%)**
+
+Możliwe przyczyny:
+- Źle dobrany target (biznes nie pasuje)
+- Słabe otwarcie (niejasna wartość)
+- Nieodpowiedni timing
+
+Rozwiązanie:
+- Testuj różne otwarcia (A/B test skryptów)
+- Segmentuj leadów (może fryzjerzy lepiej konwertują niż restauracje?)
+- Popraw kwalifikację (dzwoń tylko do tych, którzy naprawdę pasują)
+
+---
+
+**Problem: Niska konwersja Spotkanie → Wdrożenie (poniżej 15%)**
+
+Możliwe przyczyny:
+- Słaba rozmowa odkrywcza (nie rozumiesz potrzeb)
+- Niejasna prezentacja wartości
+- Brak radzenia sobie z obiekcjami
+
+Rozwiązanie:
+- Nagraj swoje spotkanie (za zgodą Partnera) i przeanalizuj
+- Poproś mentora/MR o feedback
+- Przećwicz obiekcje z kolegą (roleplay)
+
+---
+
+**Problem: Długi czas od kontaktu do wdrożenia (powyżej 6 tygodni)**
+
+Możliwe przyczyny:
+- Słaby follow-up
+- Partner nie jest realnie zainteresowany (ciepły/chłodny lead)
+
+Rozwiązanie:
+- Zintensyfikuj follow-upy
+- Zaproponuj "szybki start" (wdrożenie w 1 tydzień)
+- Dodaj urgency (deadline dla specjalnej oferty – jeśli masz taką)
+
+### Ciągłe doskonalenie
+
+**Co miesiąc:**
+1. Przeanalizuj liczby (dashboard)
+2. Zidentyfikuj 1 obszar do poprawy
+3. Ustal konkretną akcję
+4. Mierz efekt
+
+**Przykład:**
+```
+Październik 2024:
+Problem: Niska konwersja Spotkanie → Wdrożenie (15%)
+Akcja: Przećwiczę z MR radzenie sobie z top 3 obiekcjami
+Cel: Podnieść do 25% w listopadzie
+```
+
+---
+
+**Gratulacje!** Ukończyłeś Moduł 3. Teraz wiesz, jak pozyskiwać Partnerów od pierwszego kontaktu do podpisania umowy. W następnym module dowiesz się o systemie Success Fee i wynagrodzeń.
