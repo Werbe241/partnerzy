@@ -1,0 +1,178 @@
+# Moduł 6: Raportowanie i Analiza
+Podejmowanie decyzji opartych na danych
+
+Spis treści:
+01. Podstawy raportowania dla KR
+02. Kluczowe wskaźniki (KPI) do śledzenia
+03. Narzędzia raportowania w systemie
+04. Interpretacja danych
+05. Prezentacja wyników Partnerowi
+06. Raportowanie dla Menadżera Regionalnego
+07. Analiza trendów i prognozowanie
+08. Benchmarking i porównania
+09. Dokumentacja działań
+10. Ciągłe doskonalenie oparte na danych
+
+
+## 01. Podstawy raportowania dla KR
+
+### Dlaczego raportowanie jest kluczowe?
+
+- **Dla Partnera:** Widzi ROI, wie co działa
+- **Dla Ciebie:** Wiesz, gdzie interweniować
+- **Dla MR:** Monitoruje Twoją skuteczność
+- **Dla Fundacji:** Agregowane dane na rozwój systemu
+
+
+## 02. Kluczowe wskaźniki (KPI) do śledzenia
+
+### KPI Partnera (miesięcznie)
+
+1. **Liczba skanowań QR**
+2. **Liczba transakcji po skanowaniu**
+3. **Conversion rate** (skanowanie → zakup)
+4. **Średnia wartość transakcji**
+5. **Liczba unikalnych klientów**
+6. **Liczba klientów powracających**
+7. **Obrót wygenerowany przez system**
+8. **Prowizja wypłacona**
+9. **ROI dla Partnera** (obrót / prowizja)
+
+### KPI Koordynatora (miesięcznie)
+
+1. **Liczba aktywnych Partnerów**
+2. **Liczba nowych wdrożeń**
+3. **Całkowity obrót z Partnerów**
+4. **Średni obrót na Partnera**
+5. **Prowizja zarobiona (Success Fee)**
+6. **Retention rate** (% Partnerów aktywnych po 3 miesiącach)
+
+
+## 03. Narzędzia raportowania w systemie
+
+### Panel Koordynatora
+
+- Dashboard z kluczowymi metrykami
+- Raporty per Partner
+- Raporty zbiorcze
+- Eksport do CSV/PDF
+
+### Mini-Raport-3-Linijki
+
+Format uproszczony dla szybkiego przeglądu:
+- Co zadziałało
+- Co poprawić
+- Następne kroki
+
+
+## 04. Interpretacja danych
+
+### Czytanie trendów
+
+**Wzrost skanowań, ale spadek conversion:**
+→ Problem: Klienci skanują, ale nie kupują
+→ Możliwe przyczyny: Cashback za niski, problemy techniczne
+
+**Spadek skanowań:**
+→ Problem: Klienci przestają korzystać
+→ Możliwe przyczyny: Kody niewidoczne, brak komunikacji pracowników
+
+
+## 05. Prezentacja wyników Partnerowi
+
+### Zasady prezentacji
+
+1. **Zacznij od pozytywów** – co poszło dobrze
+2. **Pokaż liczby** – konkretne dane
+3. **Wyjaśnij znaczenie** – co to oznacza dla biznesu Partnera
+4. **Zaproponuj akcje** – co dalej?
+
+### Przykład prezentacji
+
+```
+"Panie Kowalski, świetne wieści! W październiku:
+- 234 skanowania (+45% vs. wrzesień)
+- 187 transakcji (80% conversion – świetnie!)
+- Obrót: 18 500 PLN
+- Prowizja: 1 850 PLN (10%)
+- ROI: 10x (na każdą 1 zł prowizji, 10 zł obrotu)
+
+Co zadziałało? Nowy plakat przy kasie.
+
+Co poprawić? 15% klientów skanuje, ale nie kupuje – może 
+zwiększymy cashback z 5% na 7% testowo na miesiąc?"
+```
+
+
+## 06. Raportowanie dla Menadżera Regionalnego
+
+### Cotygodniowy update dla MR
+
+Format:
+- Liczba aktywnych Partnerów
+- Nowe wdrożenia
+- Problemy wymagające wsparcia
+- Obrót tygodniowy
+
+
+## 07. Analiza trendów i prognozowanie
+
+### Identyfikacja trendów
+
+- Miesięczny wzrost/spadek
+- Sezonowość
+- Korelacje (np. promocje → wzrost skanowań)
+
+### Prognozowanie
+
+Na podstawie 3-6 miesięcy danych:
+- Prognoza obrotu na następny miesiąc
+- Identyfikacja potencjału wzrostu
+
+
+## 08. Benchmarking i porównania
+
+### Porównania
+
+- Partner vs. średnia w branży
+- Partner vs. poprzedni miesiąc
+- Twoi Partnerzy vs. średnia innych KR
+
+
+## 09. Dokumentacja działań
+
+### Notatka-5-Pol po każdej rozmowie
+
+Systematyczna dokumentacja:
+- Data rozmowy
+- Kluczowe ustalenia
+- Next step
+
+### Archiwum raportów
+
+Przechowuj Mini-Raporty-3-Linijki:
+- Możesz pokazać historyczny trend
+- Dowód Twojej pracy
+
+
+## 10. Ciągłe doskonalenie oparte na danych
+
+### Cykl PDCA
+
+1. **Plan** – zaplanuj akcję (np. test wyższego cashbacku)
+2. **Do** – wykonaj
+3. **Check** – zmierz wynik
+4. **Act** – wdrożaj na stałe lub odrzuć
+
+### A/B testing
+
+Testuj różne warianty:
+- Cashback 5% vs. 10%
+- Kod QR przy kasie vs. na stoliku
+- Komunikat "Zeskanuj" vs. "Zyskaj 5%"
+
+Mierz, co działa lepiej.
+
+---
+
+**Gratulacje!** Ukończyłeś Moduł 6. Teraz wiesz, jak raportować i analizować wyniki.

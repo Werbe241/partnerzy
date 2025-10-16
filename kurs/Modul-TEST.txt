@@ -1,0 +1,282 @@
+# TEST CERTYFIKACYJNY – Koordynator Reklamy
+Fundacja Werbekoordinator
+
+**Instrukcje:**
+- 40 pytań, jedno prawidłowe wybór
+- Czas: 60 minut
+- Próg zaliczenia: 80% (32 prawidłowe odpowiedzi)
+- Zaznacz odpowiedź literą (A, B, C lub D)
+
+---
+
+## SEKCJA 1: PODSTAWY (Moduły 1-2) – 10 pytań
+
+**Pytanie 1:** Jaka jest główna misja Fundacji Werbekoordinator?
+A) Zarabianie na prowizjach od sprzedaży
+B) Danie małym i średnim przedsiębiorcom dostępu do profesjonalnych narzędzi reklamy przy minimalizacji kosztów
+C) Budowanie największej sieci marketingu sieciowego w Polsce
+D) Sprzedaż kodów QR
+
+**Pytanie 2:** Czym różni się rola Koordynatora Reklamy od tradycyjnego sprzedawcy?
+A) KR sprzedaje więcej produktów
+B) KR wspiera i pomaga wdrożyć narzędzia, nie sprzedaje za Partnera
+C) KR zarabia więcej
+D) Nie ma różnicy
+
+**Pytanie 3:** Co oznacza model "Success Fee"?
+A) Opłata płatna z góry
+B) Prowizja płatna tylko od rzeczywistego obrotu wygenerowanego przez system
+C) Stała miesięczna opłata
+D) Jednorazowa opłata za wdrożenie
+
+**Pytanie 4:** Jakie są dwa główne trendy marketingu, które łączy Fundacja?
+A) Marketing telewizyjny i radiowy
+B) Marketing bezpośredni i marketing sieciowy w Internecie
+C) Marketing tradycyjny i digital
+D) Marketing szeptany i marketing wirusowy
+
+**Pytanie 5:** Jakie narzędzie identyfikacji jest podstawą systemu Fundacji?
+A) Kody kreskowe
+B) NFC
+C) Kody QR
+D) RFID
+
+**Pytanie 6:** Co NIE jest rolą Koordynatora Reklamy?
+A) Wspieranie Partnera w wdrożeniu narzędzi
+B) Sprzedawanie produktów/usług Partnera jego klientom
+C) Analiza skuteczności kampanii
+D) Raportowanie wyników
+
+**Pytanie 7:** Jak często Koordynator powinien kontaktować się z aktywnym Partnerem w fazie stabilnej?
+A) Codziennie
+B) Raz w tygodniu + comiesięczny raport
+C) Raz na kwartał
+D) Tylko gdy Partner zadzwoni
+
+**Pytanie 8:** Jaki jest typowy czas do pierwszych efektów po wdrożeniu systemu u Partnera?
+A) 1 tydzień
+B) 4-6 tygodni
+C) 6 miesięcy
+D) 1 rok
+
+**Pytanie 9:** Co to jest "Marketing Szeptany"?
+A) Tajna strategia marketingowa
+B) Autentyczne, naturalne polecanie oparte na zaufaniu i pozytywnych doświadczeniach
+C) Marketing przez telefon
+D) Marketing bez reklamy
+
+**Pytanie 10:** Która z poniższych nie jest wartością Fundacji?
+A) Uczciwe wynagrodzenie (Success Fee)
+B) Transparentność
+C) Maksymalizacja zysku za wszelką cenę
+D) Kodeks Etyczny
+
+---
+
+## SEKCJA 2: POZYSKANIE PARTNERA (Moduł 3) – 8 pytań
+
+**Pytanie 11:** Jaka jest zasada 80/20 w komunikacji podczas spotkania z potencjalnym Partnerem?
+A) 80% czasu Ty mówisz, 20% Partner
+B) 80% czasu Partner mówi (rozmowa odkrywcza), 20% Ty prezentujesz
+C) 80% o produkcie, 20% o cenie
+D) 80% teorii, 20% praktyki
+
+**Pytanie 12:** Co to jest "Notatka-5-Pol"?
+A) Formularz umowy
+B) Krótka notatka z rozmowy z Partnerem zawierająca 5 kluczowych punktów
+C) Raport miesięczny
+D) Prezentacja dla Partnera
+
+**Pytanie 13:** Jaki jest cel pierwszego kontaktu z potencjalnym Partnerem?
+A) Sprzedać Pakiet natychmiast
+B) Umówić spotkanie, nie sprzedawać na pierwszym kontakcie
+C) Zebrać dane osobowe
+D) Opowiedzieć całą historię Fundacji
+
+**Pytanie 14:** Jakie pytanie NIE jest właściwe w rozmowie odkrywczej?
+A) "Jak obecnie pozyskuje Pan nowych klientów?"
+B) "Jaki procent klientów to klienci powracający?"
+C) "Dlaczego nie korzysta Pan z lepszych rozwiązań?"
+D) "Gdzie chciałby Pan być za 6 miesięcy?"
+
+**Pytanie 15:** Partner mówi: "To za drogie". Jaka jest najlepsza reakcja?
+A) "To nie jest drogie!"
+B) "Rozumiem obawę. Dlatego działa to na Success Fee – płaci Pan tylko prowizję od obrotu. Zero ryzyka."
+C) "Inni płacą więcej"
+D) "Proszę przemyśleć"
+
+**Pytanie 16:** Ile kontaktów (follow-upów) średnio wymaga zamknięcie współpracy?
+A) 1-2
+B) 5-12
+C) 20-30
+D) Jeden kontakt powinien wystarczyć
+
+**Pytanie 17:** Co powinieneś ZAWSZE ustalić na koniec spotkania?
+A) Cenę
+B) Konkretny next step: kto, co i kiedy
+C) Opinię Partnera o spotkaniu
+D) Termin płatności
+
+**Pytanie 18:** Co to jest technika FFF w radzeniu sobie z obiekcjami?
+A) Fast, Fair, Final
+B) Feel, Felt, Found
+C) First, Follow, Finish
+D) Feedback, Fix, Forward
+
+---
+
+## SEKCJA 3: SUCCESS FEE I PLAN WYNAGRODZEŃ (Moduł 4) – 10 pytań
+
+**Pytanie 19:** Jaka jest prowizja Koordynatora Reklamy za sprzedaż Pakietów Usług (Wariant A)?
+A) 20%
+B) 30%
+C) 40%
+D) 50%
+
+**Pytanie 20:** Jaka jest prowizja Menadżera Regionalnego za własną sprzedaż Pakietów (Wariant A)?
+A) 30%
+B) 40%
+C) 50%
+D) 60%
+
+**Pytanie 21:** W modelu Success Fee (Wariant B), jak dzieli się prowizja z obrotu Partnera?
+A) Promotor 50%, KR 30%, MR 20%
+B) Promotor 40%, KR 35%, MR 25%
+C) Promotor 33%, KR 33%, MR 34%
+D) Promotor 30%, KR 40%, MR 30%
+
+**Pytanie 22:** Jaki jest minimalny miesięczny obrót (przez 3 miesiące) wymagany do awansu z KR na MR?
+A) 100 001 PLN
+B) 150 001 PLN
+C) 200 001 PLN
+D) 250 001 PLN
+
+**Pytanie 23:** Jaki jest minimalny miesięczny obrót do utrzymania pełnych prowizji MR?
+A) 100 001 PLN
+B) 130 001 PLN
+C) 150 001 PLN
+D) 200 001 PLN
+
+**Pytanie 24:** Przy jakim miesięcznym obrocie MR otrzymuje bonus 1% + dodatek 1 600 PLN?
+A) 200 001 PLN
+B) 300 001 PLN
+C) 400 001 PLN
+D) 500 001 PLN
+
+**Pytanie 25:** Co oznacza termin "bilans %" w Planie Wynagrodzeń?
+A) Równe rozliczenie wszystkich prowizji
+B) Naliczenie prowizji po zbilansowaniu struktury sieci i obrotów według zasad Planu
+C) Procent prowizji ustalony przez Partnera
+D) Średni procent wszystkich prowizji
+
+**Pytanie 26:** Jaki miesięczny obrót MR w Twojej strukturze daje Ci status Rentiera?
+A) 1 000 000 PLN
+B) 3 000 000 PLN
+C) 5 000 000 PLN
+D) 10 000 000 PLN
+
+**Pytanie 27:** Jaka jest kwota rentierska dla Rentiera (od MR, który przekroczył próg)?
+A) 0,1%
+B) 0,5%
+C) 1%
+D) 2%
+
+**Pytanie 28:** Ile wynosi premia generacyjna dla Rentiera od kolejnych Rentierów w strukturze (do 4 generacji)?
+A) 0,05%
+B) 0,1%
+C) 0,5%
+D) 1%
+
+---
+
+## SEKCJA 4: PROWADZENIE I RAPORTOWANIE (Moduły 5-6) – 6 pytań
+
+**Pytanie 29:** Co to jest "Mini-Raport-3-Linijki"?
+A) Raport finansowy dla księgowości
+B) Miesięczny raport dla Partnera: co zadziałało, co poprawić, następne kroki
+C) Raport dla Urzędu Skarbowego
+D) Raport z testu certyfikacyjnego
+
+**Pytanie 30:** Jak długo trwa faza "Quick wins" po wdrożeniu Partnera?
+A) 3 dni
+B) Pierwszy tydzień
+C) Pierwsze 30 dni
+D) Pierwsze 3 miesiące
+
+**Pytanie 31:** Który KPI NIE jest kluczowy dla monitorowania Partnera?
+A) Liczba skanowań QR
+B) Conversion rate (skanowanie → zakup)
+C) Liczba pracowników Partnera
+D) Obrót wygenerowany przez system
+
+**Pytanie 32:** Jak często powinien odbywać się miesięczny check-in z Partnerem?
+A) Co tydzień
+B) Raz w miesiącu (45-60 min)
+C) Co 3 miesiące
+D) Gdy Partner zadzwoni
+
+**Pytanie 33:** Co robić, gdy Partner chce zrezygnować?
+A) Natychmiast zakończyć współpracę
+B) Słuchać, analizować problem, zaproponować rozwiązanie
+C) Obwiniać Partnera za brak zaangażowania
+D) Zgłosić do MR
+
+**Pytanie 34:** Który sygnał ostrzegawczy (red flag) wymaga natychmiastowej reakcji?
+A) Partner pyta o szczegóły techniczne
+B) Partner przestaje odbierać telefony lub spadek skanowań o >50%
+C) Partner chce zwiększyć procent cashback
+D) Partner prosi o dodatkowe materiały
+
+---
+
+## SEKCJA 5: ETYKA I RODO (Moduł 7) – 4 pytania
+
+**Pytanie 35:** Co jest fundamentalną zasadą Kodeksu Etycznego KR w kontekście sprzedaży?
+A) Sprzedawaj jak najwięcej
+B) Nigdy nie zajmuj się sprzedażą – Twoim zadaniem jest wspieranie, nie sprzedaż za Partnera
+C) Sprzedawaj tylko drogie pakiety
+D) Sprzedawaj tylko swoim znajomym
+
+**Pytanie 36:** Czy możesz udostępnić dane Partnera (telefon, email) innemu KR bez zgody Partnera?
+A) Tak, jeśli to pomoże w sprzedaży
+B) Tak, w ramach zespołu
+C) Nie, to naruszenie RODO
+D) Tak, jeśli Partner jest nieaktywny
+
+**Pytanie 37:** Co to jest konflikt interesów?
+A) Gdy nie zgadzasz się z Partnerem
+B) Gdy Twoje interesy osobiste mogą wpłynąć na obiektywność Twojej roli (np. jesteś konkurentem Partnera)
+C) Gdy Partner nie płaci prowizji
+D) Gdy MR ma inne zdanie
+
+**Pytanie 38:** Która zasada NIE jest częścią uczciwej komunikacji?
+A) Mów prawdę
+B) Dotrzymuj obietnic
+C) Obiecuj cuda, żeby zamknąć deal
+D) Słuchaj uważnie
+
+---
+
+## SEKCJA 6: NARZĘDZIA I ROZWÓJ (Moduły 8-9) – 2 pytania
+
+**Pytanie 39:** Gdzie najlepiej umieścić kod QR u Partnera dla maksymalnej widoczności?
+A) W zapleczu
+B) Przy kasie (największa widoczność dla klientów)
+C) Na zewnątrz budynku
+D) W toalecie
+
+**Pytanie 40:** Jaki jest realistyczny czas do awansu z KR na MR dla aktywnego i skutecznego Koordynatora?
+A) 1-3 miesiące
+B) 6-18 miesięcy
+C) 3-5 lat
+D) 10 lat
+
+---
+
+## KONIEC TESTU
+
+**Sprawdź swoje odpowiedzi w pliku: Modul-TEST_Klucz.txt**
+
+Próg zaliczenia: 32/40 prawidłowych odpowiedzi (80%)
+
+Powodzenia!
